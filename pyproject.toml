@@ -1,0 +1,23 @@
+[project]
+name = "supply-chain-risk-radar"
+version = "0.1.0"
+description = "Radar de risque supply chain : GDELT + IMF PortWatch -> lakehouse Iceberg"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[tool.setuptools]
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

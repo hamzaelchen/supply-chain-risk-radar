@@ -1,0 +1,37 @@
+# Données brutes téléchargées (volumineuses, reproductibles)
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Spark / Iceberg / Dagster locaux
+spark-warehouse/
+metastore_db/
+derby.log
+.dagster/
+dagster_home/
+
+# dbt
+transform/target/
+transform/dbt_packages/
+transform/logs/
+
+# Web
+web/node_modules/
+web/dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
