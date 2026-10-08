@@ -3,7 +3,9 @@ name = "supply-chain-risk-radar"
 version = "0.1.0"
 description = "Radar de risque supply chain : GDELT + IMF PortWatch -> lakehouse Iceberg"
 requires-python = ">=3.11,<3.12"
-dependencies = []
+dependencies = [
+    "pyspark==4.1.1",
+]
 
 [project.optional-dependencies]
 dev = [
@@ -16,6 +18,7 @@ packages = []
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]
 addopts = "-ra"
 
 [tool.ruff]

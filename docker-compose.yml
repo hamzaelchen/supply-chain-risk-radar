@@ -1,0 +1,109 @@
+# Infra locale du lakehouse : Kafka (KRaft), MinIO (S3), catalogue Iceberg REST.
+# Spark tourne sur l'hôte WSL (venv), pas dans un conteneur : il joint les services
+# par localhost, les services se joignent entre eux par leur nom (kafka, minio).
+#
+# Ports hôte volontairement décalés (19092, 19000, 19001) pour cohabiter avec
+# d'autres stacks locales qui occupent déjà 9092/9000/9001. Surchargeables via .env.
+# Tout est lié à 127.0.0.1 : rien n'est exposé sur le réseau local.
+
+name: scrr
+
+services:
+  kafka:
+    image: apache/kafka:4.3.1
+    container_name: scrr-kafka
+    ports:
+      - "127.0.0.1:${KAFKA_PORT:-19092}:9092"
+    environment:
+      # KRaft mode combiné : un seul processus est à la fois broker et contrôleur
+      # (pas de ZooKeeper, supprimé depuis Kafka 4.0).
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      # Deux listeners clients : INTERNAL pour les conteneurs (kafka:29092),
+      # EXTERNAL pour l'hôte WSL (localhost:19092). Le broker renvoie au client
+      # l'adresse « advertised » : elle doit être joignable depuis là où il tourne.
+      KAFKA_LISTENERS: INTERNAL://:29092,EXTERNAL://:9092,CONTROLLER://:9093
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:29092,EXTERNAL://localhost:${KAFKA_PORT:-19092}
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      # Un seul broker : les topics internes ne peuvent pas être répliqués 3 fois.
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      # Topics créés explicitement (partitions, rétention) : une faute de frappe
+      # dans un nom de topic doit échouer, pas créer un topic fantôme.
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "false"
+      KAFKA_LOG_DIRS: /var/lib/kafka/data
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/kafka/bin/kafka-broker-api-versions.sh --bootstrap-server localhost:29092 > /dev/null 2>&1"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 20s
+
+  minio:
+    # Les images officielles minio/minio ne sont plus publiées (Docker Hub, Quay).
+    # Build Chainguard de MinIO RELEASE.2026-09-22, épinglé par digest car seul
+    # le tag « latest » est disponible gratuitement.
+    image: cgr.dev/chainguard/minio@sha256:59667194421209c2c1eacbe761e24787e047985c5dfa96b15da9b59fe9b55cd0
+    container_name: scrr-minio
+    command: ["server", "/data", "--console-address", ":9001"]
+    ports:
+      - "127.0.0.1:${MINIO_API_PORT:-19000}:9000"
+      - "127.0.0.1:${MINIO_CONSOLE_PORT:-19001}:9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioadmin}
+    volumes:
+      - minio_data:/data
+
+  # Crée le bucket du lakehouse puis s'arrête. L'image n'a pas de shell : pas de
+  # boucle d'attente possible, donc on laisse Compose relancer tant que MinIO
+  # n'est pas prêt (restart: on-failure). Idempotent grâce à --ignore-existing.
+  minio-init:
+    image: cgr.dev/chainguard/minio-client@sha256:7a5387f27d1aa8fc11286acde9e024b7b1b77585e17c36378552eeafcccf2ba3
+    container_name: scrr-minio-init
+    depends_on:
+      - minio
+    environment:
+      MC_HOST_local: http://${MINIO_ROOT_USER:-minioadmin}:${MINIO_ROOT_PASSWORD:-minioadmin}@minio:9000
+    command: ["mb", "--ignore-existing", "local/${LAKEHOUSE_BUCKET:-lakehouse}"]
+    restart: on-failure
+
+  iceberg-rest:
+    # Implémentation de référence du protocole REST Iceberg (projet Apache).
+    # Image prévue pour le dev/test : suffisant ici, à remplacer en production.
+    image: apache/iceberg-rest-fixture:1.10.1
+    container_name: scrr-iceberg-rest
+    depends_on:
+      minio-init:
+        condition: service_completed_successfully
+    ports:
+      - "127.0.0.1:${ICEBERG_REST_PORT:-8181}:8181"
+    environment:
+      # Les variables CATALOG_* deviennent des propriétés Iceberg :
+      # « __ » -> « - » et « _ » -> « . » (CATALOG_IO__IMPL -> io-impl).
+      CATALOG_WAREHOUSE: s3://${LAKEHOUSE_BUCKET:-lakehouse}/warehouse
+      CATALOG_IO__IMPL: org.apache.iceberg.aws.s3.S3FileIO
+      CATALOG_S3_ENDPOINT: http://minio:9000
+      CATALOG_S3_PATH__STYLE__ACCESS: "true"
+      CATALOG_S3_ACCESS__KEY__ID: ${MINIO_ROOT_USER:-minioadmin}
+      CATALOG_S3_SECRET__ACCESS__KEY: ${MINIO_ROOT_PASSWORD:-minioadmin}
+      AWS_REGION: us-east-1
+      # Le catalogue (pointeurs vers les metadata.json) vit dans un SQLite.
+      # L'image le place dans /tmp : on y monte un volume pour qu'il survive à
+      # « docker compose down ». Sans ça, les fichiers resteraient dans MinIO
+      # mais plus aucune table ne serait connue du catalogue.
+      CATALOG_URI: jdbc:sqlite:/tmp/iceberg_catalog.db
+    volumes:
+      - iceberg_catalog:/tmp
+
+volumes:
+  kafka_data:
+  minio_data:
+  iceberg_catalog:
