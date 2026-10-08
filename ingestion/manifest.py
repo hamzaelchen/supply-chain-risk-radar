@@ -1,6 +1,6 @@
 """Manifeste d'ingestion dans Iceberg : bronze.ingestion_manifest.
 
-Une ligne par tentative sur un créneau. C'est la seule mémoire du producteur :
+Une ligne par tentative sur un lot GDELT. C'est la seule mémoire du producteur :
 la supprimer du disque local ne change rien, et n'importe quel moteur (Spark,
 dbt, DuckDB) peut l'interroger pour auditer l'ingestion.
 """
@@ -26,7 +26,7 @@ _TS = pa.timestamp("us", tz="UTC")
 SCHEMA = pa.schema(
     [
         pa.field("source", pa.string(), nullable=False),
-        pa.field("slot_ts", _TS, nullable=False),
+        pa.field("gdelt_batch_label_ts", _TS, nullable=False),
         pa.field("source_url", pa.string(), nullable=False),
         pa.field("status", pa.string(), nullable=False),
         pa.field("fetched_at", _TS, nullable=False),
@@ -44,7 +44,7 @@ SCHEMA = pa.schema(
 @dataclass(frozen=True)
 class ManifestEntry:
     source: str
-    slot_ts: datetime
+    gdelt_batch_label_ts: datetime
     source_url: str
     status: str
     fetched_at: datetime
@@ -75,19 +75,21 @@ class IcebergManifest:
         self._table = self._catalog.create_table_if_not_exists(TABLE, schema=SCHEMA)
 
     def attempts(self, source: str) -> dict[datetime, list[tuple[str, datetime]]]:
-        """Par créneau, toutes les tentatives enregistrées : (statut, fetched_at)."""
+        """Par lot GDELT, toutes les tentatives enregistrées : (statut, fetched_at)."""
         rows = (
             self._table.refresh()
             .scan(
                 row_filter=EqualTo("source", source),
-                selected_fields=("slot_ts", "status", "fetched_at"),
+                selected_fields=("gdelt_batch_label_ts", "status", "fetched_at"),
             )
             .to_arrow()
             .to_pylist()
         )
         result: dict[datetime, list[tuple[str, datetime]]] = {}
         for row in rows:
-            result.setdefault(row["slot_ts"], []).append((row["status"], row["fetched_at"]))
+            result.setdefault(row["gdelt_batch_label_ts"], []).append(
+                (row["status"], row["fetched_at"])
+            )
         return result
 
     def record(self, entry: ManifestEntry) -> None:

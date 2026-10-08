@@ -5,7 +5,7 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from ingestion import gdelt
-from ingestion.gdelt_producer import MISSING_RETRIES, SOURCE, SlotNotFound, run_cycle
+from ingestion.gdelt_producer import MISSING_RETRIES, SOURCE, BatchNotFound, run_cycle
 from ingestion.manifest import FAILED, MISSING, MISSING_FINAL, PUBLISHED
 
 FIXTURES = Path(__file__).parent / "fixtures" / "gdelt"
@@ -15,12 +15,12 @@ LATEST = datetime(2026, 10, 8, 17, 15, tzinfo=UTC)
 NOW = datetime(2026, 10, 8, 17, 20, tzinfo=UTC)
 
 
-def slot(n: int) -> datetime:
-    return LATEST + n * gdelt.SLOT
+def label(n: int) -> datetime:
+    return LATEST + n * gdelt.BATCH_INTERVAL
 
 
 def url(n: int) -> str:
-    return gdelt.export_file_for_slot(slot(n)).url
+    return gdelt.export_file_for_batch(label(n)).url
 
 
 class FakeManifest:
@@ -31,7 +31,7 @@ class FakeManifest:
         result = {}
         for e in self.entries:
             if e.source == source:
-                result.setdefault(e.slot_ts, []).append((e.status, e.fetched_at))
+                result.setdefault(e.gdelt_batch_label_ts, []).append((e.status, e.fetched_at))
         return result
 
     def record(self, entry):
@@ -63,7 +63,7 @@ class FakePublisher:
 def fetcher(pages: dict[str, bytes]):
     def fetch(u):
         if u not in pages:
-            raise SlotNotFound(u)
+            raise BatchNotFound(u)
         return pages[u]
 
     return fetch
@@ -77,10 +77,12 @@ def cycle(pages, manifest, store=None, publisher=None, now=NOW, **kwargs):
 
 
 def manifest_with_gap():
-    """Manifeste qui connaît le créneau -2 : le créneau -1 est donc attendu."""
+    """Manifeste qui connaît le lot GDELT -2 : le lot GDELT -1 est donc attendu."""
     manifest = FakeManifest()
     cycle(PAGES, manifest)
-    manifest.entries[0] = replace(manifest.entries[0], slot_ts=slot(-2), source_url=url(-2))
+    manifest.entries[0] = replace(
+        manifest.entries[0], gdelt_batch_label_ts=label(-2), source_url=url(-2)
+    )
     return manifest
 
 
@@ -91,7 +93,9 @@ def test_first_cycle_archives_publishes_and_records():
     manifest = FakeManifest()
     results, store, publisher = cycle(PAGES, manifest)
 
-    assert [(r.slot_ts, r.status, r.record_count) for r in results] == [(LATEST, PUBLISHED, 1775)]
+    assert [(r.gdelt_batch_label_ts, r.status, r.record_count) for r in results] == [
+        (LATEST, PUBLISHED, 1775)
+    ]
     key = "raw/gdelt/events/date=2026-10-08/20261008171500.export.CSV.zip"
     assert store.objects[key] == (ZIP, url(0), NOW)
 
@@ -100,7 +104,7 @@ def test_first_cycle_archives_publishes_and_records():
     assert value.startswith(msg_key + b"\t")
     assert headers == {
         "source_url": url(0),
-        "slot_ts": "2026-10-08T17:15:00+00:00",
+        "gdelt_batch_label_ts": "2026-10-08T17:15:00+00:00",
         "fetched_at": "2026-10-08T17:20:00+00:00",
         "raw_object_uri": f"s3://lakehouse/{key}",
     }
@@ -111,7 +115,7 @@ def test_first_cycle_archives_publishes_and_records():
     assert entry.zip_bytes == len(ZIP)
 
 
-def test_second_cycle_on_same_slot_is_a_no_op():
+def test_second_cycle_on_same_batch_is_a_no_op():
     manifest = FakeManifest()
     cycle(PAGES, manifest)
     results, store, publisher = cycle(PAGES, manifest)
@@ -122,18 +126,21 @@ def test_second_cycle_on_same_slot_is_a_no_op():
     assert len(manifest.entries) == 1
 
 
-def test_missing_slot_is_logged_recorded_and_does_not_stop_the_cycle(caplog):
+def test_missing_batch_is_logged_recorded_and_does_not_stop_the_cycle(caplog):
     manifest = manifest_with_gap()
 
     with caplog.at_level("WARNING"):
         results, _, publisher = cycle(PAGES, manifest)
 
-    assert [(r.slot_ts, r.status) for r in results] == [(slot(-1), MISSING), (LATEST, PUBLISHED)]
+    assert [(r.gdelt_batch_label_ts, r.status) for r in results] == [
+        (label(-1), MISSING),
+        (LATEST, PUBLISHED),
+    ]
     assert len(publisher.messages) == 1775
     assert "absent chez GDELT" in caplog.text
 
 
-def test_missing_slot_is_not_retried_before_fifteen_minutes():
+def test_missing_batch_is_not_retried_before_fifteen_minutes():
     manifest = manifest_with_gap()
     cycle(PAGES, manifest)
 
@@ -141,35 +148,35 @@ def test_missing_slot_is_not_retried_before_fifteen_minutes():
     assert results == []
 
 
-def test_missing_slot_is_retried_for_one_hour_then_becomes_final():
+def test_missing_batch_is_retried_for_one_hour_then_becomes_final():
     manifest = manifest_with_gap()
     cycle(PAGES, manifest)  # premier 404
 
     statuses = []
     for n in range(1, MISSING_RETRIES + 1):
-        results, _, _ = cycle(PAGES, manifest, now=NOW + n * gdelt.SLOT)
-        statuses.append([(r.slot_ts, r.status) for r in results])
+        results, _, _ = cycle(PAGES, manifest, now=NOW + n * gdelt.BATCH_INTERVAL)
+        statuses.append([(r.gdelt_batch_label_ts, r.status) for r in results])
 
     assert MISSING_RETRIES == 4
-    assert statuses == [[(slot(-1), MISSING)]] * 3 + [[(slot(-1), MISSING_FINAL)]]
-    history = [e.status for e in manifest.entries if e.slot_ts == slot(-1)]
+    assert statuses == [[(label(-1), MISSING)]] * 3 + [[(label(-1), MISSING_FINAL)]]
+    history = [e.status for e in manifest.entries if e.gdelt_batch_label_ts == label(-1)]
     assert history == [MISSING] * 4 + [MISSING_FINAL]
 
     # Définitif : plus aucune tentative, même bien plus tard.
-    results, _, _ = cycle(PAGES, manifest, now=NOW + timedelta(days=1) - gdelt.SLOT)
+    results, _, _ = cycle(PAGES, manifest, now=NOW + timedelta(days=1) - gdelt.BATCH_INTERVAL)
     assert results == []
 
 
-def test_missing_slot_published_late_by_gdelt_is_recovered_on_retry():
+def test_missing_batch_published_late_by_gdelt_is_recovered_on_retry():
     manifest = manifest_with_gap()
     cycle(PAGES, manifest)  # premier 404
 
     late = {**PAGES, url(-1): ZIP}
-    results, _, publisher = cycle(late, manifest, now=NOW + gdelt.SLOT)
+    results, _, publisher = cycle(late, manifest, now=NOW + gdelt.BATCH_INTERVAL)
 
-    assert [(r.slot_ts, r.status) for r in results] == [(slot(-1), PUBLISHED)]
+    assert [(r.gdelt_batch_label_ts, r.status) for r in results] == [(label(-1), PUBLISHED)]
     assert len(publisher.messages) == 1775
-    results, _, _ = cycle(late, manifest, now=NOW + 2 * gdelt.SLOT)
+    results, _, _ = cycle(late, manifest, now=NOW + 2 * gdelt.BATCH_INTERVAL)
     assert results == []
 
 
@@ -197,10 +204,10 @@ def test_kafka_failure_is_recorded_as_failed_and_retried():
     assert [r.status for r in results] == [PUBLISHED]
 
 
-def test_backfilled_slot_has_no_md5_to_verify():
+def test_backfilled_batch_has_no_md5_to_verify():
     manifest = manifest_with_gap()
     cycle({**PAGES, url(-1): ZIP}, manifest)
 
-    backfilled = next(e for e in manifest.entries if e.slot_ts == slot(-1))
+    backfilled = next(e for e in manifest.entries if e.gdelt_batch_label_ts == label(-1))
     assert backfilled.status == PUBLISHED
     assert backfilled.md5_verified is None

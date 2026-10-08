@@ -2,9 +2,9 @@
 
 GDELT publie un fichier d'événements toutes les 15 minutes, nommé par un
 horodatage UTC : 20261008171500.export.CSV.zip. `lastupdate.txt` ne décrit que
-le dernier créneau ; les créneaux précédents se reconstruisent par leur nom.
+le dernier lot GDELT ; les lots GDELT précédents se reconstruisent par leur nom.
 
-Attention : cet horodatage (`slot_ts`, et DATEADDED dans les lignes) est
+Attention : cet horodatage (`gdelt_batch_label_ts`, et DATEADDED dans les lignes) est
 l'étiquette du lot, pas son heure de publication. Mesuré le 2026-10-08 sur 7
 fichiers : le zip est déposé environ 10 minutes AVANT l'heure de son nom
 (20261008204500 déposé à 20:35:22 UTC). Pour savoir quand une donnée a
@@ -21,22 +21,22 @@ from datetime import UTC, datetime, timedelta
 BASE_URL = "http://data.gdeltproject.org/gdeltv2/"
 LASTUPDATE_URL = BASE_URL + "lastupdate.txt"
 EXPORT_SUFFIX = ".export.CSV.zip"
-SLOT = timedelta(minutes=15)
+BATCH_INTERVAL = timedelta(minutes=15)
 
-_SLOT_RE = re.compile(r"/(\d{14})\.[^/]+$")
+_BATCH_LABEL_RE = re.compile(r"/(\d{14})\.[^/]+$")
 
 
 @dataclass(frozen=True)
 class GdeltFile:
     url: str
-    slot_ts: datetime
-    # Connus seulement pour le créneau listé dans lastupdate.txt.
+    gdelt_batch_label_ts: datetime
+    # Connus seulement pour le lot GDELT listé dans lastupdate.txt.
     size_bytes: int | None = None
     md5: str | None = None
 
 
-def slot_from_url(url: str) -> datetime:
-    match = _SLOT_RE.search(url)
+def batch_label_from_url(url: str) -> datetime:
+    match = _BATCH_LABEL_RE.search(url)
     if not match:
         raise ValueError(f"horodatage introuvable dans l'URL : {url}")
     return datetime.strptime(match.group(1), "%Y%m%d%H%M%S").replace(tzinfo=UTC)
@@ -49,7 +49,14 @@ def parse_lastupdate(text: str) -> list[GdeltFile]:
         if not line.strip():
             continue
         size, md5, url = line.split()
-        files.append(GdeltFile(url=url, slot_ts=slot_from_url(url), size_bytes=int(size), md5=md5))
+        files.append(
+            GdeltFile(
+                url=url,
+                gdelt_batch_label_ts=batch_label_from_url(url),
+                size_bytes=int(size),
+                md5=md5,
+            )
+        )
     return files
 
 
@@ -60,41 +67,41 @@ def latest_export(text: str) -> GdeltFile:
     return exports[0]
 
 
-def export_file_for_slot(slot_ts: datetime) -> GdeltFile:
-    name = slot_ts.astimezone(UTC).strftime("%Y%m%d%H%M%S") + EXPORT_SUFFIX
-    return GdeltFile(url=BASE_URL + name, slot_ts=slot_ts)
+def export_file_for_batch(gdelt_batch_label_ts: datetime) -> GdeltFile:
+    name = gdelt_batch_label_ts.astimezone(UTC).strftime("%Y%m%d%H%M%S") + EXPORT_SUFFIX
+    return GdeltFile(url=BASE_URL + name, gdelt_batch_label_ts=gdelt_batch_label_ts)
 
 
-def slots_to_process(
+def batches_to_process(
     latest: datetime,
     first_known: datetime | None,
     done: set[datetime],
     max_backfill: int,
 ) -> tuple[list[datetime], int]:
-    """Créneaux à traiter, du plus ancien au plus récent, et nombre laissés de côté.
+    """Lots GDELT à traiter, du plus ancien au plus récent, et nombre laissés de côté.
 
-    - Manifeste vide : seulement le dernier créneau (pas de rattrapage historique).
-    - Sinon : tous les créneaux non terminés depuis le premier connu, dans la
-      limite de `max_backfill` créneaux en arrière. Les plus anciens sont comptés
+    - Manifeste vide : seulement le dernier lot GDELT (pas de rattrapage historique).
+    - Sinon : tous les lots GDELT non terminés depuis le premier connu, dans la
+      limite de `max_backfill` lots GDELT en arrière. Les plus anciens sont comptés
       dans le second élément pour être signalés, pas traités.
     """
     if first_known is None:
         return ([] if latest in done else [latest]), 0
 
-    window_start = max(first_known, latest - SLOT * max_backfill)
+    window_start = max(first_known, latest - BATCH_INTERVAL * max_backfill)
     todo = []
-    slot = window_start
-    while slot <= latest:
-        if slot not in done:
-            todo.append(slot)
-        slot += SLOT
+    label = window_start
+    while label <= latest:
+        if label not in done:
+            todo.append(label)
+        label += BATCH_INTERVAL
 
     out_of_window = 0
-    slot = first_known
-    while slot < window_start:
-        if slot not in done:
+    label = first_known
+    while label < window_start:
+        if label not in done:
             out_of_window += 1
-        slot += SLOT
+        label += BATCH_INTERVAL
     return todo, out_of_window
 
 
@@ -117,5 +124,5 @@ def event_key(line: bytes) -> bytes:
 
 
 def raw_object_key(file: GdeltFile) -> str:
-    day = file.slot_ts.astimezone(UTC).strftime("%Y-%m-%d")
+    day = file.gdelt_batch_label_ts.astimezone(UTC).strftime("%Y-%m-%d")
     return f"raw/gdelt/events/date={day}/{file.url.rsplit('/', 1)[-1]}"

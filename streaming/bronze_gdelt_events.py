@@ -44,7 +44,11 @@ def to_bronze(kafka_df: DataFrame) -> DataFrame:
         *[F.get(fields, F.lit(i)).alias(name) for i, name in enumerate(GDELT_EVENT_COLUMNS)],
         _header("source_url").alias("src_file_url"),
         # try_ : un en-tête illisible donne NULL, il n'arrête pas le flux.
-        F.try_to_timestamp(_header("slot_ts")).alias("src_slot_ts"),
+        # Les messages publiés avant le renommage portent encore l'ancien en-tête
+        # « slot_ts » (rétention 7 jours) : à retirer à partir du 2026-10-16.
+        F.try_to_timestamp(F.coalesce(_header("gdelt_batch_label_ts"), _header("slot_ts"))).alias(
+            "src_gdelt_batch_label_ts"
+        ),
         F.try_to_timestamp(_header("fetched_at")).alias("src_fetched_at"),
         _header("raw_object_uri").alias("src_raw_object_uri"),
         F.col("topic").alias("kafka_topic"),

@@ -18,7 +18,7 @@ LINES = list(gdelt.iter_event_lines((FIXTURES / "gdelt/20261008171500.export.CSV
 FILE_URL = "http://data.gdeltproject.org/gdeltv2/20261008171500.export.CSV.zip"
 HEADERS = {
     "source_url": FILE_URL,
-    "slot_ts": "2026-10-08T17:15:00+00:00",
+    "gdelt_batch_label_ts": "2026-10-08T17:15:00+00:00",
     "fetched_at": "2026-10-08T17:15:33.369978+00:00",
     "raw_object_uri": "s3://lakehouse/raw/gdelt/events/date=2026-10-08/20261008171500.export.CSV.zip",
 }
@@ -92,7 +92,7 @@ def test_columns_are_mapped_by_position_and_stay_strings(bronze):
     assert row.actor1_code == ""
 
 
-def test_date_added_is_the_slot_for_every_row(bronze):
+def test_date_added_is_the_batch_label_for_every_row(bronze):
     assert [r.date_added for r in bronze.select("date_added").distinct().collect()] == [
         "20261008171500"
     ]
@@ -101,7 +101,7 @@ def test_date_added_is_the_slot_for_every_row(bronze):
 def test_lineage_comes_from_kafka_headers_and_coordinates(bronze):
     # Horodatages rendus en texte par Spark (session en UTC) : indépendant du
     # fuseau de la machine qui lance les tests.
-    timestamps = ["src_slot_ts", "src_fetched_at", "kafka_timestamp"]
+    timestamps = ["src_gdelt_batch_label_ts", "src_fetched_at", "kafka_timestamp"]
     row = (
         bronze.filter("kafka_partition = 1 AND kafka_offset = 2")
         .select("*", *[F.col(c).cast("string").alias(f"{c}_text") for c in timestamps])
@@ -109,7 +109,7 @@ def test_lineage_comes_from_kafka_headers_and_coordinates(bronze):
     )
     assert row.raw_line == LINES[7].decode()
     assert row.src_file_url == FILE_URL
-    assert row.src_slot_ts_text == "2026-10-08 17:15:00"
+    assert row.src_gdelt_batch_label_ts_text == "2026-10-08 17:15:00"
     assert row.src_fetched_at_text == "2026-10-08 17:15:33.369978"
     assert row.src_raw_object_uri == HEADERS["raw_object_uri"]
     assert row.kafka_topic == "gdelt.events"
@@ -132,8 +132,18 @@ def test_truncated_line_is_kept_and_flagged_by_field_count(spark):
 
 def test_missing_or_unreadable_headers_give_null_lineage(spark):
     no_headers = to_bronze(kafka_df(spark, LINES[:1], headers=None)).first()
-    assert no_headers.src_file_url is None and no_headers.src_slot_ts is None
+    assert no_headers.src_file_url is None and no_headers.src_gdelt_batch_label_ts is None
     assert no_headers.field_count == 61
 
-    bad = to_bronze(kafka_df(spark, LINES[:1], headers={"slot_ts": "pas une date"})).first()
-    assert bad.src_slot_ts is None
+    bad_headers = {"gdelt_batch_label_ts": "pas une date"}
+    bad = to_bronze(kafka_df(spark, LINES[:1], headers=bad_headers)).first()
+    assert bad.src_gdelt_batch_label_ts is None
+
+
+def test_legacy_slot_ts_header_still_fills_the_batch_label(spark):
+    # Messages publiés avant le renommage, encore dans Kafka (rétention 7 jours).
+    legacy = {k: v for k, v in HEADERS.items() if k != "gdelt_batch_label_ts"}
+    legacy["slot_ts"] = HEADERS["gdelt_batch_label_ts"]
+    df = to_bronze(kafka_df(spark, LINES[:1], headers=legacy))
+    row = df.select(F.col("src_gdelt_batch_label_ts").cast("string").alias("text")).first()
+    assert row.text == "2026-10-08 17:15:00"

@@ -47,15 +47,15 @@ flowchart LR
     BRONZE -.-> WH
 ```
 
-**Producteur** ([ingestion/](ingestion/)) — lit `lastupdate.txt`, télécharge le zip du créneau, vérifie son MD5, l'archive dans MinIO, puis publie chaque événement dans Kafka.
+**Producteur** ([ingestion/](ingestion/)) — lit `lastupdate.txt`, télécharge le zip du lot GDELT, vérifie son MD5, l'archive dans MinIO, puis publie chaque événement dans Kafka.
 
-- Idempotence : la table Iceberg `bronze.ingestion_manifest` est sa seule mémoire. Un créneau déjà publié n'est pas renvoyé.
-- Créneaux absents : un 404 est retenté pendant une heure, puis marqué `missing_final`. Le cycle ne s'arrête pas.
-- Garantie « au moins une fois » : un arrêt entre l'envoi Kafka et l'écriture du manifeste rejoue le créneau.
+- Idempotence : la table Iceberg `bronze.ingestion_manifest` est sa seule mémoire. Un lot GDELT déjà publié n'est pas renvoyé.
+- Lots GDELT absents : un 404 est retenté pendant une heure, puis marqué `missing_final`. Le cycle ne s'arrête pas.
+- Garantie « au moins une fois » : un arrêt entre l'envoi Kafka et l'écriture du manifeste rejoue le lot GDELT.
 
-L'horodatage du nom de fichier GDELT (repris dans `slot_ts` et `date_added`) est l'étiquette du lot, pas son heure de publication : le fichier est mis en ligne une dizaine de minutes avant. L'heure réelle de téléchargement est `fetched_at`.
+L'horodatage du nom de fichier GDELT (repris dans `gdelt_batch_label_ts` et `date_added`) est l'étiquette du lot, pas son heure de publication : le fichier est mis en ligne une dizaine de minutes avant. L'heure réelle de téléchargement est `fetched_at`.
 
-**Topic `gdelt.events`** — 3 partitions, rétention 7 jours. La clé est le `GLOBALEVENTID`, la valeur est la ligne TSV brute. L'URL du zip, le créneau et l'heure de téléchargement voyagent dans les en-têtes Kafka.
+**Topic `gdelt.events`** — 3 partitions, rétention 7 jours. La clé est le `GLOBALEVENTID`, la valeur est la ligne TSV brute. L'URL du zip, le lot GDELT et l'heure de téléchargement voyagent dans les en-têtes Kafka.
 
 **Job de streaming** ([streaming/](streaming/)) — écrit `bronze.gdelt_events` : la ligne brute, les 61 colonnes GDELT en `STRING`, le lignage (en-têtes Kafka, topic, partition, offset) et `ingested_at`.
 
@@ -123,5 +123,5 @@ Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont 
 ## Limites connues
 
 - Le catalogue REST est une image de développement (`iceberg-rest-fixture`), à remplacer en phase 4.
-- Les petits fichiers s'accumulent (un lot par créneau, un snapshot de manifeste par créneau) : compaction et expiration des snapshots sont prévues en phase 4.
+- Les petits fichiers s'accumulent (un lot par lot GDELT, un snapshot de manifeste par lot GDELT) : compaction et expiration des snapshots sont prévues en phase 4.
 - Les jars Spark occupent environ 770 Mo dans `jars/`, dont 709 Mo pour le SDK AWS. Les dossiers des anciennes versions ne sont pas supprimés automatiquement.

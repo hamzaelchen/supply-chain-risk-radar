@@ -9,18 +9,22 @@ import pytest
 from ingestion import gdelt
 
 FIXTURES = Path(__file__).parent / "fixtures" / "gdelt"
-SLOT = datetime(2026, 10, 8, 17, 15, tzinfo=UTC)
+BATCH_INTERVAL = datetime(2026, 10, 8, 17, 15, tzinfo=UTC)
 ZIP = FIXTURES / "20261008171500.export.CSV.zip"
 
 
-def slot(n: int) -> datetime:
-    return SLOT + n * gdelt.SLOT
+def label(n: int) -> datetime:
+    return BATCH_INTERVAL + n * gdelt.BATCH_INTERVAL
 
 
 def test_parse_lastupdate_reads_three_files_in_utc():
     files = gdelt.parse_lastupdate((FIXTURES / "lastupdate.txt").read_text())
     assert [f.url.rsplit(".", 3)[1] for f in files] == ["export", "mentions", "gkg"]
-    assert all(f.slot_ts == SLOT and f.slot_ts.utcoffset() == timedelta(0) for f in files)
+    assert all(
+        f.gdelt_batch_label_ts == BATCH_INTERVAL
+        and f.gdelt_batch_label_ts.utcoffset() == timedelta(0)
+        for f in files
+    )
 
 
 def test_latest_export_matches_downloaded_zip():
@@ -35,15 +39,15 @@ def test_latest_export_rejects_file_without_export():
         gdelt.latest_export("")
 
 
-def test_slot_from_url_rejects_unknown_format():
+def test_batch_label_from_url_rejects_unknown_format():
     with pytest.raises(ValueError):
-        gdelt.slot_from_url("http://data.gdeltproject.org/gdeltv2/lastupdate.txt")
+        gdelt.batch_label_from_url("http://data.gdeltproject.org/gdeltv2/lastupdate.txt")
 
 
-def test_export_file_for_slot_round_trips():
-    file = gdelt.export_file_for_slot(SLOT)
+def test_export_file_for_batch_round_trips():
+    file = gdelt.export_file_for_batch(BATCH_INTERVAL)
     assert file.url == gdelt.latest_export((FIXTURES / "lastupdate.txt").read_text()).url
-    assert gdelt.slot_from_url(file.url) == SLOT
+    assert gdelt.batch_label_from_url(file.url) == BATCH_INTERVAL
     assert file.md5 is None
 
 
@@ -61,25 +65,25 @@ def test_event_key_is_unique_global_event_id():
 
 
 def test_raw_object_key_is_partitioned_by_utc_date():
-    key = gdelt.raw_object_key(gdelt.export_file_for_slot(SLOT))
+    key = gdelt.raw_object_key(gdelt.export_file_for_batch(BATCH_INTERVAL))
     assert key == "raw/gdelt/events/date=2026-10-08/20261008171500.export.CSV.zip"
 
 
-def test_slots_first_run_takes_only_latest():
-    assert gdelt.slots_to_process(SLOT, None, set(), 96) == ([SLOT], 0)
+def test_batches_first_run_takes_only_latest():
+    assert gdelt.batches_to_process(BATCH_INTERVAL, None, set(), 96) == ([BATCH_INTERVAL], 0)
 
 
-def test_slots_nothing_to_do_when_latest_done():
-    assert gdelt.slots_to_process(SLOT, SLOT, {SLOT}, 96) == ([], 0)
+def test_batches_nothing_to_do_when_latest_done():
+    assert gdelt.batches_to_process(BATCH_INTERVAL, BATCH_INTERVAL, {BATCH_INTERVAL}, 96) == ([], 0)
 
 
-def test_slots_fill_gap_oldest_first_and_skip_done():
-    todo, skipped = gdelt.slots_to_process(slot(4), slot(0), {slot(0), slot(2)}, 96)
-    assert todo == [slot(1), slot(3), slot(4)]
+def test_batches_fill_gap_oldest_first_and_skip_done():
+    todo, skipped = gdelt.batches_to_process(label(4), label(0), {label(0), label(2)}, 96)
+    assert todo == [label(1), label(3), label(4)]
     assert skipped == 0
 
 
-def test_slots_beyond_backfill_window_are_counted_not_processed():
-    todo, skipped = gdelt.slots_to_process(slot(10), slot(0), {slot(0)}, max_backfill=2)
-    assert todo == [slot(8), slot(9), slot(10)]
+def test_batches_beyond_backfill_window_are_counted_not_processed():
+    todo, skipped = gdelt.batches_to_process(label(10), label(0), {label(0)}, max_backfill=2)
+    assert todo == [label(8), label(9), label(10)]
     assert skipped == 7

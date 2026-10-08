@@ -14,7 +14,7 @@ pytestmark = [pytest.mark.spark, pytest.mark.integration]
 LINES = list(gdelt.iter_event_lines((FIXTURES / "gdelt/20261008171500.export.CSV.zip").read_bytes()))
 HEADERS = {
     "source_url": "http://data.gdeltproject.org/gdeltv2/20261008171500.export.CSV.zip",
-    "slot_ts": "2026-10-08T17:15:00+00:00",
+    "gdelt_batch_label_ts": "2026-10-08T17:15:00+00:00",
     "fetched_at": "2026-10-08T17:15:33+00:00",
     "raw_object_uri": "s3://lakehouse/raw/gdelt/events/date=2026-10-08/20261008171500.export.CSV.zip",
 }
@@ -97,7 +97,7 @@ def test_bronze_keeps_duplicates_sent_by_the_producer(spark, job):
 
     publish()
     run_job()
-    # Le producteur est « au moins une fois » : il peut renvoyer un créneau entier.
+    # Le producteur est « au moins une fois » : il peut renvoyer un lot GDELT entier.
     publish()
     run_job()
 

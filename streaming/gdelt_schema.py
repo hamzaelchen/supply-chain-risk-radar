@@ -41,12 +41,12 @@ GDELT_EVENT_COLUMNS = [
 ]
 
 # Lignage : d'où vient la ligne (en-têtes Kafka posés par le producteur), où elle
-# était dans Kafka, quand elle est entrée en bronze. `src_slot_ts` est l'étiquette
+# était dans Kafka, quand elle est entrée en bronze. `src_gdelt_batch_label_ts` est l'étiquette
 # GDELT du lot ; les heures réelles sont `src_fetched_at`, `kafka_timestamp` et
 # `ingested_at`.
 LINEAGE_COLUMNS = [
     ("src_file_url", "STRING"),
-    ("src_slot_ts", "TIMESTAMP"),
+    ("src_gdelt_batch_label_ts", "TIMESTAMP"),
     ("src_fetched_at", "TIMESTAMP"),
     ("src_raw_object_uri", "STRING"),
     ("kafka_topic", "STRING"),

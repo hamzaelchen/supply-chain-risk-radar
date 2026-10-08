@@ -5,7 +5,7 @@ Usage :
     python -m ingestion.gdelt_producer --loop     # interroge GDELT chaque minute
 
 Garantie : au moins une fois. Le manifeste n'est écrit qu'après l'acquittement
-Kafka ; un arrêt entre les deux rejoue le créneau au cycle suivant. Les doublons
+Kafka ; un arrêt entre les deux rejoue le lot GDELT au cycle suivant. Les doublons
 éventuels sont éliminés en silver sur GLOBALEVENTID.
 """
 
@@ -29,15 +29,15 @@ log = logging.getLogger("gdelt_producer")
 SOURCE = "gdelt.events"
 TOPIC = "gdelt.events"
 
-# GDELT publie parfois un fichier en retard. Un créneau en 404 est retenté 4 fois,
+# GDELT publie parfois un fichier en retard. Un lot GDELT en 404 est retenté 4 fois,
 # à 15 minutes d'intervalle au moins (soit 1 h), avant d'être déclaré définitivement
 # absent. L'espacement évite qu'une boucle à la minute épuise les essais en 4 minutes.
 MISSING_RETRIES = 4
-RETRY_SPACING = gdelt.SLOT
+RETRY_SPACING = gdelt.BATCH_INTERVAL
 
 
-class SlotNotFound(Exception):
-    """Le fichier du créneau n'existe pas chez GDELT (HTTP 404)."""
+class BatchNotFound(Exception):
+    """Le fichier du lot GDELT n'existe pas chez GDELT (HTTP 404)."""
 
 
 class Manifest(Protocol):
@@ -56,8 +56,8 @@ class Publisher(Protocol):
 
 
 @dataclass(frozen=True)
-class SlotResult:
-    slot_ts: datetime
+class BatchResult:
+    gdelt_batch_label_ts: datetime
     status: str
     record_count: int = 0
 
@@ -69,7 +69,7 @@ def http_fetch(url: str, timeout: float = 60, attempts: int = 3) -> bytes:
                 return response.read()
         except urllib.error.HTTPError as exc:
             if exc.code == 404:
-                raise SlotNotFound(url) from exc
+                raise BatchNotFound(url) from exc
             if exc.code < 500 or attempt == attempts:
                 raise
         except (urllib.error.URLError, TimeoutError):
@@ -79,7 +79,7 @@ def http_fetch(url: str, timeout: float = 60, attempts: int = 3) -> bytes:
     raise AssertionError("inatteignable")
 
 
-def process_slot(
+def process_batch(
     file: gdelt.GdeltFile,
     fetch: Callable[[str], bytes],
     store: Store,
@@ -87,34 +87,39 @@ def process_slot(
     now: Callable[[], datetime],
     previous_misses: int = 0,
 ) -> ManifestEntry:
-    """Traite un créneau et rend la ligne de manifeste. Ne lève jamais.
+    """Traite un lot GDELT et rend la ligne de manifeste. Ne lève jamais.
 
-    `previous_misses` : nombre de 404 déjà enregistrés pour ce créneau.
+    `previous_misses` : nombre de 404 déjà enregistrés pour ce lot GDELT.
     """
     fetched_at = now()
-    base = {"source": SOURCE, "slot_ts": file.slot_ts, "source_url": file.url}
+    label = file.gdelt_batch_label_ts.isoformat()
+    base = {
+        "source": SOURCE,
+        "gdelt_batch_label_ts": file.gdelt_batch_label_ts,
+        "source_url": file.url,
+    }
     try:
         zip_bytes = fetch(file.url)
         fetched_at = now()
-    except SlotNotFound:
+    except BatchNotFound:
         final = previous_misses >= MISSING_RETRIES
         log.warning(
-            "créneau %s absent chez GDELT (404), essai %d/%d%s : %s",
-            file.slot_ts.isoformat(), previous_misses + 1, MISSING_RETRIES + 1,
+            "lot GDELT %s absent chez GDELT (404), essai %d/%d%s : %s",
+            label, previous_misses + 1, MISSING_RETRIES + 1,
             " : abandon définitif" if final else "", file.url,
         )
         return ManifestEntry(
             **base, status=MISSING_FINAL if final else MISSING, fetched_at=fetched_at,
             detail=f"HTTP 404, essai {previous_misses + 1}/{MISSING_RETRIES + 1}",
         )
-    except Exception as exc:  # noqa: BLE001 - un créneau en échec ne doit pas arrêter le cycle
-        log.error("créneau %s : téléchargement impossible : %s", file.slot_ts.isoformat(), exc)
+    except Exception as exc:  # noqa: BLE001 - un lot GDELT en échec ne doit pas arrêter le cycle
+        log.error("lot GDELT %s : téléchargement impossible : %s", label, exc)
         return ManifestEntry(**base, status=FAILED, fetched_at=fetched_at, detail=repr(exc))
 
     md5 = hashlib.md5(zip_bytes).hexdigest()
     sizes = {"zip_bytes": len(zip_bytes), "zip_md5": md5}
     if file.md5 is not None and md5 != file.md5:
-        log.error("créneau %s : MD5 %s, attendu %s", file.slot_ts.isoformat(), md5, file.md5)
+        log.error("lot GDELT %s : MD5 %s, attendu %s", label, md5, file.md5)
         return ManifestEntry(
             **base, **sizes, status=FAILED, fetched_at=fetched_at, md5_verified=False,
             detail=f"MD5 attendu {file.md5}",
@@ -129,21 +134,21 @@ def process_slot(
         )
         headers = {
             "source_url": file.url,
-            "slot_ts": file.slot_ts.isoformat(),
+            "gdelt_batch_label_ts": label,
             "fetched_at": fetched_at.isoformat(),
             "raw_object_uri": uri,
         }
         count = publisher.publish(((gdelt.event_key(line), line) for line in lines), headers)
     except Exception as exc:  # noqa: BLE001 - idem, l'échec est tracé dans le manifeste
-        log.error("créneau %s : échec archivage/publication : %s", file.slot_ts.isoformat(), exc)
+        log.error("lot GDELT %s : échec archivage/publication : %s", label, exc)
         return ManifestEntry(
             **base, **sizes, status=FAILED, fetched_at=fetched_at, detail=repr(exc)
         )
 
-    log.info("créneau %s : %d événements publiés, zip %s", file.slot_ts.isoformat(), count, uri)
+    log.info("lot GDELT %s : %d événements publiés, zip %s", label, count, uri)
     return ManifestEntry(
         **base, **sizes, status=PUBLISHED, fetched_at=fetched_at, raw_object_uri=uri,
-        # None quand GDELT ne fournit pas de MD5 (créneaux rattrapés).
+        # None quand GDELT ne fournit pas de MD5 (lots GDELT rattrapés).
         md5_verified=True if file.md5 is not None else None,
         record_count=count, kafka_topic=TOPIC,
     )
@@ -156,35 +161,39 @@ def run_cycle(
     publisher: Publisher,
     now: Callable[[], datetime] = lambda: datetime.now(UTC),
     max_backfill: int = 96,
-) -> list[SlotResult]:
+) -> list[BatchResult]:
     latest = gdelt.latest_export(fetch(gdelt.LASTUPDATE_URL).decode())
     attempts = manifest.attempts(SOURCE)
     # Terminé = publié, ou définitivement absent. Un échec ou un 404 récent sera retenté.
     done = {
-        slot
-        for slot, rows in attempts.items()
+        label
+        for label, rows in attempts.items()
         if any(status in (PUBLISHED, MISSING_FINAL) for status, _ in rows)
     }
     first_known = min(attempts) if attempts else None
 
-    slots, out_of_window = gdelt.slots_to_process(latest.slot_ts, first_known, done, max_backfill)
+    labels, out_of_window = gdelt.batches_to_process(
+        latest.gdelt_batch_label_ts, first_known, done, max_backfill
+    )
     if out_of_window:
         log.warning(
-            "%d créneau(x) non traité(s) au-delà de la fenêtre de rattrapage (%d créneaux)",
+            "%d lot(s) GDELT non traité(s) au-delà de la fenêtre de rattrapage (%d lots GDELT)",
             out_of_window, max_backfill,
         )
     results = []
-    for slot in slots:
-        misses = sorted(at for status, at in attempts.get(slot, []) if status == MISSING)
+    for label in labels:
+        misses = sorted(at for status, at in attempts.get(label, []) if status == MISSING)
         if misses and now() - misses[-1] < RETRY_SPACING:
             continue  # 404 trop récent : on réessaiera au prochain quart d'heure
-        # MD5 et taille ne sont connus que pour le créneau de lastupdate.txt.
-        file = latest if slot == latest.slot_ts else gdelt.export_file_for_slot(slot)
-        entry = process_slot(file, fetch, store, publisher, now, previous_misses=len(misses))
+        # MD5 et taille ne sont connus que pour le lot GDELT de lastupdate.txt.
+        file = latest if label == latest.gdelt_batch_label_ts else gdelt.export_file_for_batch(label)
+        entry = process_batch(file, fetch, store, publisher, now, previous_misses=len(misses))
         manifest.record(entry)
-        results.append(SlotResult(slot, entry.status, entry.record_count or 0))
+        results.append(BatchResult(label, entry.status, entry.record_count or 0))
     if not results:
-        log.info("rien à faire : créneau %s déjà traité", latest.slot_ts.isoformat())
+        log.info(
+            "rien à faire : lot GDELT %s déjà traité", latest.gdelt_batch_label_ts.isoformat()
+        )
     return results
 
 
@@ -192,7 +201,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--loop", action="store_true", help="tourner en continu")
     parser.add_argument("--poll-seconds", type=int, default=60)
-    parser.add_argument("--max-backfill", type=int, default=96, help="créneaux (96 = 24 h)")
+    parser.add_argument("--max-backfill", type=int, default=96, help="lots GDELT (96 = 24 h)")
     args = parser.parse_args(argv)
 
     logging.Formatter.converter = time.gmtime
@@ -220,7 +229,7 @@ def main(argv: list[str] | None = None) -> int:
         except Exception:
             # Une panne passagère (GDELT, catalogue) ne doit pas tuer la boucle.
             log.exception("cycle en échec")
-            results = [SlotResult(datetime.now(UTC), FAILED)]
+            results = [BatchResult(datetime.now(UTC), FAILED)]
         if not args.loop:
             return 1 if any(r.status == FAILED for r in results) else 0
         time.sleep(args.poll_seconds)
