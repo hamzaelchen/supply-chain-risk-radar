@@ -1,20 +1,123 @@
 # supply-chain-risk-radar
 
-Radar de risque supply chain : ingestion GDELT 2.0 et IMF PortWatch dans un lakehouse Apache Iceberg (bronze/silver/gold), classification LLM, score de risque 0-100 pour 100 fournisseurs d'une « Entreprise démo » (portefeuille fictif, graine fixe).
+Radar de risque supply chain. Le projet ingère les événements mondiaux de GDELT 2.0 (un fichier toutes les 15 minutes) et, à terme, le trafic portuaire d'IMF PortWatch, les stocke dans un lakehouse Apache Iceberg (bronze / silver / gold), puis calculera un score de risque de 0 à 100 pour les 100 fournisseurs d'une « Entreprise démo ».
 
-Statut : Phase 0, étape 4 (streaming Kafka vers `bronze.gdelt_events`).
+Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événements viennent de fichiers réellement téléchargés, dont l'URL source et l'horodatage sont conservés jusque dans les tables.
 
-## Démarrage (WSL2 Ubuntu, Python 3.11)
+## État d'avancement
 
-    make setup   # venv + dépendances dev
-    make test    # tests sans infra (les tests Spark démarrent une JVM locale)
-    make up      # Kafka, MinIO, catalogue Iceberg REST (Docker)
-    make smoke   # aller-retour Spark -> catalogue REST -> MinIO
-    make produce # un cycle GDELT : zip brut -> MinIO, événements -> topic gdelt.events
-    make bronze  # Kafka -> bronze.gdelt_events (traite ce qui est en attente, puis s'arrête)
-    make test-integration  # tests de bout en bout, infra démarrée requise
-    make down    # arrêt (les volumes sont conservés)
+| Phase | Contenu | État |
+|---|---|---|
+| 0 — Fondations locales | Infra Docker, producteur GDELT, streaming vers bronze | **Terminée** |
+| 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, IMF PortWatch | À venir |
+| 2 — Portefeuille et gold | 100 fournisseurs, dbt, score de risque | À venir |
+| 3 — Classification LLM | Taxonomie d'événements, évaluation, coûts | À venir |
+| 4 — Orchestration | Dagster, planification, maintenance des tables | À venir |
+| 5 — Live-lite | Export Parquet, GitHub Actions, site React + DuckDB-WASM | À venir |
+| 6 — Durcissement | Qualité, observabilité, CI, documentation | À venir |
 
-Prérequis : Docker, Java 17. Services : Kafka `localhost:19092`, MinIO `localhost:19000` (console `localhost:19001`), catalogue REST `localhost:8181`. Ports et identifiants surchargeables via `.env` (voir [.env.example](.env.example)).
+## Architecture actuelle (phase 0)
 
-Contexte, règles et plan des phases : voir [CLAUDE.md](CLAUDE.md).
+```mermaid
+flowchart LR
+    GDELT["GDELT 2.0<br/>lastupdate.txt + zip"]
+    PROD["Producteur<br/>(Python)"]
+    KAFKA[("Kafka<br/>gdelt.events")]
+    JOB["Job Spark<br/>Structured Streaming"]
+
+    subgraph MINIO["MinIO (S3)"]
+        RAW["raw/gdelt/events/<br/>zips bruts"]
+        CKPT["checkpoints/"]
+        WH["warehouse/<br/>tables Iceberg"]
+    end
+
+    subgraph ICEBERG["Catalogue Iceberg REST"]
+        MANIFEST["bronze.ingestion_manifest"]
+        BRONZE["bronze.gdelt_events"]
+    end
+
+    GDELT --> PROD
+    PROD -- "zip + URL source + MD5" --> RAW
+    PROD -- "1 message par événement" --> KAFKA
+    PROD -- "1 ligne par tentative" --> MANIFEST
+    KAFKA --> JOB
+    JOB --> BRONZE
+    JOB -. "offsets" .-> CKPT
+    MANIFEST -.-> WH
+    BRONZE -.-> WH
+```
+
+**Producteur** ([ingestion/](ingestion/)) — lit `lastupdate.txt`, télécharge le zip du créneau, vérifie son MD5, l'archive dans MinIO, puis publie chaque événement dans Kafka.
+
+- Idempotence : la table Iceberg `bronze.ingestion_manifest` est sa seule mémoire. Un créneau déjà publié n'est pas renvoyé.
+- Créneaux absents : un 404 est retenté pendant une heure, puis marqué `missing_final`. Le cycle ne s'arrête pas.
+- Garantie « au moins une fois » : un arrêt entre l'envoi Kafka et l'écriture du manifeste rejoue le créneau.
+
+**Topic `gdelt.events`** — 3 partitions, rétention 7 jours. La clé est le `GLOBALEVENTID`, la valeur est la ligne TSV brute. L'URL du zip, le créneau et l'heure de téléchargement voyagent dans les en-têtes Kafka.
+
+**Job de streaming** ([streaming/](streaming/)) — écrit `bronze.gdelt_events` : la ligne brute, les 61 colonnes GDELT en `STRING`, le lignage (en-têtes Kafka, topic, partition, offset) et `ingested_at`.
+
+- Partition par jour d'ingestion, pas par date d'événement.
+- Pas de dédoublonnage en bronze : il se fera en silver.
+- Le job lui-même n'ajoute pas de doublon quand on le relance : les offsets sont dans le checkpoint (MinIO) et le commit Iceberg est idempotent.
+- Trigger `availableNow` : il traite ce qui attend dans Kafka, puis s'arrête.
+
+**Versions** — Spark 4.1.1, Iceberg 1.11.0, Kafka 4.3.1, Python 3.11. Les choix et leurs raisons sont consignés dans la section Décisions de [CLAUDE.md](CLAUDE.md).
+
+## Démarrage
+
+Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
+
+    make setup     # venv + dépendances
+    make up        # démarre Kafka, MinIO et le catalogue Iceberg REST
+    make smoke     # vérifie l'aller-retour Spark -> catalogue -> MinIO
+    make produce   # un cycle GDELT : zip -> MinIO, événements -> Kafka
+    make bronze    # Kafka -> bronze.gdelt_events
+
+Le premier lancement de Spark télécharge environ 170 Mo de jars depuis Maven Central.
+
+## Commandes make
+
+| Commande | Effet |
+|---|---|
+| `make setup` | Crée le venv et installe les dépendances |
+| `make up` | Démarre l'infra Docker et attend qu'elle soit prête |
+| `make down` | Arrête l'infra ; les volumes (données, catalogue, topics) sont conservés |
+| `make ps` | État des conteneurs |
+| `make smoke` | Crée, lit puis supprime une table Iceberg de test |
+| `make produce` | Un cycle du producteur GDELT |
+| `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
+| `make test` | Tests sans infra (environ 30 s, une JVM Spark locale démarre) |
+| `make test-integration` | Tests de bout en bout ; demande `make up`, sautés sinon |
+
+Pour faire tourner le pipeline en continu :
+
+    .venv/bin/python -m ingestion.gdelt_producer --loop          # interroge GDELT chaque minute
+    .venv/bin/python -m streaming.bronze_gdelt_events --every 60 # un lot par minute
+
+## Services locaux
+
+| Service | Adresse |
+|---|---|
+| Kafka | `localhost:19092` |
+| MinIO (API S3) | `localhost:19000` |
+| MinIO (console) | `localhost:19001` |
+| Catalogue Iceberg REST | `localhost:8181` |
+
+Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont ouverts que sur `127.0.0.1`. Ports et identifiants se surchargent dans un fichier `.env` (voir [.env.example](.env.example)).
+
+## Organisation du dépôt
+
+| Dossier | Contenu |
+|---|---|
+| [ingestion/](ingestion/) | Producteur GDELT, manifeste, archivage des zips |
+| [streaming/](streaming/) | Job Kafka -> bronze et schéma des 61 colonnes |
+| [lakehouse/](lakehouse/) | Configuration de la session Spark, smoke test |
+| [tests/](tests/) | Tests ; les fixtures sont un vrai cycle GDELT, non modifié |
+| `transform/`, `orchestration/`, `llm/`, `api/`, `web/` | Phases suivantes, vides pour l'instant |
+
+## Limites connues
+
+- Le catalogue REST est une image de développement (`iceberg-rest-fixture`), à remplacer en phase 4.
+- Les petits fichiers s'accumulent (un lot par créneau, un snapshot de manifeste par créneau) : compaction et expiration des snapshots sont prévues en phase 4.
+- Spark 4.1.1 a un bug connu (SPARK-57438, corrigé en 4.1.3) : après un crash, le rejeu d'un lot fait échouer le job une fois. Il se relance seul une fois dans ce cas précis ; aucune donnée n'est dupliquée.

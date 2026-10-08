@@ -72,6 +72,22 @@ def ensure_table(spark: SparkSession, table: str = TABLE) -> None:
     )
 
 
+def is_kafka_metrics_npe(jvm_stack_trace: str | None) -> bool:
+    """Reconnaît SPARK-57438 dans une trace JVM, et rien d'autre.
+
+    Avec Spark 4.1.1, quand un lot est rejoué après un crash survenu juste après
+    le commit Iceberg, Iceberg ignore bien le lot (aucun doublon) et le checkpoint
+    est réparé, mais la source Kafka lève une NullPointerException en calculant
+    ses métriques de fin de lot. Corrigé dans Spark 4.1.3.
+    """
+    if not jvm_stack_trace:
+        return False
+    return (
+        "java.lang.NullPointerException" in jvm_stack_trace
+        and "org.apache.spark.sql.kafka010.KafkaMicroBatchStream$.metrics(" in jvm_stack_trace
+    )
+
+
 def run(
     spark: SparkSession,
     *,
@@ -80,25 +96,25 @@ def run(
     topic: str = TOPIC,
     table: str = TABLE,
     every_seconds: int | None = None,
-    restarts: int = 1,
+    restart_on_kafka_metrics_npe: bool = True,
 ) -> None:
-    """Lance la requête ; la relance `restarts` fois si elle s'arrête sur une erreur.
+    """Lance la requête. Une seule relance, et seulement sur SPARK-57438.
 
-    La relance n'est pas un confort. Constaté avec Spark 4.1.1 : quand un lot est
-    rejoué après un crash survenu juste après le commit Iceberg, Iceberg ignore
-    bien le lot (aucun doublon) et le checkpoint est remis d'aplomb, mais la
-    source Kafka lève une NullPointerException en calculant ses métriques
-    (KafkaMicroBatchStream.metrics). Le démarrage suivant repart proprement.
+    Toute autre erreur, ou une seconde occurrence, arrête le job.
     """
     ensure_table(spark, table)
-    for attempt in range(restarts + 1):
-        try:
-            _start(spark, bootstrap, checkpoint, topic, table, every_seconds).awaitTermination()
-            return
-        except StreamingQueryException as exc:
-            if attempt == restarts:
-                raise
-            log.warning("requête arrêtée sur erreur, relance depuis le checkpoint : %s", exc)
+    try:
+        _start(spark, bootstrap, checkpoint, topic, table, every_seconds).awaitTermination()
+    except StreamingQueryException as exc:
+        # PySpark 4.1 n'expose pas la trace JVM par une méthode publique.
+        trace = getattr(exc, "_stackTrace", None)
+        if not (restart_on_kafka_metrics_npe and is_kafka_metrics_npe(trace)):
+            raise
+        log.warning(
+            "SPARK-57438 : NullPointerException des métriques de la source Kafka après "
+            "le rejeu d'un lot. Relance unique depuis le checkpoint."
+        )
+        _start(spark, bootstrap, checkpoint, topic, table, every_seconds).awaitTermination()
 
 
 def _start(spark, bootstrap, checkpoint, topic, table, every_seconds):
@@ -130,6 +146,7 @@ def main(argv: list[str] | None = None) -> int:
         "--every", type=int, metavar="SECONDES", help="tourner en continu (défaut : availableNow)"
     )
     args = parser.parse_args(argv)
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
 
     from ingestion.config import Settings
     from lakehouse.spark_session import build_spark_session

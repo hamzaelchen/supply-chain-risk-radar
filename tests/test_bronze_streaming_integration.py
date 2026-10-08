@@ -9,7 +9,7 @@ from pyspark.errors import StreamingQueryException
 
 from ingestion import gdelt
 from ingestion.kafka_io import EventPublisher, ensure_topic
-from streaming.bronze_gdelt_events import run
+from streaming.bronze_gdelt_events import is_kafka_metrics_npe, run
 
 from .conftest import FIXTURES
 
@@ -50,11 +50,11 @@ def job(spark, infra):
 
     yield publish, run_job, table, checkpoint
 
-    spark.sql(f"DROP TABLE IF EXISTS {table} PURGE")
-    spark.sql("DROP NAMESPACE IF EXISTS lakehouse.test_tmp")
+    admin.delete_topics([topic])[topic].result(timeout=30)
     fs, path = hadoop_path(spark, checkpoint)
     fs.delete(path, True)
-    admin.delete_topics([topic])[topic].result(timeout=30)
+    spark.sql(f"DROP TABLE IF EXISTS {table} PURGE")
+    spark.sql("DROP NAMESPACE IF EXISTS lakehouse.test_tmp")
 
 
 def counts(spark, table):
@@ -88,10 +88,10 @@ def test_restarting_the_job_creates_no_duplicates(spark, job):
 
 
 def test_replayed_batch_fails_once_in_spark_but_writes_nothing_twice(spark, job):
-    """Comportement constaté avec Spark 4.1.1, qui justifie `restarts=1` dans run().
+    """SPARK-57438, constaté avec Spark 4.1.1 : justifie la relance unique dans run().
 
-    Si ce test échoue après une montée de version de Spark parce que l'exception
-    n'est plus levée, la relance automatique peut être retirée.
+    Si ce test échoue après une montée de version de Spark (correctif en 4.1.3)
+    parce que l'exception n'est plus levée, la relance peut être retirée.
     """
     publish, run_job, table, checkpoint = job
     publish()
@@ -99,13 +99,15 @@ def test_replayed_batch_fails_once_in_spark_but_writes_nothing_twice(spark, job)
     fs, commit_marker = hadoop_path(spark, f"{checkpoint}/commits/0")
     fs.delete(commit_marker, False)
 
-    with pytest.raises(StreamingQueryException, match="NullPointerException|Option.get"):
-        run_job(restarts=0)
+    with pytest.raises(StreamingQueryException) as failure:
+        run_job(restart_on_kafka_metrics_npe=False)
+    # La signature reconnue par run() est bien celle que Spark produit réellement.
+    assert is_kafka_metrics_npe(failure.value._stackTrace)
 
     # L'erreur arrive après le traitement du lot : pas de doublon, checkpoint réparé.
     assert counts(spark, table) == (1775, 1775, 1775, 1)
     assert fs.exists(commit_marker)
-    run_job(restarts=0)
+    run_job(restart_on_kafka_metrics_npe=False)
     assert counts(spark, table) == (1775, 1775, 1775, 1)
 
 
