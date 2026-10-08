@@ -35,3 +35,6 @@ web/dist/
 .vscode/
 .idea/
 .DS_Store
+
+# Claude Code : réglages personnels
+.claude/settings.local.json

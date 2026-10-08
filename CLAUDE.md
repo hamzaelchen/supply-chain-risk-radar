@@ -16,6 +16,8 @@ Rôle de Claude : mentor senior data engineer, réponses en français, expliquer
 3. Aucun service cloud payant ni clé d'API LLM utilisée sans confirmation de l'utilisateur.
 4. Tests pytest pour chaque transformation.
 
+5. Messages de commit et descriptions de PR : aucune ligne « Co-Authored-By: Claude » ni mention « Generated with Claude Code ». Le réglage `attribution` de `.claude/settings.json` les désactive aussi côté outil.
+
 Méthode : une étape à la fois, arrêt après chaque étape pour validation.
 
 ## Plan des phases
