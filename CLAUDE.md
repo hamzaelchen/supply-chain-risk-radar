@@ -22,6 +22,8 @@ Rôle de Claude : mentor senior data engineer, réponses en français, expliquer
 
 Méthode : une étape à la fois, arrêt après chaque étape pour validation.
 
+Tâches différées (échéances et raisons) : voir [docs/backlog.md](docs/backlog.md).
+
 ## Plan des phases
 - Phase 0 — Fondations locales : scaffold, infra docker (Kafka KRaft, MinIO, catalogue Iceberg REST), producteur GDELT, streaming vers bronze.
 - Phase 1 — Bronze/silver : mentions, parsing et typage, déduplication, ingestion IMF PortWatch.
