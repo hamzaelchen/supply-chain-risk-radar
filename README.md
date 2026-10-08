@@ -53,6 +53,8 @@ flowchart LR
 - Créneaux absents : un 404 est retenté pendant une heure, puis marqué `missing_final`. Le cycle ne s'arrête pas.
 - Garantie « au moins une fois » : un arrêt entre l'envoi Kafka et l'écriture du manifeste rejoue le créneau.
 
+L'horodatage du nom de fichier GDELT (repris dans `slot_ts` et `date_added`) est l'étiquette du lot, pas son heure de publication : le fichier est mis en ligne une dizaine de minutes avant. L'heure réelle de téléchargement est `fetched_at`.
+
 **Topic `gdelt.events`** — 3 partitions, rétention 7 jours. La clé est le `GLOBALEVENTID`, la valeur est la ligne TSV brute. L'URL du zip, le créneau et l'heure de téléchargement voyagent dans les en-têtes Kafka.
 
 **Job de streaming** ([streaming/](streaming/)) — écrit `bronze.gdelt_events` : la ligne brute, les 61 colonnes GDELT en `STRING`, le lignage (en-têtes Kafka, topic, partition, offset) et `ingested_at`.
@@ -69,25 +71,27 @@ flowchart LR
 Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
 
     make setup     # venv + dépendances
+    make jars      # télécharge les jars Spark une fois (environ 800 Mo)
     make up        # démarre Kafka, MinIO et le catalogue Iceberg REST
     make smoke     # vérifie l'aller-retour Spark -> catalogue -> MinIO
     make produce   # un cycle GDELT : zip -> MinIO, événements -> Kafka
     make bronze    # Kafka -> bronze.gdelt_events
 
-Le premier lancement de Spark télécharge environ 800 Mo de jars depuis Maven Central, dont 709 Mo pour le SDK AWS. Ils sont ensuite gardés dans le cache Ivy (`~/.ivy2.5.2`) et ne sont plus retéléchargés.
+`make jars` résout les dépendances Spark (Iceberg, connecteur Kafka, `hadoop-aws`, SDK AWS) avec Ivy et les range dans `jars/<empreinte des versions>/`. Les sessions Spark locales lisent ce dossier directement. Après un changement de version, le dossier attendu change de nom et Spark refuse de démarrer en demandant de relancer `make jars`.
 
 ## Commandes make
 
 | Commande | Effet |
 |---|---|
 | `make setup` | Crée le venv et installe les dépendances |
+| `make jars` | Résout les jars Spark dans `jars/` ; à relancer après un changement de version |
 | `make up` | Démarre l'infra Docker et attend qu'elle soit prête |
 | `make down` | Arrête l'infra ; les volumes (données, catalogue, topics) sont conservés |
 | `make ps` | État des conteneurs |
 | `make smoke` | Crée, lit puis supprime une table Iceberg de test |
 | `make produce` | Un cycle du producteur GDELT |
 | `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
-| `make test` | Tests sans infra (environ 45 s, une JVM Spark locale démarre) |
+| `make test` | Tests sans infra (environ 25 s, une JVM Spark locale démarre) |
 | `make test-integration` | Tests de bout en bout ; demande `make up`, sautés sinon |
 
 Pour faire tourner le pipeline en continu :
@@ -112,12 +116,12 @@ Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont 
 |---|---|
 | [ingestion/](ingestion/) | Producteur GDELT, manifeste, archivage des zips |
 | [streaming/](streaming/) | Job Kafka -> bronze et schéma des 61 colonnes |
-| [lakehouse/](lakehouse/) | Configuration de la session Spark, smoke test |
-| [tests/](tests/) | Tests ; les fixtures sont un vrai cycle GDELT, non modifié |
+| [lakehouse/](lakehouse/) | Configuration de la session Spark, résolution des jars, smoke test |
+| [tests/](tests/) | Tests ; les fixtures sont un vrai cycle GDELT, non modifié. Chaque exécution d'intégration travaille dans un namespace, des topics et un dossier qui lui sont propres, supprimés à la fin |
 | `transform/`, `orchestration/`, `llm/`, `api/`, `web/` | Phases suivantes, vides pour l'instant |
 
 ## Limites connues
 
 - Le catalogue REST est une image de développement (`iceberg-rest-fixture`), à remplacer en phase 4.
 - Les petits fichiers s'accumulent (un lot par créneau, un snapshot de manifeste par créneau) : compaction et expiration des snapshots sont prévues en phase 4.
-- Chaque session Spark met environ 25 s à démarrer : Spark recopie les 709 Mo du SDK AWS dans un dossier temporaire à chaque lancement. Pendant cette copie, le journal peut afficher une erreur `BlockManagerId ... is null` suivie d'un avertissement de heartbeat : Spark l'ignore et le job s'exécute normalement.
+- Les jars Spark occupent environ 770 Mo dans `jars/`, dont 709 Mo pour le SDK AWS. Les dossiers des anciennes versions ne sont pas supprimés automatiquement.

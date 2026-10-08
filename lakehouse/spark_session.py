@@ -12,6 +12,7 @@ Monter l'un sans les autres demande de refaire la vérification.
 import os
 import sys
 from collections.abc import Mapping
+from pathlib import Path
 
 SPARK_VERSION = "4.1.3"
 SCALA_BINARY = "2.13"
@@ -37,10 +38,15 @@ SPARK_PACKAGES = [
 ]
 
 
-def iceberg_spark_conf(env: Mapping[str, str] | None = None) -> dict[str, str]:
+def iceberg_spark_conf(
+    env: Mapping[str, str] | None = None, local_jars: Path | None = None
+) -> dict[str, str]:
     """Configuration Spark du catalogue, vue depuis l'hôte (localhost).
 
-    Les valeurs par défaut sont celles de docker-compose.yml.
+    Les valeurs par défaut sont celles de docker-compose.yml. Avec `local_jars`
+    (dossier rempli par `make jars`), les dépendances sont mises directement sur
+    le classpath du driver ; sinon Spark les résout lui-même, et les recopie à
+    chaque session.
     """
     env = os.environ if env is None else env
     rest_port = env.get("ICEBERG_REST_PORT", "8181")
@@ -48,8 +54,13 @@ def iceberg_spark_conf(env: Mapping[str, str] | None = None) -> dict[str, str]:
     access_key = env.get("MINIO_ROOT_USER", "minioadmin")
     secret_key = env.get("MINIO_ROOT_PASSWORD", "minioadmin")
     prefix = f"spark.sql.catalog.{CATALOG}"
+    if local_jars is not None:
+        # Le joker est développé par la JVM : tous les jars du dossier.
+        dependencies = {"spark.driver.extraClassPath": f"{local_jars}/*"}
+    else:
+        dependencies = {"spark.jars.packages": ",".join(SPARK_PACKAGES)}
     return {
-        "spark.jars.packages": ",".join(SPARK_PACKAGES),
+        **dependencies,
         "spark.sql.extensions": (
             "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions"
         ),
@@ -86,7 +97,14 @@ def build_spark_session(app_name: str, master: str = "local[*]"):
     # Les workers Python doivent utiliser le Python du venv (3.11) : sans ça Spark
     # lance le `python3` du système (3.12 sur Ubuntu 24.04) et refuse de tourner.
     os.environ.setdefault("PYSPARK_PYTHON", sys.executable)
+    # En local, le driver est la seule JVM : son classpath suffit. Sur un cluster,
+    # les exécuteurs auraient besoin des jars eux aussi, d'où spark.jars.packages.
+    local_jars = None
+    if master.startswith("local"):
+        from lakehouse.jars import require_local_jars
+
+        local_jars = require_local_jars()
     builder = SparkSession.builder.appName(app_name).master(master)
-    for key, value in iceberg_spark_conf().items():
+    for key, value in iceberg_spark_conf(local_jars=local_jars).items():
         builder = builder.config(key, value)
     return builder.getOrCreate()

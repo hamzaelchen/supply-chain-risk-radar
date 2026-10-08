@@ -16,6 +16,7 @@ __pycache__/
 !.env.example
 
 # Spark / Iceberg / Dagster locaux
+jars/
 spark-warehouse/
 metastore_db/
 derby.log

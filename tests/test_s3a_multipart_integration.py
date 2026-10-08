@@ -6,7 +6,6 @@ fichiers d'un checkpoint n'exercent pas le multipart : ces tests le forcent.
 """
 
 import hashlib
-import uuid
 
 import boto3
 import pytest
@@ -24,12 +23,12 @@ EXPECTED_MD5 = hashlib.md5(CHUNK * CHUNKS).hexdigest()
 
 
 @pytest.fixture
-def s3a(spark, infra):
+def s3a(spark, infra, sandbox):
     jvm = spark._jvm
     conf = jvm.org.apache.hadoop.conf.Configuration(spark._jsc.hadoopConfiguration())
     conf.set("fs.s3a.multipart.size", str(PART_SIZE))
     conf.set("fs.s3a.multipart.threshold", str(PART_SIZE))
-    prefix = f"checkpoints/test_tmp/multipart_{uuid.uuid4().hex[:8]}"
+    prefix = f"{sandbox.storage_prefix}/multipart_{sandbox.name()}"
     root = jvm.org.apache.hadoop.fs.Path(f"s3a://{infra.bucket}/{prefix}")
     # newInstance : instance à part, pour ne pas hériter du cache ni le polluer.
     fs = jvm.org.apache.hadoop.fs.FileSystem.newInstance(root.toUri(), conf)
@@ -48,9 +47,11 @@ def s3a(spark, infra):
     def path(name):
         return jvm.org.apache.hadoop.fs.Path(root, name)
 
-    yield fs, path, head
-    fs.delete(root, True)
-    fs.close()
+    try:
+        yield fs, path, head
+    finally:
+        # Les objets sont supprimés avec le bac à sable ; on ne ferme que l'instance.
+        fs.close()
 
 
 def parts(head):
@@ -88,7 +89,7 @@ def providers(spark, class_file):
 )
 def test_each_aws_sdk_class_has_a_single_provider(spark, class_file):
     # Deux copies d'une même classe = deux versions du SDK mélangées au chargement.
-    assert providers(spark, class_file) == [f"software.amazon.awssdk_bundle-{AWS_SDK_VERSION}.jar"]
+    assert providers(spark, class_file) == [f"bundle-{AWS_SDK_VERSION}.jar"]
 
 
 def test_multipart_upload_through_output_stream(spark, s3a):

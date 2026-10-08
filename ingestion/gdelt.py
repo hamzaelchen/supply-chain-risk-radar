@@ -3,6 +3,12 @@
 GDELT publie un fichier d'événements toutes les 15 minutes, nommé par un
 horodatage UTC : 20261008171500.export.CSV.zip. `lastupdate.txt` ne décrit que
 le dernier créneau ; les créneaux précédents se reconstruisent par leur nom.
+
+Attention : cet horodatage (`slot_ts`, et DATEADDED dans les lignes) est
+l'étiquette du lot, pas son heure de publication. Mesuré le 2026-10-08 sur 7
+fichiers : le zip est déposé environ 10 minutes AVANT l'heure de son nom
+(20261008204500 déposé à 20:35:22 UTC). Pour savoir quand une donnée a
+réellement été disponible, utiliser l'heure de téléchargement (`fetched_at`).
 """
 
 import io

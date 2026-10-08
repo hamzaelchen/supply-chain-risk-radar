@@ -1,10 +1,7 @@
 """Job de streaming de bout en bout sur l'infra locale (make up), dans un topic,
 une table et un checkpoint jetables. Rejoue un vrai cycle GDELT."""
 
-import uuid
-
 import pytest
-from confluent_kafka.admin import AdminClient
 
 from ingestion import gdelt
 from ingestion.kafka_io import EventPublisher, ensure_topic
@@ -29,12 +26,13 @@ def hadoop_path(spark, uri):
 
 
 @pytest.fixture
-def job(spark, infra):
-    run_id = uuid.uuid4().hex[:8]
-    topic = f"test.gdelt.events.{run_id}"
-    table = f"lakehouse.test_tmp.gdelt_events_{run_id}"
-    checkpoint = f"s3a://{infra.bucket}/checkpoints/test_tmp/{run_id}"
-    admin = AdminClient({"bootstrap.servers": infra.kafka_bootstrap})
+def job(spark, infra, sandbox):
+    # Rien à nettoyer ici : tout est créé dans le bac à sable de l'exécution,
+    # vidé en fin de session même si un test échoue.
+    name = sandbox.name()
+    topic = f"{sandbox.topic_prefix}gdelt.events.{name}"
+    table = f"{sandbox.namespace}.gdelt_events_{name}"
+    checkpoint = f"{sandbox.storage_root}/{name}"
     ensure_topic(infra.kafka_bootstrap, topic)
     publisher = EventPublisher(infra.kafka_bootstrap, topic)
 
@@ -44,13 +42,7 @@ def job(spark, infra):
     def run_job():
         run(spark, bootstrap=infra.kafka_bootstrap, checkpoint=checkpoint, topic=topic, table=table)
 
-    yield publish, run_job, table, checkpoint
-
-    admin.delete_topics([topic])[topic].result(timeout=30)
-    fs, path = hadoop_path(spark, checkpoint)
-    fs.delete(path, True)
-    spark.sql(f"DROP TABLE IF EXISTS {table} PURGE")
-    spark.sql("DROP NAMESPACE IF EXISTS lakehouse.test_tmp")
+    return publish, run_job, table, checkpoint
 
 
 def counts(spark, table):

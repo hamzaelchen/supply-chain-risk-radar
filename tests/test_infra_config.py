@@ -30,9 +30,21 @@ def test_kafka_connector_has_exactly_the_spark_version():
     assert f"org.apache.spark:spark-sql-kafka-0-10_2.13:{SPARK_VERSION}" in SPARK_PACKAGES
 
 
-def test_no_hand_added_jar_and_s3a_points_to_minio():
+def test_without_local_jars_spark_resolves_packages_itself():
     conf = iceberg_spark_conf(env={})
-    assert "spark.jars" not in conf and "spark.jars.excludes" not in conf
+    assert conf["spark.jars.packages"] == ",".join(SPARK_PACKAGES)
+    assert "spark.driver.extraClassPath" not in conf
+
+
+def test_with_local_jars_only_the_driver_classpath_is_set(tmp_path):
+    conf = iceberg_spark_conf(env={}, local_jars=tmp_path)
+    assert conf["spark.driver.extraClassPath"] == f"{tmp_path}/*"
+    # spark.jars.packages ferait recopier tous les jars à chaque session.
+    assert not any(key.startswith("spark.jars") for key in conf)
+
+
+def test_s3a_points_to_minio():
+    conf = iceberg_spark_conf(env={})
     assert conf["spark.hadoop.fs.s3a.endpoint"] == conf[f"{PREFIX}.s3.endpoint"]
     assert conf["spark.hadoop.fs.s3a.path.style.access"] == "true"
 

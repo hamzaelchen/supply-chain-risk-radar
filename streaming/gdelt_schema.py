@@ -34,12 +34,16 @@ GDELT_EVENT_COLUMNS = [
     *[f"actor1_geo_{a}" for a in _GEO_ATTRIBUTES],
     *[f"actor2_geo_{a}" for a in _GEO_ATTRIBUTES],
     *[f"action_geo_{a}" for a in _GEO_ATTRIBUTES],
-    "date_added",  # DATEADDED (YYYYMMDDHHMMSS UTC)
+    # DATEADDED (YYYYMMDDHHMMSS UTC) : étiquette du lot de 15 minutes, identique au nom
+    # du fichier. Ce n'est pas l'heure de publication (voir ingestion/gdelt.py).
+    "date_added",
     "source_url",  # SOURCEURL : article d'origine
 ]
 
 # Lignage : d'où vient la ligne (en-têtes Kafka posés par le producteur), où elle
-# était dans Kafka, quand elle est entrée en bronze.
+# était dans Kafka, quand elle est entrée en bronze. `src_slot_ts` est l'étiquette
+# GDELT du lot ; les heures réelles sont `src_fetched_at`, `kafka_timestamp` et
+# `ingested_at`.
 LINEAGE_COLUMNS = [
     ("src_file_url", "STRING"),
     ("src_slot_ts", "TIMESTAMP"),

@@ -6,12 +6,16 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup test test-integration up down ps smoke produce bronze
+.PHONY: setup jars test test-integration up down ps smoke produce bronze
 
 setup:
 	$(PY) -m venv $(VENV)
 	$(BIN)/pip install --upgrade pip
 	$(BIN)/pip install -e ".[dev]"
+
+# Résout les jars Spark une fois dans jars/<empreinte des versions>/ (environ 800 Mo)
+jars:
+	$(BIN)/python -m lakehouse.jars
 
 # Tests sans infra (les tests Spark démarrent une JVM locale)
 test:
