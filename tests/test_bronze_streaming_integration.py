@@ -5,11 +5,10 @@ import uuid
 
 import pytest
 from confluent_kafka.admin import AdminClient
-from pyspark.errors import StreamingQueryException
 
 from ingestion import gdelt
 from ingestion.kafka_io import EventPublisher, ensure_topic
-from streaming.bronze_gdelt_events import is_kafka_metrics_npe, run
+from streaming.bronze_gdelt_events import run
 
 from .conftest import FIXTURES
 
@@ -42,11 +41,8 @@ def job(spark, infra):
     def publish():
         publisher.publish(((gdelt.event_key(line), line) for line in LINES), HEADERS)
 
-    def run_job(**kwargs):
-        run(
-            spark, bootstrap=infra.kafka_bootstrap, checkpoint=checkpoint, topic=topic,
-            table=table, **kwargs,
-        )
+    def run_job():
+        run(spark, bootstrap=infra.kafka_bootstrap, checkpoint=checkpoint, topic=topic, table=table)
 
     yield publish, run_job, table, checkpoint
 
@@ -67,7 +63,7 @@ def counts(spark, table):
 
 
 def test_restarting_the_job_creates_no_duplicates(spark, job):
-    publish, run_job, table, checkpoint = job
+    publish, run_job, table, _ = job
 
     publish()
     run_job()
@@ -77,38 +73,31 @@ def test_restarting_the_job_creates_no_duplicates(spark, job):
     run_job()
     assert counts(spark, table) == (1775, 1775, 1775, 1)
 
-    # Crash simulé entre le commit Iceberg et la fin du lot côté Spark : on efface
-    # la trace « lot 0 terminé » du checkpoint. Spark rejoue le lot 0 avec les
-    # mêmes offsets ; Iceberg reconnaît le lot déjà commité et ne réécrit rien.
-    fs, commit_marker = hadoop_path(spark, f"{checkpoint}/commits/0")
-    assert fs.delete(commit_marker, False)
-    run_job()
-    assert counts(spark, table) == (1775, 1775, 1775, 1)
-    assert fs.exists(commit_marker)
 
+def test_restart_after_crash_following_the_iceberg_commit(spark, job):
+    """Crash simulé entre le commit Iceberg et la fin du lot côté Spark.
 
-def test_replayed_batch_fails_once_in_spark_but_writes_nothing_twice(spark, job):
-    """SPARK-57438, constaté avec Spark 4.1.1 : justifie la relance unique dans run().
-
-    Si ce test échoue après une montée de version de Spark (correctif en 4.1.3)
-    parce que l'exception n'est plus levée, la relance peut être retirée.
+    On efface la trace « lot 0 terminé » du checkpoint : Spark rejoue le lot 0
+    avec les mêmes offsets, Iceberg reconnaît le lot déjà commité et n'écrit rien.
+    Avec Spark 4.1.1 ce rejeu levait une NullPointerException (SPARK-57438,
+    corrigé en 4.1.3) : run_job() ne rattrape rien, toute exception fait échouer
+    le test.
     """
     publish, run_job, table, checkpoint = job
     publish()
     run_job()
     fs, commit_marker = hadoop_path(spark, f"{checkpoint}/commits/0")
-    fs.delete(commit_marker, False)
+    assert fs.delete(commit_marker, False)
 
-    with pytest.raises(StreamingQueryException) as failure:
-        run_job(restart_on_kafka_metrics_npe=False)
-    # La signature reconnue par run() est bien celle que Spark produit réellement.
-    assert is_kafka_metrics_npe(failure.value._stackTrace)
+    run_job()
 
-    # L'erreur arrive après le traitement du lot : pas de doublon, checkpoint réparé.
     assert counts(spark, table) == (1775, 1775, 1775, 1)
     assert fs.exists(commit_marker)
-    run_job(restart_on_kafka_metrics_npe=False)
-    assert counts(spark, table) == (1775, 1775, 1775, 1)
+
+    # Et le job reprend normalement ensuite : seul le nouvel envoi est lu.
+    publish()
+    run_job()
+    assert counts(spark, table) == (3550, 3550, 1775, 2)
 
 
 def test_bronze_keeps_duplicates_sent_by_the_producer(spark, job):

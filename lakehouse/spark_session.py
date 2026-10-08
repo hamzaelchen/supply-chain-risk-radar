@@ -1,11 +1,11 @@
 """Session Spark configurée pour le catalogue Iceberg REST, MinIO et Kafka locaux.
 
 Versions vérifiées sur Maven Central le 2026-10-08 (règle 2 de CLAUDE.md) :
-- Iceberg 1.11.0 est compilé contre Spark 4.1.1 (gradle/libs.versions.toml du tag
-  apache-iceberg-1.11.0).
-- spark-sql-kafka-0-10_2.13 4.1.1 fait partie de la même release que Spark.
+- Iceberg 1.12.0 est compilé contre Spark 4.1.3 (gradle/libs.versions.toml du tag
+  apache-iceberg-1.12.0).
+- spark-sql-kafka-0-10_2.13 4.1.3 fait partie de la même release que Spark.
 - hadoop-aws doit avoir exactement la version des jars Hadoop embarqués par
-  pyspark 4.1.1 (hadoop-client-api-3.4.2).
+  pyspark 4.1.3 (hadoop-client-api-3.4.2).
 Monter l'un sans les autres demande de refaire la vérification.
 """
 
@@ -13,38 +13,27 @@ import os
 import sys
 from collections.abc import Mapping
 
-SPARK_VERSION = "4.1.1"
+SPARK_VERSION = "4.1.3"
 SCALA_BINARY = "2.13"
-ICEBERG_VERSION = "1.11.0"
+ICEBERG_VERSION = "1.12.0"
 HADOOP_VERSION = "3.4.2"
-# Version du SDK AWS v2 embarqué (non relocalisé) dans iceberg-aws-bundle 1.11.0.
-AWS_SDK_VERSION = "2.44.4"
+# SDK AWS v2 : version contre laquelle Iceberg 1.12.0 est compilé (awssdk-bom dans
+# gradle/libs.versions.toml du tag apache-iceberg-1.12.0).
+AWS_SDK_VERSION = "2.54.17"
 
 CATALOG = "lakehouse"
 
 SPARK_PACKAGES = [
     f"org.apache.iceberg:iceberg-spark-runtime-4.1_{SCALA_BINARY}:{ICEBERG_VERSION}",
-    # SDK AWS v2 embarqué, requis par S3FileIO (absent du runtime Spark).
-    f"org.apache.iceberg:iceberg-aws-bundle:{ICEBERG_VERSION}",
     f"org.apache.spark:spark-sql-kafka-0-10_{SCALA_BINARY}:{SPARK_VERSION}",
     # Système de fichiers s3a:// pour le checkpoint du streaming : Spark écrit
     # ses checkpoints via l'API Hadoop, pas via le S3FileIO d'Iceberg.
     f"org.apache.hadoop:hadoop-aws:{HADOOP_VERSION}",
-]
-
-# hadoop-aws tire software.amazon.awssdk:bundle (641 Mo), qui dupliquerait dans
-# une autre version les classes du SDK déjà présentes dans iceberg-aws-bundle.
-# On l'exclut : un seul SDK sur le classpath, celui d'Iceberg.
-SPARK_EXCLUDES = ["software.amazon.awssdk:bundle"]
-
-# Seul module du SDK dont s3a a besoin et qu'iceberg-aws-bundle n'embarque pas.
-# Passé en URL directe (et non en package) pour ne pas résoudre ses dépendances,
-# toutes déjà fournies par iceberg-aws-bundle.
-SPARK_EXTRA_JARS = [
-    (
-        "https://repo1.maven.org/maven2/software/amazon/awssdk/s3-transfer-manager/"
-        f"{AWS_SDK_VERSION}/s3-transfer-manager-{AWS_SDK_VERSION}.jar"
-    ),
+    # Un seul SDK AWS pour Iceberg (S3FileIO) et pour s3a : le bundle complet.
+    # Il remplace iceberg-aws-bundle, qui depuis la 1.12 n'embarque plus le client
+    # HTTP Apache 4 dont hadoop-aws 3.4.2 a besoin. Déclaré ici, il l'emporte sur
+    # la version 2.29.52 que hadoop-aws demande (Ivy garde la plus récente).
+    f"software.amazon.awssdk:bundle:{AWS_SDK_VERSION}",
 ]
 
 
@@ -61,8 +50,6 @@ def iceberg_spark_conf(env: Mapping[str, str] | None = None) -> dict[str, str]:
     prefix = f"spark.sql.catalog.{CATALOG}"
     return {
         "spark.jars.packages": ",".join(SPARK_PACKAGES),
-        "spark.jars.excludes": ",".join(SPARK_EXCLUDES),
-        "spark.jars": ",".join(SPARK_EXTRA_JARS),
         "spark.sql.extensions": (
             "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions"
         ),

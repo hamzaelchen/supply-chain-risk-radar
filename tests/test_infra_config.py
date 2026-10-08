@@ -2,6 +2,7 @@ import re
 from pathlib import Path
 
 from lakehouse.spark_session import (
+    AWS_SDK_VERSION,
     CATALOG,
     ICEBERG_VERSION,
     SPARK_PACKAGES,
@@ -19,19 +20,19 @@ def test_iceberg_runtime_matches_spark_minor_version():
     assert f"iceberg-spark-runtime-{spark_minor}_2.13:{ICEBERG_VERSION}" in runtime
 
 
-def test_all_iceberg_packages_share_one_version():
-    iceberg = [p for p in SPARK_PACKAGES if p.startswith("org.apache.iceberg:")]
-    assert len(iceberg) == 2
-    assert all(p.endswith(f":{ICEBERG_VERSION}") for p in iceberg)
+def test_aws_sdk_comes_from_the_full_bundle_only():
+    # Un seul fournisseur du SDK AWS : ni iceberg-aws-bundle, ni module isolé.
+    aws = [p for p in SPARK_PACKAGES if "awssdk" in p or "aws-bundle" in p]
+    assert aws == [f"software.amazon.awssdk:bundle:{AWS_SDK_VERSION}"]
 
 
 def test_kafka_connector_has_exactly_the_spark_version():
     assert f"org.apache.spark:spark-sql-kafka-0-10_2.13:{SPARK_VERSION}" in SPARK_PACKAGES
 
 
-def test_aws_sdk_bundle_is_excluded_and_s3a_points_to_minio():
+def test_no_hand_added_jar_and_s3a_points_to_minio():
     conf = iceberg_spark_conf(env={})
-    assert conf["spark.jars.excludes"] == "software.amazon.awssdk:bundle"
+    assert "spark.jars" not in conf and "spark.jars.excludes" not in conf
     assert conf["spark.hadoop.fs.s3a.endpoint"] == conf[f"{PREFIX}.s3.endpoint"]
     assert conf["spark.hadoop.fs.s3a.path.style.access"] == "true"
 

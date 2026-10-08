@@ -62,7 +62,7 @@ flowchart LR
 - Le job lui-même n'ajoute pas de doublon quand on le relance : les offsets sont dans le checkpoint (MinIO) et le commit Iceberg est idempotent.
 - Trigger `availableNow` : il traite ce qui attend dans Kafka, puis s'arrête.
 
-**Versions** — Spark 4.1.1, Iceberg 1.11.0, Kafka 4.3.1, Python 3.11. Les choix et leurs raisons sont consignés dans la section Décisions de [CLAUDE.md](CLAUDE.md).
+**Versions** — Spark 4.1.3, Iceberg 1.12.0, SDK AWS 2.54.17, Kafka 4.3.1, Python 3.11. Les choix et leurs raisons sont consignés dans la section Décisions de [CLAUDE.md](CLAUDE.md).
 
 ## Démarrage
 
@@ -74,7 +74,7 @@ Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
     make produce   # un cycle GDELT : zip -> MinIO, événements -> Kafka
     make bronze    # Kafka -> bronze.gdelt_events
 
-Le premier lancement de Spark télécharge environ 170 Mo de jars depuis Maven Central.
+Le premier lancement de Spark télécharge environ 800 Mo de jars depuis Maven Central, dont 709 Mo pour le SDK AWS. Ils sont ensuite gardés dans le cache Ivy (`~/.ivy2.5.2`) et ne sont plus retéléchargés.
 
 ## Commandes make
 
@@ -87,7 +87,7 @@ Le premier lancement de Spark télécharge environ 170 Mo de jars depuis Maven C
 | `make smoke` | Crée, lit puis supprime une table Iceberg de test |
 | `make produce` | Un cycle du producteur GDELT |
 | `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
-| `make test` | Tests sans infra (environ 30 s, une JVM Spark locale démarre) |
+| `make test` | Tests sans infra (environ 45 s, une JVM Spark locale démarre) |
 | `make test-integration` | Tests de bout en bout ; demande `make up`, sautés sinon |
 
 Pour faire tourner le pipeline en continu :
@@ -120,4 +120,4 @@ Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont 
 
 - Le catalogue REST est une image de développement (`iceberg-rest-fixture`), à remplacer en phase 4.
 - Les petits fichiers s'accumulent (un lot par créneau, un snapshot de manifeste par créneau) : compaction et expiration des snapshots sont prévues en phase 4.
-- Spark 4.1.1 a un bug connu (SPARK-57438, corrigé en 4.1.3) : après un crash, le rejeu d'un lot fait échouer le job une fois. Il se relance seul une fois dans ce cas précis ; aucune donnée n'est dupliquée.
+- Chaque session Spark met environ 25 s à démarrer : Spark recopie les 709 Mo du SDK AWS dans un dossier temporaire à chaque lancement. Pendant cette copie, le journal peut afficher une erreur `BlockManagerId ... is null` suivie d'un avertissement de heartbeat : Spark l'ignore et le job s'exécute normalement.

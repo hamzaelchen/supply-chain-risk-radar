@@ -1,8 +1,8 @@
-"""Envoi et copie multipart via s3a:// sur MinIO.
+"""Envoi et copie multipart via s3a:// sur MinIO, et unicité du SDK AWS.
 
-hadoop-aws 3.4.2 demande le bundle complet du SDK AWS (2.29.52) ; on l'exclut au
-profit du SDK 2.44.4 d'iceberg-aws-bundle, complété par s3-transfer-manager. Les
-petits fichiers d'un checkpoint n'exercent pas le multipart : ce test le force.
+hadoop-aws 3.4.2 est prévu pour le SDK AWS 2.29.52 ; il tourne ici avec le bundle
+complet du SDK dans la version d'Iceberg, partagé avec S3FileIO. Les petits
+fichiers d'un checkpoint n'exercent pas le multipart : ces tests le forcent.
 """
 
 import hashlib
@@ -12,6 +12,8 @@ import boto3
 import pytest
 from botocore.config import Config
 from pyspark.sql import functions as F
+
+from lakehouse.spark_session import AWS_SDK_VERSION
 
 pytestmark = [pytest.mark.spark, pytest.mark.integration]
 
@@ -72,12 +74,21 @@ def providers(spark, class_file):
     return found
 
 
-def test_classpath_has_one_aws_sdk(spark):
-    # Une seule copie de chaque classe du SDK : pas de mélange de versions.
-    s3_client = providers(spark, "software/amazon/awssdk/services/s3/S3Client.class")
-    transfer = providers(spark, "software/amazon/awssdk/transfer/s3/S3TransferManager.class")
-    assert len(s3_client) == 1 and "iceberg-aws-bundle-1.11.0" in s3_client[0], s3_client
-    assert transfer == ["s3-transfer-manager-2.44.4.jar"], transfer
+@pytest.mark.parametrize(
+    "class_file",
+    [
+        "software/amazon/awssdk/services/s3/S3Client.class",
+        # Client HTTP par défaut d'Iceberg 1.12 (S3FileIO).
+        "software/amazon/awssdk/http/apache5/Apache5HttpClient.class",
+        # Client HTTP exigé par hadoop-aws 3.4.2 (s3a).
+        "software/amazon/awssdk/http/apache/ApacheHttpClient.class",
+        # Copies et envois de fichiers par s3a.
+        "software/amazon/awssdk/transfer/s3/S3TransferManager.class",
+    ],
+)
+def test_each_aws_sdk_class_has_a_single_provider(spark, class_file):
+    # Deux copies d'une même classe = deux versions du SDK mélangées au chargement.
+    assert providers(spark, class_file) == [f"software.amazon.awssdk_bundle-{AWS_SDK_VERSION}.jar"]
 
 
 def test_multipart_upload_through_output_stream(spark, s3a):
