@@ -14,7 +14,10 @@ def test_hash_is_stable_and_follows_versions_and_exclusions():
     assert reference == jars.jars_hash(list(reversed(SPARK_PACKAGES)))
     assert len(reference) == 12
 
-    bumped = [p.replace("iceberg-spark-runtime-4.1_2.13:", "iceberg-spark-runtime-4.1_2.13:9") for p in SPARK_PACKAGES]
+    bumped = [
+        p.replace("iceberg-spark-runtime-4.1_2.13:", "iceberg-spark-runtime-4.1_2.13:9")
+        for p in SPARK_PACKAGES
+    ]
     assert jars.jars_hash(bumped) != reference
     assert jars.jars_hash(excluded=[]) != reference
 

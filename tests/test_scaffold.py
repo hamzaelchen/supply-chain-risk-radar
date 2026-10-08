@@ -2,8 +2,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 EXPECTED_DIRS = [
-    "ingestion", "streaming", "lakehouse", "transform", "orchestration",
-    "llm", "api", "web", "tests", "docs", "data/raw",
+    "ingestion",
+    "streaming",
+    "lakehouse",
+    "transform",
+    "orchestration",
+    "llm",
+    "api",
+    "web",
+    "tests",
+    "docs",
+    "data/raw",
 ]
 
 

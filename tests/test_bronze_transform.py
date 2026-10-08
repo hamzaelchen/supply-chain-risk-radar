@@ -14,7 +14,9 @@ from .conftest import FIXTURES
 
 pytestmark = pytest.mark.spark
 
-LINES = list(gdelt.iter_event_lines((FIXTURES / "gdelt/20261008171500.export.CSV.zip").read_bytes()))
+LINES = list(
+    gdelt.iter_event_lines((FIXTURES / "gdelt/20261008171500.export.CSV.zip").read_bytes())
+)
 FILE_URL = "http://data.gdeltproject.org/gdeltv2/20261008171500.export.CSV.zip"
 HEADERS = {
     "source_url": FILE_URL,

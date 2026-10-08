@@ -39,8 +39,10 @@ def _state(spark, table: str) -> dict:
 def migrate(spark, table: str, old: str, new: str) -> bool:
     before = _state(spark, table)
     print(f"\n== {table}")
-    print(f"avant : {before['count']} lignes, {len(before['snapshots'])} snapshots, "
-          f"{len(before['files'])} fichiers de données")
+    print(
+        f"avant : {before['count']} lignes, {len(before['snapshots'])} snapshots, "
+        f"{len(before['files'])} fichiers de données"
+    )
     if old in before["columns"]:
         spark.sql(f"ALTER TABLE {table} RENAME COLUMN {old} TO {new}")
         print(f"ALTER TABLE ... RENAME COLUMN {old} TO {new} : fait")
@@ -51,13 +53,17 @@ def migrate(spark, table: str, old: str, new: str) -> bool:
         return False
 
     after = _state(spark, table)
-    print(f"après : {after['count']} lignes, {len(after['snapshots'])} snapshots, "
-          f"{len(after['files'])} fichiers de données")
+    print(
+        f"après : {after['count']} lignes, {len(after['snapshots'])} snapshots, "
+        f"{len(after['files'])} fichiers de données"
+    )
     # Lecture d'un ancien snapshot : Iceberg lit avec le schéma de CE snapshot.
     oldest = before["snapshots"][0]
     cols_then = spark.sql(f"SELECT * FROM {table} VERSION AS OF {oldest}").columns
-    print(f"time travel, 1er snapshot {oldest} : {after['counts'][oldest]} lignes, "
-          f"colonne lue sous le nom {[c for c in cols_then if new in c or old in c]}")
+    print(
+        f"time travel, 1er snapshot {oldest} : {after['counts'][oldest]} lignes, "
+        f"colonne lue sous le nom {[c for c in cols_then if new in c or old in c]}"
+    )
 
     checks = {
         "nombre de lignes inchangé": before["count"] == after["count"],

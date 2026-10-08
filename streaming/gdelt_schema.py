@@ -10,7 +10,14 @@ _ACTOR_ATTRIBUTES = [
     "religion1_code", "religion2_code", "type1_code", "type2_code", "type3_code",
 ]  # fmt: skip
 _GEO_ATTRIBUTES = [
-    "type", "full_name", "country_code", "adm1_code", "adm2_code", "lat", "long", "feature_id",
+    "type",
+    "full_name",
+    "country_code",
+    "adm1_code",
+    "adm2_code",
+    "lat",
+    "long",
+    "feature_id",
 ]
 
 GDELT_EVENT_COLUMNS = [

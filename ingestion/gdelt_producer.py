@@ -105,11 +105,16 @@ def process_batch(
         final = previous_misses >= MISSING_RETRIES
         log.warning(
             "lot GDELT %s absent chez GDELT (404), essai %d/%d%s : %s",
-            label, previous_misses + 1, MISSING_RETRIES + 1,
-            " : abandon définitif" if final else "", file.url,
+            label,
+            previous_misses + 1,
+            MISSING_RETRIES + 1,
+            " : abandon définitif" if final else "",
+            file.url,
         )
         return ManifestEntry(
-            **base, status=MISSING_FINAL if final else MISSING, fetched_at=fetched_at,
+            **base,
+            status=MISSING_FINAL if final else MISSING,
+            fetched_at=fetched_at,
             detail=f"HTTP 404, essai {previous_misses + 1}/{MISSING_RETRIES + 1}",
         )
     except Exception as exc:  # noqa: BLE001 - un lot GDELT en échec ne doit pas arrêter le cycle
@@ -121,7 +126,11 @@ def process_batch(
     if file.md5 is not None and md5 != file.md5:
         log.error("lot GDELT %s : MD5 %s, attendu %s", label, md5, file.md5)
         return ManifestEntry(
-            **base, **sizes, status=FAILED, fetched_at=fetched_at, md5_verified=False,
+            **base,
+            **sizes,
+            status=FAILED,
+            fetched_at=fetched_at,
+            md5_verified=False,
             detail=f"MD5 attendu {file.md5}",
         )
 
@@ -129,8 +138,11 @@ def process_batch(
         # Lecture complète avant tout envoi : un zip corrompu ne publie rien.
         lines = list(gdelt.iter_event_lines(zip_bytes))
         uri = store.put(
-            gdelt.raw_object_key(file), zip_bytes,
-            source_url=file.url, fetched_at=fetched_at, md5=md5,
+            gdelt.raw_object_key(file),
+            zip_bytes,
+            source_url=file.url,
+            fetched_at=fetched_at,
+            md5=md5,
         )
         headers = {
             "source_url": file.url,
@@ -147,10 +159,15 @@ def process_batch(
 
     log.info("lot GDELT %s : %d événements publiés, zip %s", label, count, uri)
     return ManifestEntry(
-        **base, **sizes, status=PUBLISHED, fetched_at=fetched_at, raw_object_uri=uri,
+        **base,
+        **sizes,
+        status=PUBLISHED,
+        fetched_at=fetched_at,
+        raw_object_uri=uri,
         # None quand GDELT ne fournit pas de MD5 (lots GDELT rattrapés).
         md5_verified=True if file.md5 is not None else None,
-        record_count=count, kafka_topic=TOPIC,
+        record_count=count,
+        kafka_topic=TOPIC,
     )
 
 
@@ -178,7 +195,8 @@ def run_cycle(
     if out_of_window:
         log.warning(
             "%d lot(s) GDELT non traité(s) au-delà de la fenêtre de rattrapage (%d lots GDELT)",
-            out_of_window, max_backfill,
+            out_of_window,
+            max_backfill,
         )
     results = []
     for label in labels:
@@ -186,14 +204,14 @@ def run_cycle(
         if misses and now() - misses[-1] < RETRY_SPACING:
             continue  # 404 trop récent : on réessaiera au prochain quart d'heure
         # MD5 et taille ne sont connus que pour le lot GDELT de lastupdate.txt.
-        file = latest if label == latest.gdelt_batch_label_ts else gdelt.export_file_for_batch(label)
+        file = (
+            latest if label == latest.gdelt_batch_label_ts else gdelt.export_file_for_batch(label)
+        )
         entry = process_batch(file, fetch, store, publisher, now, previous_misses=len(misses))
         manifest.record(entry)
         results.append(BatchResult(label, entry.status, entry.record_count or 0))
     if not results:
-        log.info(
-            "rien à faire : lot GDELT %s déjà traité", latest.gdelt_batch_label_ts.isoformat()
-        )
+        log.info("rien à faire : lot GDELT %s déjà traité", latest.gdelt_batch_label_ts.isoformat())
     return results
 
 

@@ -23,12 +23,16 @@ def leave_a_mess(spark, infra, box):
 
 
 def remains(spark, infra, box):
-    topics = AdminClient({"bootstrap.servers": infra.kafka_bootstrap}).list_topics(timeout=15).topics
+    topics = (
+        AdminClient({"bootstrap.servers": infra.kafka_bootstrap}).list_topics(timeout=15).topics
+    )
     short = box.namespace.split(".", 1)[1]
     path = spark._jvm.org.apache.hadoop.fs.Path(box.storage_root)
     return {
         "topics": [t for t in topics if t.startswith(box.topic_prefix)],
-        "namespace": spark.sql("SHOW NAMESPACES IN lakehouse").filter(f"namespace = '{short}'").count(),
+        "namespace": spark.sql("SHOW NAMESPACES IN lakehouse")
+        .filter(f"namespace = '{short}'")
+        .count(),
         "storage": path.getFileSystem(spark._jsc.hadoopConfiguration()).exists(path),
     }
 
@@ -72,6 +76,8 @@ def test_sweep_reports_errors_but_tries_every_step(spark, infra):
         errors = sweep(spark, unreachable, box)
         assert len(errors) == 1 and errors[0].startswith("topics Kafka")
         short = box.namespace.split(".", 1)[1]
-        assert spark.sql("SHOW NAMESPACES IN lakehouse").filter(f"namespace = '{short}'").count() == 0
+        assert (
+            spark.sql("SHOW NAMESPACES IN lakehouse").filter(f"namespace = '{short}'").count() == 0
+        )
     finally:
         sweep(spark, infra, box)

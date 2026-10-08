@@ -126,7 +126,9 @@ def test_multipart_upload_of_a_local_file(spark, s3a, tmp_path):
     local = tmp_path / "local.bin"
     local.write_bytes(CHUNK * CHUNKS)
 
-    fs.copyFromLocalFile(False, True, spark._jvm.org.apache.hadoop.fs.Path(str(local)), path("local.bin"))
+    fs.copyFromLocalFile(
+        False, True, spark._jvm.org.apache.hadoop.fs.Path(str(local)), path("local.bin")
+    )
 
     uploaded = head("local.bin")
     assert uploaded["ContentLength"] == CHUNKS * len(CHUNK)

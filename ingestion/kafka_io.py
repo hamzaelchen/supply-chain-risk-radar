@@ -80,7 +80,11 @@ class EventPublisher:
             while True:
                 try:
                     self._producer.produce(
-                        self._topic, key=key, value=value, headers=kafka_headers, on_delivery=on_delivery
+                        self._topic,
+                        key=key,
+                        value=value,
+                        headers=kafka_headers,
+                        on_delivery=on_delivery,
                     )
                     break
                 except BufferError:
