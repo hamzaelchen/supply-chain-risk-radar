@@ -6,15 +6,20 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup test up down ps smoke produce
+.PHONY: setup test test-integration up down ps smoke produce bronze
 
 setup:
 	$(PY) -m venv $(VENV)
 	$(BIN)/pip install --upgrade pip
 	$(BIN)/pip install -e ".[dev]"
 
+# Tests sans infra (les tests Spark démarrent une JVM locale)
 test:
-	$(BIN)/pytest
+	$(BIN)/pytest -m "not integration"
+
+# Tests de bout en bout : infra démarrée requise (make up)
+test-integration:
+	$(BIN)/pytest -m integration
 
 # Infra locale : Kafka KRaft, MinIO, catalogue Iceberg REST
 up:
@@ -33,3 +38,7 @@ smoke:
 # Un cycle GDELT : lastupdate.txt -> zip dans MinIO -> topic gdelt.events
 produce:
 	$(BIN)/python -m ingestion.gdelt_producer
+
+# Kafka -> bronze.gdelt_events : traite ce qui est en attente, puis s'arrête
+bronze:
+	$(BIN)/python -m streaming.bronze_gdelt_events

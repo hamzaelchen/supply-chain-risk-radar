@@ -22,12 +22,18 @@ from datetime import UTC, datetime
 from typing import Protocol
 
 from ingestion import gdelt
-from ingestion.manifest import FAILED, MISSING, PUBLISHED, ManifestEntry
+from ingestion.manifest import FAILED, MISSING, MISSING_FINAL, PUBLISHED, ManifestEntry
 
 log = logging.getLogger("gdelt_producer")
 
 SOURCE = "gdelt.events"
 TOPIC = "gdelt.events"
+
+# GDELT publie parfois un fichier en retard. Un créneau en 404 est retenté 4 fois,
+# à 15 minutes d'intervalle au moins (soit 1 h), avant d'être déclaré définitivement
+# absent. L'espacement évite qu'une boucle à la minute épuise les essais en 4 minutes.
+MISSING_RETRIES = 4
+RETRY_SPACING = gdelt.SLOT
 
 
 class SlotNotFound(Exception):
@@ -35,7 +41,7 @@ class SlotNotFound(Exception):
 
 
 class Manifest(Protocol):
-    def statuses(self, source: str) -> dict[datetime, set[str]]: ...
+    def attempts(self, source: str) -> dict[datetime, list[tuple[str, datetime]]]: ...
     def record(self, entry: ManifestEntry) -> None: ...
 
 
@@ -79,16 +85,28 @@ def process_slot(
     store: Store,
     publisher: Publisher,
     now: Callable[[], datetime],
+    previous_misses: int = 0,
 ) -> ManifestEntry:
-    """Traite un créneau et rend la ligne de manifeste. Ne lève jamais."""
+    """Traite un créneau et rend la ligne de manifeste. Ne lève jamais.
+
+    `previous_misses` : nombre de 404 déjà enregistrés pour ce créneau.
+    """
     fetched_at = now()
     base = {"source": SOURCE, "slot_ts": file.slot_ts, "source_url": file.url}
     try:
         zip_bytes = fetch(file.url)
         fetched_at = now()
     except SlotNotFound:
-        log.warning("créneau %s absent chez GDELT (404) : %s", file.slot_ts.isoformat(), file.url)
-        return ManifestEntry(**base, status=MISSING, fetched_at=fetched_at, detail="HTTP 404")
+        final = previous_misses >= MISSING_RETRIES
+        log.warning(
+            "créneau %s absent chez GDELT (404), essai %d/%d%s : %s",
+            file.slot_ts.isoformat(), previous_misses + 1, MISSING_RETRIES + 1,
+            " : abandon définitif" if final else "", file.url,
+        )
+        return ManifestEntry(
+            **base, status=MISSING_FINAL if final else MISSING, fetched_at=fetched_at,
+            detail=f"HTTP 404, essai {previous_misses + 1}/{MISSING_RETRIES + 1}",
+        )
     except Exception as exc:  # noqa: BLE001 - un créneau en échec ne doit pas arrêter le cycle
         log.error("créneau %s : téléchargement impossible : %s", file.slot_ts.isoformat(), exc)
         return ManifestEntry(**base, status=FAILED, fetched_at=fetched_at, detail=repr(exc))
@@ -140,10 +158,14 @@ def run_cycle(
     max_backfill: int = 96,
 ) -> list[SlotResult]:
     latest = gdelt.latest_export(fetch(gdelt.LASTUPDATE_URL).decode())
-    statuses = manifest.statuses(SOURCE)
-    # Terminé = publié, ou absent chez GDELT. Un échec sera retenté.
-    done = {slot for slot, seen in statuses.items() if seen & {PUBLISHED, MISSING}}
-    first_known = min(statuses) if statuses else None
+    attempts = manifest.attempts(SOURCE)
+    # Terminé = publié, ou définitivement absent. Un échec ou un 404 récent sera retenté.
+    done = {
+        slot
+        for slot, rows in attempts.items()
+        if any(status in (PUBLISHED, MISSING_FINAL) for status, _ in rows)
+    }
+    first_known = min(attempts) if attempts else None
 
     slots, out_of_window = gdelt.slots_to_process(latest.slot_ts, first_known, done, max_backfill)
     if out_of_window:
@@ -151,16 +173,18 @@ def run_cycle(
             "%d créneau(x) non traité(s) au-delà de la fenêtre de rattrapage (%d créneaux)",
             out_of_window, max_backfill,
         )
-    if not slots:
-        log.info("rien à faire : créneau %s déjà traité", latest.slot_ts.isoformat())
-
     results = []
     for slot in slots:
+        misses = sorted(at for status, at in attempts.get(slot, []) if status == MISSING)
+        if misses and now() - misses[-1] < RETRY_SPACING:
+            continue  # 404 trop récent : on réessaiera au prochain quart d'heure
         # MD5 et taille ne sont connus que pour le créneau de lastupdate.txt.
         file = latest if slot == latest.slot_ts else gdelt.export_file_for_slot(slot)
-        entry = process_slot(file, fetch, store, publisher, now)
+        entry = process_slot(file, fetch, store, publisher, now, previous_misses=len(misses))
         manifest.record(entry)
         results.append(SlotResult(slot, entry.status, entry.record_count or 0))
+    if not results:
+        log.info("rien à faire : créneau %s déjà traité", latest.slot_ts.isoformat())
     return results
 
 

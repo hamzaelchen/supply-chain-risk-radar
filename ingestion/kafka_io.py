@@ -32,28 +32,29 @@ TOPIC_CONFIG = {
 }
 
 
-def ensure_topic(bootstrap: str) -> bool:
+def ensure_topic(bootstrap: str, topic: str = TOPIC) -> bool:
     """Crée le topic s'il n'existe pas. Rend True s'il vient d'être créé."""
     admin = AdminClient({"bootstrap.servers": bootstrap})
     existing = admin.list_topics(timeout=15).topics
-    if TOPIC in existing:
-        partitions = len(existing[TOPIC].partitions)
+    if topic in existing:
+        partitions = len(existing[topic].partitions)
         if partitions != PARTITIONS:
-            log.warning("topic %s : %d partitions, %d attendues", TOPIC, partitions, PARTITIONS)
+            log.warning("topic %s : %d partitions, %d attendues", topic, partitions, PARTITIONS)
         return False
-    topic = NewTopic(
-        TOPIC,
+    new_topic = NewTopic(
+        topic,
         num_partitions=PARTITIONS,
         replication_factor=REPLICATION_FACTOR,
         config=TOPIC_CONFIG,
     )
-    admin.create_topics([topic])[TOPIC].result(timeout=30)
-    log.info("topic %s créé (%d partitions, rétention 7 jours)", TOPIC, PARTITIONS)
+    admin.create_topics([new_topic])[topic].result(timeout=30)
+    log.info("topic %s créé (%d partitions, rétention 7 jours)", topic, PARTITIONS)
     return True
 
 
 class EventPublisher:
-    def __init__(self, bootstrap: str):
+    def __init__(self, bootstrap: str, topic: str = TOPIC):
+        self._topic = topic
         self._producer = Producer(
             {
                 "bootstrap.servers": bootstrap,
@@ -79,7 +80,7 @@ class EventPublisher:
             while True:
                 try:
                     self._producer.produce(
-                        TOPIC, key=key, value=value, headers=kafka_headers, on_delivery=on_delivery
+                        self._topic, key=key, value=value, headers=kafka_headers, on_delivery=on_delivery
                     )
                     break
                 except BufferError:

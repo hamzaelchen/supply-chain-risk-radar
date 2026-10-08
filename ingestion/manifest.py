@@ -18,7 +18,8 @@ NAMESPACE = "bronze"
 TABLE = f"{NAMESPACE}.ingestion_manifest"
 
 PUBLISHED = "published"  # zip archivé et événements envoyés à Kafka
-MISSING = "missing"  # créneau absent chez GDELT (404) : définitif, non retenté
+MISSING = "missing"  # absent chez GDELT (404) : provisoire, retenté
+MISSING_FINAL = "missing_final"  # toujours absent après les nouvelles tentatives : définitif
 FAILED = "failed"  # erreur (réseau, MD5...) : retenté au cycle suivant
 
 _TS = pa.timestamp("us", tz="UTC")
@@ -73,17 +74,20 @@ class IcebergManifest:
         self._catalog.create_namespace_if_not_exists(NAMESPACE)
         self._table = self._catalog.create_table_if_not_exists(TABLE, schema=SCHEMA)
 
-    def statuses(self, source: str) -> dict[datetime, set[str]]:
-        """Tous les statuts enregistrés par créneau pour une source."""
+    def attempts(self, source: str) -> dict[datetime, list[tuple[str, datetime]]]:
+        """Par créneau, toutes les tentatives enregistrées : (statut, fetched_at)."""
         rows = (
             self._table.refresh()
-            .scan(row_filter=EqualTo("source", source), selected_fields=("slot_ts", "status"))
+            .scan(
+                row_filter=EqualTo("source", source),
+                selected_fields=("slot_ts", "status", "fetched_at"),
+            )
             .to_arrow()
             .to_pylist()
         )
-        result: dict[datetime, set[str]] = {}
+        result: dict[datetime, list[tuple[str, datetime]]] = {}
         for row in rows:
-            result.setdefault(row["slot_ts"], set()).add(row["status"])
+            result.setdefault(row["slot_ts"], []).append((row["status"], row["fetched_at"]))
         return result
 
     def record(self, entry: ManifestEntry) -> None:

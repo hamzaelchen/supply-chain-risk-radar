@@ -1,11 +1,12 @@
 """Logique du cycle, avec des doublures à la place de GDELT, MinIO, Kafka et Iceberg."""
 
-from datetime import UTC, datetime
+from dataclasses import replace
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from ingestion import gdelt
-from ingestion.gdelt_producer import SOURCE, SlotNotFound, run_cycle
-from ingestion.manifest import FAILED, MISSING, PUBLISHED
+from ingestion.gdelt_producer import MISSING_RETRIES, SOURCE, SlotNotFound, run_cycle
+from ingestion.manifest import FAILED, MISSING, MISSING_FINAL, PUBLISHED
 
 FIXTURES = Path(__file__).parent / "fixtures" / "gdelt"
 LASTUPDATE = (FIXTURES / "lastupdate.txt").read_bytes()
@@ -26,11 +27,11 @@ class FakeManifest:
     def __init__(self, entries=()):
         self.entries = list(entries)
 
-    def statuses(self, source):
+    def attempts(self, source):
         result = {}
         for e in self.entries:
             if e.source == source:
-                result.setdefault(e.slot_ts, set()).add(e.status)
+                result.setdefault(e.slot_ts, []).append((e.status, e.fetched_at))
         return result
 
     def record(self, entry):
@@ -68,11 +69,19 @@ def fetcher(pages: dict[str, bytes]):
     return fetch
 
 
-def cycle(pages, manifest, store=None, publisher=None, **kwargs):
+def cycle(pages, manifest, store=None, publisher=None, now=NOW, **kwargs):
     store = store or FakeStore()
     publisher = publisher or FakePublisher()
-    results = run_cycle(fetcher(pages), manifest, store, publisher, now=lambda: NOW, **kwargs)
+    results = run_cycle(fetcher(pages), manifest, store, publisher, now=lambda: now, **kwargs)
     return results, store, publisher
+
+
+def manifest_with_gap():
+    """Manifeste qui connaît le créneau -2 : le créneau -1 est donc attendu."""
+    manifest = FakeManifest()
+    cycle(PAGES, manifest)
+    manifest.entries[0] = replace(manifest.entries[0], slot_ts=slot(-2), source_url=url(-2))
+    return manifest
 
 
 PAGES = {gdelt.LASTUPDATE_URL: LASTUPDATE, url(0): ZIP}
@@ -114,12 +123,7 @@ def test_second_cycle_on_same_slot_is_a_no_op():
 
 
 def test_missing_slot_is_logged_recorded_and_does_not_stop_the_cycle(caplog):
-    # Le manifeste connaît le créneau -2 ; le créneau -1 n'existe pas chez GDELT.
-    manifest = FakeManifest()
-    cycle({**PAGES, gdelt.LASTUPDATE_URL: LASTUPDATE}, manifest)
-    manifest.entries[0] = manifest.entries[0].__class__(
-        **{**manifest.entries[0].__dict__, "slot_ts": slot(-2), "source_url": url(-2)}
-    )
+    manifest = manifest_with_gap()
 
     with caplog.at_level("WARNING"):
         results, _, publisher = cycle(PAGES, manifest)
@@ -128,8 +132,44 @@ def test_missing_slot_is_logged_recorded_and_does_not_stop_the_cycle(caplog):
     assert len(publisher.messages) == 1775
     assert "absent chez GDELT" in caplog.text
 
-    # Un créneau absent est définitif : il n'est pas retenté.
-    results, _, _ = cycle(PAGES, manifest)
+
+def test_missing_slot_is_not_retried_before_fifteen_minutes():
+    manifest = manifest_with_gap()
+    cycle(PAGES, manifest)
+
+    results, _, _ = cycle(PAGES, manifest, now=NOW + timedelta(minutes=14))
+    assert results == []
+
+
+def test_missing_slot_is_retried_for_one_hour_then_becomes_final():
+    manifest = manifest_with_gap()
+    cycle(PAGES, manifest)  # premier 404
+
+    statuses = []
+    for n in range(1, MISSING_RETRIES + 1):
+        results, _, _ = cycle(PAGES, manifest, now=NOW + n * gdelt.SLOT)
+        statuses.append([(r.slot_ts, r.status) for r in results])
+
+    assert MISSING_RETRIES == 4
+    assert statuses == [[(slot(-1), MISSING)]] * 3 + [[(slot(-1), MISSING_FINAL)]]
+    history = [e.status for e in manifest.entries if e.slot_ts == slot(-1)]
+    assert history == [MISSING] * 4 + [MISSING_FINAL]
+
+    # Définitif : plus aucune tentative, même bien plus tard.
+    results, _, _ = cycle(PAGES, manifest, now=NOW + timedelta(days=1) - gdelt.SLOT)
+    assert results == []
+
+
+def test_missing_slot_published_late_by_gdelt_is_recovered_on_retry():
+    manifest = manifest_with_gap()
+    cycle(PAGES, manifest)  # premier 404
+
+    late = {**PAGES, url(-1): ZIP}
+    results, _, publisher = cycle(late, manifest, now=NOW + gdelt.SLOT)
+
+    assert [(r.slot_ts, r.status) for r in results] == [(slot(-1), PUBLISHED)]
+    assert len(publisher.messages) == 1775
+    results, _, _ = cycle(late, manifest, now=NOW + 2 * gdelt.SLOT)
     assert results == []
 
 
@@ -158,11 +198,7 @@ def test_kafka_failure_is_recorded_as_failed_and_retried():
 
 
 def test_backfilled_slot_has_no_md5_to_verify():
-    manifest = FakeManifest()
-    cycle(PAGES, manifest)
-    manifest.entries[0] = manifest.entries[0].__class__(
-        **{**manifest.entries[0].__dict__, "slot_ts": slot(-2), "source_url": url(-2)}
-    )
+    manifest = manifest_with_gap()
     cycle({**PAGES, url(-1): ZIP}, manifest)
 
     backfilled = next(e for e in manifest.entries if e.slot_ts == slot(-1))

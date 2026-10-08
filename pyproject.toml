@@ -22,6 +22,10 @@ packages = []
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
+markers = [
+    "spark: démarre une JVM Spark locale",
+    "integration: nécessite l'infra locale (make up)",
+]
 addopts = "-ra"
 
 [tool.ruff]

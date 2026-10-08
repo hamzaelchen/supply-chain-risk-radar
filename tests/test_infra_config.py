@@ -20,7 +20,20 @@ def test_iceberg_runtime_matches_spark_minor_version():
 
 
 def test_all_iceberg_packages_share_one_version():
-    assert all(p.endswith(f":{ICEBERG_VERSION}") for p in SPARK_PACKAGES)
+    iceberg = [p for p in SPARK_PACKAGES if p.startswith("org.apache.iceberg:")]
+    assert len(iceberg) == 2
+    assert all(p.endswith(f":{ICEBERG_VERSION}") for p in iceberg)
+
+
+def test_kafka_connector_has_exactly_the_spark_version():
+    assert f"org.apache.spark:spark-sql-kafka-0-10_2.13:{SPARK_VERSION}" in SPARK_PACKAGES
+
+
+def test_aws_sdk_bundle_is_excluded_and_s3a_points_to_minio():
+    conf = iceberg_spark_conf(env={})
+    assert conf["spark.jars.excludes"] == "software.amazon.awssdk:bundle"
+    assert conf["spark.hadoop.fs.s3a.endpoint"] == conf[f"{PREFIX}.s3.endpoint"]
+    assert conf["spark.hadoop.fs.s3a.path.style.access"] == "true"
 
 
 def test_pyspark_pin_matches_spark_version():
