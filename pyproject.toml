@@ -5,6 +5,9 @@ description = "Radar de risque supply chain : GDELT + IMF PortWatch -> lakehouse
 requires-python = ">=3.11,<3.12"
 dependencies = [
     "pyspark==4.1.1",
+    "pyiceberg[pyarrow]>=0.12,<0.13",
+    "confluent-kafka>=2.10,<3",
+    "boto3>=1.40,<2",
 ]
 
 [project.optional-dependencies]

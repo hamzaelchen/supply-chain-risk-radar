@@ -2,7 +2,7 @@
 
 Radar de risque supply chain : ingestion GDELT 2.0 et IMF PortWatch dans un lakehouse Apache Iceberg (bronze/silver/gold), classification LLM, score de risque 0-100 pour 100 fournisseurs d'une « Entreprise démo » (portefeuille fictif, graine fixe).
 
-Statut : Phase 0, étape 2 (infra locale : Kafka KRaft, MinIO, catalogue Iceberg REST).
+Statut : Phase 0, étape 3 (producteur GDELT vers Kafka, zip brut dans MinIO, manifeste Iceberg).
 
 ## Démarrage (WSL2 Ubuntu, Python 3.11)
 
@@ -10,6 +10,7 @@ Statut : Phase 0, étape 2 (infra locale : Kafka KRaft, MinIO, catalogue Iceberg
     make test    # pytest
     make up      # Kafka, MinIO, catalogue Iceberg REST (Docker)
     make smoke   # aller-retour Spark -> catalogue REST -> MinIO
+    make produce # un cycle GDELT : zip brut -> MinIO, événements -> topic gdelt.events
     make down    # arrêt (les volumes sont conservés)
 
 Prérequis : Docker, Java 17. Services : Kafka `localhost:19092`, MinIO `localhost:19000` (console `localhost:19001`), catalogue REST `localhost:8181`. Ports et identifiants surchargeables via `.env` (voir [.env.example](.env.example)).

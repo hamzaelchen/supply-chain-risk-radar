@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup test up down ps smoke
+.PHONY: setup test up down ps smoke produce
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -29,3 +29,7 @@ ps:
 # Aller-retour Spark -> catalogue REST -> MinIO (infra démarrée requise)
 smoke:
 	$(BIN)/python -m lakehouse.smoke_test
+
+# Un cycle GDELT : lastupdate.txt -> zip dans MinIO -> topic gdelt.events
+produce:
+	$(BIN)/python -m ingestion.gdelt_producer
