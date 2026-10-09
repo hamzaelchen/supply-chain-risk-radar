@@ -99,6 +99,7 @@ Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
 | `make produce` | Un cycle du producteur GDELT |
 | `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
 | `make ref` | Recharge `silver.ref_chokepoints` et `silver.ref_cities` depuis les CSV de `ref/` |
+| `make backfill ARGS="--range DEBUT:FIN"` | Chargement historique GDELT en lot (sans Kafka), séquentiel avec pause, reprenable ; `--dry-run` pour le plan |
 | `make proximity` | Événements proches des fournisseurs et des détroits (incrémental), voir [docs/geo-join.md](docs/geo-join.md) |
 | `make portfolio` | Charge le portefeuille fictif dans `silver.ref_suppliers` et `silver.ref_supplier_routes` |
 | `make silver` | bronze -> `silver.gdelt_events` : typage, quarantaine, dédoublonnage, lecture incrémentale |
