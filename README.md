@@ -10,7 +10,7 @@ Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événe
 |---|---|---|
 | 0 — Fondations locales | Infra Docker, producteur GDELT, streaming vers bronze | **Terminée** |
 | 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, référentiel des détroits | **Terminée** : `silver.gdelt_events`, `silver.ref_chokepoints` |
-| 2 — Portefeuille et gold | 100 fournisseurs fictifs, jointure géographique, dbt, score de risque | En cours : étape 1 (portefeuille) faite |
+| 2 — Portefeuille et gold | 100 fournisseurs fictifs, jointure géographique, dbt, score de risque | En cours : portefeuille et jointure géographique faits, score à venir |
 | 3 — Classification LLM | Taxonomie d'événements, évaluation, coûts | À venir |
 | 4 — Orchestration | Dagster, planification, maintenance des tables | À venir |
 | 5 — Live-lite | Export Parquet, GitHub Actions, site React + DuckDB-WASM | À venir |
@@ -99,6 +99,7 @@ Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
 | `make produce` | Un cycle du producteur GDELT |
 | `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
 | `make ref` | Recharge `silver.ref_chokepoints` et `silver.ref_cities` depuis les CSV de `ref/` |
+| `make proximity` | Événements proches des fournisseurs et des détroits (incrémental), voir [docs/geo-join.md](docs/geo-join.md) |
 | `make portfolio` | Charge le portefeuille fictif dans `silver.ref_suppliers` et `silver.ref_supplier_routes` |
 | `make silver` | bronze -> `silver.gdelt_events` : typage, quarantaine, dédoublonnage, lecture incrémentale |
 | `make test` | Tests sans infra (environ 25 s, une JVM Spark locale démarre) |

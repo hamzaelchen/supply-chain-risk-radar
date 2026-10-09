@@ -246,14 +246,14 @@ def ensure_tables(spark: SparkSession, silver: str = SILVER, quarantine: str = Q
     ddl(quarantine, QUARANTINE_COLUMNS, "days(quarantined_at)")
 
 
-def read_cursor(spark: SparkSession, table: str) -> int | None:
+def read_cursor(spark: SparkSession, table: str, prop: str = CURSOR_PROPERTY) -> int | None:
     props = {r.key: r.value for r in spark.sql(f"SHOW TBLPROPERTIES {table}").collect()}
-    value = props.get(CURSOR_PROPERTY)
+    value = props.get(prop)
     return int(value) if value is not None else None
 
 
-def write_cursor(spark: SparkSession, table: str, micros: int) -> None:
-    spark.sql(f"ALTER TABLE {table} SET TBLPROPERTIES ('{CURSOR_PROPERTY}' = '{micros}')")
+def write_cursor(spark: SparkSession, table: str, micros: int, prop: str = CURSOR_PROPERTY) -> None:
+    spark.sql(f"ALTER TABLE {table} SET TBLPROPERTIES ('{prop}' = '{micros}')")
 
 
 @dataclass

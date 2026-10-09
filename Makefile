@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -59,3 +59,7 @@ ref:
 # silver.ref_suppliers et silver.ref_supplier_routes : portefeuille FICTIF depuis portfolio/*.csv
 portfolio:
 	$(BIN)/python -m portfolio.generate load
+
+# silver.event_supplier_proximity et silver.event_chokepoint_proximity : événements proches (incrémental)
+proximity:
+	$(BIN)/python -m silver.proximity
