@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "is_sample": true,
-  "sample_notice": "Portefeuille fictif et événements GDELT réels d'un seul lot de 15 minutes (fixture du dépôt), mais le score est une formule d'illustration, pas le score v1.",
-  "generated_at": "2026-10-09T14:43:36Z",
+  "sample_notice": "Portefeuille fictif et événements GDELT réels d'un seul lot de 15 minutes (fixture du dépôt), mais le score et ses composantes sont une illustration, pas le score v1.",
+  "generated_at": "2026-10-09T14:48:15Z",
   "window_start": "2026-10-08T17:11:00Z",
   "window_end": "2026-10-08T17:11:00Z",
   "latest_fetched_at": "2026-10-08T17:11:00Z",
@@ -11,32 +11,47 @@
   "score_version": "exemple-0",
   "risk_levels": [
     {
-      "id": "low",
+      "id": "surveillance",
       "alert": false,
-      "label_fr": "Faible",
+      "label_fr": "Surveillance",
       "min": 0,
-      "max": 25
+      "max": 40
     },
     {
-      "id": "medium",
-      "alert": false,
-      "label_fr": "Modéré",
-      "min": 25,
-      "max": 50
-    },
-    {
-      "id": "high",
+      "id": "alerte",
       "alert": true,
-      "label_fr": "Élevé",
-      "min": 50,
-      "max": 75
+      "label_fr": "Alerte",
+      "min": 40,
+      "max": 70
     },
     {
-      "id": "critical",
+      "id": "critique",
       "alert": true,
       "label_fr": "Critique",
-      "min": 75,
+      "min": 70,
       "max": 100
+    }
+  ],
+  "components": [
+    {
+      "id": "component_e",
+      "label_fr": "Composante E",
+      "description_fr": "EXEMPLE : volume d'événements près de la ville (illustration)."
+    },
+    {
+      "id": "component_t",
+      "label_fr": "Composante T",
+      "description_fr": "EXEMPLE : ton négatif moyen des événements (illustration)."
+    },
+    {
+      "id": "component_r",
+      "label_fr": "Composante R",
+      "description_fr": "EXEMPLE : événements près de la route, hors ceux déjà comptés près de la ville (illustration)."
+    },
+    {
+      "id": "criticality",
+      "label_fr": "Criticité",
+      "description_fr": "EXEMPLE : fournisseur unique et part des achats (illustration)."
     }
   ],
   "portfolio_label": "FICTIF - Entreprise démo"

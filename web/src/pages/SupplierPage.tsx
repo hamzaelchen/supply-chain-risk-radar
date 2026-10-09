@@ -71,8 +71,12 @@ export function SupplierPage({ data }: { data: Dataset }) {
             </dd>
           </dl>
           <h2>Composantes du score</h2>
+          {meta.components.map((c) => (
+            <Bar key={c.id} label={c.label_fr} hint={c.description_fr} value={s[c.id]} />
+          ))}
+          <h2>Origine des événements</h2>
           <Bar label={`Ville (${s.events_local} événement(s))`} value={s.score_local} />
-          <Bar label={`Route (${s.events_route} événement(s))`} value={s.score_route} />
+          <Bar label={`Route, hors événements déjà comptés près de la ville (${s.events_route})`} value={s.score_route} />
           <p className="muted">Version du score : {meta.score_version}.{meta.is_sample && " Formule d'illustration, pas le score v1."}</p>
           {s.top_driver && <p>{s.top_driver}</p>}
         </section>
@@ -104,10 +108,11 @@ export function SupplierPage({ data }: { data: Dataset }) {
   );
 }
 
-function Bar({ label, value }: { label: string; value: number }) {
+function Bar({ label, value, hint }: { label: string; value: number; hint?: string }) {
   return (
     <div className="bar">
-      <div className="bar__label"><span>{label}</span><b>{formatNumber(value, 1)}</b></div>
+      <div className="bar__label" title={hint}><span>{label}</span><b>{formatNumber(value, 1)}</b></div>
+      {hint && <div className="muted bar__hint">{hint}</div>}
       <div className="bar__track"><div className="bar__fill" style={{ width: `${Math.min(100, Math.max(0, value))}%` }} /></div>
     </div>
   );

@@ -4,11 +4,12 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node scripts/fetch-duckdb-ext.mjs && vite",
+    "build": "node scripts/fetch-duckdb-ext.mjs && tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "typecheck": "tsc -b --noEmit"
+    "typecheck": "tsc -b --noEmit",
+    "fetch-ext": "node scripts/fetch-duckdb-ext.mjs"
   },
   "dependencies": {
     "@duckdb/duckdb-wasm": "^1.32.0",

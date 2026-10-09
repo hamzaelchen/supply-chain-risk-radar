@@ -6,6 +6,12 @@ export interface RiskLevel {
   alert: boolean;
 }
 
+export interface ScoreComponent {
+  id: "component_e" | "component_t" | "component_r" | "criticality";
+  label_fr: string;
+  description_fr: string;
+}
+
 export interface Meta {
   schema_version: number;
   is_sample: boolean;
@@ -18,6 +24,7 @@ export interface Meta {
   events_total: number;
   score_version: string;
   risk_levels: RiskLevel[];
+  components: ScoreComponent[];
   portfolio_label: string;
 }
 
@@ -37,6 +44,10 @@ export interface SupplierScore {
   label: string;
   risk_score: number;
   risk_level: string;
+  component_e: number;
+  component_t: number;
+  component_r: number;
+  criticality: number;
   score_local: number;
   score_route: number;
   events_local: number;

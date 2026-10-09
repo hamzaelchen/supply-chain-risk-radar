@@ -31,7 +31,8 @@ Parquet : compression zstd ou snappy, horodatages en `TIMESTAMP` UTC, pas de typ
 | `gdelt_batches` | entier | Nombre de lots GDELT (15 min) couverts. |
 | `events_total` | entier | Événements GDELT lus pour calculer ces scores (avant jointure). |
 | `score_version` | texte | Ex. `v1`. En exemple : `exemple-0`. |
-| `risk_levels` | liste | `[{id, label_fr, min, max, alert}]` (`alert` : booléen, ce niveau est listé comme alerte), bornes du score par niveau (*à valider*, voir plus bas). Le site ne code **aucun** seuil en dur : il lit celui-ci. |
+| `risk_levels` | liste | `[{id, label_fr, min, max, alert}]`, voir « Niveaux de risque ». Le site ne code **aucun** seuil en dur : il lit celui-ci. |
+| `components` | liste | Exactement 4 entrées `{id, label_fr, description_fr}` pour `component_e`, `component_t`, `component_r`, `criticality`. Le backend est seul à dire ce que chacune mesure ; le site affiche ces libellés et ne les interprète pas. |
 | `portfolio_label` | texte | `FICTIF - Entreprise démo` (étiquette du portefeuille). |
 
 ## `supplier_scores.parquet`
@@ -47,13 +48,17 @@ Parquet : compression zstd ou snappy, horodatages en `TIMESTAMP` UTC, pas de typ
 | `label` | VARCHAR | `FICTIF - Entreprise démo`, sur toutes les lignes |
 | `risk_score` | DOUBLE | 0 à 100. NULL interdit : un fournisseur sans événement a un score, pas un NULL. |
 | `risk_level` | VARCHAR | Identifiant d'un niveau de `meta.risk_levels`. |
+| `component_e` | DOUBLE | Composante E du score, 0-100 (sens : `meta.components`) |
+| `component_t` | DOUBLE | Composante T, 0-100 |
+| `component_r` | DOUBLE | Composante R, 0-100. **Ne recompte pas** les événements déjà comptés près de la ville (voir « Anti double comptage »). |
+| `criticality` | DOUBLE | Criticité du fournisseur, 0-100 |
 | `score_local` | DOUBLE | Composante « événements près de la ville » (0-100) |
 | `score_route` | DOUBLE | Composante « événements près des détroits de la route » (0-100) |
 | `events_local` | INTEGER | Événements récents à 150 km (fenêtre temporelle appliquée) |
 | `events_route` | INTEGER | Événements récents dans le rayon d'un détroit **de la route** |
 | `top_driver` | VARCHAR \| NULL | Phrase française produite par le backend qui dit pourquoi ce score (ex. « 3 événements près du détroit d'Ormuz »). NULL si aucun événement. Le site n'écrit jamais cette phrase lui-même. |
 
-Les deux composantes sont celles de la formule `risk_score` ; la façon de les combiner (pondération, criticité, normalisation par la couverture médiatique de la ville) est la décision du backend, le site n'en a pas besoin pour afficher. *À valider* : si le score v1 n'a pas cette décomposition en deux, la page détail n'affichera que `risk_score`.
+Les quatre composantes (`component_e`, `component_t`, `component_r`, `criticality`) sont celles de la formule `risk_score` ; leur combinaison (pondération, normalisation par la couverture médiatique de la ville) est la décision du backend, le site ne la recalcule pas. `score_local` et `score_route` sont une lecture complémentaire (origine géographique des événements : ville ou route), affichée à part.
 
 ## `supplier_events.parquet`
 
@@ -81,6 +86,16 @@ Un événement explique le score d'un fournisseur par **un lien** : la ville du 
 | `contribution` | DOUBLE | Points de score apportés. Optionnel (NULL accepté) : le site trie alors par `num_mentions`. |
 | `llm_category`, `llm_summary` | VARCHAR \| NULL | **Phase 3.** NULL tant que la classification n'existe pas ; le site n'affiche rien à leur place (pas de « inconnu » inventé). |
 
+### Anti double comptage (décision du 2026-10-09)
+
+Un événement compté près de la ville d'un fournisseur n'est **pas recompté** dans la composante R de ce même fournisseur. Conséquences pour l'export :
+
+- pour un fournisseur donné, un `global_event_id` ayant une ligne `link_type = 'city'` n'a **aucune** ligne `link_type = 'chokepoint'` ;
+- clé unique : (`supplier_id`, `global_event_id`, `link_type`, `chokepoint_id`) ;
+- `events_route` ne compte que les événements de ces lignes `chokepoint`.
+
+Le même événement peut en revanche apparaître pour plusieurs fournisseurs.
+
 Les événements d'une fenêtre unique : le backend n'exporte que les événements récents au sens de `silver/recency.py`.
 
 ## `chokepoint_scores.parquet`
@@ -101,9 +116,9 @@ Les événements d'une fenêtre unique : le backend n'exporte que les événemen
 
 `supplier_id`, `position` (1 = le plus proche de l'origine), `chokepoint_id`.
 
-## Niveaux de risque (*à valider*)
+## Niveaux de risque (décision du 2026-10-09)
 
-Proposition pour le fichier d'exemple uniquement : `low` [0, 25[, `medium` [25, 50[, `high` [50, 75[, `critical` [75, 100]. Le vrai score peut être très concentré sur le bas (le nombre d'événements est très inégal d'une ville à l'autre) ; les bornes se fixent sur la distribution réelle, pas ici.
+Trois niveaux, `risk_levels` dans `meta.json` : `surveillance` (score < 40), `alerte` (40 à 70 inclus), `critique` (> 70). `alert = true` pour `alerte` et `critique` : ce sont ces fournisseurs que la liste des alertes affiche. Les bornes `min` / `max` de `meta.json` sont `0/40`, `40/70`, `70/100` ; le backend assigne `risk_level` (le site ne le recalcule pas), avec 40 et 70 compris dans `alerte`.
 
 ## Règles que le site applique
 

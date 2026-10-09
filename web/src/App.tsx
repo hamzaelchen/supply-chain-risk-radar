@@ -8,8 +8,14 @@ export function App() {
   const state = useDataState();
   return (
     <>
-      <Banner meta={state.status === "ready" ? state.data.meta : null} />
-      {state.status === "loading" && <p className="page muted" role="status">Chargement des données…</p>}
+      <Banner meta={state.status === "loading" ? null : state.meta} />
+      {state.status === "loading" && <p className="page muted" role="status">Chargement…</p>}
+      {state.status === "engine" && (
+        <main className="page" role="status">
+          <h1>Radar de risque supply chain</h1>
+          <p className="muted">Chargement du moteur de requêtes (DuckDB-WASM, environ 8 Mo la première fois) puis des données…</p>
+        </main>
+      )}
       {state.status === "error" && (
         <main className="page" role="alert">
           <h1>Données inutilisables</h1>

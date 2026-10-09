@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { SupplierScore } from "../data/types";
-import { groupByCity, levelOf, radiusCircle } from "./geo";
+import { groupByCity, radiusCircle } from "./geo";
 
 const mk = (id: string, lat: number, lon: number, score: number) =>
   ({ supplier_id: id, city: "X", country: "Y", lat, lon, risk_score: score }) as SupplierScore;
@@ -11,16 +11,6 @@ describe("groupByCity", () => {
     expect(g).toHaveLength(2);
     const city = g.find((x) => x.suppliers.length === 2)!;
     expect(city.worst.supplier_id).toBe("S2");
-  });
-});
-
-describe("levelOf", () => {
-  const levels = [{ id: "low", max: 50 }, { id: "high", max: 100 }];
-  it("choisit le niveau par borne haute", () => {
-    expect(levelOf(10, levels)).toBe("low");
-    expect(levelOf(50, levels)).toBe("high");
-    expect(levelOf(100, levels)).toBe("high");
-    expect(levelOf(null, levels)).toBeNull();
   });
 });
 

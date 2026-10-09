@@ -37,16 +37,22 @@ CITY_RADIUS_KM = 150.0  # docs/geo-join.md
 PRECISE_GEO_TYPES = {"3", "4"}  # villes seulement, pas les centroïdes
 RECENT_GAP_DAYS = (-1, 2)  # silver/recency.py
 
-# Illustration seulement. Voir SAMPLE_NOTICE.
+# Niveaux décidés le 2026-10-09 : < 40 surveillance, 40-70 alerte (70 inclus), > 70 critique.
 LEVELS = [
-    {"id": "low", "alert": False, "label_fr": "Faible", "min": 0, "max": 25},
-    {"id": "medium", "alert": False, "label_fr": "Modéré", "min": 25, "max": 50},
-    {"id": "high", "alert": True, "label_fr": "Élevé", "min": 50, "max": 75},
-    {"id": "critical", "alert": True, "label_fr": "Critique", "min": 75, "max": 100},
+    {"id": "surveillance", "alert": False, "label_fr": "Surveillance", "min": 0, "max": 40},
+    {"id": "alerte", "alert": True, "label_fr": "Alerte", "min": 40, "max": 70},
+    {"id": "critique", "alert": True, "label_fr": "Critique", "min": 70, "max": 100},
+]
+# Le sens des composantes appartient au backend : ici des libellés neutres.
+COMPONENTS = [
+    {"id": "component_e", "label_fr": "Composante E", "description_fr": "EXEMPLE : volume d'événements près de la ville (illustration)."},
+    {"id": "component_t", "label_fr": "Composante T", "description_fr": "EXEMPLE : ton négatif moyen des événements (illustration)."},
+    {"id": "component_r", "label_fr": "Composante R", "description_fr": "EXEMPLE : événements près de la route, hors ceux déjà comptés près de la ville (illustration)."},
+    {"id": "criticality", "label_fr": "Criticité", "description_fr": "EXEMPLE : fournisseur unique et part des achats (illustration)."},
 ]
 SAMPLE_NOTICE = (
     "Portefeuille fictif et événements GDELT réels d'un seul lot de 15 minutes "
-    "(fixture du dépôt), mais le score est une formule d'illustration, pas le score v1."
+    "(fixture du dépôt), mais le score et ses composantes sont une illustration, pas le score v1."
 )
 
 
@@ -57,10 +63,9 @@ def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
 
 
 def level_of(score: float) -> str:
-    for lv in LEVELS:
-        if score < lv["max"]:
-            return lv["id"]
-    return LEVELS[-1]["id"]
+    if score < 40:
+        return "surveillance"
+    return "alerte" if score <= 70 else "critique"
 
 
 def illustrative_component(n: int) -> float:
@@ -158,6 +163,7 @@ def main() -> None:
             if d <= CITY_RADIUS_KM:
                 event_rows.append(event_row(e, s["supplier_id"], "city", None, d))
                 local_count[s["supplier_id"]] = local_count.get(s["supplier_id"], 0) + 1
+    city_linked = {(r["supplier_id"], r["global_event_id"]) for r in event_rows}
     for c in chokepoints:
         clat, clon, rad = float(c["lat"]), float(c["lon"]), float(c["radius_km"])
         for e in events:
@@ -166,16 +172,29 @@ def main() -> None:
                 continue
             cp_events[c["chokepoint_id"]] += 1
             for s in suppliers:
-                if c["chokepoint_id"] in route_of.get(s["supplier_id"], []):
-                    event_rows.append(event_row(e, s["supplier_id"], "chokepoint", c["chokepoint_id"], d))
-                    route_count[s["supplier_id"]] = route_count.get(s["supplier_id"], 0) + 1
+                if c["chokepoint_id"] not in route_of.get(s["supplier_id"], []):
+                    continue
+                # Décision du 2026-10-09 : un événement déjà compté près de la ville n'est pas recompté.
+                if (s["supplier_id"], int(e["global_event_id"])) in city_linked:
+                    continue
+                event_rows.append(event_row(e, s["supplier_id"], "chokepoint", c["chokepoint_id"], d))
+                route_count[s["supplier_id"]] = route_count.get(s["supplier_id"], 0) + 1
+
+    own_events: dict[str, list[dict]] = {}
+    for r in event_rows:
+        own_events.setdefault(r["supplier_id"], []).append(r)
 
     score_rows = []
     for s in suppliers:
         sid = s["supplier_id"]
         nl, nr = local_count.get(sid, 0), route_count.get(sid, 0)
         sl, sr = illustrative_component(nl), illustrative_component(nr)
-        score = round(min(100.0, 0.5 * sl + 0.5 * sr), 1)
+        tones = [e["avg_tone"] for e in own_events.get(sid, []) if e["avg_tone"] is not None]
+        comp_t = round(min(100.0, max(0.0, -10 * sum(tones) / len(tones))), 1) if tones else 0.0
+        crit = round(min(100.0, (50.0 if s["sole_source"] == "true" else 0.0) + 7.5 * float(s["purchase_share_pct"])), 1)
+        comp_e, comp_r = sl, sr
+        # Formule d'illustration, pas le score v1.
+        score = round(min(100.0, 0.35 * comp_e + 0.25 * comp_t + 0.25 * comp_r + 0.15 * crit), 1)
         names = sorted({cp_by_id[x]["name_fr"] for x in route_of.get(sid, []) if any(
             r["supplier_id"] == sid and r["chokepoint_id"] == x for r in event_rows)})
         parts = []
@@ -189,6 +208,7 @@ def main() -> None:
             "iso2": s["iso2"], "region": s["region"], "lat": float(s["lat"]), "lon": float(s["lon"]),
             "sole_source": s["sole_source"] == "true", "purchase_share_pct": float(s["purchase_share_pct"]),
             "label": s["label"], "risk_score": score, "risk_level": level_of(score),
+            "component_e": comp_e, "component_t": comp_t, "component_r": comp_r, "criticality": crit,
             "score_local": sl, "score_route": sr, "events_local": nl, "events_route": nr,
             "top_driver": "; ".join(parts) or None,
         })
@@ -234,6 +254,7 @@ def main() -> None:
         "events_total": total_lines,
         "score_version": "exemple-0",
         "risk_levels": LEVELS,
+        "components": COMPONENTS,
         "portfolio_label": "FICTIF - Entreprise démo",
     }
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

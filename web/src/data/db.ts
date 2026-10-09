@@ -4,10 +4,9 @@ import ehWorker from "@duckdb/duckdb-wasm/dist/duckdb-browser-eh.worker.js?url";
 import duckdbMvpWasm from "@duckdb/duckdb-wasm/dist/duckdb-mvp.wasm?url";
 import mvpWorker from "@duckdb/duckdb-wasm/dist/duckdb-browser-mvp.worker.js?url";
 
-import { ContractError, REQUIRED_COLUMNS, missingColumns, validateMeta } from "./contract";
+import { ContractError, REQUIRED_COLUMNS, missingColumns } from "./contract";
+import { dataUrl } from "./meta";
 import type { Dataset, Meta, SupplierEvent } from "./types";
-
-const dataUrl = (file: string) => new URL(`${import.meta.env.BASE_URL}data/${file}`, window.location.href).href;
 
 async function startDuckDB(): Promise<duckdb.AsyncDuckDB> {
   // Les binaires WASM sont servis par le site lui-même (aucun CDN).
@@ -33,14 +32,12 @@ function plain(row: Record<string, unknown>): Record<string, unknown> {
 const isoDate = (ms: unknown) => (typeof ms === "number" ? new Date(ms).toISOString().slice(0, 10) : String(ms));
 const isoTs = (ms: unknown) => (typeof ms === "number" ? new Date(ms).toISOString() : String(ms));
 
-export async function loadDataset(): Promise<Dataset> {
-  const metaRes = await fetch(dataUrl("meta.json"));
-  if (!metaRes.ok) throw new ContractError(`meta.json introuvable (HTTP ${metaRes.status})`);
-  const meta: unknown = await metaRes.json();
-  validateMeta(meta);
-
+/** Charge DuckDB-WASM (module et binaire téléchargés ici seulement) puis les tables. */
+export async function loadDataset(meta: Meta): Promise<Dataset> {
   const db = await startDuckDB();
   const conn = await db.connect();
+  // Extension Parquet servie par le site (voir scripts/fetch-duckdb-ext.mjs), pas par extensions.duckdb.org.
+  await conn.query(`SET custom_extension_repository='${new URL(`${import.meta.env.BASE_URL}duckdb-ext`, window.location.href).href}'`);
 
   for (const table of Object.keys(REQUIRED_COLUMNS)) {
     const file = `${table}.parquet`;
@@ -86,5 +83,5 @@ export async function loadDataset(): Promise<Dataset> {
     return out;
   }
 
-  return { meta: meta as Meta, suppliers, chokepoints, routes, eventsFor };
+  return { meta, suppliers, chokepoints, routes, eventsFor };
 }

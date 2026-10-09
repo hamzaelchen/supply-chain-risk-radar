@@ -5,7 +5,7 @@ export const REQUIRED_COLUMNS: Record<string, string[]> = {
   supplier_scores: [
     "supplier_id", "name", "category", "category_label", "city", "country", "iso2", "region",
     "lat", "lon", "sole_source", "purchase_share_pct", "label", "risk_score", "risk_level",
-    "score_local", "score_route", "events_local", "events_route", "top_driver",
+    "component_e", "component_t", "component_r", "criticality", "score_local", "score_route", "events_local", "events_route", "top_driver",
   ],
   supplier_events: [
     "supplier_id", "link_type", "chokepoint_id", "distance_km", "global_event_id", "event_date",
@@ -22,7 +22,7 @@ export const REQUIRED_COLUMNS: Record<string, string[]> = {
 
 export const REQUIRED_META_KEYS = [
   "schema_version", "is_sample", "sample_notice", "generated_at", "window_start", "window_end",
-  "latest_fetched_at", "gdelt_batches", "events_total", "score_version", "risk_levels",
+  "latest_fetched_at", "gdelt_batches", "events_total", "score_version", "risk_levels", "components",
   "portfolio_label",
 ] as const;
 
@@ -62,6 +62,16 @@ export function validateMeta(raw: unknown): asserts raw is import("./types").Met
       typeof l.max === "number" && typeof l.alert === "boolean";
     if (!ok) {
       throw new ContractError(`meta.json : risk_levels[${i}] doit avoir id, label_fr, min, max (nombres) et alert (booléen)`);
+    }
+  }
+  const ids = Array.isArray(m.components) ? (m.components as Record<string, unknown>[]).map((c) => c?.id) : [];
+  const expected = ["component_e", "component_t", "component_r", "criticality"];
+  if (ids.length !== 4 || !expected.every((id) => ids.includes(id))) {
+    throw new ContractError(`meta.json : components doit contenir exactement ${expected.join(", ")}`);
+  }
+  for (const [i, c] of (m.components as Record<string, unknown>[]).entries()) {
+    if (typeof c.label_fr !== "string" || typeof c.description_fr !== "string") {
+      throw new ContractError(`meta.json : components[${i}] doit avoir label_fr et description_fr`);
     }
   }
 }

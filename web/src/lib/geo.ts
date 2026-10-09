@@ -34,9 +34,4 @@ export function groupByCity(suppliers: SupplierScore[]): CityGroup[] {
   return [...groups.values()].sort((a, b) => a.worst.risk_score - b.worst.risk_score);
 }
 
-export function levelOf(score: number | null, levels: { id: string; max: number }[]): string | null {
-  if (score === null) return null;
-  return (levels.find((l) => score < l.max) ?? levels[levels.length - 1]).id;
-}
-
 export type { ChokepointScore };
