@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "is_sample": true,
+  "sample_notice": "EXEMPLE : portefeuille fictif et événements GDELT réels d'un seul lot de 15 minutes (fixture du dépôt), mais le score est une formule d'illustration, pas le score v1.",
+  "generated_at": "2026-10-09T14:37:52Z",
+  "window_start": "2026-10-08T17:11:00Z",
+  "window_end": "2026-10-08T17:11:00Z",
+  "latest_fetched_at": "2026-10-08T17:11:00Z",
+  "gdelt_batches": 1,
+  "events_total": 1775,
+  "score_version": "exemple-0",
+  "risk_levels": [
+    {
+      "id": "low",
+      "label_fr": "Faible",
+      "min": 0,
+      "max": 25
+    },
+    {
+      "id": "medium",
+      "label_fr": "Modéré",
+      "min": 25,
+      "max": 50
+    },
+    {
+      "id": "high",
+      "label_fr": "Élevé",
+      "min": 50,
+      "max": 75
+    },
+    {
+      "id": "critical",
+      "label_fr": "Critique",
+      "min": 75,
+      "max": 100
+    }
+  ],
+  "portfolio_label": "FICTIF - Entreprise démo"
+}
