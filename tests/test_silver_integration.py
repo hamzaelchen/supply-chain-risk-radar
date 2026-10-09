@@ -131,3 +131,47 @@ def test_every_bronze_row_is_accounted_for(spark, tables):
     assert stats.rows_read == bronze == 72
     assert stats.valid + stats.quarantined == bronze
     assert count(spark, tables["silver"]) + stats.duplicates_eliminated == stats.valid
+
+
+def micros(moment):
+    return int(moment.timestamp() * 1_000_000)
+
+
+def test_cursor_is_the_newest_ingested_at_actually_read_not_the_clock(spark, tables):
+    append_bronze(spark, tables["bronze"], LINES[:20], T1)
+    append_bronze(spark, tables["bronze"], LINES[20:30], T2)
+
+    run(spark, tables)
+
+    # T1 et T2 sont dans le passé : si le curseur était l'heure d'exécution, il serait bien plus grand.
+    assert silver.read_cursor(spark, tables["silver"]) == micros(T2)
+
+
+def test_a_bronze_batch_committed_while_silver_runs_is_never_skipped(spark, tables, monkeypatch):
+    T3 = datetime(2026, 10, 9, 8, 30, 0, tzinfo=UTC)
+    append_bronze(spark, tables["bronze"], LINES[:20], T1)
+    late_batch = LINES[20:35]
+    real_keep_first_seen = silver.keep_first_seen
+
+    def keep_first_seen_while_streaming_commits(valid):
+        # Le job de streaming commite un nouveau lot au milieu du passage de la silver :
+        # après la lecture de la fenêtre, avant la mise à jour du curseur.
+        append_bronze(spark, tables["bronze"], late_batch, T3)
+        return real_keep_first_seen(valid)
+
+    monkeypatch.setattr(silver, "keep_first_seen", keep_first_seen_while_streaming_commits)
+    first = run(spark, tables)
+    monkeypatch.undo()
+
+    assert first.rows_read == 20 and count(spark, tables["bronze"]) == 35
+    assert silver.read_cursor(spark, tables["silver"]) == micros(T1)  # pas T3, pas l'heure
+    second = run(spark, tables)
+    # Le lot tardif est relu au passage suivant : le curseur n'a jamais dépassé T1. Il peut déjà
+    # être en silver (ici le test écrit dans la même session Spark, qui invalide son cache et
+    # relit le bronze) : le MERGE ne l'insère alors pas une seconde fois. En production, le
+    # streaming est un autre processus et le lot n'arrive qu'à ce second passage.
+    assert second.rows_read == 15
+    assert count(spark, tables["silver"]) == 35
+    ids = spark.table(tables["silver"]).select("global_event_id").distinct().count()
+    assert ids == 35
+    assert silver.read_cursor(spark, tables["silver"]) == micros(T3)
