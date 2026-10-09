@@ -46,92 +46,97 @@ Limites : route fictive et simplifiée (pas de trajet réel) ; villes = centres-
 -- par pays
    14    9.73 % des achats  China (CN)
    12    9.72 % des achats  Morocco (MA)
-   11   10.96 % des achats  Spain (ES)
+    9    9.56 % des achats  Spain (ES)
     8   13.82 % des achats  India (IN)
+    8    6.50 % des achats  United Arab Emirates (AE)
     7    7.01 % des achats  France (FR)
-    7    7.21 % des achats  Turkey (TR)
+    7    5.06 % des achats  Turkey (TR)
     6    7.58 % des achats  Germany (DE)
-    4    2.17 % des achats  Italy (IT)
-    4    4.70 % des achats  United Arab Emirates (AE)
-    3    1.71 % des achats  Saudi Arabia (SA)
+    4    2.73 % des achats  Saudi Arabia (SA)
     2    2.51 % des achats  Belgium (BE)
     2    4.33 % des achats  Brazil (BR)
-    2    1.37 % des achats  Egypt (EG)
+    2    2.43 % des achats  Egypt (EG)
     2    3.25 % des achats  Netherlands (NL)
     2    0.91 % des achats  Poland (PL)
-    2    1.09 % des achats  Romania (RO)
+    2    1.89 % des achats  Romania (RO)
     2    0.82 % des achats  South Korea (KR)
     2    2.33 % des achats  Thailand (TH)
     2    1.09 % des achats  United States (US)
     2    5.61 % des achats  Vietnam (VN)
     1    0.43 % des achats  Chile (CL)
+    1    1.04 % des achats  Italy (IT)
     1    1.10 % des achats  Pakistan (PK)
     1    0.26 % des achats  Singapore (SG)
     1    0.29 % des achats  South Africa (ZA)
 
 -- par catégorie
-   18   21.82 % des achats  Pièces automobiles
-   15   11.38 % des achats  Acier et métaux
-   14   14.02 % des achats  Emballage
-   13   14.57 % des achats  Textile et matières premières
-   11   10.89 % des achats  Produits chimiques
-   10   10.56 % des achats  Agroalimentaire (intrants)
-   10    7.77 % des achats  Machines et équipements
+   19   14.01 % des achats  Acier et métaux
+   17   21.57 % des achats  Pièces automobiles
+   14   15.09 % des achats  Textile et matières premières
+   13   11.87 % des achats  Produits chimiques
+   10   11.37 % des achats  Agroalimentaire (intrants)
     9    8.99 % des achats  Composants électroniques
+    9    9.98 % des achats  Emballage
+    9    7.12 % des achats  Machines et équipements
 
 -- par région d'origine
-   15   12.76 % des achats  EU_MEDITERRANEAN
    12    9.72 % des achats  MA
+   11    8.87 % des achats  PERSIAN_GULF
+   10   10.23 % des achats  EU_MEDITERRANEAN
    10   13.34 % des achats  EU_NORTH_SEA
     9   14.92 % des achats  SOUTH_ASIA
     7    3.73 % des achats  CHINA_NORTH
     7    6.00 % des achats  CHINA_SOUTH
     7    7.38 % des achats  EU_ATLANTIC
-    6    6.25 % des achats  PERSIAN_GULF
     5    8.20 % des achats  SOUTHEAST_ASIA
-    5    4.75 % des achats  TR_MARMARA
+    5    2.53 % des achats  TR_MARMARA
     3    4.83 % des achats  AMERICAS_ATLANTIC
     2    1.02 % des achats  AMERICAS_PACIFIC
-    2    1.09 % des achats  BLACK_SEA
-    2    1.37 % des achats  EGYPT_MEDITERRANEAN
+    2    1.89 % des achats  BLACK_SEA
+    2    2.43 % des achats  EGYPT_MEDITERRANEAN
     2    0.91 % des achats  EU_BALTIC
     2    0.82 % des achats  KOREA
-    2    2.46 % des achats  TR_AEGEAN
-    1    0.16 % des achats  RED_SEA
+    2    2.53 % des achats  TR_AEGEAN
+    1    0.36 % des achats  RED_SEA
     1    0.29 % des achats  SOUTHERN_AFRICA
 
 -- par route (détroits, de l'origine vers Casablanca)
    22   21.93 % des achats  (aucun détroit)
-   19   16.59 % des achats  gibraltar
+   14   15.19 % des achats  gibraltar
    12   14.20 % des achats  malacca > bab_el_mandeb > suez > gibraltar
+   11    8.87 % des achats  hormuz > bab_el_mandeb > suez > gibraltar
    10   13.34 % des achats  dover
     9   14.92 % des achats  bab_el_mandeb > suez > gibraltar
     7    3.73 % des achats  taiwan > malacca > bab_el_mandeb > suez > gibraltar
-    6    6.25 % des achats  hormuz > bab_el_mandeb > suez > gibraltar
-    5    4.75 % des achats  dardanelles > gibraltar
-    2    1.09 % des achats  bosphorus > dardanelles > gibraltar
+    5    2.53 % des achats  dardanelles > gibraltar
+    2    1.89 % des achats  bosphorus > dardanelles > gibraltar
     2    0.82 % des achats  korea > taiwan > malacca > bab_el_mandeb > suez > gibraltar
     2    0.91 % des achats  oresund > dover
     2    1.02 % des achats  panama
     1    0.29 % des achats  cape_of_good_hope
-    1    0.16 % des achats  suez > gibraltar
+    1    0.36 % des achats  suez > gibraltar
 
 -- exposition par détroit (fournisseurs dont la route le traverse)
    63   62.51 % des achats  dont 7 fournisseur(s) unique(s)  gibraltar
-   37   40.08 % des achats  dont 6 fournisseur(s) unique(s)  suez
-   36   39.92 % des achats  dont 6 fournisseur(s) unique(s)  bab_el_mandeb
+   42   42.90 % des achats  dont 6 fournisseur(s) unique(s)  suez
+   41   42.54 % des achats  dont 6 fournisseur(s) unique(s)  bab_el_mandeb
    21   18.75 % des achats  dont 4 fournisseur(s) unique(s)  malacca
    12   14.25 % des achats  dont 0 fournisseur(s) unique(s)  dover
+   11    8.87 % des achats  dont 2 fournisseur(s) unique(s)  hormuz
     9    4.55 % des achats  dont 2 fournisseur(s) unique(s)  taiwan
-    7    5.84 % des achats  dont 0 fournisseur(s) unique(s)  dardanelles
-    6    6.25 % des achats  dont 2 fournisseur(s) unique(s)  hormuz
+    7    4.42 % des achats  dont 0 fournisseur(s) unique(s)  dardanelles
     2    0.91 % des achats  dont 0 fournisseur(s) unique(s)  oresund
     2    0.82 % des achats  dont 0 fournisseur(s) unique(s)  korea
     2    1.02 % des achats  dont 0 fournisseur(s) unique(s)  panama
-    2    1.09 % des achats  dont 0 fournisseur(s) unique(s)  bosphorus
+    2    1.89 % des achats  dont 0 fournisseur(s) unique(s)  bosphorus
     1    0.29 % des achats  dont 0 fournisseur(s) unique(s)  cape_of_good_hope
 
 fournisseurs uniques : 10 (10.33 % des achats)
 plus gros : S084 6.71 %, S020 4.42 %, S049 3.73 %, S081 3.16 %, S094 3.05 %
-
 ```
+
+## Résultats de démo voulus
+
+- **Concentration du risque sur un détroit.** Gibraltar est traversé par 63 fournisseurs sur 100 (62,5 % des achats). C'est voulu et gardé : c'est un résultat de démo, qui découle de la géographie (Casablanca est atlantique, tout ce qui vient de Méditerranée, du Golfe ou d'Asie passe par Gibraltar) et de la règle de routage. Ce n'est pas une mesure du commerce marocain.
+- **Cas Ormuz.** 11 fournisseurs passent par Ormuz (8,87 % des achats), tous de la région « Golfe » (Dubaï, Dammam), surtout des produits chimiques (6 sur 11), dont 2 fournisseurs uniques. Quotas de la région : Golfe 11, Méditerranée européenne 10 (pris sur les 15 initiaux pour garder 100 fournisseurs), même graine.
+

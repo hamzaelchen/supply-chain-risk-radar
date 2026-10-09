@@ -30,7 +30,7 @@ def test_golden_values_catch_an_accidental_change_of_the_generator():
     # À mettre à jour volontairement si le générateur change : c'est tout l'intérêt.
     assert (SUPPLIERS[0]["supplier_id"], SUPPLIERS[0]["name"]) == ("S001", "Feneon Chemicals A.Ş.")
     assert Counter(s["sole_source"] for s in SUPPLIERS)["true"] == 10
-    assert len(ROUTES) == 200
+    assert len(ROUTES) == 215
 
 
 def test_one_hundred_distinct_suppliers_whose_purchase_shares_sum_to_100():
@@ -83,6 +83,18 @@ def test_route_order_makes_geographic_sense():
     assert [r for r, route in REGION_ROUTES.items() if "hormuz" in route] == ["PERSIAN_GULF"]
 
 
+def test_the_hormuz_demo_case_has_enough_suppliers_mostly_chemicals_with_a_few_sole_sources():
+    exposed = [s for s in SUPPLIERS if "hormuz" in route_for(s["region"])]
+    assert 10 <= len(exposed) <= 12
+    assert Counter(s["category"] for s in exposed)["chemicals"] > len(exposed) / 2
+    assert 2 <= sum(s["sole_source"] == "true" for s in exposed) <= 3
+
+
+def test_gibraltar_concentration_is_kept_as_a_demo_result():
+    through = [s for s in SUPPLIERS if "gibraltar" in route_for(s["region"])]
+    assert len(through) == 63
+
+
 def test_summary_mentions_every_country_and_the_fictional_label():
     text = pf.summary(SUPPLIERS, ROUTES)
     assert pf.LABEL in text and "gibraltar" in text
@@ -93,7 +105,7 @@ def test_summary_mentions_every_country_and_the_fictional_label():
 def test_dataframes_are_typed(spark):
     suppliers, routes = pf.to_dataframes(spark, SUPPLIERS, ROUTES)
     types = dict(suppliers.dtypes)
-    assert suppliers.count() == 100 and routes.count() == 200
+    assert suppliers.count() == 100 and routes.count() == 215
     assert types["purchase_share_pct"] == "decimal(5,2)" and types["sole_source"] == "boolean"
     assert dict(routes.dtypes)["position"] == "int"
 
@@ -103,7 +115,7 @@ def test_dataframes_are_typed(spark):
 def test_loading_twice_leaves_one_copy_of_each_row(spark, infra, sandbox):
     name = sandbox.name()
     tables = (f"{sandbox.namespace}.suppliers_{name}", f"{sandbox.namespace}.routes_{name}")
-    assert pf.load(spark, *tables) == (100, 200)
-    assert pf.load(spark, *tables) == (100, 200)
+    assert pf.load(spark, *tables) == (100, 215)
+    assert pf.load(spark, *tables) == (100, 215)
     total = spark.sql(f"SELECT sum(purchase_share_pct) AS s FROM {tables[0]}").first().s
     assert total == Decimal("100.00")
