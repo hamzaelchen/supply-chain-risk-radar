@@ -1,0 +1,2404 @@
+{
+ "wikidata_id": "Q8818",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q8818&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:51:57.816507+00:00",
+   "response": {
+    "entities": {
+     "Q8818": {
+      "pageid": 10148,
+      "ns": 0,
+      "title": "Q8818",
+      "lastrevid": 2531020688,
+      "modified": "2026-08-13T20:49:17Z",
+      "type": "item",
+      "id": "Q8818",
+      "labels": {
+       "it": {
+        "language": "it",
+        "value": "Valencia"
+       },
+       "en": {
+        "language": "en",
+        "value": "Valencia"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Valence"
+       },
+       "es": {
+        "language": "es",
+        "value": "Valencia"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "València"
+       },
+       "af": {
+        "language": "af",
+        "value": "Valencia"
+       },
+       "an": {
+        "language": "an",
+        "value": "Valencia"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "بلنسية"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Valencia"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Valencia"
+       },
+       "az": {
+        "language": "az",
+        "value": "Valensiya"
+       },
+       "be": {
+        "language": "be",
+        "value": "Валенсія"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Валенсия"
+       },
+       "br": {
+        "language": "br",
+        "value": "València"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Valencia"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Valencia"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ڤالێنسیا"
+       },
+       "co": {
+        "language": "co",
+        "value": "Valencia"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Valencie"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Valencia"
+       },
+       "da": {
+        "language": "da",
+        "value": "Valencia"
+       },
+       "de": {
+        "language": "de",
+        "value": "Valencia"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Valencia"
+       },
+       "el": {
+        "language": "el",
+        "value": "Βαλένθια"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Valencia"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Valencia"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Valencio"
+       },
+       "et": {
+        "language": "et",
+        "value": "Valencia"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Valentzia"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Valéncia"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "والنسیا"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Valencia"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "València"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "València"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Valencia"
+       },
+       "he": {
+        "language": "he",
+        "value": "ולנסיה"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Valencia"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Valencia"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Վալենսիա"
+       },
+       "id": {
+        "language": "id",
+        "value": "Valencia"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Valencia"
+       },
+       "io": {
+        "language": "io",
+        "value": "Valencia"
+       },
+       "is": {
+        "language": "is",
+        "value": "València"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "バレンシア"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Valencia"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ვალენსია"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Валенсия"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "발렌시아"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Valensya"
+       },
+       "la": {
+        "language": "la",
+        "value": "Valentia"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Valensia, Espanya"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Valencia"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Valensija"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Valensija"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Valantsa"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Валенсија"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "वालेन्सिया"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Valencia"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Valencia"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Valencia"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Valencia"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Valéncia"
+       },
+       "os": {
+        "language": "os",
+        "value": "Валенси"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Valencia"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Valensyaa"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Walencja"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Valensia"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "ویلنسیہ"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Valência"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Valência"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Valencia"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Valencia"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Валенсия"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Valentzia"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Valencia"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Valencie"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Valencia"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Valencia"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Valencia"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Валенсија"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Valencia"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "வாலேன்சியா"
+       },
+       "th": {
+        "language": "th",
+        "value": "บาเลนเซีย"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "València"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Valencia"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Valencia"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Valensiya"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Walénsiye"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Валенсія"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Vałénsia"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Valencia"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Valencia"
+       },
+       "war": {
+        "language": "war",
+        "value": "Valencia, Espanya"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "瓦伦西亚"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "װאַלענציע"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "瓦倫西亞"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "華倫西亞"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Valencia"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Valencia"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਵਾਲੈਂਸੀਆ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Валенсиа"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Valencia"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Валенсий"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Валенси"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Valensiya"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Валенсія"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Valencia"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "ڤالينسيا"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Valensėjė"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Valencia"
+       },
+       "su": {
+        "language": "su",
+        "value": "Valéncia"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Valencia"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "بلنسیہ"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Valensii"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Valensiya"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Валенсия"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "瓦倫西亞"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "वालेंसिया"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "والنسیا"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "巴伦西亚"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "瓦倫西亞"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "華倫西亞"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Valencia"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Valencia"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Valencia"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Валенсия"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Valencia"
+       },
+       "am": {
+        "language": "am",
+        "value": "ቫለንሲያ"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Valencia"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Валенсия"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "वालेंसिया / वालेंसिया"
+       },
+       "te": {
+        "language": "te",
+        "value": "వాలెన్సియా"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ভালেনসিয়া"
+       },
+       "si": {
+        "language": "si",
+        "value": "වැලෙන්සියා"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "વેલેન્સિયા"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ವಲೆನ್ಶಿಯಾ"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Valencia"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Valencia"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "瓦倫西亞"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "വലെൻസിയ"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Валенсия"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Валенсия (шаҳр)"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Valencia"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Valencia"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Валенси"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Valencia"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "巴伦西亚"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "華倫西亞"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Valencia"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Valencia"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Valensya"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "والنشیا"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Valencia"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Valencia"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Baléncia"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Валэнсия"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Valencia"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "والنسیا"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Valencia"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Valencia"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Valencia"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Falinsia"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Valencia"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Valencia"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Valencia"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Valensija"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Վալենթիա"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q8818&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:51:58.061405+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "f5f93a23d9bfd8296fef5cdaae9c7a3dbdc6501b",
+        "datavalue": {
+         "value": {
+          "latitude": 39.47,
+          "longitude": -0.3763888888888889,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q8818$B13C1889-B723-40EF-8AEF-F92D7E0AD747",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q8818&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:51:58.311013+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "69df494d7fa0613c7bd8f047afc1e87bdc03a0f2",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 29,
+          "id": "Q29"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "5c085788bac8394053c147195a000890260ddb28",
+          "datavalue": {
+           "value": {
+            "time": "+1479-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q8818$FDB330A0-26C1-4A48-8971-C5A5F25209A6",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "d1e0ae500b8049fb55580b1cbd6891170b052a75",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "0f6bc56ba163498243d0fa132e179f8722400aaa",
+            "datavalue": {
+             "value": "1733",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        },
+        {
+         "hash": "4ee5ffdec41bf7bcb9c076205553844cfd0c6a9b",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "d06f94dc89bb12ab1bc078884999322075e43dfb",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 131606967,
+              "id": "Q131606967"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "1bccc137e7f48af989a84ad9b7ea05ce9c557ab1",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 204920,
+          "id": "Q204920"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "bf94c757ac7d67dbbafb1df34c70442672b30094",
+          "datavalue": {
+           "value": {
+            "time": "+1238-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "246fa533a1b94e18af8228bcebc4323282a72148",
+          "datavalue": {
+           "value": {
+            "time": "+1479-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q8818$9b2731f7-4606-4c5e-963f-6cd462d9f57d",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q29&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:51:58.723627+00:00",
+   "response": {
+    "entities": {
+     "Q29": {
+      "type": "item",
+      "id": "Q29",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Ισπανία"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Ispaña"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "سپین"
+       },
+       "na": {
+        "language": "na",
+        "value": "Pain"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Шпанија"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "ISpeyini"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "স্পেন"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Ispanija"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Hispaania"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Španielsko"
+       },
+       "so": {
+        "language": "so",
+        "value": "Isbania"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Espanya"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Іспанія"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Испания"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Ispagna"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Испани"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Hispaanya"
+       },
+       "za": {
+        "language": "za",
+        "value": "Sihbanhyaz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Spéìn"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "España"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Spanje"
+       },
+       "es": {
+        "language": "es",
+        "value": "España"
+       },
+       "or": {
+        "language": "or",
+        "value": "ସ୍ପେନ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Испания Мастор"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Spain"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "שפּאַניע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Spáinn"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Szpańskô"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "İspaniya"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "西班牙"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "ايسپانيا"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Esipanye"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Spainie"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Ispanėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Spaneja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Dibé Diníí Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "西班牙"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "España"
+       },
+       "az": {
+        "language": "az",
+        "value": "İspaniya"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "ایسپانیا"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "西班牙"
+       },
+       "min": {
+        "language": "min",
+        "value": "Spanyol"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಸ್ಪೇನ್"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Spanje"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Испания"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "España"
+       },
+       "war": {
+        "language": "war",
+        "value": "Espanya"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "எசுப்பானியா"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Spanyol"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "ISpain"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "स्पेन"
+       },
+       "co": {
+        "language": "co",
+        "value": "Spagna"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Испани"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Spagna"
+       },
+       "om": {
+        "language": "om",
+        "value": "Ispeen"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Španija"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "İspaniya"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Spanje"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Sepanyol"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Spania"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "स्पेन"
+       },
+       "av": {
+        "language": "av",
+        "value": "Испания"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Spuenien"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Spain"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Ispaniya"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "España"
+       },
+       "st": {
+        "language": "st",
+        "value": "Spain"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "إسبانيا"
+       },
+       "it": {
+        "language": "it",
+        "value": "Spagna"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Hispania"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Spanien"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Espanya"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Espanya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Spanien"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "स्पेन"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Espanya"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "İspaniya"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Spānija"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Se-pan-gâ"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Spanien"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Испание"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Paniora"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Spaainey"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Ɛsɩpaañɩ"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Espanha"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "إسبانيا"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Spanyorokondre"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "স্পেন"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Spain"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Испания"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Ispaniya"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Seupanyo"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Испани"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Espanha"
+       },
+       "io": {
+        "language": "io",
+        "value": "Hispania"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "西班牙"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Испания"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Spen"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศสเปน"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Ispaniya"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Espaina"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "ایسپانیا"
+       },
+       "an": {
+        "language": "an",
+        "value": "Espanya"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Spaggna"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Իսպանիա"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ແອັດສະປາຍ"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "İspanya"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "स्पेन"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Spania"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "स्पेन"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Hispanio"
+       },
+       "de": {
+        "language": "de",
+        "value": "Spanien"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Spain"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Spania"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Espanya"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Esipanye"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Spaniya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "sangu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Эспаниэ"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Ispaniye"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Испания"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Spanha"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "اسپانیا"
+       },
+       "en": {
+        "language": "en",
+        "value": "Spain"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "اسپانیا"
+       },
+       "os": {
+        "language": "os",
+        "value": "Испани"
+       },
+       "my": {
+        "language": "my",
+        "value": "စပိန်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "西班牙"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Spanije"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "སིཔཱེན་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Hispaania"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "España"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Ispaañ"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Spanyol"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "西班牙"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Spania"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏍᏆᏂᏱ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "西班牙"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Espangne"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "España"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Spagne"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "西班牙"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Spain"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Spen"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Spagna"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Schpaani"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ئیسپانیا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Espania"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Èspagne"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Sbaen"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Spain"
+       },
+       "la": {
+        "language": "la",
+        "value": "Hispania"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Ispania"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Испания"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "स्पेन"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Spania"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Espagne"
+       },
+       "is": {
+        "language": "is",
+        "value": "Spánn"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "西班牙"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Španiska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Spanja"
+       },
+       "li": {
+        "language": "li",
+        "value": "Spanje"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "اسپانیا"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Espanja"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "西班牙"
+       },
+       "id": {
+        "language": "id",
+        "value": "Spanyol"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "स्पेन"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "સ્પેન"
+       },
+       "su": {
+        "language": "su",
+        "value": "Spanyol"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Испания"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Espania"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਸਪੇਨ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Espagne"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Tây Ban Nha"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "سپانيا"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Espania"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Espanha"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Spain"
+       },
+       "af": {
+        "language": "af",
+        "value": "Spanje"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Espanya"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Испания"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Espânye"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Spania"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Spanie"
+       },
+       "si": {
+        "language": "si",
+        "value": "ස්පාඤ්ඤය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "西班牙"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Spanien"
+       },
+       "km": {
+        "language": "km",
+        "value": "អេស្ប៉ាញ"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Spāņmō"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Spagna"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Испаниа"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Ispanii"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Spenyul"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Испания"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ესპანეთი"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Spanien"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Spanyän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱮᱥᱯᱮᱱ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Spanien"
+       },
+       "frc": {
+        "language": "frc",
+        "value": "Espagne"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Spaña"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Espania"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Sepania"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Spain"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Espanne"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Испания"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Spania"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "स्पेन्"
+       },
+       "he": {
+        "language": "he",
+        "value": "ספרד"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Špańska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Гішпанія"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Spagna"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Să̤-băng-ngà"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌷𐌴𐌹𐍃𐍀𐌰𐌽𐌾𐌰"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "España"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Испониё"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Španija"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "اسپين"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Španija"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Spanyolország"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "西班牙"
+       },
+       "te": {
+        "language": "te",
+        "value": "స్పెయిన్"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Эспання"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Испания"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Испания"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Spēonland"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "स्पेन"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Szpańijo"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Ispaniýa"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Spain"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Эспанмудин Нутг"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Їспанїꙗ"
+       },
+       "new": {
+        "language": "new",
+        "value": "स्पेन"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Spagne"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "An Spàinn"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Spain"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "İspanya"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Hispania"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Espay"
+       },
+       "be": {
+        "language": "be",
+        "value": "Іспанія"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ესპანეთი"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᓯᐸᐃᓐ"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Испани"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Испания"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "اسپانیا"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Spanje"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "སི་པེན།"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Spien"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Pāniora"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Hiszpania"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Spain"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Spain"
+       },
+       "am": {
+        "language": "am",
+        "value": "እስፓንያ"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Španija"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Испания"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Испания"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Spagna"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "ہسپانیہ"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Spoonien"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Spaña"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Spanja"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Espania"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Ισπανία"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Spanien"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Испаний"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "സ്പെയിൻ"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Іспанія"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Spanje"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Spanya"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Ispuanii"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܐܶܣܦ̣ܰܢܝܰܐ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "Sipeyini"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Spaniya"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "އިސްޕެއިން"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "اسبانيا"
+       },
+       "se": {
+        "language": "se",
+        "value": "Espánnja"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Kaxtillan"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Ispaña"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Španělsko"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Spàgna"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Espanya"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Шпанија"
+       },
+       "to": {
+        "language": "to",
+        "value": "Sepeni"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Španjolska"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "スペイン王国"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "스페인"
+       },
+       "br": {
+        "language": "br",
+        "value": "Spagn"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Spain"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Spayn"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Spagna"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Sî-pân-ngà"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "स्पेन"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Шпанија"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "西班牙"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Սպանիա"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Spanien"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Spanha"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Spanyol"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Èspangn"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Spain"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ስጳኛ"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߊߛߌߔߊ߲߫"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "स्पेन"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Spanyol"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းသပဵၼ်ႇ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Espanja"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Espanja"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Espana"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Spania"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Spanyol"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Spain"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Spain"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "سڤاڽول"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯁ꯭ꯄꯦꯟ"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Ṣbanya"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "ہِسپٲنِیا"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Spain"
+       },
+       "shy-latn": {
+        "language": "shy-latn",
+        "value": "Spania"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Spain"
+       },
+       "din": {
+        "language": "din",
+        "value": "Spain"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Spain"
+       },
+       "wls": {
+        "language": "wls",
+        "value": "Sepania"
+       },
+       "as": {
+        "language": "as",
+        "value": "স্পেইন"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Si̱pen"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Espanya"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "에스빠냐"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "سبانيا"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Epanja"
+       },
+       "guc": {
+        "language": "guc",
+        "value": "Epaainya"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "स्पेन"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Spain"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Spain"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Ispanijə"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Spánsska"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "اسپین"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Sepanyol"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵚⴱⴰⵏⵢⴰ"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Ἱσπανία"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Spanyol"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Spanyol"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Spanyol"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Sipen"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Sepanyol"
+       },
+       "prg": {
+        "language": "prg",
+        "value": "Špānija"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Spain"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "Spain"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Spain"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Sipeni"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Espainia"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "اسبانيا"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Ɛsipaɲi"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Испания"
+       },
+       "ase": {
+        "language": "ase",
+        "value": "AS1ea10S2ef02S36d00M521x526S36d00479x474S1ea10465x483S2ef02468x507"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "Испания"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Шпанија"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "သပိန်"
+       },
+       "ppl": {
+        "language": "ppl",
+        "value": "España"
+       },
+       "kaj": {
+        "language": "kaj",
+        "value": "Su̱pen"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "သပေင်ခမ်းထီ"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Spain"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

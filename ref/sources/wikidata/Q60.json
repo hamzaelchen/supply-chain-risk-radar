@@ -1,0 +1,2979 @@
+{
+ "wikidata_id": "Q60",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q60&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:40.555108+00:00",
+   "response": {
+    "entities": {
+     "Q60": {
+      "pageid": 186,
+      "ns": 0,
+      "title": "Q60",
+      "lastrevid": 2550750983,
+      "modified": "2026-09-29T04:27:19Z",
+      "type": "item",
+      "id": "Q60",
+      "labels": {
+       "ar": {
+        "language": "ar",
+        "value": "نيويورك"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "New York"
+       },
+       "it": {
+        "language": "it",
+        "value": "New York"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Nowy Jork"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "New York"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Нью-Ёрк"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "New York Chhī"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ニューヨーク"
+       },
+       "es": {
+        "language": "es",
+        "value": "Nueva York"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Nov-Jorko"
+       },
+       "af": {
+        "language": "af",
+        "value": "New York"
+       },
+       "am": {
+        "language": "am",
+        "value": "ኒው ዮርክ"
+       },
+       "an": {
+        "language": "an",
+        "value": "Nueva York"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Nīƿeoforƿīcburg"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܢܝܘ ܝܘܪܩ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "نيويورك"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Nueva York"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "New York"
+       },
+       "az": {
+        "language": "az",
+        "value": "Nyu-York"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Нью-Йорк"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Nueva York"
+       },
+       "be": {
+        "language": "be",
+        "value": "Нью-Ёрк"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Ню Йорк"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "নিউ ইয়র্ক সিটি"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ནེའུ་ཡོར་ཀ།"
+       },
+       "br": {
+        "language": "br",
+        "value": "New York"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Kuta New York"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Nova York"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Нью-Йорк"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Dakbayan sa New York"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "نیوویۆرک"
+       },
+       "co": {
+        "language": "co",
+        "value": "New York"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "New York"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Çĕнĕ Йорк"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Dinas Efrog Newydd"
+       },
+       "el": {
+        "language": "el",
+        "value": "Νέα Υόρκη"
+       },
+       "et": {
+        "language": "et",
+        "value": "New York"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "New York"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Nueva York"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "نیویورک"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "New York"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Niou-Yorque"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Nua-Eabhrac"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "紐約"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Eabhraig Nuadh"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Nova York"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Táva Nueva York"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Caayr York Noa"
+       },
+       "he": {
+        "language": "he",
+        "value": "ניו יורק"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "न्यूयॉर्क नगर"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Nouyòk"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "New York"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Նյու Յորք"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "New York"
+       },
+       "id": {
+        "language": "id",
+        "value": "Kota New York"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Tchiaq York Iniqpak"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Siudad ti New York"
+       },
+       "io": {
+        "language": "io",
+        "value": "New York"
+       },
+       "is": {
+        "language": "is",
+        "value": "New York-borg"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "niu,IORK. zei tcadu"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "New York"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ნიუ-იორკი"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Нью-Йорк"
+       },
+       "km": {
+        "language": "km",
+        "value": "ទីក្រុងញូវយ៉ក"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ನ್ಯೂ ಯಾರ್ಕ್ ನಗರ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "뉴욕"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Нью-Йорк"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Evrek Nowydh"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Нью-Йорк"
+       },
+       "la": {
+        "language": "la",
+        "value": "Novum Eboracum"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Mueva York"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "New York"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Нью-Йорк"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Niorche"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "New York"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "New York"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Niujorkas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Ņujorka"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "New York"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Нью-Йорк"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Niu Ioka"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Њујорк"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ന്യൂയോർക്ക് നഗരം"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Нью-Йорк хот"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "न्यू यॉर्क शहर"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Нью-Йорк"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Bandar Raya New York"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Nuoba Iorque"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "نیویورک"
+       },
+       "na": {
+        "language": "na",
+        "value": "New York"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Yankwik York"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Nova York"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "New York"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Niej-York"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "न्युयोर्क सहर"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "New York by"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Novi York"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Nouvieau York"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Nòva York"
+       },
+       "os": {
+        "language": "os",
+        "value": "Нью-Йорк"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਨਿਊਯਾਰਕ ਸ਼ਹਿਰ"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "New York Lakanbalen"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Nei Yarrick Schtadt"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Nju Yoorg Siddi"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "New York"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "نیو یارک شہر"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Nova Iorque"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "New York"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "New York"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Nuève York"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Нью-Йорк"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Ню Йорк"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "न्‍यू यार्क"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Нью Йорк"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Noa York"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "New York"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "New York Ceety"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "New York"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "New York"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "New York"
+       },
+       "so": {
+        "language": "so",
+        "value": "New York"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Њујорк"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "New York"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "New York"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Nowy Jork"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "நியூயார்க் நகரம்"
+       },
+       "te": {
+        "language": "te",
+        "value": "న్యూయార్క్"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Ню-Йорк"
+       },
+       "th": {
+        "language": "th",
+        "value": "นครนิวยอร์ก"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Nýu-Ýork"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Lungsod ng New York"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Niu Yok Siti"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "New York"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Нью-Йорк"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "New York"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Нью-Йорк"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Nyu York Shehiri"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Нью-Йорк"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "نیویارک شہر"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "New York shahri"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "New York"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Nju Jork"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Thành phố New York"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "New York"
+       },
+       "war": {
+        "language": "war",
+        "value": "Syudad han New York"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "纽约市"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Нью Йорк балһсн"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ნიუ-იორკი"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "ניו יארק"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "New York"
+       },
+       "za": {
+        "language": "za",
+        "value": "Niujyoz"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "New York"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "纽约"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "New York"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "纽约"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "纽约"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "紐約"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Nova Iorque"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "紐約"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "New York"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "纽约"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "紐約"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "紐約"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "紐約"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "New York"
+       },
+       "new": {
+        "language": "new",
+        "value": "न्यु यर्क नगर"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "New York Chê"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Њујорк"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Njujork"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Nyu York"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Niojuorks"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "紐約市"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "New York"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "New York"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "New York Sṳ"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "New York"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Нью Йорк хото"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "New York"
+       },
+       "as": {
+        "language": "as",
+        "value": "নিউয়ৰ্ক মহানগৰ"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Nyu york"
+       },
+       "si": {
+        "language": "si",
+        "value": "නිව්යෝර්ක් නගරය"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Niú Yárk Şár"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ન્યૂ યોર્ક સીટી"
+       },
+       "my": {
+        "language": "my",
+        "value": "နယူးယောက်မြို့"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "نيويارک"
+       },
+       "su": {
+        "language": "su",
+        "value": "Kota New York"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "New York"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "New York"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "New York"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Нью-Йорк"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎠᏤ ᏯᎩ"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᓂᐅ ᐃᐅᕐᒃ ᓯᑎ"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Нью-Йорк"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "New York"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "न्यूयॉर्क सिटी"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "نیویورک‌"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "نيو يارڪ شهر"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Niu Ioka"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Nyuu Yaak Siti"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "New York"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Нью-Йорк"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Ню-Йорк"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "न्यू योर्क शहर"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Niu York"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "نيۊیؤرک"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Нью-Йорк ош"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Kin Yótʼááh Deezʼá"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "न्यूयोर्क शहर"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Niyuu Yɔrɩkɩ"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Nyuu York"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "New York"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Nueva York"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Nyu York"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Нью-Йорк"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Нью-Йорк"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱱᱤᱭᱩ ᱭᱚᱨᱠ"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "نیویورک سیتی"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌽𐌹𐌿 𐌹𐌰𐌿𐍂𐌺"
+       },
+       "kjp": {
+        "language": "kjp",
+        "value": "ဍုံဏ်ုယူႋယုက်"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Նիւ Եորք"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "New York"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "New York"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߣߌߥߦ ߦߐߙߞ ߛߌߕߌ߬"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "New York"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Site de New York"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "New York"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "نيو يورك"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "New York"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Belt ta' New York"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Noû York"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "New York"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "New York"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Nyu Yurk"
+       },
+       "to": {
+        "language": "to",
+        "value": "Niu ʻIoake (kolo)"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "New York"
+       },
+       "se": {
+        "language": "se",
+        "value": "New York"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "New York"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ນະຄອນນິວຢອກ"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "نیویاک شَہَر"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Nujo"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Нью-Йорк"
+       },
+       "min": {
+        "language": "min",
+        "value": "Kota New York"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Ниу-Иорк"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Nuioka"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "न्यूयोर्क शहर"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Nju-Jork (šəhər)"
+       },
+       "av": {
+        "language": "av",
+        "value": "Нью-Йорк"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯅ꯭ꯌꯨ ꯌꯣꯔꯛ ꯁꯤꯇꯤꯗꯥ ꯂꯩꯕꯥ ꯌꯨ.ꯑꯦꯁ"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Niu-Yorek Kota"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵏⵢⵓ ⵢⵓⵕⴽ"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠘꠤꠃ ꠅꠞꠇ ꠘꠉꠞꠤ"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "𞤚𞤵𞤬𞤵𞤲𞤣𞤫 𞤐𞤭𞤴𞤮𞤪𞤳"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "New York"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Nengeri New York"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "न्यूयोर्क नगर"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Нью-Йорк"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "نيويورك"
+       },
+       "en": {
+        "language": "en",
+        "value": "New York City"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "New York"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "New York City"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "New York (stêd)"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Niu Yoka Siti"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Nju Jork Siti"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "New York"
+       },
+       "de": {
+        "language": "de",
+        "value": "New York City"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "New York City"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "New York City"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "New York City, New York"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "New York City"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "New York City"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "New York City"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "New York City"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "New York City"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "New York City"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "New York City"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "New York City"
+       },
+       "st": {
+        "language": "st",
+        "value": "New York City"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "New York City"
+       },
+       "da": {
+        "language": "da",
+        "value": "New York City"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "New York City"
+       },
+       "li": {
+        "language": "li",
+        "value": "New York City"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "New York City"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "New York City"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "New York City"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "New York City"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "New York City"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "New York City"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "New York City"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "New York City"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "New York City"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Nowi Jork"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "New York City"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "ဍုင် နျူယံက်"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "New York City"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q60&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:40.844507+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "be7a817a8aae164d9b9264e93ee47c68b64d620e",
+        "datavalue": {
+         "value": {
+          "latitude": 40.71277777777778,
+          "longitude": -74.00611111111111,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q60$1ccff032-dbae-4a4d-933e-62fc087bfcfc",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q60&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:41.115430+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "be4c6eafa2984964f04be85667263f5642ba1a72",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 30,
+          "id": "Q30"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "8bf98e4a8351357e56c1c731d56b89980c592172",
+          "datavalue": {
+           "value": {
+            "time": "+1776-07-04T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q60$5083E43C-228B-4E3E-B82A-4CB20A22A3FB",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "7a5a72bb9450f2c7557e6178c2b39294e574b560",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "3bcdfa13304ef58ffba72342ba5b45f1db75ebfc",
+            "datavalue": {
+             "value": "1953",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        },
+        {
+         "hash": "8adfdf96101d5c32b6b769c4633401ec06e02307",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "88b1aea91b49e7281dc2608b867987d014c88992",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 55259097,
+              "id": "Q55259097"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "e89ed975a583a10e83aa56ce16069435a04494bf",
+            "datavalue": {
+             "value": {
+              "time": "+2024-09-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q30&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:41.820286+00:00",
+   "response": {
+    "entities": {
+     "Q30": {
+      "type": "item",
+      "id": "Q30",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Ηνωμένες Πολιτείες Αμερικής"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Istadus Unidus"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "امریکا"
+       },
+       "na": {
+        "language": "na",
+        "value": "Eben Merika"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "САД"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IMelika"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "তিলপারাষ্ট্র"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Jungtinės Amerikos Valstijos"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Yunaitid Stiet"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Spojené štáty americké"
+       },
+       "atj": {
+        "language": "atj",
+        "value": "Kitci mokoman aski"
+       },
+       "so": {
+        "language": "so",
+        "value": "Gobolada Isku Tegay ee Ameerika"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Estados Unidos ng Amerika"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Сполучені Штати Америки"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Америка Кушма Штатлары"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Istados Unidos"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Étots-Unnis"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Dowlaaji Dentuɗi"
+       },
+       "za": {
+        "language": "za",
+        "value": "Meijgoz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Àwọn Ìpínlẹ̀ Aṣọ̀kan Amẹ́ríkà"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Estaus Unius"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "АКШ"
+       },
+       "es": {
+        "language": "es",
+        "value": "Estados Unidos"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଯୁକ୍ତରାଷ୍ଟ୍ର ଆମେରିକା"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Американь Вейтьсэндявкс Штаттнэ"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "פאראייניקטע שטאטן פון אמעריקע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Stáit Aontaithe Mheiriceá"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Zjednóné Kraje Americzi"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Etazonia"
+       },
+       "st": {
+        "language": "st",
+        "value": "United States of America"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "美國"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Verainischde Schdaade vun Ameriga"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "آمريکا ايجؤنأبؤ ايالتؤن"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Leta Zunze Ubumwe z’Amerika"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Unitit States"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "JAV"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Amerikys Saškierstuos Vaļsteibys"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Wááshindoon Bikéyah Ałhidadiidzooígíí"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "美国"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Združene države Amerike"
+       },
+       "az": {
+        "language": "az",
+        "value": "ABŞ"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "آمریکای متحده ایالات"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "美國"
+       },
+       "min": {
+        "language": "min",
+        "value": "Amerika Sarikat"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಅಮೇರಿಕ ಸಂಯುಕ್ತ ಸಂಸ್ಥಾನ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Verenigde Staten"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Америкадин Садхьанвай Штатар"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "USA"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Estaos Xuníos"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Amerika ka Kelenyalen Jamanaw"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "அமெரிக்க ஐக்கிய நாடு"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Amérikah Sarékat"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "IYunayithedi Steyitsi"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "संयुक्त राज्य"
+       },
+       "he": {
+        "language": "he",
+        "value": "ארצות הברית"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Америкийн Нэгдсэн Улс"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Amerika Birleşik Devletläri"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Tarayyar Amurka"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Amerika Qoşma Devletleri"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Verênigde Stoaten van Amerika"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Amerika Syarikat"
+       },
+       "din": {
+        "language": "din",
+        "value": "Pawuut Matiic"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Amirika Serikat"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Statele Unite ale Americii"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "अमेरिका"
+       },
+       "av": {
+        "language": "av",
+        "value": "Америкалъул Цолъарал Штатал"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Vereenegt Staate vun Amerika"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Amerika Qurama Shtatları"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Ameeriga Ütisriigiq"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Fereende Stoaten fon Amerikoa"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "أمريكيا"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ສະຫະລັດອາເມຣິກາ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Marekani"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Vereenigte Staten"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Vereenichde Staate van Amerika"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Estados Unidos"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Amerika Serikat"
+       },
+       "da": {
+        "language": "da",
+        "value": "USA"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Estats Units"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Amerika Qoşma Ştatları"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Amerikas Savienotās Valstis"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌱𐌰𐌽𐌳𐌰𐍂𐌴𐌹𐌺𐌾𐌰"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Vereinigte Staaten"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಅಮೇರಿಕದ ಸಂಯುಕ್ತ ಸಂಸ್ಥಾನೊಲು"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Америкэ Штат Зэхэтхэр"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Fenua Marite"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Steatyn Unnaneysit America"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Etaazuunii"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Estados Unidos"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "الولايات المتحدة"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Kondre Makandrameki"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Estados Unidus"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "মার্কিন যুক্তরাষ্ট্র"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Yunitid Staits"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Amerikanyň Birleşen Ştatlary"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Америка Кушма Штатлары"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Zjednoczůne Sztaty"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Amirika Carékat"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Америкăри Пĕрлешӳллĕ Штатсем"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estados Unidos"
+       },
+       "io": {
+        "language": "io",
+        "value": "Usa"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "美国"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "США"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Yunaitet Stet"
+       },
+       "th": {
+        "language": "th",
+        "value": "สหรัฐอเมริกา"
+       },
+       "kjp": {
+        "language": "kjp",
+        "value": "အ်ုမေရိကိုင်ခါန်ႋပ္ကုံ"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "آمریکا بیرلشمیش ایالت‌لری"
+       },
+       "an": {
+        "language": "an",
+        "value": "Estatos Unitos"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Stat Unî"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Ամերիկայի Միացյալ Նահանգներ"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Dewletê Yewbiyaeyê Amerika"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Америкын Нэгэдэһэн Улас"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "अमेरिका"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Unionati States de Amerika"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "संयुक्त राज्य अमेरिका"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Еиду Америкатәи Аштатқәа"
+       },
+       "de": {
+        "language": "de",
+        "value": "Vereinigte Staaten"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Iunaite Sitete o Amerika"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "United States"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Kaestaduang Misásanmetung"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Phandle Staturya la Amerikiyake"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "mergu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Америкэ Штат Зэгуэт"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "State Aunite d'Amereca"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Америконь Соткс"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Stados Ounidos de la América"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "ولاتیا یکاگرته امریکا"
+       },
+       "en": {
+        "language": "en",
+        "value": "United States"
+       },
+       "as": {
+        "language": "as",
+        "value": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "آیالات موته هیده"
+       },
+       "os": {
+        "language": "os",
+        "value": "Америкӕйы Иугонд Штаттӕ"
+       },
+       "my": {
+        "language": "my",
+        "value": "အမေရိကန်ပြည်ထောင်စု"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "美国"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཡུ་ནའིཊེཊ་སི་ཊེས"
+       },
+       "et": {
+        "language": "et",
+        "value": "Ameerika Ühendriigid"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Estados Unidos de America"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Diiwaan yu Bennoo"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᐊᒥᐊᓕᑲ"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "ئامېرىكا قوشما شىتاتلىرى"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "美國"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "USA"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏌᏊᎢᏳᎾᎵᏍᏔᏅᏍᎦᏚᎩ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "美利坚合众国"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Amereka"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Êtats Unnis d'Améthique"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Estados Unidos"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Statère Aunìte d'Americhe"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Usono"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "United States"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Yunaeted Stet blong Amerika"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Stadis Unids"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "അമേരിക്കൻ ഐക്യനാടുകൾ"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ویلایەتە یەکگرتووەکانی ئەمریکا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Lisangá lya Ameríka"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Ètats-Unis d’Amèrica"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Unol Daleithiau America"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "United States of America"
+       },
+       "la": {
+        "language": "la",
+        "value": "Civitates Foederatae Americae"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Vãsãliili Diadunu ali Americhia"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "United States"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "अमेरिकेची संयुक्त संस्थाने"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Sameindu Statirnir"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "États-Unis"
+       },
+       "is": {
+        "language": "is",
+        "value": "Bandaríkin"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "美國"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Zjednoćene staty Ameriki"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Stati Uniti tal-Amerka"
+       },
+       "li": {
+        "language": "li",
+        "value": "Vereinegde State van Amerika"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "د امریکا متحده ایالات"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Yhdysvallat"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "美國"
+       },
+       "id": {
+        "language": "id",
+        "value": "Amerika Serikat"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "अमेरिकेचीं संयुक्त संस्थानाः"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "યુનાઇટેડ સ્ટેટ્સ ઓફ અમેરિકા"
+       },
+       "su": {
+        "language": "su",
+        "value": "Amérika Sarikat"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Хетта Америкера Штаташ"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Statos Unite de America"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਸੰਯੁਕਤ ਰਾਜ ਅਮਰੀਕਾ"
+       },
+       "cr": {
+        "language": "cr",
+        "value": "ᑭᐦᒋ ᒨᐦᑯᒫᓇᐢᑭᕀ"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "ÂKödörö-ôko tî Amerîka"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Hoa Kỳ"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Estados Unidos iti Amerika"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Американал ЦачӀунхьу Штатру"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "美國"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "United States"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Estats Units"
+       },
+       "af": {
+        "language": "af",
+        "value": "Verenigde State"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Hiniusang mga Estado"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Американы Бирлешген Штатлары"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Hukllachasqa Amirika Suyukuna"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "USA"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Verainigte Staate vu Amerika"
+       },
+       "si": {
+        "language": "si",
+        "value": "ඇමරිකානු එක්සත් ජනපදය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "美国"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "USA"
+       },
+       "km": {
+        "language": "km",
+        "value": "សហរដ្ឋអាមេរិក"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Amērik Ītõnd-Valdõd"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Stati Uniti"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Stat Unì d'América"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Amerikan Ühtenzoittud Valdkundad"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Iwunak Yeddukklen n Temrikt"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Съединени американски щати"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Ameriketako Estatu Batuak"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ამერიკაშ აკოართაფილი შტატეფი"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Lamerikän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱥᱮᱞᱮᱫ ᱯᱚᱱᱚᱛ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Vaoanigte Stootn"
+       },
+       "frc": {
+        "language": "frc",
+        "value": "États-Unis"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Estadonan Uni di Merka"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Statos Unida de America"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "‘Amelika Hui Pū ‘ia"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "United States"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Amerika Serikat"
+       },
+       "om": {
+        "language": "om",
+        "value": "Tokkummaa Koonyoota Ameerikaa"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Иёлоти Муттаҳидаи Амрико"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Naalagaaffeqatigiit"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Amríká ná Baddhí Riyásat"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "अमेरिका संयुक्त संस्थानः"
+       },
+       "co": {
+        "language": "co",
+        "value": "Stati Uniti"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Zjadnośone staty Ameriki"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Злучаныя Штаты Амэрыкі"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Stati Unii de l'Amèrica"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Mī-guók"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Bí-kok"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Amérika Retãvorekuéra Joaju"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Иёлоти Муттаҳидаи Амрико"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Sjedinjene Američke Države"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "آمريڪا"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Sjedinjene Američke Države"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ኣመሪካ"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Amerikai Egyesült Államok"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "美國"
+       },
+       "te": {
+        "language": "te",
+        "value": "అమెరికా సంయుక్త రాష్ట్రాలు"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Америкаись Ӧтлаасьӧм Штаттэз"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Америка Ҡушма Штаттары"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Америка Холбоһуктаах Штааттара"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Geānedu Rīcu America"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "संयुक्त राज्य अमेरिका"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Amerika Qoʻshma Shtatlari"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Estadu Naklibur Sira Amérika Nian"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "United States"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Америкин Ниицәтә Орн Нутгуд"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Амєрїканьскꙑ Ѥдьнѥнꙑ Дрьжавꙑ"
+       },
+       "new": {
+        "language": "new",
+        "value": "अमेरिका"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Stâts Unîts di Americhe"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Etazini"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "United States of America"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Amerika Birleşik Devletleri"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Unit States de America"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Na Stàitean Aonaichte"
+       },
+       "be": {
+        "language": "be",
+        "value": "Злучаныя Штаты Амерыкі"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ამერიკის შეერთებული შტატები"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "АЦШ"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Америкаса Ӧтувтчӧм Штатъяс"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "ایالات متحده آمریکا"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Matanitu Cokovata o Amerika"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Verienigde Staoten van Amerika"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཨ་མེ་རི་ཁ་རྒྱལ་ཕྲན་མཉམ་འབྲེལ་རྒྱལ་ཁབ།"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Стателе Уните але Америчий"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Hononga-o-Amerika"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Stany Zjednoczone"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Amerika"
+       },
+       "am": {
+        "language": "am",
+        "value": "አሜሪካ"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Sjedinjene Američke Države"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Америкалэн Огазеяськем Штатъёсыз"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Америка Құрама Штаттары"
+       },
+       "it": {
+        "language": "it",
+        "value": "Stati Uniti"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estados Unidos"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "ریاستہائے متحدہ امریکا"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Estats Unis"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Ferianigt Stooten faan Ameerikaa"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Tannapta Nunaat"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Shtetet e Bashkuara të Amerikës"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Leta z’Unze Ubumwe za Amerika"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Vereinigte Staaten"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Ушымо Американ Штат-влак"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Amerikaa"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "США"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Feriene Steaten fan Amearika"
+       },
+       "tt-latn": {
+        "language": "tt-latn",
+        "value": "Amerika Quşma Ştatları"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Dewletên Yekbûyî yên Amerîkayê"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Amerikan Yhtysvallat"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܐܘܚܕܢܐ ܡܚܝܕܐ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IMelika"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Amerikha"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "އެމެރިކާ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "امريكا"
+       },
+       "se": {
+        "language": "se",
+        "value": "Amerihká ovttastuvvan stáhtat"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Tlacetilīlli Tlahtohcāyōtl"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Njikota Obodo Amerika"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Spojené státy americké"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Stati Unïi d'America"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Estatos Unitos d'Amerika"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Vereênigde Staeten"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Америкын Ушымы Штатвлӓжӹ"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Сједињене Америчке Државе"
+       },
+       "to": {
+        "language": "to",
+        "value": "Puleʻanga fakatahataha ʻAmelika"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Sjedinjene Američke Države"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "アメリカ合衆国"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "미국"
+       },
+       "br": {
+        "language": "br",
+        "value": "Stadoù-Unanet"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "United States"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Statys Unys"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Stat Unid d'America"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Mî-koet"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "संयुक्त राज्य अमेरिका"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Sjedinjene Američke Države"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "美國"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Ամերիկայի Միացեալ Նահանգներ"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߊߡߋߙߌߞߌ߬ ߞߊ߬ߝߏ߫ ߘߍ߬ߣߍ߲"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Stadus Unidus"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Amérika Serikat"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "United states"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Létazini"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Американың Катышкан Штаттары"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Etats-Unis ya Amelika"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "لولايات لمتاحدة د أمريكا"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းႁူမ်ႈတုမ် ဢမႄႇရိၵ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Amerik ovtâstum staatah"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Ameriikk õhttõõvvâmvääʹld"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "संयुक्त राज्य अमेरिका"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Amerikatanarasokeem"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Stac Unii d'America"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Amerika Sorudu"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Amèrika Sarikat"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Америка Құрама Штаттары"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯑꯃꯦꯔꯤꯀꯥ"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "اميريکا شريکت"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Iwankn Munnin n Marikan"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "America"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "United States"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Amilika"
+       },
+       "tg-latn": {
+        "language": "tg-latn",
+        "value": "Iyoloti Muttahidai Amriko"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "امریکہ"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "အမေရိကန်ပြည်ထောင်စု"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "اَمريٖکہ"
+       },
+       "guw": {
+        "language": "guw",
+        "value": "Plidopọ Ayimatẹn lẹ tọn Amẹlika tọn"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Amirika'"
+       },
+       "rmc": {
+        "language": "rmc",
+        "value": "Amerikakere spojimen Thema"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "A̱byin Badundung A̱merika"
+       },
+       "alt": {
+        "language": "alt",
+        "value": "Американыҥ Бириктирилген Штаттары"
+       },
+       "ike-latn": {
+        "language": "ike-latn",
+        "value": "amialika"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨕᨆᨙᨑᨗᨀ ᨔᨙᨑᨗᨀᨈ"
+       },
+       "crh-cyrl": {
+        "language": "crh-cyrl",
+        "value": "Америка Къошма Девлетлери"
+       },
+       "qug": {
+        "language": "qug",
+        "value": "Shukllachishka America Suyukuna"
+       },
+       "hil": {
+        "language": "hil",
+        "value": "mga Estado Tingob"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "미국"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Ηνωμένες Πολιτείες Αμερικής"
+       },
+       "fit": {
+        "language": "fit",
+        "value": "Yhtysvallat"
+       },
+       "rmf": {
+        "language": "rmf",
+        "value": "Ameriko them"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "အမေႏရိကန်ႏခမ်းခြွဉ်းဗူႏ"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "Amerika"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "مريكان"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Tingëb nga manga Estado"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Mewika"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "United States"
+       },
+       "guc": {
+        "language": "guc",
+        "value": "Mma Mulo'usu Ameerikajatü"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "अमेरिका"
+       },
+       "kk-latn": {
+        "language": "kk-latn",
+        "value": "Amerïka Qurama Ştattarı"
+       },
+       "ryu": {
+        "language": "ryu",
+        "value": "アミリカ合衆国"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "United States"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "America"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠀꠝꠦꠞꠤꠇꠣ"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "AIŠ"
+       },
+       "ii": {
+        "language": "ii",
+        "value": "ꂯꇩ"
+       },
+       "nod": {
+        "language": "nod",
+        "value": "ᩈᩉᩁᩢᨭᩛ᩺"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵉⵡⵓⵏⴰⴽ ⵉⵎⵓⵏⵏ"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Amerika Serikat"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Ἡνωμέναι Πολιτεῖαι"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Amerikè Serikat"
+       },
+       "dga": {
+        "language": "dga",
+        "value": "United State Of America"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Amerika Syarikat"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Amerika Serikat"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Amerika Serikat"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Amerika Serikat"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Amerika Bírleşík Dewletlerí"
+       },
+       "nr": {
+        "language": "nr",
+        "value": "I-United States"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "United States"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Sjedinjene Štaty Ameriky"
+       },
+       "fon": {
+        "language": "fon",
+        "value": "Amɛlikatò"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Lardǝwa Amerika yǝ"
+       },
+       "tig": {
+        "language": "tig",
+        "value": "ኣሜሪካ"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "امريكا"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "United States"
+       },
+       "sh-cyrl": {
+        "language": "sh-cyrl",
+        "value": "Сједињене Америчке Државе"
+       },
+       "gur": {
+        "language": "gur",
+        "value": "United States of America"
+       },
+       "yrl": {
+        "language": "yrl",
+        "value": "Tetama-itá Yepewasú"
+       },
+       "cho": {
+        "language": "cho",
+        "value": "Amelika"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "АЭ̄Ш"
+       },
+       "ppl": {
+        "language": "ppl",
+        "value": "Ejestadoj Senputzujtuk ipal America"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Amurka"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Сједињене Штаты Америкы"
+       },
+       "ota": {
+        "language": "ota",
+        "value": "آمریقا متحده دولت‌لری"
+       },
+       "lkt": {
+        "language": "lkt",
+        "value": "Mílahaŋska-Tȟamákȟočhe"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

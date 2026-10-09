@@ -1,0 +1,2107 @@
+{
+ "wikidata_id": "Q376749",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q376749&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:20.554342+00:00",
+   "response": {
+    "entities": {
+     "Q376749": {
+      "pageid": 358550,
+      "ns": 0,
+      "title": "Q376749",
+      "lastrevid": 2551756120,
+      "modified": "2026-10-01T11:55:53Z",
+      "type": "item",
+      "id": "Q376749",
+      "labels": {
+       "hu": {
+        "language": "hu",
+        "value": "Csittagong"
+       },
+       "af": {
+        "language": "af",
+        "value": "Chittagong"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "جاتجام"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "چيتاجونج"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Читагонг"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "চট্টগ্রাম"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Chittagong"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Chittagong"
+       },
+       "da": {
+        "language": "da",
+        "value": "Chittagong"
+       },
+       "de": {
+        "language": "de",
+        "value": "Chittagong"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Chittagong"
+       },
+       "en": {
+        "language": "en",
+        "value": "Chittagong"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Ĉitagongo"
+       },
+       "es": {
+        "language": "es",
+        "value": "Chitagón"
+       },
+       "et": {
+        "language": "et",
+        "value": "Chittagong"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Chittagong"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Chittagong"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Chittagong"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Chittagong"
+       },
+       "he": {
+        "language": "he",
+        "value": "צ'יטגונג"
+       },
+       "id": {
+        "language": "id",
+        "value": "Chittagong"
+       },
+       "it": {
+        "language": "it",
+        "value": "Chittagong"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "チッタゴン"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Читтагонг"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Chittagong"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "치타공"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Čitagongas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Čitagonga"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Chittagong"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "चट्टग्राम"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Chittagong"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Chittagong"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Ćottogram"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "چٹاگانگ"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Chatigão"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Chittagong"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Читтагонг"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Chittagong"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Читагонг"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Chittagong"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சிட்டகொங்"
+       },
+       "th": {
+        "language": "th",
+        "value": "จิตตะกอง"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Читтагонг"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Chittagong"
+       },
+       "war": {
+        "language": "war",
+        "value": "Chittagong"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "吉大港"
+       },
+       "el": {
+        "language": "el",
+        "value": "Τσιταγκόνγκ"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Chittagong"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ચિત્તાગોંગ"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Citagong"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Chittagong"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Caṭṭagrām"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Chittagong"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Chittagong"
+       },
+       "is": {
+        "language": "is",
+        "value": "Chittagong"
+       },
+       "an": {
+        "language": "an",
+        "value": "Chittagong"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Chittagong"
+       },
+       "io": {
+        "language": "io",
+        "value": "Chittagong"
+       },
+       "az": {
+        "language": "az",
+        "value": "Çittaqonq"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Chittagong"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Chittagong"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Chittagong"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Chittagong"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Chittagong"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Chittagong"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Chittagong"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Chittagong"
+       },
+       "te": {
+        "language": "te",
+        "value": "చిట్టగాంగ్"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "טשיטאגאנג"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Chittagong"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Chittagong"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Chittagong"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Chittagong"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "شهرستان چیتاگونگ"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Chittagong"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Chittagong"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Chittagong"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Chittagong"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Chittagong"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Chittagong"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Chittagong"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Chittagong"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಚಿತ್ತಗಾಂಗ್"
+       },
+       "su": {
+        "language": "su",
+        "value": "Chittagong"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Čitágáon"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Chittagong"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Chittagong"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Chittagong"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Chittagong"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Chittagong"
+       },
+       "my": {
+        "language": "my",
+        "value": "စစ်တကောင်းမြို့"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ചിറ്റഗോങ്"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Čitágáon"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Читтагонг"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Chittagong"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "चट्टग्राम"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "چٹاگانگ"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Çitagong"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Čėtagons"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Чытагонг"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Chittagong"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "चिटागोंग"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Çitagong"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ჩიტაგონგი"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Читтагонг"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "吉大港"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Chittagong"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Chittagong"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Читтагонг"
+       },
+       "si": {
+        "language": "si",
+        "value": "චිතගොන්"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Читагонг"
+       },
+       "be": {
+        "language": "be",
+        "value": "Чытагонг"
+       },
+       "am": {
+        "language": "am",
+        "value": "ችተጎንግ"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Chittagong"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "चिटागोंग"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "चटगाँव"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Çitagong"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Chittagong"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Читтагонг"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Chittagong"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "吉大港"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "吉大港市"
+       },
+       "os": {
+        "language": "os",
+        "value": "Читтагонг"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Չիտագոնգ"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "চট্টগ্রাম"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Читтагонг"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Chittagong"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "吉大港"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "吉大港市"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Читтогунг"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Chatigão"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Chittagong"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Chittagong"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଚିଟାଗଙ୍ଗ"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠌꠤꠐꠣꠉꠣꠋ ꠘꠉꠞ"
+       },
+       "rki": {
+        "language": "rki",
+        "value": "စစ်တကောင်းမြို့"
+       },
+       "as": {
+        "language": "as",
+        "value": "চট্টগ্ৰাম"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Chittagong"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Chittagong"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "吉大港"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "吉大港"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Chittagong"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "چٹاگانگ"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Chittagong"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Chittagong"
+       },
+       "la": {
+        "language": "la",
+        "value": "Chittagongum"
+       },
+       "so": {
+        "language": "so",
+        "value": "Chittagong"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "ဝဵင်းၸိတ်ႉတၵွင်း"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "چٽاگانگ"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱪᱚᱴᱴᱚᱜᱨᱟᱢ"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Chittagon"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "چیتاگۆنگ"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Chattogram"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q376749&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:20.816941+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "df5d88303bb7299bad7f6f883ca5bbc469b71fa2",
+        "datavalue": {
+         "value": {
+          "latitude": 22.335,
+          "longitude": 91.8325,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q376749$3F10148B-A1BC-42B8-9B59-4AFE6A17C6BE",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q376749&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:22.693359+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "4a00ac835a116e416c7a7b7e3395725f0413dd5c",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 902,
+          "id": "Q902"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q376749$87B98081-553C-4C8A-B1E7-A3E9E9AD4F48",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 10000,
+              "id": "Q10000"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "d7a48ffd0d361def822bdc0770c1899d896e199c",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 200464,
+          "id": "Q200464"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "fdff093f600e5edcead5e27156a86ad1dc00ac61",
+          "datavalue": {
+           "value": {
+            "time": "+1665-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "1e2705e2a10cc48eb79ea4d705582fc0264d868c",
+          "datavalue": {
+           "value": {
+            "time": "+1528-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q376749$3989207B-C9E6-4884-9129-2918FD6D285C",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q902&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:23.066016+00:00",
+   "response": {
+    "entities": {
+     "Q902": {
+      "type": "item",
+      "id": "Q902",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Банглодеш"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Bangladéš"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "بنگلا دیش"
+       },
+       "na": {
+        "language": "na",
+        "value": "Bangradet"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Бангладеш"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "বাংলাদেশ"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-Bangladesh"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "বাংলাদেশ"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Bangladešas"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Bangladais"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "عوامی جمہوریہ بنگلہ دیش"
+       },
+       "so": {
+        "language": "so",
+        "value": "Bangaladhesh"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Banggladesh"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Бангладеш"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Бангладеш"
+       },
+       "za": {
+        "language": "za",
+        "value": "Bangladesh"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Bangladẹ́shì"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Bangladesh"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Баңгладеш"
+       },
+       "es": {
+        "language": "es",
+        "value": "Bangladés"
+       },
+       "or": {
+        "language": "or",
+        "value": "ବଙ୍ଗଳାଦେଶ"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Bangladesh"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "באנגלאדעש"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Bhanglaidéis"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Bangladesz"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Bangladeş"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Bangladèsh"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Bangaladeshi"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Bangladesh"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Bangladešos"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Haʼaʼaahjí Naakaii Dootłʼizhí Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "孟加拉国"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Bangladexe"
+       },
+       "az": {
+        "language": "az",
+        "value": "Banqladeş"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "بنگلادش"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "孟加拉國"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Bangladeš"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಬಾಂಗ್ಲಾದೇಶ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Bangladesh"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Бангладеш"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Bangladex"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Bangladesh"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Banggaladésa"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Бангладеш"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "बांग्लादेश"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Бангладеш"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Бангладеш"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Bangladesh"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Bangladeš"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Bangladeş"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "வங்காளதேசம்"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Bangladesh"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Bangladesh"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "बांग्लादेश"
+       },
+       "av": {
+        "language": "av",
+        "value": "Бангладеш"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Bangladesch"
+       },
+       "co": {
+        "language": "co",
+        "value": "Bangladesh"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Bangladesh"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Bangladesh"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Bangladesh"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "بنڨلاديش"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດບັງກລາເທດ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Bangladesh"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Bangladesch"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Banglades"
+       },
+       "da": {
+        "language": "da",
+        "value": "Bangladesh"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Bangladesh"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Bangladeša"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Bangladesh"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ባንግላደሽ"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Бангладеш"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Pātaratēhi"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Vangladesh"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Paŋgɩladɛɛsɩ"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "बंगलादेश"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Bengladeş"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Bangladash"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Bangladesz"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Bangladesh"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Бангладеш"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Bangladesh"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Bangladesh"
+       },
+       "io": {
+        "language": "io",
+        "value": "Bangladesh"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "孟加拉国"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Бангладеш"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Bangladesch"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Bangladesh"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Bangladash"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "بنقلادش"
+       },
+       "an": {
+        "language": "an",
+        "value": "Bangladesh"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Բանգլադեշ"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Bangladeš"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Bangladesh"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "बंगलादेश"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Bangladeŝo"
+       },
+       "de": {
+        "language": "de",
+        "value": "Bangladesch"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Bangladesj"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Bangladesch"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Bangládes"
+       },
+       "war": {
+        "language": "war",
+        "value": "Bangladesh"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "begygu'e"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "بنغلاديش"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "بنگلادش"
+       },
+       "en": {
+        "language": "en",
+        "value": "Bangladesh"
+       },
+       "as": {
+        "language": "as",
+        "value": "বাংলাদেশ"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "بنگلادیش"
+       },
+       "os": {
+        "language": "os",
+        "value": "Бангладеш"
+       },
+       "my": {
+        "language": "my",
+        "value": "banglaဘင်္ဂလားဒေ့ရှ်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "孟加拉国"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "བངྒ་ལ་དེཤ"
+       },
+       "et": {
+        "language": "et",
+        "value": "Bangladesh"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Bangladesh"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Banglaades"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "孟加拉"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Bangladesh"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏆᏂᎦᎵᏕᏍ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "孟加拉"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Bangladesh"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Bangladesh"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "孟加拉國"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Bangladesh"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Bangladesch"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ബംഗ്ലാദേശ്"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "بەنگلادێش"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Bángaladɛ́si"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Banglladèch·e"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Bangladesh"
+       },
+       "la": {
+        "language": "la",
+        "value": "Bangladesia"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Bangladesch"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Bangladesh"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "बांगलादेश"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Bangladesj"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Bangladesh"
+       },
+       "is": {
+        "language": "is",
+        "value": "Bangladess"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Bangladeš"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Bangladesh"
+       },
+       "li": {
+        "language": "li",
+        "value": "Bangladesj"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "بنګله دېش"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Bangladesh"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "孟加拉國"
+       },
+       "id": {
+        "language": "id",
+        "value": "Bangladesh"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "बांगलादेश"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "બાંગ્લાદેશ"
+       },
+       "su": {
+        "language": "su",
+        "value": "Bangladés"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Bangladesh"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਬੰਗਲਾਦੇਸ਼"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Bangládeş"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Bangladesh"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Banglades"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "孟加拉"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Bangladesh"
+       },
+       "af": {
+        "language": "af",
+        "value": "Bangladesj"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Bangladesh"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Бангладеш"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Bangladesh"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Bangladesh"
+       },
+       "si": {
+        "language": "si",
+        "value": "බංගලාදේශය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "孟加拉国"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Bangladesh"
+       },
+       "km": {
+        "language": "km",
+        "value": "បង់ក្លាដែស្ស"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Bangladesh"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Bangladesci"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Bangladec"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Бангладеш"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Bangladesh"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ბანგლადეში"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Bangladejän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱵᱟᱝᱞᱟᱫᱤᱥᱟᱹᱢ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Bangladesch"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Bangladesh"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "बांगलादेश"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Banagaladesa"
+       },
+       "om": {
+        "language": "om",
+        "value": "Baangilaadish"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Bangladesh"
+       },
+       "he": {
+        "language": "he",
+        "value": "בנגלדש"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Bangladeš"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Банглядэш"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Bangladesh"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Bangladesh"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Bangladesh"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Vangyladẽ"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Bangladeš"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Bangladeš"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Banglades"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "孟加拉國"
+       },
+       "te": {
+        "language": "te",
+        "value": "బంగ్లాదేశ్"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Бангладеш"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Баҥладеш"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Bængladesc"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Bangladesh"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Bangladeş"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "बंगलादेश"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Бенгалмудин Улс Орн"
+       },
+       "new": {
+        "language": "new",
+        "value": "बंगलादेश"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Bangladesh"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "بنگلاديش"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Bangladesh"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "방글라데시"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Bangladesh"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Bangladèch"
+       },
+       "be": {
+        "language": "be",
+        "value": "Бангладэш"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ბანგლადეში"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Бангладеш"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Бангладеш"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Bangladesch"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "孟加拉國"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "བྷང་ལ་རྡེ་ཤུ།"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Pākaratēhi"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Bangladesz"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Bangladesh"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Bangladesch"
+       },
+       "am": {
+        "language": "am",
+        "value": "ባንግላዴሽ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Bangladesh"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Бангладеш"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Бангладеш"
+       },
+       "it": {
+        "language": "it",
+        "value": "Bangladesh"
+       },
+       "el": {
+        "language": "el",
+        "value": "Μπανγκλαντές"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Bangladeshi"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Bangladesh"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Bangladesh"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "بانگلادېش"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Банґладеш"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "بنگلادش"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Bengladeş"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Bangladeš"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Bangladeş"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IBhangladeshi"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Bangladesh"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ބަންގާޅު"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "بانجلاديش"
+       },
+       "se": {
+        "language": "se",
+        "value": "Bangladesh"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Bangladex"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Banladish"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Bangladéš"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Bangladesh"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Bangladesh"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Bangladesh"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Bangladesh"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Бангладеш"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Bangladeš"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "バングラデシュ"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Bangladeş"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Bangladex"
+       },
+       "br": {
+        "language": "br",
+        "value": "Bangladesh"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "孟加拉國"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "बंगलादेशः"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Bangladesh"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศบังกลาเทศ"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Bangladesh"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "बंगलादेश"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Бангладеш"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Banladish"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "ပၢင်းၵလႃးတဵသျ်ႉ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Бангладеш Мастор"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Bangladesh"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Bangladesh"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Bangladesh"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Bangladesh"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Bangladesh"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Bangladesh"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "بانڭلاديش"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Bangladesh"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "बांग्लादेश"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Bangladesh"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Bangladeš"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Бангладеш"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Bangladesc"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಬಾಂಗ್ಲಾ ದೇಶ"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Banngladesh"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Bangladesh"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Bangladesh"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Bangladesy"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Bangladeca"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯕꯥꯡꯂꯥꯗꯦꯁ"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Bangladesh"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Bangladesh"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Бангладеш"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Bangladesh"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Bangladesh"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Bangladesh"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Bangladesh"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Bangladesh"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "بنگلہ دیش"
+       },
+       "st": {
+        "language": "st",
+        "value": "Bangladesh"
+       },
+       "tg-latn": {
+        "language": "tg-latn",
+        "value": "Banglodeş"
+       },
+       "to": {
+        "language": "to",
+        "value": "Pengilātesi"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Bangladesh"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Bangladesh"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Бангладэш"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "방글라데슈"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠛꠣꠋꠟꠣꠖꠦꠡ"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ဗန်းကလားဒေတ်ခမ်းထီ"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "بَنٛگلہ دیٖش"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Panla"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Bangladexe"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "बांग्लादेश"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Bangladesh"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Bangladesh"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Banqladeş"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴱⴰⵏⴳⵍⴰⴷⵉⵛ"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Bangladesh"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Bangladæssja"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Bangladek"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Bangladesh"
+       },
+       "rki": {
+        "language": "rki",
+        "value": "ဘင်္ဂလားဒေ့ရှ်နိုင်ငံ"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Benggaladésa"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Bangladesh"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Bangladesh"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Bangladesh"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Bangladesh"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Bangladesh"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Պանկլատեշ"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Bangladesh"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Bangladexi"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "بنگلادش"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Banglades"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "Бангладэш"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Bangladesh"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "ဗင်္ဂလာဒေသ်"
+       },
+       "kaj": {
+        "language": "kaj",
+        "value": "Bangladesh"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

@@ -1,0 +1,2430 @@
+{
+ "wikidata_id": "Q1352",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1352&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:17.064076+00:00",
+   "response": {
+    "entities": {
+     "Q1352": {
+      "pageid": 1756,
+      "ns": 0,
+      "title": "Q1352",
+      "lastrevid": 2554836422,
+      "modified": "2026-10-08T03:12:52Z",
+      "type": "item",
+      "id": "Q1352",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Chennai"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Madras"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "चेन्नई"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ચેન્નઈ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "첸나이"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Chennai"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Chennai"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "চেন্নাই"
+       },
+       "de": {
+        "language": "de",
+        "value": "Chennai"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Chennai"
+       },
+       "af": {
+        "language": "af",
+        "value": "Chennai"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "تشيناي"
+       },
+       "as": {
+        "language": "as",
+        "value": "চেন্নাই"
+       },
+       "az": {
+        "language": "az",
+        "value": "Çennai"
+       },
+       "be": {
+        "language": "be",
+        "value": "Чэнаі"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Ченай"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "চেন্নাই"
+       },
+       "br": {
+        "language": "br",
+        "value": "Chennai"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Chennai"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Čennaí"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Chennai"
+       },
+       "da": {
+        "language": "da",
+        "value": "Chennai"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Çenay"
+       },
+       "el": {
+        "language": "el",
+        "value": "Τσεννάι"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Ĉenajo"
+       },
+       "es": {
+        "language": "es",
+        "value": "Chennai"
+       },
+       "et": {
+        "language": "et",
+        "value": "Chennai"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Chennai"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Chennai"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "چنای"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Chennai"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Chennai"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Chennai"
+       },
+       "he": {
+        "language": "he",
+        "value": "צ'נאי"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Chennai"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Chennai"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Csennai"
+       },
+       "id": {
+        "language": "id",
+        "value": "Chennai"
+       },
+       "it": {
+        "language": "it",
+        "value": "Chennai"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "チェンナイ"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ჩენაი"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Chennai"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಚೆನ್ನೈ"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Chennai"
+       },
+       "la": {
+        "language": "la",
+        "value": "Maderaspatanum"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Čenajus"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Čennai"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Chennai"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ചെന്നൈ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Ченнай"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "चेन्नई"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Chennai"
+       },
+       "my": {
+        "language": "my",
+        "value": "ချန်နိုင်းမြို့"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "चेन्नई"
+       },
+       "new": {
+        "language": "new",
+        "value": "चेन्नई"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Chennai"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Chennai"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଚେନ୍ନାଇ"
+       },
+       "os": {
+        "language": "os",
+        "value": "Ченнай"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Chennai"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Ćennaj"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "چنائی"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Chennai"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Chennai"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Chennai"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Chennai"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Ченнаи"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "चेन्नै"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Chennai"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Čenaj"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Čenaj"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Ченај"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Chennai"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Chennai"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Madras"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சென்னை"
+       },
+       "te": {
+        "language": "te",
+        "value": "చెన్నై"
+       },
+       "th": {
+        "language": "th",
+        "value": "เจนไน"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Chennai"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Çennay"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Ченнай"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "چنئی"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Chennai"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Chennai"
+       },
+       "war": {
+        "language": "war",
+        "value": "Chennai"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "金奈"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "金奈"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Chennai"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Չեննայ"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Chennai"
+       },
+       "io": {
+        "language": "io",
+        "value": "Chennai"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Чэнаі"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Chennai"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਚੇਨੱਈ"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Ченнаи"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Ченнаи"
+       },
+       "is": {
+        "language": "is",
+        "value": "Chennai"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Chennai"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Chennai"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Čennai"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Chennai"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "金奈"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "欽奈"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "真奈"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "金奈"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "清奈"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "欽奈"
+       },
+       "si": {
+        "language": "si",
+        "value": "චෙන්නායි"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Chennai"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "चेन्नई"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "金奈"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "清奈"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "چينای"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Chennai"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Ченнай"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "चेन्नई"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Chennai"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Ченнаи"
+       },
+       "am": {
+        "language": "am",
+        "value": "ቸናይ"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Ченнай"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Ченнай"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Chennay"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Çenai"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Ченај"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Çennaý"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "ಚೆನ್ನೈ"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "چنای"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "चेन्नई"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Chennai"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Chennai"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Chennai"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Ченнаи"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Чинай"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "清奈"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱪᱮᱱᱱᱟᱭ"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Çennai"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Çennai"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Ченнаи"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "چنائي"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "تشيناى"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Chennai"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Չեննայ (Մատրաս)"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "چێنای"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "چِنَے"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Shennai"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Chennai"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Chennai"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Chennai"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Chennai"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "مادراس"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Чэнаи"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Chennai"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Chennai"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "مدرس"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Chennai"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "مدرس"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Chénnai"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Chennai"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Chennai"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Cennai"
+       },
+       "an": {
+        "language": "an",
+        "value": "Chennai"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "चेन्नई"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಚೆನ್ನೈ"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "चेन्नै"
+       },
+       "so": {
+        "language": "so",
+        "value": "Chennai"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1352&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:17.311265+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "65ccfe48cb18534313619ea30bb44f6120e75bdd",
+        "datavalue": {
+         "value": {
+          "latitude": 13.0825,
+          "longitude": 80.275,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q1352$2AF669C7-3B07-42A1-8ED0-24B14C656B0E",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1352&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:17.543370+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "18fb076bdc1c07e578546d1670ba193b768531ac",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 668,
+          "id": "Q668"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "d4cb98f6ede9bcba7e97423a7ba1c5b417a067aa",
+          "datavalue": {
+           "value": {
+            "time": "+1947-08-15T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q1352$754D0BBF-3D42-4387-B632-5DCFD86030EE",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "cf510253b384980effcd5f2ee57f3ad9d1555126",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "c23d08b9c1c6bb1cd9280d0fa7cdba70d3ab0a87",
+            "datavalue": {
+             "value": "44774",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "d6e9612b10e0b6a551c13c2bdab249d01e1c91ce",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 2001966,
+          "id": "Q2001966"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "8e7e6b0f782e6ca5ecc95d3a55c7b5c04e340d24",
+          "datavalue": {
+           "value": {
+            "time": "+1639-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "e4d90a06ad93a6f5fae967b53161ba3f5dd13b1b",
+          "datavalue": {
+           "value": {
+            "time": "+1858-06-28T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1352$035a23cb-4826-6c91-8d01-ff8b03a319e7",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "460e6242275210a2f72d40b277dc2ecc0b42a1c1",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 129286,
+          "id": "Q129286"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "64cf8586f277980cd8f1cefcd7e951b3771d5b29",
+          "datavalue": {
+           "value": {
+            "time": "+1858-06-28T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "33ee1577d40e3f77ecd155dfbee3c3a9cfa10a3b",
+          "datavalue": {
+           "value": {
+            "time": "+1947-08-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1352$4cf2d3b5-44a8-8a7b-85c7-43b8560f2b7f",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "18fb076bdc1c07e578546d1670ba193b768531ac",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 668,
+          "id": "Q668"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "Q1352$9E1A7E60-17B9-4F61-BC5F-CE0F96C88E9B",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q668&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:18.020302+00:00",
+   "response": {
+    "entities": {
+     "Q668": {
+      "type": "item",
+      "id": "Q668",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Ҳиндустон"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Indya"
+       },
+       "na": {
+        "language": "na",
+        "value": "Indjiya"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Индија"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "INdiya"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "ভারত"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Indija"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Индия"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "India"
+       },
+       "so": {
+        "language": "so",
+        "value": "Hindiya"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Indie"
+       },
+       "ug-latn": {
+        "language": "ug-latn",
+        "value": "Hindistan"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Indii"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Індія"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Һиндстан"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Ìndia"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Энэдхэг"
+       },
+       "za": {
+        "language": "za",
+        "value": "Yindu"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Índíà"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "India"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "India"
+       },
+       "es": {
+        "language": "es",
+        "value": "India"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଭାରତ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Индия Мастор"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "אינדיע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an India"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Barato"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "India"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "印度"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "هند"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Ubuhinde"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Indie"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Indėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Iņdeja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Tó Wónaanídę́ę́ʼ Bitsįʼ Yishtłizhii Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "印度"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Індыя"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Indija"
+       },
+       "az": {
+        "language": "az",
+        "value": "Hindistan"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "هند"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "印度"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Indien"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಭಾರತ"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Гьиндистан"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "India"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "இந்தியா"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Indhi"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "IIndia"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "भारत"
+       },
+       "he": {
+        "language": "he",
+        "value": "הודו"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Энэтхэг"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "İndiya"
+       },
+       "om": {
+        "language": "om",
+        "value": "Indiyaa"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Indiya"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "İndistan"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "India"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "India"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "India"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "भारत"
+       },
+       "av": {
+        "language": "av",
+        "value": "Хиндистан"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Indien"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Hindistan"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "India"
+       },
+       "st": {
+        "language": "st",
+        "value": "India"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "الهند"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Uhindi"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Indien"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Ҳиндустон"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Indya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Indien"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "भारत"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Indien"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "İndistan"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Indija"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Ìn-tō͘"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Indien"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಭಾರತ"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Индие"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "’Inītia"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "yn Injey"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Ɛɛndɩ"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Índia"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "الهند"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Indiakondre"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "India"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ভারত"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Endya"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "India"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Hindiston"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Энедигин Орн"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Инди"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Índia"
+       },
+       "io": {
+        "language": "io",
+        "value": "India"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "印度"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Индия"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "India"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "هیندوستان"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "India"
+       },
+       "kjp": {
+        "language": "kjp",
+        "value": "အေန်ဍီးယးခါန်ႋ"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "ہِندوستان"
+       },
+       "an": {
+        "language": "an",
+        "value": "India"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Հնդկաստան"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Índia"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "भारत"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "India"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "भारत"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "India"
+       },
+       "de": {
+        "language": "de",
+        "value": "Indien"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Ndia"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Yndia"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Igitia"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "India"
+       },
+       "war": {
+        "language": "war",
+        "value": "Indya"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Bharat"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "xingu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Индиэ"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Индия"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Índia"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "هئن"
+       },
+       "en": {
+        "language": "en",
+        "value": "India"
+       },
+       "as": {
+        "language": "as",
+        "value": "ভাৰত"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨕᨗᨉᨗᨐ"
+       },
+       "os": {
+        "language": "os",
+        "value": "Инди"
+       },
+       "my": {
+        "language": "my",
+        "value": "အိန္ဒိယနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "印度"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "هندوستان"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "རྒྱ་གར་"
+       },
+       "et": {
+        "language": "et",
+        "value": "India"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "La Índia"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "End"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᐃᓐᑎᐊ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "印度"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "India"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Índia"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "印度"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Înde"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "India"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Indie"
+       },
+       "min": {
+        "language": "min",
+        "value": "India"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Indie"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "印度"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܗܢܕܘ"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "India"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "India"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഇന്ത്യ"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ھیندستان"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "India"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Ende"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "India"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "India"
+       },
+       "la": {
+        "language": "la",
+        "value": "India"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "India"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Indien"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Индия"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "भारत"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "India"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Inde"
+       },
+       "is": {
+        "language": "is",
+        "value": "Indland"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Indiska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Indja"
+       },
+       "li": {
+        "language": "li",
+        "value": "India"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "هند"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Intia"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "印度"
+       },
+       "id": {
+        "language": "id",
+        "value": "India"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "Dn/भारत"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ભારત"
+       },
+       "su": {
+        "language": "su",
+        "value": "India"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "ХIиндиче"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "India"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਭਾਰਤ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Inde"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Ấn Độ"
+       },
+       "ug-arab": {
+        "language": "ug-arab",
+        "value": "ھىندىستان"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "India"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Гьиндусттан"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "India"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Bharot"
+       },
+       "af": {
+        "language": "af",
+        "value": "Indië"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Indiya"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Индия"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Indïi"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "India"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "भारत"
+       },
+       "si": {
+        "language": "si",
+        "value": "භාරත ජනරජය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "印度"
+       },
+       "km": {
+        "language": "km",
+        "value": "ឥណ្ឌា"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "India"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Innia"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "India"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Lhend"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Индия"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "India"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ინდოეთი"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Lindän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱥᱤᱧᱚᱛ"
+       },
+       "it": {
+        "language": "it",
+        "value": "India"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "India"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎢᏅᏗᎾ"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "‘Īnia"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "India"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Inde"
+       },
+       "din": {
+        "language": "din",
+        "value": "Indiɛn"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "India"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Inđíá"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "भारतम्"
+       },
+       "co": {
+        "language": "co",
+        "value": "India"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Indiska"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ڀارت"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "India"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Éng-dô"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌹𐌽𐌳𐌹𐌰/India"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Hindıstan"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Һиндстан"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "India"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Indija"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Indija"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ህንዲ"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "India"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "印度"
+       },
+       "te": {
+        "language": "te",
+        "value": "భారతదేశం"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Һиндостан"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Индия"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Indea"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Indyje"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Hindistan"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "India"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "India"
+       },
+       "new": {
+        "language": "new",
+        "value": "भारत"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Indie"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Na h-Innseachan"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "India"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Hindistan"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "India"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "End"
+       },
+       "be": {
+        "language": "be",
+        "value": "Індыя"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ინდოეთი"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "India"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "ХӀинди"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Индия"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "هند"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Idia"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "India"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "རྒྱ་གར།"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "India"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Īnia"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Indie"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "India"
+       },
+       "am": {
+        "language": "am",
+        "value": "ህንድ"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Indija"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "India"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Үндістан"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Índia"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Innia"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "بھارت"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ινδία"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Indië"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "India"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "India"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Indien"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Индий"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "ھىندىستان"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Індія"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Indien"
+       },
+       "tt-latn": {
+        "language": "tt-latn",
+        "value": "Hindstan"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Hindistan"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Indii"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Ubuhindi"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "INdiya"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "India"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "އިންޑިޔާ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "الهند"
+       },
+       "se": {
+        "language": "se",
+        "value": "India"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Indiah"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Indya"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Indie"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "India"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "India"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Индија"
+       },
+       "to": {
+        "language": "to",
+        "value": "ʻInitia"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Indija"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "インド"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "인도"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Barat"
+       },
+       "br": {
+        "language": "br",
+        "value": "India"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "印度"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Eynda"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "India"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศอินเดีย"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Yin-thu"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "भारत"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Индија"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "印度"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Հնդկաստան"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "ဢိၼ်ႇတိယ"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດອິນເດຍ"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Índia"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "India"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "India"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "End"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "لهيند"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "भारत"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "India"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Intia"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "India"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "بھارت"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "بھارت"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "India"
+       },
+       "atj": {
+        "language": "atj",
+        "value": "Inda"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "India"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Barata"
+       },
+       "cr": {
+        "language": "cr",
+        "value": "ᙜᓃ"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯏꯟꯗꯤꯌꯥ"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "India"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Hinndi"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "India"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "اينديا"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "India"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "India"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "India"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Їндїꙗ"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Ndiya"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "인디아"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "အေင်ဒိယခမ်းထီ"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Индиа"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Palata"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠄꠘ꠆ꠒꠤꠀ"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "भारत"
+       },
+       "dga": {
+        "language": "dga",
+        "value": "India"
+       },
+       "ryu": {
+        "language": "ryu",
+        "value": "天竺"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "India"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "India"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "भारत"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Hindyston"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵀⵉⵏⴷⵓⵙⵜⴰⵏ"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "India"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "India"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Hindi"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "India"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "India"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "India"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "India"
+       },
+       "tdd": {
+        "language": "tdd",
+        "value": "ᥛᥫᥒᥰ ᥟᥤᥢᥰ ᥖᥤᥰ ᥕᥣᥰ"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "India"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Hindístan"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "India"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Innda"
+       },
+       "mnc": {
+        "language": "mnc",
+        "value": "ᠶᡝᠨ ᡩᡠ"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "India"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Ìndia"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Indiya"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "India"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Indiya"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "India"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

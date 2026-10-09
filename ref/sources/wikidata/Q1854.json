@@ -1,0 +1,2655 @@
+{
+ "wikidata_id": "Q1854",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1854&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:25.821615+00:00",
+   "response": {
+    "entities": {
+     "Q1854": {
+      "pageid": 2651,
+      "ns": 0,
+      "title": "Q1854",
+      "lastrevid": 2545601728,
+      "modified": "2026-09-14T12:52:53Z",
+      "type": "item",
+      "id": "Q1854",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Ho Chi Minh City"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Hô Chi Minh-Ville"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Хашымін"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Hồ Chí Minh Chhī"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Хошимин"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Ho Chi Minh"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Хо Ши Мин"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Ho Chi Minh Mīsts"
+       },
+       "es": {
+        "language": "es",
+        "value": "Ciudad Ho Chi Minh"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Ho Chi Minh City"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Ho Chi Minh City"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Kota Ho Chi Minh"
+       },
+       "af": {
+        "language": "af",
+        "value": "Ho Chi Minh-stad"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሆ ቺ ሚን ከተማ"
+       },
+       "an": {
+        "language": "an",
+        "value": "Ciudat Ho Chi Minh"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Ho Chi Minh Burg"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مدينة هو تشي منه"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "هو تشى مينه"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Ciudad Ho Chi Minh"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Ho Chi Min marka"
+       },
+       "az": {
+        "language": "az",
+        "value": "Hoşimin"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Хошимин"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Ho-Chi-Minh-Stadt"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Ho Chi Minh City"
+       },
+       "be": {
+        "language": "be",
+        "value": "Хашымін"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Хошимин"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Ho Chi Minh City"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Ho Chi Minh City"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Ho Chi Minh-Ville"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "হো চি মিন সিটি"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཧོ་ཀྲི་མིན་གྲོང་ཁྱེར།"
+       },
+       "br": {
+        "language": "br",
+        "value": "Kêr Ho-Chi-Minh"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Ho Ši Min Grad"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨀᨚᨈ ᨖᨚᨌᨗᨆᨗ"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Ciutat Ho Chi Minh"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Ciudad Hồ Chí Minh"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Dakbayan Hồ Chí Minh"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Ho Chi Minh"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Ho Chi Minh City"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Ho Či Minovo Město"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Ho Chi Minh City"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Хошимин"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Dinas Ho Chi Minh"
+       },
+       "da": {
+        "language": "da",
+        "value": "Ho Chi Minh-byen"
+       },
+       "de": {
+        "language": "de",
+        "value": "Ho-Chi-Minh-Stadt"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Ho-Chi-Minh-Stadt"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Ho Chi Minh"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Ho Chi Minh město"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Ho Chi Minh City"
+       },
+       "el": {
+        "language": "el",
+        "value": "Χο Τσι Μινχ"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Ho Chi Minh City"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Ho-Ĉi-Min-urbo"
+       },
+       "et": {
+        "language": "et",
+        "value": "Hồ Chí Minh"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Ho Chi Minh Hiria"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Ciá Ho Chi Minh"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "هوشی‌مین"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Ho Chi Minh City"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Hồ Chí Minhin kaupunki"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Ho Chi Minh City"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Ho Chi Minh Vela"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Ho Chi Minh-stää"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Citât di Ho Chi Minh"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Ho Chi Minh stêd"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Cathair Ho Chi Minh"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Ho Chi Minh City"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "胡志明市"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Ho Chi Minh"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Cidade Ho Chi Minh"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Táva Ho Chi Minh"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Caayr Ho Chi Minh"
+       },
+       "he": {
+        "language": "he",
+        "value": "הו צ'י מין סיטי"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "हो ची मिन नगर"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Ho Chi Minh City"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Ho Ši Min"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Ho Chi Minh město"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Hô-Chi-Minh-Vil"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Ho Si Minh-város"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Հոշիմին"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Citate de Ho Chi Minh"
+       },
+       "id": {
+        "language": "id",
+        "value": "Kota Hồ Chí Minh"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Ho Chi Minh Cité"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Ho Chi Minh City"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Ho Chi Minh City"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Siudad Hồ Chí Minh"
+       },
+       "io": {
+        "language": "io",
+        "value": "Ho Chi Minh urbo"
+       },
+       "is": {
+        "language": "is",
+        "value": "Hồ Chí Minh-borg"
+       },
+       "it": {
+        "language": "it",
+        "value": "Ho Chi Minh"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ホーチミン市"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "Ho Chi Minh tcadu"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Kutha Ho Chi Minh"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ხოშიმინი"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Ho Chi Minh City"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Ho Chi Minh City"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Ho Chi Minh City"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Хошимин"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Ho Chi Minh Illoqarfik"
+       },
+       "km": {
+        "language": "km",
+        "value": "ក្រុងព្រៃនគរ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "호찌민시"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Хошимин"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Ho Chi Minh-Stadt"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Bajarê Ho Chi Minh"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Cita Ho Chi Minh"
+       },
+       "la": {
+        "language": "la",
+        "value": "Hochiminhopolis"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Sivdad Ho Chi Minh"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Ho Chi Minh City"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Хошимин"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Ho Chi Minh City"
+       },
+       "li": {
+        "language": "li",
+        "value": "Ho Chi Minhstad"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Ho Chi Minh Cittæ"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Cità de Ho Chi Minh"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Ho Chi Minh Engumba"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Hošiminas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Hošimina"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Kota Ho Chi Minh"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Хошимин"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Hô-Chi-Minh-Ville"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Хошимин"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Ho Chi Minh City"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഹോ ചി മിൻ നഗരം"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Хо Ши Мин хот"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "हो चि मिन्ह सिटी"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Bandar Raya Ho Chi Minh"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Ho Chi Minh"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Ho Chi Minh Cidade"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဟိုချီမင်းစီးတီး"
+       },
+       "na": {
+        "language": "na",
+        "value": "Ho Chi Minh City"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Āltepētl Ho Chi Minh"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Ho Chi Minh"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Ho-Chi-Minh-Stadt"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Ho Chi Minhstad"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Ho Chi Minh-byen"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Ho Chi Minh City"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Ho Chi Minh Ville"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Ho Chi Minh City"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Ciutat de Ho Chi Minh"
+       },
+       "os": {
+        "language": "os",
+        "value": "Хошимин"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Lakambaleng Hồ Chí Minh"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Saigon"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Ho Chi Minh Vile"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Ho Chi Minh-Schtadt"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Ho-Chi Minh-Schdadt"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Ho Chi Minh City"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Ho Chi Minh"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Ho Chi Minh City"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Cidade de Ho Chi Minh"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Cidade de Ho Chi Minh"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Ho Chi Minh llaqta"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Citad Ho Chi Minh"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Ho Chi Minh City"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Ho Și Min"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Ho Chi Minh"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Хошимин"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Хошимин"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Ho Chi Minh"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Ho Chi Minh"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Ho Chi Minh City"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Ho Chi Minh Ceety"
+       },
+       "se": {
+        "language": "se",
+        "value": "Hồ Chí Minh gávpot"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Ho Chi Minh City"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Ho Chi Minh"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Hočiminovo Mesto"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Hošiminh"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Ho Chi Minh City"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Guta reHo Chi Minh"
+       },
+       "so": {
+        "language": "so",
+        "value": "Ho Chi Minh City"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Ho-Chi-Minh-Qytet"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Ho Chi Minh City"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "Ho Chi Minh City"
+       },
+       "st": {
+        "language": "st",
+        "value": "Ho Chi Minh City"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Ho-Chi-Minh-Stääd"
+       },
+       "su": {
+        "language": "su",
+        "value": "Kota Ho Chi Minh"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Ho Chi Minh-staden"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mji wa Ho Chi Minh"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Ho Chi Minh"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "ஹோ சி மின் நகரம்"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Ho Chi Minh City"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Ҳошимин"
+       },
+       "th": {
+        "language": "th",
+        "value": "นครโฮจิมินห์"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Ho Şi Miň Şäheri"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Lungsod Hồ Chí Minh"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Ho Chi Minh City"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Ho Chi Minh City"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Ho Chi Minh Kenti"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Ho Chi Minh City"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Хошимин"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Ho Chi Minh City"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Ho Chi Minh City"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Хошимин"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "سايگون"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Хошимін"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "ہو چی من"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Xoshimin"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Ho Chi Minh City"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Hošimin"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Thành phố Hồ Chí Minh"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Ho Chi Minhstad"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Hô Chí Minh Veye"
+       },
+       "war": {
+        "language": "war",
+        "value": "Siyudad Hồ Chí Minh"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Ho Chi Minh City"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "胡志明市"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ხოშიმინი"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "הא טשי מין שטאט"
+       },
+       "za": {
+        "language": "za",
+        "value": "Ho Chi Minh Si"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Ho Chi Minh stad"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "胡志明市"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "胡志明市"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IHochiminh"
+       },
+       "or": {
+        "language": "or",
+        "value": "ସାଇଗନ"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Хо Ши Мин"
+       },
+       "min": {
+        "language": "min",
+        "value": "Koto Ho Chi Minh"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਹੋ ਚੀ ਮਿਨ ਸ਼ਹਿਰ‎"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "胡志明市"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "胡志明市"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Хошимин"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Хошимин"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Ho Chi Minh-byen"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "胡志明市"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "胡志明市"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Ho Şi Min"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Ho-Chi-Minh-Stadt"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Hošėmins"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Ho Chi Minh City"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Ho Chi Minh"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Ho Chi Minh"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Hù Cé-mìng Chê"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "ہوچی منہ"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Ho Chi Minh-stad"
+       },
+       "si": {
+        "language": "si",
+        "value": "හෝ චි මින් නගරය"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Ho Chi Minh City"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Ҳошимин"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Хошимин"
+       },
+       "te": {
+        "language": "te",
+        "value": "హోచిమిన్ సిటీ"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "હો ચી મિન સિટી"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಹೊ ಚಿ ಮಿನ್ ನಗರ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "胡志明市"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Hồ Chí Minh Sṳ"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Ho Şi Min"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "هوشی‌مین"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "هوشی مینه سیتی"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Birnin Ho Chi Minh"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Hosimin"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱦᱳ ᱪᱤ ᱢᱤᱱ ᱥᱤᱴᱤ"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Хошимин"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "胡志明城庯"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ເມືອງໂຮ່ຈິມິນ"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌷𐍉 𐍄𐍃𐌷𐌹 𐌼𐌹𐌽𐌷 𐌱𐌰𐌿𐍂𐌲"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Ndikʼąłchíʼítah"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Hangbanwa Hồ Chí Minh"
+       },
+       "hil": {
+        "language": "hil",
+        "value": "Dakbanwa Hồ Chí Minh"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Ho Chi Minh City"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Хо Ши Мин"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Ho Ciming Kota"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Kota Ho Chi Minh"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "호지명시"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Site de Ho Chi Minh"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Berni Ho Chi Minh"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "هو چي منھ شهر"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "हो चि मिन्ह नगर"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Thành phố Hồ Chí Minh"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo O Si Min"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1854&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:26.090642+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "b9417af5ff8114c32cc93f10b1ee65716aa7ee2e",
+        "datavalue": {
+         "value": {
+          "latitude": 10.775555555555556,
+          "longitude": 106.70194444444445,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q1854$F185C10A-00C5-4E39-866E-68AEA6D36BA1",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1854&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:26.385688+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "c40be02120fa6723ead45340635fe0835f073e90",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 881,
+          "id": "Q881"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P7452": [
+         {
+          "snaktype": "value",
+          "property": "P7452",
+          "hash": "22ea48be6d30f4e44b5aba1bfaf4eca5c8cc4a56",
+          "datavalue": {
+           "value": {
+            "entity-type": "item",
+            "numeric-id": 71536244,
+            "id": "Q71536244"
+           },
+           "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P7452"
+       ],
+       "id": "q1854$65D7FC05-C5C8-487B-B8B5-FA90223BBDDC",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "3fd372ab537bb5ab32605bff6307672c0e98a19f",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "4ae847d894aeb65efcbc03c75ee88d8afe8eac04",
+            "datavalue": {
+             "value": "8357",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "9478163a3c0804dca3d2eb4ed86d024305b50257",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 180573,
+          "id": "Q180573"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "57aa1024e879ad96f917d1c158119feb97c54f28",
+          "datavalue": {
+           "value": {
+            "time": "+1955-10-26T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "6de16e252e7f64ac28829e916c6c078da6007312",
+          "datavalue": {
+           "value": {
+            "time": "+1975-04-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1854$FEB4C066-98DC-4698-811F-6FCCFBBF5CD2",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q881&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:26.750841+00:00",
+   "response": {
+    "entities": {
+     "Q881": {
+      "type": "item",
+      "id": "Q881",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Βιετνάμ"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Vietnam"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "ویتنام"
+       },
+       "na": {
+        "language": "na",
+        "value": "Bitinam"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Vietnam"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IViyetnami"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "ভিয়েতনাম"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "वियतनाम"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Bhiet-Nam"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Vietnam"
+       },
+       "so": {
+        "language": "so",
+        "value": "Fiyetnam"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Vietnam"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "В'єтнам"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Việt Nam"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Vietnam"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Вьетнам"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Виетнам"
+       },
+       "za": {
+        "language": "za",
+        "value": "Yiednamz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Fiẹtnám"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Vietnam"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Вьетнам"
+       },
+       "es": {
+        "language": "es",
+        "value": "Vietnam"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଭିଏତନାମ"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "וויעטנאם"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Vítneam"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Wietnam"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Vyetnam"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Vietnam"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Vietnam"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Vietnam"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Viyetinamu"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Vietnam"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Vietnams"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Vjetnams"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "越南"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Vietname"
+       },
+       "az": {
+        "language": "az",
+        "value": "Vyetnam"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "ویتنام"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "越南"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Vijetnam"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ವಿಯೆಟ್ನಾಮ್"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Vietnam"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Vietnam"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Вьетнам"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Vietnam"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Vietnam"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "வியட்நாம்"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Viètnam"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Вьетнам"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Vietnamas"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Вьетнам"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Вьетнам"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Vietnam"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Vietnam"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Vyetnam"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Vietnam"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Vietnam"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Vietnam"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "वियतनाम"
+       },
+       "av": {
+        "language": "av",
+        "value": "Вьетнам"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Vietnam"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Vietnam"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Vietnam"
+       },
+       "st": {
+        "language": "st",
+        "value": "Vietnam"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "ڥياتنام"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດຫວຽດນາມ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Vietnam"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Vietnam"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Vietnam"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Bietnam"
+       },
+       "da": {
+        "language": "da",
+        "value": "Vietnam"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Vietnam"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Vyetnam"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Vjetnama"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Vietnam"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Вьетнам"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Vietnam"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Yn Vietnam"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Fɩyɛtɩnaam"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Vietnã"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Виетнам"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Vi-etnam"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ভিয়েতনাম"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Wiyetnaam"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Wjetnam"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Viètnam"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Вьетнам"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Vietnami"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Vietname"
+       },
+       "io": {
+        "language": "io",
+        "value": "Vietnam"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Viëtnam"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Вьетнам"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Vietnam"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศเวียดนาม"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Vietnam"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Vietnam"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "ویتنام"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "越南"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Vietnam"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Վիետնամ"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Vietnam"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Vietnam"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "भियतनाम"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Vietnam"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "भियतनाम"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Vjetnamio"
+       },
+       "de": {
+        "language": "de",
+        "value": "Vietnam"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Vietnam"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Viatnam"
+       },
+       "war": {
+        "language": "war",
+        "value": "Vietnam"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "vietnam"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "فيتنام"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "ۋيېتنام"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Виетнам"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Bietname"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "ویتنام"
+       },
+       "en": {
+        "language": "en",
+        "value": "Vietnam"
+       },
+       "as": {
+        "language": "as",
+        "value": "ভিয়েটনাম"
+       },
+       "os": {
+        "language": "os",
+        "value": "Вьетнам"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဗီယက်နမ်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "越南"
+       },
+       "et": {
+        "language": "et",
+        "value": "Vietnam"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Vietnam"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Wiyetnaam"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨄᨗᨐᨙ ᨊᨛ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "越南"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Vietnam"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏫᎡᏘᎾᎻ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "越南"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Vietnam"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Vietnam"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "越南"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Vietnam"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Vietnam"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Vietnam"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Vietnam"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ڤیێتنام"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Vietnami"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Viêt Nam"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Fietnam"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Vietnam"
+       },
+       "la": {
+        "language": "la",
+        "value": "Vietnamia"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Vietnam"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "व्हियेतनाम"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Vjetnam"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Vietnam"
+       },
+       "is": {
+        "language": "is",
+        "value": "Víetnam"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Vietnam"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Vjetnam"
+       },
+       "li": {
+        "language": "li",
+        "value": "Vietnam"
+       },
+       "new": {
+        "language": "new",
+        "value": "भियतनाम"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Vietnam"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Vietnam"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "越南"
+       },
+       "id": {
+        "language": "id",
+        "value": "Vietnam"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "व्हिएतनाम"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "વિએટનામ"
+       },
+       "su": {
+        "language": "su",
+        "value": "Viétnam"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "越南"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Vietnam"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਵੀਅਤਨਾਮ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Vietnam"
+       },
+       "se": {
+        "language": "se",
+        "value": "Vietnam"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Bietnam"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Vietnam"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Vietnam"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Vietu Namu"
+       },
+       "af": {
+        "language": "af",
+        "value": "Viëtnam"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Biyetnam"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Вьетнам"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Vietnam"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Vietnam"
+       },
+       "si": {
+        "language": "si",
+        "value": "වියට්නාමය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "越南"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Vietnam"
+       },
+       "km": {
+        "language": "km",
+        "value": "វៀតណាម"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Vietnam"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Vietnam"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Виетнам"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Vjetnam"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Vietnam"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Виетнам"
+       },
+       "be": {
+        "language": "be",
+        "value": "В’етнам"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ვიეტნამი"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Vietnam"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Vietnamän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱵᱷᱤᱭᱮᱛᱱᱟᱢ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Vietnam"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Vietnam"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "व्हिएतनाम"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Wiekanama"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "越南"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Vietnam"
+       },
+       "om": {
+        "language": "om",
+        "value": "Veetinaam"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Vietnam"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Vetnám"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "वियतनाम"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "越南"
+       },
+       "he": {
+        "language": "he",
+        "value": "וייטנאם"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Vietnam"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ويٽنام"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Vietnam"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Yue Nam"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Oa̍t-lâm"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Vietnam"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Ветнам"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Vijetnam"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Vijetnam"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Vietnám"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "越南"
+       },
+       "te": {
+        "language": "te",
+        "value": "వియత్నాం"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Вьетнам"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Вьетнам"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Fietnam"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "वियेतनाम"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Vyetnam"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Wýetnam"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Vietnam"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Вьетдин Орн"
+       },
+       "it": {
+        "language": "it",
+        "value": "Vietnam"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Vietnam"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Віетнам"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Vietnam"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Vietnam"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Vietnam"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Vyetnam"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Vietnam"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ვიეტნამი"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Вьетнам"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Вьетнам"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "ویتنام"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Vietnam"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Vietnam"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཝི་ཏི་ནམ།"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Vietnam"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Whitināmu"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Wietnam"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Vietnam"
+       },
+       "am": {
+        "language": "am",
+        "value": "ቬት ናም"
+       },
+       "min": {
+        "language": "min",
+        "value": "Vietnam"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Вьетнам"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Вьетнам"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Vietnam"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "ویتنام"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Wjetnam"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Vietnam"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Vietnam"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Βιετνάμ"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Vietnam"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Вьетнам"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "വിയറ്റ്നാം"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Вєтнам"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Fjetnam"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Viyetnam"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Vietnamu"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Vietnam"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IViyethina"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Vietnam"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ވިއެޓުނާމު"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "فييتنام"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Vietnam"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Bietnan"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Witnam"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Vietnam"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Vietnam"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Vietnam"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Vietnam"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Вијетнам"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Vijetnam"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ベトナム"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "베트남"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Vietnam"
+       },
+       "br": {
+        "language": "br",
+        "value": "Viêt Nam"
+       },
+       "an": {
+        "language": "an",
+        "value": "Vietnam"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Vietnam"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Vietnam"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Ye̍t-nàm"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "भियतनाम"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Вијетнам"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Vietnam"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Вьетнам Мастор"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Виѥтнамъ"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Vietnam"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߝ߭ߋߕߌߣߊߡ"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Viêt Nam"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Vietnam"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "ڤييطنام"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "भियतनाम"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းဝႅတ်ႉၼမ်း"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Vietnam"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Vietnam"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Vietnaam"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Vietnam"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Vietnam"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯚꯦꯠꯅꯥꯝ"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Vietnam"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Vietnam"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Vietnam"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Vietnam"
+       },
+       "hil": {
+        "language": "hil",
+        "value": "Biyetnam"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Vietnam"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Vietnam"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Tábąąh Binááʼádaałtsʼózí Dootłʼizhí Bikéyah"
+       },
+       "to": {
+        "language": "to",
+        "value": "Vietināmi"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Viyetnam"
+       },
+       "co": {
+        "language": "co",
+        "value": "Vietnam"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "윁남"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "ويتنام"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ဗီယက်နမ်ခမ်းထီ"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "ۏيئيتنم"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Wije"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "वियतनाम"
+       },
+       "ryu": {
+        "language": "ryu",
+        "value": "ベトナム"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Vietnam"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Vietnam"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠜꠤꠄꠔꠘꠣꠝ"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Vietnam"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Vjetnam"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Pietnam"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Piètnam"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Fyitnam"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཝི་ཡཏ་ནམ་"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Vietnam"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Vietnam"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᕕᐊᑦ ᓈᒻ"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Vietnam"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Vietnam"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Vietnam"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "ویتنام"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Vietnam"
+       },
+       "mnc": {
+        "language": "mnc",
+        "value": "ᠶᡠᠸᡝᡳ ᠨᠠᠨ"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "ویتنام"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Վիեթնամ"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "वियतनाम"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴼⵢⵉⵜⵏⴰⵎ"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ቬትናም"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ವಿಯೆಟ್ನಾಮ್"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Vyitnam"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Виетнам"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Vietnam"
+       },
+       "kaj": {
+        "language": "kaj",
+        "value": "Bvyetnam"
+       },
+       "uz-cyrl": {
+        "language": "uz-cyrl",
+        "value": "Вьетнам"
+       },
+       "uz-latn": {
+        "language": "uz-latn",
+        "value": "Vyetnam"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

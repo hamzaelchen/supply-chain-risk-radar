@@ -1,0 +1,2194 @@
+{
+ "wikidata_id": "Q34370",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q34370&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:51:46.923956+00:00",
+   "response": {
+    "entities": {
+     "Q34370": {
+      "pageid": 37120,
+      "ns": 0,
+      "title": "Q34370",
+      "lastrevid": 2531738385,
+      "modified": "2026-08-15T18:15:08Z",
+      "type": "item",
+      "id": "Q34370",
+      "labels": {
+       "zh": {
+        "language": "zh",
+        "value": "鹿特丹"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Rotterdam"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Rotterdam"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Rotterdam"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Rotterdam"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Rotterdam"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Rotterdam"
+       },
+       "es": {
+        "language": "es",
+        "value": "Róterdam"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "ராட்டர்டேம்"
+       },
+       "af": {
+        "language": "af",
+        "value": "Rotterdam"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Rotterdam"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Rotterdam"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Rotterdam"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Rotterdam"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Rotterdam"
+       },
+       "et": {
+        "language": "et",
+        "value": "Rotterdam"
+       },
+       "br": {
+        "language": "br",
+        "value": "Rotterdam"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Roterdami"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ρότερνταμ"
+       },
+       "my": {
+        "language": "my",
+        "value": "ရော်တာဒမ်မြို့"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "راٹرڈیم"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Rotterdam"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Rotterdam"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "روتردام"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Roterdão"
+       },
+       "is": {
+        "language": "is",
+        "value": "Rotterdam"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Roterdamo"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "ראטערדאם"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Роттердам"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Ротердам"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Rotterdam"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Rotterdam"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Rotterdam"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Роттердам"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Ратэрдам"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Rotterdam"
+       },
+       "io": {
+        "language": "io",
+        "value": "Rotterdam"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Rotterdam"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Rotterdam"
+       },
+       "az": {
+        "language": "az",
+        "value": "Rotterdam"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Rotterdam"
+       },
+       "an": {
+        "language": "an",
+        "value": "Rotterdam"
+       },
+       "da": {
+        "language": "da",
+        "value": "Rotterdam"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Роттердам"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Rotterdam"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Rotterdam"
+       },
+       "so": {
+        "language": "so",
+        "value": "Rotterdam"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "روتردام"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "로테르담"
+       },
+       "be": {
+        "language": "be",
+        "value": "Ротэрдам"
+       },
+       "he": {
+        "language": "he",
+        "value": "רוטרדם"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Rotterdam"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Rottérdam"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Roterdama"
+       },
+       "li": {
+        "language": "li",
+        "value": "Rotterdam"
+       },
+       "it": {
+        "language": "it",
+        "value": "Rotterdam"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Rotterdam"
+       },
+       "id": {
+        "language": "id",
+        "value": "Rotterdam"
+       },
+       "de": {
+        "language": "de",
+        "value": "Rotterdam"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ロッテルダム"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Rotterdam"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "鹿特丹"
+       },
+       "en": {
+        "language": "en",
+        "value": "Rotterdam"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Rotterdam"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Rotterdam"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Rotterdam"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Rotterdam"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Rotterdam"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Rotterdam"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Роттердам"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Роттердам"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Rotterdam"
+       },
+       "th": {
+        "language": "th",
+        "value": "รอตเทอร์ดาม"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Rotterdam"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Rötterdaam"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Rotterdam"
+       },
+       "la": {
+        "language": "la",
+        "value": "Roterodamum"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Rotterdam"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Rotterdam"
+       },
+       "war": {
+        "language": "war",
+        "value": "Rotterdam"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Rotterdam"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Rotterdam"
+       },
+       "os": {
+        "language": "os",
+        "value": "Роттердам"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "رتردام"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "रॉटरडॅम"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Ротердам"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܪܘܛܪܕܐܡ"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "როტერდამი"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Rotterdam"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Rotterdam"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Roterdamas"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Rotterdam"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Rotterdam"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Роттердам"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Rotterdam"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "鹿特丹"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "鹿特丹"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Roterdã"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Роттердам"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "راٹرڈیم"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Rotterdam"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Rotterdam"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Rotterdam"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Rotterdam"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "鹿特丹"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "鹿特丹"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "鹿特丹"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Rotterdam"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Rotterdam"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Ռոտերդամ"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Rotterdam"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Роттердам ош"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Rotterdam"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Rotterdam"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "রটার্ডাম"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Rotterdam"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Rotterdam"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Rotterdam"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Роттердам"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Ротердам"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "روتردام"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "鹿特丹"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Rotterdam"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Rotèrdame"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Rotterdam"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Rotterdam"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሮተርዳም"
+       },
+       "na": {
+        "language": "na",
+        "value": "Rotterdam"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Rotterdam"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Rotterdam"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Роттердам"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "रॉटरडाम"
+       },
+       "te": {
+        "language": "te",
+        "value": "రోటర్ డ్యామ్"
+       },
+       "si": {
+        "language": "si",
+        "value": "රොටර්ඩෑම්"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "રોટરડેમ"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ರಾಟರ್ಡ್ಯಾಮ್"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Rotterdam"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Rotterdam"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Роттердам"
+       },
+       "co": {
+        "language": "co",
+        "value": "Rotterdam"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Rotterdam"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍂𐌰𐍄𐌰𐌹𐍂𐌳𐌰𐌼"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Rotterdam"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Rotterdam"
+       },
+       "se": {
+        "language": "se",
+        "value": "Rotterdam"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Rotterdam"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "鹿特丹"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "鹿特丹"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "鹿特丹"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Rotterdam"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Rotterdam"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Rotterdam"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Rotterdam"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Rotterdam"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Rotterdam"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Роттэрдам"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ڕۆتەردام"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "روطردام"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Rotterdam"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "रोटरड्याम"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵔⵓⵜⵉⵔⴷⴰⵎ"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Rotterdam"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Rotterdam"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Roterama"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠞꠐꠣꠞꠒꠣꠝ"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Hrotterdamm"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "ဝဵင်းရေႃႇထိူဝ်ႇတမ်ႇ"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "روٽرڊم"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q34370&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:51:47.198926+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "0316f3dc0effbc2c156e748cde4b4b79a8fb007d",
+        "datavalue": {
+         "value": {
+          "latitude": 51.92,
+          "longitude": 4.48,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q34370$93945673-2BC0-4A8F-A9A1-9F992F89A830",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q34370&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:51:47.466723+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "3255495294545a1c2713e0724b0d3ba98a5f16db",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 55,
+          "id": "Q55"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q34370$DE6781EF-2491-480E-9801-B54367AD31DE",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "43a0088c51fd85e5a85d1b46412c3a635e6d4edc",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "d8fbf8671e3c630db61bfac691068cfb6857f243",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 837615,
+              "id": "Q837615"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q55&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:51:47.892587+00:00",
+   "response": {
+    "entities": {
+     "Q55": {
+      "type": "item",
+      "id": "Q55",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Ολλανδία"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Aynacha Jach'a Markanaka"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "نیدرلینڈز"
+       },
+       "na": {
+        "language": "na",
+        "value": "Eben Eyong"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Холандија"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-Netherlands"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "নেদারল্যান্ড"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Nyderlandai"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Nedalanz"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Holandsko"
+       },
+       "so": {
+        "language": "so",
+        "value": "Holland"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Netherlands"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Нідерланди"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Нидерланд"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Нидерланд"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Holannda"
+       },
+       "za": {
+        "language": "za",
+        "value": "Hwzlanz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Nẹ́dálándì"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Paisis Baxus"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Nederland"
+       },
+       "es": {
+        "language": "es",
+        "value": "Países Bajos"
+       },
+       "new": {
+        "language": "new",
+        "value": "नेदरल्यान्द्स्"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Нидерланды"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "האלאנד"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Ísiltír"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Niderlandë"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Niderland"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Païses Basses"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Niederlande"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Ubuholandi"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Netherlands"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Nīderlandā"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Nīderlandeja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Tsin Bikeeʼ Dineʼé Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "荷兰"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Olanda"
+       },
+       "az": {
+        "language": "az",
+        "value": "Niderland"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "هلند"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "荷蘭"
+       },
+       "min": {
+        "language": "min",
+        "value": "Belanda"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ನೆದರ್‍ಲ್ಯಾಂಡ್ಸ್"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Nederland"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Нидерландар"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Países Baxos"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "நெதர்லாந்து"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Walanda"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "ENetherlands"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "नीदरलैण्ड"
+       },
+       "he": {
+        "language": "he",
+        "value": "הולנד"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Нидерланд"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Pais Bass"
+       },
+       "om": {
+        "language": "om",
+        "value": "Neezerlaandi"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Nizozemska"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Felemenk"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Belanda"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Walanda"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Țările de Jos"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "नीदरलैंड"
+       },
+       "av": {
+        "language": "av",
+        "value": "Нидерландал"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Netherlands"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Niderlandiya"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Holland"
+       },
+       "st": {
+        "language": "st",
+        "value": "Hôlanê"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດໂຮນລັງ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Uholanzi"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Nedderlannen"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Niederlande"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Neerlandiya"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Neerlandiya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Holland"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Països Baixos"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Felemenk"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Nīderlande"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Hô-lân"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Hōrane"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Çheer Injil"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Peyibaa"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "هولندا"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Bakrakondre"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Netherlands"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "নেদারল্যান্ডস"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Nethiland"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Netherlands"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Нидерландлар"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Ńiderlandy"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Beulanda"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Нидерландсем"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Países Baixos"
+       },
+       "io": {
+        "language": "io",
+        "value": "Nederlando"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "荷兰"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Нидерланды"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Ol Nitelan"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศเนเธอร์แลนด์"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Holand"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Nederlandy"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "هولند"
+       },
+       "an": {
+        "language": "an",
+        "value": "Países Baixos"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Ulànda"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Նիդերլանդներ"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Netherlands"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Hollanda"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Nederlande"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "नेदरल्यान्ड्स"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Nederlando"
+       },
+       "de": {
+        "language": "de",
+        "value": "Niederlande"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Netherlands"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Nederlân"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Netalani"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Neerlandia"
+       },
+       "war": {
+        "language": "war",
+        "value": "Neerlandiya"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Olanda"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "la nederland"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Нидерлэндхэр"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "گوللاندىيە"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Недерлантт"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "هلند"
+       },
+       "en": {
+        "language": "en",
+        "value": "Netherlands"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "هالنڈ"
+       },
+       "os": {
+        "language": "os",
+        "value": "Нидерландтæ"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Walanta"
+       },
+       "my": {
+        "language": "my",
+        "value": "နယ်သာလန်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "荷兰"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Vuelielaanteh"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ནེ་དར་ལེནཌསི་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Holland"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Neerlandia"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Olaand"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "荷蘭"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Nederland"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏛᏥᏱ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "尼德兰"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Pays Bas"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Países Baixos"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Нидирланд"
+       },
+       "or": {
+        "language": "or",
+        "value": "ନେଦରଲାଣ୍ଡ"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "荷蘭"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Netherlands"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Netherlands"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Pajais Bass"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Niederlande"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ھۆڵەندا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Holanda"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Payis-Bâs"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Yr Iseldiroedd"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Netherlands"
+       },
+       "la": {
+        "language": "la",
+        "value": "Nederlandia"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Olanda"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Нидерланд"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "नेदरलँड्स"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Niðurlond"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Pays-Bas"
+       },
+       "is": {
+        "language": "is",
+        "value": "Holland"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "荷蘭"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Nižozemska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Netherlands"
+       },
+       "li": {
+        "language": "li",
+        "value": "Nederland"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "هالنډ"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Alankomaat"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "荷蘭"
+       },
+       "id": {
+        "language": "id",
+        "value": "Belanda"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "नेदरलँड्स"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "નેધરલેંડ"
+       },
+       "su": {
+        "language": "su",
+        "value": "Walanda"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Голланди"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Paises Basse"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਨੀਦਰਲੈਂਡ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Bas Payis"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Hà Lan"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Neerlandia"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Pajèsere Vasce"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Netherlands"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Netherlands"
+       },
+       "af": {
+        "language": "af",
+        "value": "Nederland"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Neerlandiya"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Нидерландла"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Nederland"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Niderland"
+       },
+       "si": {
+        "language": "si",
+        "value": "නෙදර්ලන්තය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "荷兰"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Nederländerna"
+       },
+       "km": {
+        "language": "km",
+        "value": "ហុល្លង់"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Niederlande"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Pajisi Vasci"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Alamad"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Timura n Wadda"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Нидерландия"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Herbehereak"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ნიდერლანდი"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Niederlounde"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Nedän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱱᱮᱫᱟᱨᱞᱮᱱᱰᱥ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Paesi Bassi"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Hulanda"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "नेदरलँड्स"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Nekelana"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "荷蘭"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Madālmōd"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Landa"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Bas-Païs"
+       },
+       "pdt": {
+        "language": "pdt",
+        "value": "Nadalaunt"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Hollandi"
+       },
+       "co": {
+        "language": "co",
+        "value": "Paesi Bassi"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Nižozemska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Нідэрлянды"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Paezi Basi"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Hò̤-làng"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌽𐌹𐌸𐌴𐍂𐌰𐌻𐌰𐌽𐌳"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Holanda"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Ҳоланд"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Nizozemska"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "نيدرلينڊز"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Nizozemska"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Hollandia"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "荷蘭"
+       },
+       "te": {
+        "language": "te",
+        "value": "నెదర్లాండ్"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Недерланд"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Нидерланд"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Недерланд"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Niðerland"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "नेदरलैंड्स"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Niderlandlar"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Niderlandiýa"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "The Netherlands"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Недерлендин Нутг"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Нидєрландꙑ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Niedalande"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Paîs Bas"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Peyiba"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Netherlands"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Hollanda"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Nederland"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Na Tìrean Ìsle"
+       },
+       "be": {
+        "language": "be",
+        "value": "Нідэрланды"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ნიდერლანდები"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Нидерландаш"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Нидерландъяс"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "هلند"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Holland"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Nederlaand"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཧོ་ལན།"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Hōrana"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Holandia"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Netherlands"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Niederlande"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሆላንድ"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Holandija"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Нидерланд"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Нидерланд"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Ulanna"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "نیدرلینڈز"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Neederlunen"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Nederland"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Holanda"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Pays-Bas"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Ολλανδία"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Países Baixos"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Нидерланде"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "നെതർലന്റ്സ്"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Нідерланды"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Logos Bascios"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Holenda"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Hollandii"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܗܳܘܠܳܢܕܰܐ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IDashi"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Netherlands"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ނެދަލޭންޑު"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "نيديرلاند"
+       },
+       "se": {
+        "language": "se",
+        "value": "Vuolleeatnamat"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Echkapan Tlalli"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Urasuyu"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Nizozemsko"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Iseldiryow"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Pàixi Bàsci"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Payises Bashos"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Холандија"
+       },
+       "to": {
+        "language": "to",
+        "value": "Holani"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Nizozemska"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "オランダ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "네덜란드"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Nederland"
+       },
+       "br": {
+        "language": "br",
+        "value": "Izelvroioù"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Netherlands"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "नेदरलैंड्स"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Paes Bass"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Hò-làn"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "नेदरल्यान्ड"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Холандија"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "荷蘭"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Netherlands"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Հոլանտա"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Olanda"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Belanda"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Vuáládâhenâmeh"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "هولاندا"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Netherlands"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းၼႄႇတႃႇလႅၼ်ႇ"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "नीदरलैंड"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Nederlanda"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Paejes Basc"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨅᨒᨉ"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Vueʹllʼjânnam"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ኔዘርላንድ"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Hulando"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Bâlândhâ"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Недерланд"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Netherlands"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Holland"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Βαταυία"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯅꯦꯊꯔꯂꯦꯟꯗꯁ"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Netherlands"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "بلندا"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Netherlands"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Netherlands"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "네데를란드"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Neerlandiya"
+       },
+       "hil": {
+        "language": "hil",
+        "value": "Neerlandiya"
+       },
+       "cps": {
+        "language": "cps",
+        "value": "Neerlandiya"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Paízes Baixos"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Netelan"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "नीदरलैंड"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Netherlands"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Netherlands"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠘꠦꠖꠣꠞ꠆ꠟꠦꠘ꠆ꠒꠍ"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Niderland"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "နယ်တာလန်ခမ်းထီ"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Bolanda"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Belanda"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Péyi-Ba"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "هؤلند"
+       },
+       "as": {
+        "language": "as",
+        "value": "নেদাৰলেণ্ড"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵀⵓⵍⴰⵏⴷⴰ"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Welanda"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Netherlands"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Bolanda"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Nedelan"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Belanda"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Balando"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Netherlands"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Netherlands"
+       },
+       "sje": {
+        "language": "sje",
+        "value": "Niederlánnda"
+       },
+       "nyn": {
+        "language": "nyn",
+        "value": "Budaaki"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "نیدَر لینٛڈٕز"
+       },
+       "fon": {
+        "language": "fon",
+        "value": "Pays-Bas"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Netherlands"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Нидерландхэр"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Nedalan"
+       },
+       "nan-latn-pehoeji": {
+        "language": "nan-latn-pehoeji",
+        "value": "Hô-lân"
+       },
+       "nan-latn-tailo": {
+        "language": "nan-latn-tailo",
+        "value": "Hô-lân"
+       },
+       "kaj": {
+        "language": "kaj",
+        "value": "Nedalan"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

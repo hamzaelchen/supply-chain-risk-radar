@@ -1,0 +1,2079 @@
+{
+ "wikidata_id": "Q36433",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q36433&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:51:41.712850+00:00",
+   "response": {
+    "entities": {
+     "Q36433": {
+      "pageid": 39074,
+      "ns": 0,
+      "title": "Q36433",
+      "lastrevid": 2552701449,
+      "modified": "2026-10-03T17:59:39Z",
+      "type": "item",
+      "id": "Q36433",
+      "labels": {
+       "szl": {
+        "language": "szl",
+        "value": "Porto"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Porto"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Porto"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Porto"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Porto"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Porto"
+       },
+       "es": {
+        "language": "es",
+        "value": "Oporto"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Porto"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Porto"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Porto"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Porto"
+       },
+       "et": {
+        "language": "et",
+        "value": "Porto"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "পোর্তু"
+       },
+       "el": {
+        "language": "el",
+        "value": "Πόρτο"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Porto"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Porto"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "پورتو"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Porto"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Porto"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Porto"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "بورتو"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Porto"
+       },
+       "is": {
+        "language": "is",
+        "value": "Porto"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Porto"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Порту"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Portu"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Porto"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Порто"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Porto"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Porto"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Порту"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Porto"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Portu"
+       },
+       "io": {
+        "language": "io",
+        "value": "Porto"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Porto"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "پورتو"
+       },
+       "az": {
+        "language": "az",
+        "value": "Portu"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Porto"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Porto"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "পর্টো"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Oporto"
+       },
+       "da": {
+        "language": "da",
+        "value": "Porto"
+       },
+       "an": {
+        "language": "an",
+        "value": "Porto"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Порту"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Porto"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Порту"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Porto"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "포르투"
+       },
+       "he": {
+        "language": "he",
+        "value": "פורטו"
+       },
+       "be": {
+        "language": "be",
+        "value": "Порту"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Porto"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Porto"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Porto"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Portu"
+       },
+       "it": {
+        "language": "it",
+        "value": "Porto"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Porto"
+       },
+       "de": {
+        "language": "de",
+        "value": "Porto"
+       },
+       "id": {
+        "language": "id",
+        "value": "Porto"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഒപ്പോർട്ടോ"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ポルト"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Porto"
+       },
+       "en": {
+        "language": "en",
+        "value": "Porto"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Porto"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Porto"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Oportu"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Porto"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Porto"
+       },
+       "th": {
+        "language": "th",
+        "value": "โปร์ตู"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Porto"
+       },
+       "la": {
+        "language": "la",
+        "value": "Portus Cale"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Porto"
+       },
+       "war": {
+        "language": "war",
+        "value": "Porto"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Porto"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Porto"
+       },
+       "os": {
+        "language": "os",
+        "value": "Порту"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Порто"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "پورتو"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "पोर्तू"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "პორტუ"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Portas"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "波多"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਪੋਰਤੋ"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "波尔图"
+       },
+       "co": {
+        "language": "co",
+        "value": "Portu"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Porto"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "波爾圖"
+       },
+       "br": {
+        "language": "br",
+        "value": "Porto"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Porto"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "پورٹو"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Պորտու"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Порту"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Порту"
+       },
+       "af": {
+        "language": "af",
+        "value": "Porto"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Portu"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Porto (Portugallu)"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Порто"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Oporto"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "پورتو"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "波尔图"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "波圖"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Porto (kapital sa distrito)"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Porto"
+       },
+       "te": {
+        "language": "te",
+        "value": "పోర్టో"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "पोर्टो"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "போர்டோ"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Porto"
+       },
+       "si": {
+        "language": "si",
+        "value": "පෝර්ටෝ"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "પોર્ટો"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಪೋರ್ಟೊ"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Порту"
+       },
+       "am": {
+        "language": "am",
+        "value": "ፖርቱ"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Porto"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Порту"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Փորթօ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Porto"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Porto"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Порту"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Porto"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "波圖"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "波尔图"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "波爾圖"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "波多"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "პორტუ"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Porto"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Порту"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "뽀르또"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "پورتو"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Porto"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Pòto"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Porto"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Porto"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "پۆرتۆ"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Porto"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Porto"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Порту"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Portu"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Portu"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q36433&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:51:41.967945+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "d32358601bb54d4c9d8df4a4748c7604eb624a31",
+        "datavalue": {
+         "value": {
+          "latitude": 41.15,
+          "longitude": -8.610833333333334,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q36433$5B7B5567-34FC-4827-A323-5758F7EA544E",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q36433&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:51:42.222843+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "82ba693075ba653593d9c8b2025508f57192d5f7",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 45,
+          "id": "Q45"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q36433$0C43955B-0829-458E-8C61-A051D9BFF9D9",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "f47cf98528a8d3e642808caeb79a2471c6bff845",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "953975c02be027e2c307eebb053f65b695da76ce",
+            "datavalue": {
+             "value": "1420",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q45&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:51:42.512190+00:00",
+   "response": {
+    "entities": {
+     "Q45": {
+      "type": "item",
+      "id": "Q45",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Portugal"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Portugal"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Portugal"
+       },
+       "it": {
+        "language": "it",
+        "value": "Portogallo"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Португалия"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Portugal"
+       },
+       "es": {
+        "language": "es",
+        "value": "Portugal"
+       },
+       "de": {
+        "language": "de",
+        "value": "Portugal"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Portugalia"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Партугалія"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Phû-tô-gâ"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Portugal"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ポルトガル"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Portugal"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Portugéh"
+       },
+       "af": {
+        "language": "af",
+        "value": "Portugal"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Portugali"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "葡萄牙"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "葡萄牙"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "葡萄牙"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "葡萄牙"
+       },
+       "am": {
+        "language": "am",
+        "value": "ፖርቱጋል"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Португалија"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Portugal"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Portugal"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Португалија"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Portugal"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Ureno"
+       },
+       "an": {
+        "language": "an",
+        "value": "Portugal"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Portugal"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "البرتغال"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܦܘܪܛܘܓܠ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "پورتوجال"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Portugal"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Purtuwal"
+       },
+       "az": {
+        "language": "az",
+        "value": "Portuqaliya"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Португалия"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Portugal"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Portugal"
+       },
+       "be": {
+        "language": "be",
+        "value": "Партугалія"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Португалия"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Portugal"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "পর্তুগাল"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "པོ་ཅུ་གྷལ།"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "পর্তুগাল"
+       },
+       "br": {
+        "language": "br",
+        "value": "Portugal"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Portugal"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Portugal"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Buò-dò̤-ngà"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Португали"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Portugal"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏉᏧᎦᎵ"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "پورتوگال"
+       },
+       "co": {
+        "language": "co",
+        "value": "Portugallu"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Portugalsko"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Pòrtugalskô"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Портогалїꙗ"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Португали"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Portiwgal"
+       },
+       "da": {
+        "language": "da",
+        "value": "Portugal"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Portekiz"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Portugalska"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ޕޯޗުގަލް"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "པོར་ཅུ་གལ་"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Portugal"
+       },
+       "el": {
+        "language": "el",
+        "value": "Πορτογαλία"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Portugalio"
+       },
+       "et": {
+        "language": "et",
+        "value": "Portugal"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Portugal"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Portugal"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "پرتغال"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Portugal"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Portugal"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Portugal"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Portugal"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Portegal"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Phortaingéil"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Portugaliya"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "A' Phortagail"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Portugal"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Poytuga"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍀𐌰𐌿𐍂𐍄𐌿𐌲𐌰𐌻𐌾𐌰"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "પોર્ટુગલ"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Phortiugal"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Phù-thò-ngà"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Potugala"
+       },
+       "he": {
+        "language": "he",
+        "value": "פורטוגל"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "पुर्तगाल"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Portugal"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Portugalska"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Pòtigal"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Portugália"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Պորտուգալիա"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Portugal"
+       },
+       "id": {
+        "language": "id",
+        "value": "Portugal"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Portugal"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Portugal"
+       },
+       "io": {
+        "language": "io",
+        "value": "Portugal"
+       },
+       "is": {
+        "language": "is",
+        "value": "Portúgal"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "potygu'e"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Portegal"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "პორტუგალია"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Portugaliya"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Portugal"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Португал"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Mputulukesi"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Португалия"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Portugal"
+       },
+       "km": {
+        "language": "km",
+        "value": "ប្រទេស ព័រទុយហ្គាល់"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಪೋರ್ಚುಗಲ್"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "포르투갈"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Португал"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Португалия"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Portûgal"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Португалия"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Portyngal"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Португалия"
+       },
+       "la": {
+        "language": "la",
+        "value": "Portugallia"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Portugal"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Portugal"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Португалия"
+       },
+       "li": {
+        "language": "li",
+        "value": "Portugal"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Portogàllo"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Portogall"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Pulutugal"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Portugalija"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Portugaleja"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Portugāle"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Португалия"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Pôrtogaly"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Португалий"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Potukara"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "പോർച്ചുഗൽ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Португал"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "पोर्तुगाल"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Portugal"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Portugall"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Pertual"
+       },
+       "my": {
+        "language": "my",
+        "value": "ပေါ်တူဂီနိုင်ငံ"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "پرتغال"
+       },
+       "na": {
+        "language": "na",
+        "value": "Portsiugar"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Portokal"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Purtuallo"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Portugal"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Portugal"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "पोर्चुगल"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Portugal"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Portugal"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Portûnga"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Portugal"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Portugal"
+       },
+       "or": {
+        "language": "or",
+        "value": "ପର୍ତ୍ତୁଗାଲ"
+       },
+       "os": {
+        "language": "os",
+        "value": "Португали"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Portugal"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Portugal"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Porchugal"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Portugal"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "پرتگال"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Πορτογαλία"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "پرتګال"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Purtugal"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Portugal"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Portugaliya"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Portugal"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Portugalia"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Purtugalle"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Портуґалія"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Porutigali"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "पुर्तगाल"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Португалия"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Portugallu"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Portugallu"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Portugal"
+       },
+       "se": {
+        "language": "se",
+        "value": "Portugal"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Portugal"
+       },
+       "si": {
+        "language": "si",
+        "value": "පෘතුගාලය"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Portugalsko"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Portugalska"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Portugal"
+       },
+       "so": {
+        "language": "so",
+        "value": "Bortuqaal"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Portugalia"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Portugesokondre"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IPhuthukezi"
+       },
+       "st": {
+        "language": "st",
+        "value": "Portugal"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Portugal"
+       },
+       "su": {
+        "language": "su",
+        "value": "Portugal"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Portugal"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Portugalijo"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "போர்த்துகல்"
+       },
+       "te": {
+        "language": "te",
+        "value": "పోర్చుగల్"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Portugál"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Португалия"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศโปรตุเกส"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Portugaliýa"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Portugal"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Posugol"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Portekiz"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Португалия"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Pōtītī"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Португалия"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Portugaliye"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Португалія"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "پرتگال"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Portugaliya"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Portogało"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Portugalii"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Bồ Đào Nha"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Portugal"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Portugän"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Portugal"
+       },
+       "war": {
+        "language": "war",
+        "value": "Portugal"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Portugaal"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "葡萄牙"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Португишин Орн"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "პორტუგალია"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "פארטוגאל"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Pọ́rtúgàl"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Portuhal"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IPhothugali"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Portugal"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Portugal"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "葡萄牙"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "葡萄牙"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "葡萄牙"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "葡萄牙"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "葡萄牙"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "葡萄牙"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Portugal"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Pårtugaal"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Portugāl"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Португал"
+       },
+       "min": {
+        "language": "min",
+        "value": "Portugis"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Португалија"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Portugalija"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດປອກຕຸຍການ"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਪੁਰਤਗਾਲ"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Португал"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Portugaliya"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Portugal"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Puortogalėjė"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "葡萄牙"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Portogallia"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Portugal"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Portugal"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Portugal"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Portugal"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Portokeesi"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Португалия Мастор"
+       },
+       "new": {
+        "language": "new",
+        "value": "पोर्चुगल"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Purtugàl"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Португалия"
+       },
+       "om": {
+        "language": "om",
+        "value": "Poorchugaal"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Portugal"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "پرتغال"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "Portugal"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "پورتوقال"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "پرتگال"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "पुर्तगाल"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Portugal"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Португалие"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Phochugali"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Portugal"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Puotigal"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "पुर्तगाल"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Portugalii"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Portugal"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "पोर्चुगल"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Pɔritigaalɩ"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Portugal"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Portugal"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "पोर्तुगाल"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "برطقيز"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "पोर्चुगल"
+       },
+       "av": {
+        "language": "av",
+        "value": "Португалия"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "البرتڨال"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Portugaliya"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Португали"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Portugal"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Portugal"
+       },
+       "za": {
+        "language": "za",
+        "value": "Buzdauzyaz"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱯᱳᱨᱛᱩᱜᱟᱞ"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Purtugal"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Potukali"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Փորթուկալ"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Portugal"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Portugis"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Португалиа"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Potidjal"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Portugal"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "पुर्तगाल"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းပေႃးတူႉၵၢဝ်ႇ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Portugal"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Portugal"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Portugala"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Portugal"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Portugis"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Portugal"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Portugal"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Portugal"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯄꯣꯔꯇꯨꯒꯜ"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Brtqqiz"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Purutchugalaq"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Portugal"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߔߐ߬ߙߑߕߐ߬ߜ߭ߊߟߌ߫"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Portugal"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "ڤورتوݢل"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Dziil Binaashkǫ́ǫłii Bikéyah"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Portugal"
+       },
+       "to": {
+        "language": "to",
+        "value": "Potukali"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "پُرتَگال"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "뽀르뚜갈"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "الپرتڨال"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Potuke"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Portugal"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "पुर्तगाल"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Portugal"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Portuqaliyə"
+       },
+       "sdc": {
+        "language": "sdc",
+        "value": "Porthugallu"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "پرتگال"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Potugat"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Portugal"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Portugal"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Portugal"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Portugal"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴱⵔⵜⵇⵇⵉⵣ"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Portugis"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Pọtugalu"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Portugal"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Portugal"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠙꠞ꠆ꠔꠥꠉꠣꠟ"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Photshugo"
+       },
+       "as": {
+        "language": "as",
+        "value": "পৰ্তুগাল"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Portugal"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "پؤرتۊغال"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Portugal"
+       },
+       "atj": {
+        "language": "atj",
+        "value": "Portugal"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Portugal"
+       },
+       "cho": {
+        "language": "cho",
+        "value": "Poltuyal"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "पुर्तगाल"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Португалија"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Portugalija"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Pɔritigali"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Portugal"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

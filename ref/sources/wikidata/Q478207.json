@@ -1,0 +1,1760 @@
+{
+ "wikidata_id": "Q478207",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q478207&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:51:40.093494+00:00",
+   "response": {
+    "entities": {
+     "Q478207": {
+      "pageid": 450731,
+      "ns": 0,
+      "title": "Q478207",
+      "lastrevid": 2532334052,
+      "modified": "2026-08-17T13:09:15Z",
+      "type": "item",
+      "id": "Q478207",
+      "labels": {
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "盖尼特拉"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "蓋尼特拉"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "蓋尼特拉"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "盖尼特拉"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "盖尼特拉"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "蓋尼特拉"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Kenitra"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "케니트라"
+       },
+       "be": {
+        "language": "be",
+        "value": "Кенітра"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Kénitra"
+       },
+       "es": {
+        "language": "es",
+        "value": "Kenitra"
+       },
+       "it": {
+        "language": "it",
+        "value": "Kenitra"
+       },
+       "de": {
+        "language": "de",
+        "value": "Kénitra"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ケニトラ"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Kenitra"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Kénitra"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "القنيطرة"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Kenitra"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Kenitra"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Kenitro"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Кенитра"
+       },
+       "en": {
+        "language": "en",
+        "value": "Kenitra"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Kenitra"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Kenitra"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Кенитра"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Kénitra"
+       },
+       "war": {
+        "language": "war",
+        "value": "Kenitra"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "قنیطره"
+       },
+       "kk-arab": {
+        "language": "kk-arab",
+        "value": "كەنىيترا قالاسى"
+       },
+       "kk-cn": {
+        "language": "kk-cn",
+        "value": "كەنىيترا قالاسى"
+       },
+       "kk-tr": {
+        "language": "kk-tr",
+        "value": "Kenïtra qalası"
+       },
+       "kk-kz": {
+        "language": "kk-kz",
+        "value": "Кенитра қаласы"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Кенитра қаласы"
+       },
+       "kk-latn": {
+        "language": "kk-latn",
+        "value": "Kenïtra qalası"
+       },
+       "da": {
+        "language": "da",
+        "value": "Kenitra"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Кенитра қаласы"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "蓋尼特拉"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Kénitra"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Kenitra"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Kenitra"
+       },
+       "he": {
+        "language": "he",
+        "value": "אל-קניטרה"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "კენიტრა"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Qunaytira"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Kenitra"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Kenitra"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Kenitra"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Qniṭra"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Kenitra (kapital sa rehiyon)"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Кенітра"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "क़ेनीत्रा"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Kenitra"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Kenitra"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Kenitra"
+       },
+       "id": {
+        "language": "id",
+        "value": "Kenitra"
+       },
+       "th": {
+        "language": "th",
+        "value": "เคนิทร่า"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "கேநீட்ரா"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "केनिट्रा"
+       },
+       "te": {
+        "language": "te",
+        "value": "కెనిత్ర"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "কেনিত্রা"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "قنیطرہ"
+       },
+       "el": {
+        "language": "el",
+        "value": "Κενίτρα"
+       },
+       "si": {
+        "language": "si",
+        "value": "කෙනිට්‍රා"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "કેનિટ્રા"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಕೆನಿತ್ರಾ"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Kenitra"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Kenitra"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Kénitra"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Kenitra"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "قنیطره (مراکش)"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "القنيطره, المغرب"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "قنيطرة"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Kenitra"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Qnitra"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Կենիտրա"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Қунайтира"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Kenitra"
+       },
+       "et": {
+        "language": "et",
+        "value": "Kenitra"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Kenitra"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "قۇنەيتىرە (ماراكەش)"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Kénitra"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Кенитра"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Kenitra"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Kenitra"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵍⵇⵏⴹⵕⵜ (ⵇⵏⵉⵟⵕⴰ)"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Kenitra"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q478207&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:51:40.325245+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "69c60e9982db5af0ba26333f9a46c12fea1b7dfe",
+        "datavalue": {
+         "value": {
+          "latitude": 34.25,
+          "longitude": -6.5833333333333,
+          "altitude": null,
+          "precision": 0.016666666666667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q478207$E8268154-3BC3-4A8F-868E-C2C189C10E98",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 206855,
+              "id": "Q206855"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q478207&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:51:40.588557+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "882c688f4851777a2a3ec6d7ab769323b175f3c7",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1028,
+          "id": "Q1028"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q478207$8AE3FD77-6BC2-4502-8953-01BEF33E3FB3",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        },
+        {
+         "hash": "9cdd4f1d064faebc44a10fbd408afa604f3b89f6",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "16eef556b717b1b9c8e2599faef3af2af8537632",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 199700,
+              "id": "Q199700"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1028&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:51:40.950004+00:00",
+   "response": {
+    "entities": {
+     "Q1028": {
+      "type": "item",
+      "id": "Q1028",
+      "labels": {
+       "be": {
+        "language": "be",
+        "value": "Марока"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Марокко"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Maroko"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Marokas"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Marôka"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "მაროკო"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Марокко"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Marrocos"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "मोरोक्को"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "المغرب"
+       },
+       "la": {
+        "language": "la",
+        "value": "Marocum"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Marokkó"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Maghribi"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Marruecos"
+       },
+       "et": {
+        "language": "et",
+        "value": "Maroko"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "𑀫𑀖𑁆𑀭𑀩"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Maroka"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "मोरक्को"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "मोरोक्को"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Marrocos"
+       },
+       "te": {
+        "language": "te",
+        "value": "మొరాకో"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Мағрибия"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "মরক্কো"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Mağrip"
+       },
+       "su": {
+        "language": "su",
+        "value": "Maroko"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "المغرب"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Marokko"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Maroc"
+       },
+       "new": {
+        "language": "new",
+        "value": "मोरक्को"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Марокко"
+       },
+       "de": {
+        "language": "de",
+        "value": "Marokko"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಮೊರಾಕೊ"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Marruecos"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Marokko"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Maghribi"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Morocco"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Morocco"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "मोरोक्को"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Марокко"
+       },
+       "so": {
+        "language": "so",
+        "value": "Marooko"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Marruecus"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "مراکش"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Marokko"
+       },
+       "az": {
+        "language": "az",
+        "value": "Mərakeş"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Мароко"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "मोरक्को"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "모로코"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Maruku"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Marokän"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IMorokho"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Maroko"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Maroko"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Maròch"
+       },
+       "br": {
+        "language": "br",
+        "value": "Maroko"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "morgu'e"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Marokko"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Kamarokuan"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Марокко"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Maroccu"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "مأراکئش"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "მაროკო"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "མོ་རོ་ཀོ།"
+       },
+       "li": {
+        "language": "li",
+        "value": "Marokko"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Marokko"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Мароко"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Maroc"
+       },
+       "min": {
+        "language": "min",
+        "value": "Maroko"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Мароко"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Maroco"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Марокко"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Maruoks"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Morocco"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Մարոկկո"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Marocland"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Marokko"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "摩洛哥"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Maroko"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਮੋਰਾਕੋ"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Марокко"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "摩洛哥"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "مراکش"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܡܓܪܒ"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Marokko"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Maroc"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Moroco"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Mòrókò"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Morocco"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Marôko"
+       },
+       "es": {
+        "language": "es",
+        "value": "Marruecos"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Maroko"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Marokko"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Marocco"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Kamarokuhan"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Fas"
+       },
+       "af": {
+        "language": "af",
+        "value": "Marokko"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Marokko"
+       },
+       "si": {
+        "language": "si",
+        "value": "මොරොක්කෝව"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Marɔko"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Мароко"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Morocco"
+       },
+       "an": {
+        "language": "an",
+        "value": "Marruecos"
+       },
+       "el": {
+        "language": "el",
+        "value": "Μαρόκο"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Moroko"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Marokko"
+       },
+       "st": {
+        "language": "st",
+        "value": "Morocco"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Lmerruk"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Yn Varoc"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "मोरक्को"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Morocco"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Morocco"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Marokko"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Maroko"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Morocco"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Marokash"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "ماراكەش"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Maroko"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "মরক্কো"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Morocco"
+       },
+       "se": {
+        "language": "se",
+        "value": "Marokko"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "मोराको"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "མོ་རོ་ཁོ།"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "لمغريب"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Marocu"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Marokko"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "المغرب"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "مراکش"
+       },
+       "en": {
+        "language": "en",
+        "value": "Morocco"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Marocko"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Marokko"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Marokko"
+       },
+       "my": {
+        "language": "my",
+        "value": "မော်ရိုကိုနိုင်ငံ"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Марокко"
+       },
+       "it": {
+        "language": "it",
+        "value": "Marocco"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Maroko"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Marokko"
+       },
+       "is": {
+        "language": "is",
+        "value": "Marokkó"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Maroko"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Marròc"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Marrocos"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Morocco"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Maroko"
+       },
+       "da": {
+        "language": "da",
+        "value": "Marokko"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Maroko"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Marrocos"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Marokko"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Maroke"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Maroko"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Maroko"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ሞሮኮ"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Mağrip"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "摩洛哥"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Морокин Нутг"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Mawòk"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Maracó"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "مراکش"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Marroc"
+       },
+       "he": {
+        "language": "he",
+        "value": "מרוקו"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Morocco"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Marruecos"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "מאראקא"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Morokko"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Maroko"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Eʼeʼaahjí Ghą́ą́ʼaskʼidii Biłikahii Bikéyah"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "മൊറോക്കൊ"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Марокко"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "މައުރިބު"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Марокко"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Марокаш"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Maròcco"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Marokk"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Maroc"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Maroko"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Morocco"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Magrib"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "摩洛哥"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "મોરોક્કો"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Moroko"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Morocco"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Marok"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Maroko"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "モロッコ"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Morocco"
+       },
+       "io": {
+        "language": "io",
+        "value": "Maroko"
+       },
+       "os": {
+        "language": "os",
+        "value": "Марокко"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሞሮኮ"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Marokk"
+       },
+       "tzm": {
+        "language": "tzm",
+        "value": "ⴰⵎⵓⵔ ⵏ ⵡⴰⴽⵓⵛ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "摩洛哥"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Marokko"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "مراکش"
+       },
+       "id": {
+        "language": "id",
+        "value": "Maroko"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Marako"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Марокко"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "摩洛哥"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Maroko"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Marok"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IMorokho"
+       },
+       "or": {
+        "language": "or",
+        "value": "ମୋରୋକୋ"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Марока"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Marokko"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Marokko"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Marokko"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Morocco"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Moroko"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Marruéko"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "مراکش"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "மொரோக்கோ"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Marroko"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Maroch"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Marok"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Marɔkɩ"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Марокко"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Marɔkɛ"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Maroku"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Maroco"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Maroko"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศโมร็อกโก"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Morocco"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Maroko"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Марокко"
+       },
+       "om": {
+        "language": "om",
+        "value": "Morookoo"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "المغرب"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Morocco"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Marokko"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "مەغریب"
+       },
+       "war": {
+        "language": "war",
+        "value": "Kamarokuhan"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Marueko"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "摩洛哥"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Marokko"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Maroc"
+       },
+       "za": {
+        "language": "za",
+        "value": "Morocco"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Մարոք"
+       },
+       "co": {
+        "language": "co",
+        "value": "Maroccu"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Maruku"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "摩洛哥"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Марокко"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Марокко"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Marokò"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "مراڪش"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Marako"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Maroko"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎼᎶᎪ"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Moloko"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Morocco"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Maròk"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Morocco"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱢᱳᱨᱳᱠᱠᱳ"
+       },
+       "as": {
+        "language": "as",
+        "value": "মৰোক্কো"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းမေႃႇရူဝ်ႇၵူဝ်ႇ"
+       },
+       "na": {
+        "language": "na",
+        "value": "Morocco"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Марокко"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Marokko"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Marokko"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Magriba"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Maroch"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵍⵎⵖⵔⵉⴱ"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Morooku"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "مغربي"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Maroko"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Lmɣrib"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Maroko"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Moroko"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯃꯣꯔꯣꯛꯀꯣ"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Morocco"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Moroco"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Maroc"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Morocco"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Morocco"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߡߊ߬ߙߐߞߎ߬"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Марокко"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດມາຣົກ"
+       },
+       "km": {
+        "language": "km",
+        "value": "ម៉ារ៉ុក"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Kamarokuhan"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Марокко"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Moroko"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "الموغريب"
+       },
+       "hil": {
+        "language": "hil",
+        "value": "Kamarokuhan"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "摩洛哥"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Марокко"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Malipe"
+       },
+       "gur": {
+        "language": "gur",
+        "value": "Morocco"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Marokko"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "मोरोक्को"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Morocco"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Morocco"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Mərakeš"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Morocco"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "마로끄"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Marocco"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Magrib"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Morokho"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Morocco"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠝꠞꠇ꠆ꠇ"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "मोरोक्को"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Maroko"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Moroko"
+       },
+       "nr": {
+        "language": "nr",
+        "value": "Morocco"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Марокко"
+       },
+       "gaa": {
+        "language": "gaa",
+        "value": "Moroko"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Moroco"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Morocco (cidi)"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "مراکش"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "المغرب"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "Moroko"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "مراکش"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Morocco"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Marokko"
+       },
+       "fon": {
+        "language": "fon",
+        "value": "Maroctò"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Marôch"
+       },
+       "kaj": {
+        "language": "kaj",
+        "value": "Moroko"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Maroc"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

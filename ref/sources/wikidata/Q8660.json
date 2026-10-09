@@ -1,0 +1,2568 @@
+{
+ "wikidata_id": "Q8660",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q8660&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:18.892803+00:00",
+   "response": {
+    "entities": {
+     "Q8660": {
+      "pageid": 9979,
+      "ns": 0,
+      "title": "Q8660",
+      "lastrevid": 2539098435,
+      "modified": "2026-09-01T15:38:59Z",
+      "type": "item",
+      "id": "Q8660",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Karachi"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Karachi"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Karachi"
+       },
+       "it": {
+        "language": "it",
+        "value": "Karachi"
+       },
+       "de": {
+        "language": "de",
+        "value": "Karatschi"
+       },
+       "af": {
+        "language": "af",
+        "value": "Karatsji"
+       },
+       "an": {
+        "language": "an",
+        "value": "Karachi"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "كراجي"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "كاراتشى"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Karachi"
+       },
+       "az": {
+        "language": "az",
+        "value": "Kəraçi"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Karatschi"
+       },
+       "be": {
+        "language": "be",
+        "value": "Карачы"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Карачи"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "করাচি"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཀ་ར་ཆི"
+       },
+       "br": {
+        "language": "br",
+        "value": "Karachi"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Karači"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Karachi"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Karáčí"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Karachi"
+       },
+       "da": {
+        "language": "da",
+        "value": "Karachi"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ކަރާޗީ"
+       },
+       "el": {
+        "language": "el",
+        "value": "Καράτσι"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Karaĉio"
+       },
+       "es": {
+        "language": "es",
+        "value": "Karachi"
+       },
+       "et": {
+        "language": "et",
+        "value": "Karachi"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Karatxi"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Karachi"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "کراچی"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Karachi"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Karachi"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Karachi"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Karachi"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "કરાચી"
+       },
+       "he": {
+        "language": "he",
+        "value": "קראצ'י"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Karachi"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "कराची"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Karachi"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Karači"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Karacsi"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Կարաչի"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Karachi"
+       },
+       "id": {
+        "language": "id",
+        "value": "Karachi"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Karachi"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Karachi"
+       },
+       "io": {
+        "language": "io",
+        "value": "Karachi"
+       },
+       "is": {
+        "language": "is",
+        "value": "Karachi"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "カラチ"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Karachi"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "კარაჩი"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Карачи"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Karachi"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಕರಾಚಿ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "카라치"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "کَرٲچی"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Keraçî"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Karachi"
+       },
+       "la": {
+        "language": "la",
+        "value": "Karachium"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Karachi"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Karačis"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Karāči"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Карачи"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Karāti"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "കറാച്ചി"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Карачи"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "कराची"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Karachi"
+       },
+       "my": {
+        "language": "my",
+        "value": "ကရာချိမြို့"
+       },
+       "new": {
+        "language": "new",
+        "value": "कराची"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Karachi"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Karachi"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Karachi"
+       },
+       "or": {
+        "language": "or",
+        "value": "କରାଚୀ"
+       },
+       "os": {
+        "language": "os",
+        "value": "Карачи"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਕਰਾਚੀ"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Karaczi"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "کراچی"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "کراچۍ"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Carachi"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Karachi"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Karachi"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Karachi"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Карачі"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Карачи"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Карачи"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Karaci"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Karachi"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ڪراچي"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Karachi"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Karáči"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Karači"
+       },
+       "so": {
+        "language": "so",
+        "value": "Karaaji"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Карачи"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Karachi"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Karachi"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Karaczi"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "கராச்சி"
+       },
+       "te": {
+        "language": "te",
+        "value": "కరాచీ"
+       },
+       "th": {
+        "language": "th",
+        "value": "การาจี"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Karaçi"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Karachi"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Karaçi"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "كاراچى"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Карачі"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "کراچی"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Karachi"
+       },
+       "war": {
+        "language": "war",
+        "value": "Karachi"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "קאראטשי"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Karachi"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "卡拉奇"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Карачи"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Карачы"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "کەراچی"
+       },
+       "se": {
+        "language": "se",
+        "value": "Karachi"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "喀拉蚩"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "卡拉奇"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Karochi"
+       },
+       "co": {
+        "language": "co",
+        "value": "Karachi"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Карачи"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Karachi"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Karaçi"
+       },
+       "am": {
+        "language": "am",
+        "value": "ከራቺ"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Karačės"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "卡拉奇"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Karachi"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "कराची"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "कराची"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "卡拉奇"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Карачи"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Karatschi"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Karači"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "کراچی"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Karaci"
+       },
+       "as": {
+        "language": "as",
+        "value": "কৰাচী"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Karachi"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Карачи"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Karachi"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "Karachi"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "कराची"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Karachi"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "卡拉奇"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Karachi"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "کراچی"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Карачи"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Карачи"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "喀拉蚩"
+       },
+       "si": {
+        "language": "si",
+        "value": "කරච්චිය"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Karachi"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "कराची"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Карочӣ"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Karatschi"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Karachi"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Karachi"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Karachi"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "कराची"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Карачи"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "कराची"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Karasii"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "კარაჩი"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Карачи"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Карачи"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Karachi"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱠᱚᱨᱟᱪᱤ"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Karachi"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Карачи ош"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Karatschi"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Karaçi"
+       },
+       "li": {
+        "language": "li",
+        "value": "Karachi"
+       },
+       "km": {
+        "language": "km",
+        "value": "ការ៉ាជី"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Karachi"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Karaçi"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Karachi"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "کراچی"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Karachi"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "卡拉奇"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Níyol Yiiʼ Haineeztą́ą́ʼí"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Карачи"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Karachi"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Karachi"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "कराची"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Karáchi"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "कराची"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Karaci"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Karatschi"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Karachi"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Karači"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "कराची"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Karachi"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ຄາຣາຈີ"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Карачи"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Karachi"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "كاراتشي"
+       },
+       "ota": {
+        "language": "ota",
+        "value": "كراچی"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Karátsî"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Kalasi"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Քարաչի"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q8660&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:19.153384+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "05f015dff10235091bbf7e318007b3173b27735d",
+        "datavalue": {
+         "value": {
+          "latitude": 24.86,
+          "longitude": 67.01,
+          "altitude": null,
+          "precision": 0.00027777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q8660$B7BE20C7-756C-48DD-86EB-6BF0CAFE32F4",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 206855,
+              "id": "Q206855"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q8660&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:19.394578+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "4b2d0b2cfc2bd6a4806dcaccaa062251fbcf6a31",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 843,
+          "id": "Q843"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "6b198e729fcbdfa6e4fe6f092ea56534fefdbd26",
+          "datavalue": {
+           "value": {
+            "time": "+1956-03-12T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q8660$16CD71D9-81F3-41E9-9064-9C3364BDCB19",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "7f875c4f024299d55fb1c8299d80b1a616c88ff9",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "1926dd1ecb0082e513da9d243d1fc107b2340c7d",
+            "datavalue": {
+             "value": "5253",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "f98b15fc262fb5f3955464ccfc301168030c966c",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 2006542,
+          "id": "Q2006542"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "98b13ee41cad6e9bd91a40058d7163cc0693900d",
+          "datavalue": {
+           "value": {
+            "time": "+1947-08-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "e739eb958784d1243498d02c6a511855af41c329",
+          "datavalue": {
+           "value": {
+            "time": "+1956-03-12T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q8660$907e10b3-492c-b973-efd3-9b2bba27eeda",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "460e6242275210a2f72d40b277dc2ecc0b42a1c1",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 129286,
+          "id": "Q129286"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "64cf8586f277980cd8f1cefcd7e951b3771d5b29",
+          "datavalue": {
+           "value": {
+            "time": "+1858-06-28T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "33ee1577d40e3f77ecd155dfbee3c3a9cfa10a3b",
+          "datavalue": {
+           "value": {
+            "time": "+1947-08-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q8660$b7fe40c2-42cf-71c2-70d5-af29f6cbfe41",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "d6e9612b10e0b6a551c13c2bdab249d01e1c91ce",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 2001966,
+          "id": "Q2001966"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "e9e3f694cf964625dc3ffcd3e5ca84513642159a",
+          "datavalue": {
+           "value": {
+            "time": "+1839-02-03T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "e4d90a06ad93a6f5fae967b53161ba3f5dd13b1b",
+          "datavalue": {
+           "value": {
+            "time": "+1858-06-28T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q8660$bc679f3b-4a00-516f-fd18-97ded8e7efd5",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "3f5779933e80604e85c4f0dc7c2d1297f5932658",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 19569014,
+          "id": "Q19569014"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "c491cf35b35666ac0f446b6b155916c8bedea9cd",
+          "datavalue": {
+           "value": {
+            "time": "+1782-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "3ef0ea394af37b561164005eb541647eac8bf45f",
+          "datavalue": {
+           "value": {
+            "time": "+1839-02-03T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q8660$c4056eb6-458f-1392-a988-1e99e8931454",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "d12c3eda3bdd7c7052e5c59808b85448878a5b2b",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6352367,
+          "id": "Q6352367"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "085ed062162081e58a5339810447ab04c70f0be4",
+          "datavalue": {
+           "value": {
+            "time": "+1729-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "f43709c975a47780e2cd1a93d2d8c488914fe5c2",
+          "datavalue": {
+           "value": {
+            "time": "+1782-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q8660$8cae96fa-43ab-f170-5126-41ff908c7611",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q843&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:19.790823+00:00",
+   "response": {
+    "entities": {
+     "Q843": {
+      "type": "item",
+      "id": "Q843",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Покистон"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Pakistan"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "پاکستان"
+       },
+       "na": {
+        "language": "na",
+        "value": "Pakistan"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Пакистан"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "পাকিস্তান"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IPakistani"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "পাকিস্তান"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "पाकिस्तान"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Pagastàn"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "پاکستان"
+       },
+       "so": {
+        "language": "so",
+        "value": "Bakistaan"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Pakistan"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Пакистан"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Пакистан"
+       },
+       "za": {
+        "language": "za",
+        "value": "Pakistan"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Pakístàn"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Pakistan"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Pakistan"
+       },
+       "es": {
+        "language": "es",
+        "value": "Pakistán"
+       },
+       "or": {
+        "language": "or",
+        "value": "ପାକିସ୍ତାନ"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "פאקיסטאן"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Phacastáin"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Pakistan"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Pakistan"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Paquistan"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Pakisitani"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Pakistan"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Pakėstans"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Eʼeʼaahjí Naakaii Dootłʼizhí Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "巴基斯坦"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Pakistan"
+       },
+       "az": {
+        "language": "az",
+        "value": "Pakistan"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "پاکستون"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "巴基斯坦"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Pakistan"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಪಾಕಿಸ್ತಾನ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Pakistan"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Пакистан"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Paquistán"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Pakistan"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Pakistan"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Пакистан"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Pakistanas"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Пакьстан"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Пакистан"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Pakistan"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Pakistan"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Pakistan"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "பாக்கித்தான்"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Pakistan"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Pakistan"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "पाकिस्तान"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Pakistan"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Paquistan"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Pakistan"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Pakistan"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Pakistan"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "پاكستان"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Pakistan"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Pakistan"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Pakistan"
+       },
+       "da": {
+        "language": "da",
+        "value": "Pakistan"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Pakistan"
+       },
+       "el": {
+        "language": "el",
+        "value": "Πακιστάν"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Pakistāna"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Pakistan"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Pakistan"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Пакистан"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Pakisitaanɩ"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Yn Phakistaan"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "باكستان"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Pakistan"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Pakıstan"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Pakistaan"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Pakistan"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Pakistan"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Pakistan"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Пакистан"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Pakistan"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Paquistão"
+       },
+       "io": {
+        "language": "io",
+        "value": "Pakistan"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "巴基斯坦"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Пакистан"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Pakistan"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "پاکیستان"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Pakistan"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "پٲکِستان"
+       },
+       "an": {
+        "language": "an",
+        "value": "Pakistán"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Պակիստան"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Pakistan"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Pakistan"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "पाकिस्तान"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Pakistan"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "पाकिस्तान"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Pakistano"
+       },
+       "de": {
+        "language": "de",
+        "value": "Pakistan"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Pakistan"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Pakisitana"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Pákistan"
+       },
+       "war": {
+        "language": "war",
+        "value": "Pakistan"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Pakistan"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "kisygu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Пакистэн"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Пакистан"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Pákistán"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "پاکستان"
+       },
+       "en": {
+        "language": "en",
+        "value": "Pakistan"
+       },
+       "as": {
+        "language": "as",
+        "value": "পাকিস্তান"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨄᨀᨗᨔᨗᨈ"
+       },
+       "os": {
+        "language": "os",
+        "value": "Пакистан"
+       },
+       "my": {
+        "language": "my",
+        "value": "ပါကစ္စတန်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "巴基斯坦"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "پاکستان"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಪಾಕಿಸ್ತಾನ"
+       },
+       "et": {
+        "language": "et",
+        "value": "Pakistan"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Paquistán"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Pakistaan"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᐸᑭᔅᑕᓐ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "巴基斯坦"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Pakistan"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏆᎩᏍᏖᏂ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "巴基斯坦"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Paquistán"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Pakistan"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "巴基斯坦"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Pakistan"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Pakistan"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "പാകിസ്താൻ"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "پاکستان"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Pakistáni"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Paquistan"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Pacistan"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Pakistan"
+       },
+       "la": {
+        "language": "la",
+        "value": "Pakistania"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Pakistaan"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Пакистан"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "पाकिस्तान"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Pakistan"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Pakistan"
+       },
+       "is": {
+        "language": "is",
+        "value": "Pakistan"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Pakistan"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Pakistan"
+       },
+       "li": {
+        "language": "li",
+        "value": "Pakistan"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "پاکستان"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Pakistan"
+       },
+       "id": {
+        "language": "id",
+        "value": "Pakistan"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "पाकिस्तान"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "પાકિસ્તાન"
+       },
+       "su": {
+        "language": "su",
+        "value": "Pakistan"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Pakistan"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਪਾਕਿਸਤਾਨ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Pakistan"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Pakistan"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Pakistan"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "巴基斯坦"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Pakistan"
+       },
+       "af": {
+        "language": "af",
+        "value": "Pakistan"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Pakestan"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "巴基斯坦"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Pakistan"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Pakistan"
+       },
+       "si": {
+        "language": "si",
+        "value": "පාකිස්ථානය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "巴基斯坦"
+       },
+       "km": {
+        "language": "km",
+        "value": "ប៉ាគីស្ថាន"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Pakistan"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Pakistan"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Pakistan"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Пакистан"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Pakistan"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "პაკისტანი"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Pakistän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱯᱟᱠᱤᱥᱛᱟᱱ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Pakistan"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Pakistan"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "पाकिस्तान"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Pakitana"
+       },
+       "om": {
+        "language": "om",
+        "value": "Paakistaan"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Pakistan"
+       },
+       "he": {
+        "language": "he",
+        "value": "פקיסטן"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Pakistan"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Пакістан"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Pakistan"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Pakistan"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Pakistan"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Pakistán"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Pakistan"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Pakistan"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Pakistan"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ፓኪስታን"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Pakisztán"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "巴基斯坦"
+       },
+       "te": {
+        "language": "te",
+        "value": "పాకిస్తాన్"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Пакистан"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Пакистан"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Pacistan"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "पाकिस्तान"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Pokiston"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Päkistan"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Pakistan"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Сарта Паксин Орн"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Pakistan"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "پاڪستان"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Pakistan"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Pakistan"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Pakistan"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Pakistan"
+       },
+       "be": {
+        "language": "be",
+        "value": "Пакістан"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "პაკისტანი"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Пакистан"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Пакистан"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Pakistan"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Pakistan"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "པ་ཀི་སི་ཐན"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Pakitāne"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Pakistan"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Pakistan"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Pakistan"
+       },
+       "am": {
+        "language": "am",
+        "value": "ፓኪስታን"
+       },
+       "min": {
+        "language": "min",
+        "value": "Pakistan"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Пакистан"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Пәкістан"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Pakistaun"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Pakistan"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Pakistan"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Pakistan"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Pakistani"
+       },
+       "new": {
+        "language": "new",
+        "value": "पाकिस्तान"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Pakistan"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Paquistão"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Пакистан"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "پاكىستان"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Пакістан"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "پاکستان"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Pakistan"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Pakistuanu"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܦܐܩܣܛܐܢ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IPhakhistani"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ޕާކިސްތާން"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "باكستان"
+       },
+       "se": {
+        "language": "se",
+        "value": "Pakistan"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Pakistan"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Pakistan"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Pákistán"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Pakistan"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Pakistan"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Pakistan"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Пакистан"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Pakistan"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "パキスタン"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "파키스탄"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Pacistan"
+       },
+       "br": {
+        "language": "br",
+        "value": "Pakistan"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "巴基斯坦"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "पाकिस्तानम्"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Pakistan"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศปากีสถาน"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Pakistan"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "पाकिस्तान"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Пакистан"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "巴基斯坦"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Pakistan"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Pakistan"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Pakistan"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Пакистан"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Pakistan"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Pakistan"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດປາກີສະຖານ"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Pakistan"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Pakistan"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "پاكيستان"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "पाकिस्तान"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းပႃႇၵိတ်ႈသတၼ်ႇ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Pakistan"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Pakistaan"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Пакьстан"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Pachistan"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "پاکستان"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Pakistan"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Pakistan"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "ڤاکيستن"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Pakistan"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Pakistan"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Пакистанъ"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Pakistan"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Pakistan"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯄꯥꯀꯤꯁ꯭ꯇꯥꯟ"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Pakistan"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Pakistan"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Pakistan"
+       },
+       "to": {
+        "language": "to",
+        "value": "Pākisitani"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Pakisan"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠙꠣꠇꠤꠍ꠆ꠔꠣꠘ"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "पाकिस्तान"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Pakistan"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Pakistan"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴱⴰⴽⵉⵙⵜⴰⵏ"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Pakistan"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Pakistan"
+       },
+       "av": {
+        "language": "av",
+        "value": "Пакистан"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Paki̱si̱tan"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Pakistan"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Pakistan"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Pakistan"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Pakistan"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Pakistan"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Pakîstan"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Пакистан"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Pakistan"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "པཱ་ཀིསི་ཐན།"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Pakistan"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "پاکستان"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Пакисҭан"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Փաքիստան"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

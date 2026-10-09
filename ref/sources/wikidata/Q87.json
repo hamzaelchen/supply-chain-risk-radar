@@ -1,0 +1,2400 @@
+{
+ "wikidata_id": "Q87",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q87&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:08.610574+00:00",
+   "response": {
+    "entities": {
+     "Q87": {
+      "pageid": 217,
+      "ns": 0,
+      "title": "Q87",
+      "lastrevid": 2523539011,
+      "modified": "2026-07-27T17:43:15Z",
+      "type": "item",
+      "id": "Q87",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Alexandria"
+       },
+       "it": {
+        "language": "it",
+        "value": "Alessandria d'Egitto"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "الإسكندرية"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Alexandrie"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Александрия"
+       },
+       "de": {
+        "language": "de",
+        "value": "Alexandria"
+       },
+       "es": {
+        "language": "es",
+        "value": "Alejandría"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Aleksandria"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Alexandria"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Alexandria"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "亚历山大"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "亚历山大"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "亞歷山卓"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "亚历山大"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "亞歷山卓"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "亚历山大"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "亞歷山卓"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "亞歷山卓"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "亚历山大"
+       },
+       "af": {
+        "language": "af",
+        "value": "Alexandrië"
+       },
+       "am": {
+        "language": "am",
+        "value": "እስክንድርያ"
+       },
+       "an": {
+        "language": "an",
+        "value": "Aleixandría"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܐܠܟܣܢܕܪܝܐ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "اسكندريه"
+       },
+       "az": {
+        "language": "az",
+        "value": "İsgəndəriyyə"
+       },
+       "be": {
+        "language": "be",
+        "value": "Александрыя"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Александрия"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "আলেকজান্দ্রিয়া"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཡ་ལི་ཧྲན་ད"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "আলেক্সান্ড্রিয়া"
+       },
+       "br": {
+        "language": "br",
+        "value": "Aleksandria"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Aleksandrija"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Alexandria"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ئەسکەندەریە"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Alexandrie"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Alecsandria"
+       },
+       "da": {
+        "language": "da",
+        "value": "Alexandria"
+       },
+       "el": {
+        "language": "el",
+        "value": "Αλεξάνδρεια"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Aleksandrio"
+       },
+       "et": {
+        "language": "et",
+        "value": "Aleksandria"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Alexandria"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Alejandria"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "اسکندریه"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Aleksandrje"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Cathair Alastair"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Alexandría"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "એલેક્ઝાન્ડ્રિયા"
+       },
+       "he": {
+        "language": "he",
+        "value": "אלכסנדריה"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "सिकन्दरिया"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Aleksandrija"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Alexandria"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Ալեքսանդրիա"
+       },
+       "id": {
+        "language": "id",
+        "value": "Aleksandria"
+       },
+       "is": {
+        "language": "is",
+        "value": "Alexandría"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "アレクサンドリア"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Alexandria"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ალექსანდრია"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Александрия"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Alexandria"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಅಲೆಕ್ಸಾಂಡ್ರಿಯ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "알렉산드리아"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Ӧльӧксандрия"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Ӧльӧксандрия"
+       },
+       "la": {
+        "language": "la",
+        "value": "Alexandria"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Aleksandrija"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Aleksandrija"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Александрий"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Александрија"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "അലക്സാണ്ട്രിയ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Александрия"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "अलेक्झांड्रिया, इजिप्त"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Iskandariah"
+       },
+       "my": {
+        "language": "my",
+        "value": "အလက်ဇန္ဒရီးယားမြို့"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Alexandria"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Alexandria"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Alexandrië"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Alexandria"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Alexàndria"
+       },
+       "os": {
+        "language": "os",
+        "value": "Александрия"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Aleksandria"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "اسکندریہ"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Alexandria"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Alexandria"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Iskandariya"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Alexandria"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Alessandria d'Egitto"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Lisciànnira d'Eggittu"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Alexandria"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Aleksandrija"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Alexandria"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Aleksandrija"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Aleksandria"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Александрија"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Alexandria"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Aleksandria"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Aleksandryjo"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "அலெக்சாந்திரியா"
+       },
+       "te": {
+        "language": "te",
+        "value": "అలెగ్జాండ్రియా"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Искандария"
+       },
+       "th": {
+        "language": "th",
+        "value": "อะเล็กซานเดรีย"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Alehandriya"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "İskenderiye"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Александрія"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "اسکندریہ"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Ałesandria d'Egito"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Alexandria"
+       },
+       "war": {
+        "language": "war",
+        "value": "Alexandria"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Alegsàndiri"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "אלעקסאנדריע"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Alexandria"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Alexandria"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "亞歷山大"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਸਿਕੰਦਰੀਆ"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Әлискәндәриә"
+       },
+       "min": {
+        "language": "min",
+        "value": "Alexandria"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Aleksandriya"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Искандрия"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Alexandria"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Alexandria"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Alessandria d'Egitto"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Alexandria"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Александрыя"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Alexandria"
+       },
+       "na": {
+        "language": "na",
+        "value": "Alexandria"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Alexandria"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Aleksandrii"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "अलेक्जेन्ड्रिया"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Александрия"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "亚历山大"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Alexandria"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Taskendrit"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Alexandria"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Îskenderiye"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Îskenderiye"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Alejandria"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "الکزاندریا ،"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ალექსანდრია"
+       },
+       "si": {
+        "language": "si",
+        "value": "ඇලෙක්සැන්ඩ්‍රියාව"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Alexandria"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Alɛkɩsandrii"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Lusciandria d'Egitto"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Искәндәрия"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Alexandria"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Alexandría"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Alexandria"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "اليگزينڊريا"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Alexandria"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Alexandria"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "सिकंदरिया"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "اسکندریه"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Alexandria"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Աղեքսանդրիա"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Arekehānaria"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Aléksandria"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "İskenderiya"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Iskandariya"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Aleksandria"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Alecsandria"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Александрия"
+       },
+       "li": {
+        "language": "li",
+        "value": "Alexandrië"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Alexandria, Gibhithe"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Alexandria ad Egypto"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Lixandra"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "لإسكندرية"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "إسکندرية"
+       },
+       "so": {
+        "language": "so",
+        "value": "Askandariya"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "ئىسكەندەرىيە"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Alexandria"
+       },
+       "co": {
+        "language": "co",
+        "value": "Alessandria"
+       },
+       "io": {
+        "language": "io",
+        "value": "Alexandria"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "اسکندریه"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Lissandria d'Egit"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Alikisendira"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Ἀλεξάνδρεια"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "اسکندریہٕ"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Alaxceaster"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Iskandariyya"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "अलेक्जेंड्रिया"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Aleksandrie"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q87&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:08.887729+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "74719ee5df6319cc96d37386130cf9ddd9867f0c",
+        "datavalue": {
+         "value": {
+          "latitude": 31.1975,
+          "longitude": 29.8925,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q87$D59C4EBA-2977-4C73-B6C2-F680CA76AC98",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q87&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:09.127658+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "7bf9c4cd680d9122b1c90fdd14203a8c5c3f8fdc",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 79,
+          "id": "Q79"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "1372568597c242a662e686c53fafc807f186a409",
+          "datavalue": {
+           "value": {
+            "time": "+1867-06-08T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q87$5f1d2d59-48d2-2c79-36fe-d7bbb4a74ae4",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "60e97c855616dcb5789e2a8f3c79c60e4ef571b8",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "ec498745228980dbfe14deaf9b65a17d77ebbf53",
+            "datavalue": {
+             "value": "3626",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "7bb9bb285193e8899cda557f57ba865835912189",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 2277,
+          "id": "Q2277"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "1bf6056685aaa23b4cc4f6e01e4bec01f90d9628",
+          "datavalue": {
+           "value": {
+            "time": "-0027-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "c4f876f0918a3abc5a4023064136248dc448c91d",
+          "datavalue": {
+           "value": {
+            "time": "+0395-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q87$4cc78714-47a5-9c77-4582-9a73129cfcdf",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q79&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:09.531704+00:00",
+   "response": {
+    "entities": {
+     "Q79": {
+      "type": "item",
+      "id": "Q79",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Миср"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Egypt"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "مصر"
+       },
+       "na": {
+        "language": "na",
+        "value": "Idjipt"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Египет"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IGibhithe"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "মিশর"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "मिस्र"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "An Èipheit"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "مصر"
+       },
+       "so": {
+        "language": "so",
+        "value": "Masar"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Ehipto"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Єгипет"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Египет"
+       },
+       "za": {
+        "language": "za",
+        "value": "Aehciz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Ẹ́gíptì"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Egitu"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Мисир"
+       },
+       "es": {
+        "language": "es",
+        "value": "Egipto"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଇଜିପ୍ଟ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Египет Мастор"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "עגיפטן"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Éigipt"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Egipt"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Egipet"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Egipte"
+       },
+       "st": {
+        "language": "st",
+        "value": "Egepeta"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Egyp"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Egėpts"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "埃及"
+       },
+       "os": {
+        "language": "os",
+        "value": "Мысыр"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Egipt"
+       },
+       "az": {
+        "language": "az",
+        "value": "Misir"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "مصر"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "埃及"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Egyptn"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಈಜಿಪ್ಟ್"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Egypte"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Ejipt"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Мисри"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Exiptu"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Naggitto"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "எகிப்து"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Mesir"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Мисаре"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Egiptas"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Мисыр"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Египет"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Egit"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Misra"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Mısır"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Mesir"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Mesir"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Egipt"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "मिस्र"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Egypten"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Egypt"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Mısır"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Egüptüs"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Ägypten"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "مصر"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Misri"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Ägypten"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Ehipto"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Egipat"
+       },
+       "da": {
+        "language": "da",
+        "value": "Egypten"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "ईजिप्त"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Egypten"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Mısır"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Ēģipte"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Eghiptu"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Ägypten"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Мысыр"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Egipt"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "yn Egypt"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Egipiti"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "मिस्र"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Egiptakondre"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Ehiptu"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "মিশর"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Ejiipt"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Egipt"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Meusé"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Egito"
+       },
+       "io": {
+        "language": "io",
+        "value": "Egiptia"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "埃及"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Египет"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Ijip"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "مصر"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศอียิปต์"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Αίγυπτος"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "مِصر"
+       },
+       "an": {
+        "language": "an",
+        "value": "Echipto"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Եգիպտոս"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Édjipe"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Mısır"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Egypt"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Egiptia"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "इजिप्ट"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Мсыр"
+       },
+       "de": {
+        "language": "de",
+        "value": "Ägypten"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Egypt"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Aikupito"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Ejiptu"
+       },
+       "war": {
+        "language": "war",
+        "value": "Ehipto"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Mêsire"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "misrygu'e"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مصر"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Эгипт"
+       },
+       "en": {
+        "language": "en",
+        "value": "Egypt"
+       },
+       "as": {
+        "language": "as",
+        "value": "ইজিপ্ত"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "میسر"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Egypte"
+       },
+       "my": {
+        "language": "my",
+        "value": "အီဂျစ်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "埃及"
+       },
+       "et": {
+        "language": "et",
+        "value": "Egiptus"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Egipto"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Isipt"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "埃及"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Egypt"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Egipte"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "埃及"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Misiri"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Êgypte"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Exipto"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Мисри"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Egiptio"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Egipto"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Ijipta"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Egipta"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഈജിപ്റ്റ്‌"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "میسر"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Ejipte"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Èg·ipte"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Yr Aifft"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Egypt"
+       },
+       "la": {
+        "language": "la",
+        "value": "Aegyptus"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Egypt"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "इजिप्त"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Egyptaland"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Égypte"
+       },
+       "is": {
+        "language": "is",
+        "value": "Egyptaland"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "埃及"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Egyptowska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Eġittu"
+       },
+       "li": {
+        "language": "li",
+        "value": "Egypte"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "مصر"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Egypti"
+       },
+       "id": {
+        "language": "id",
+        "value": "Mesir"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "मिस्र"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ઇજિપ્ત"
+       },
+       "su": {
+        "language": "su",
+        "value": "Mesir"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Egypto"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਮਿਸਰ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Edjipe"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Ai Cập"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Ehipto"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Egitte"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "埃及"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Müsür"
+       },
+       "af": {
+        "language": "af",
+        "value": "Egipte"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Ehipto"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "埃及"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Kâmitâ"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Ägypten"
+       },
+       "si": {
+        "language": "si",
+        "value": "ඊජිප්තුව"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "埃及"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Egypten"
+       },
+       "km": {
+        "language": "km",
+        "value": "អេហ្ស៊ីប"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Ägypten"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Eggittu"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Egipt"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Maṣer"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Египет"
+       },
+       "be": {
+        "language": "be",
+        "value": "Егіпет"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ეგვიპტე"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Египет"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Lägüptän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱢᱤᱥᱚᱨ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Egitto"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Egipto"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎢᏥᏈᎢ"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "‘Aikupika"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "埃及"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Egypt"
+       },
+       "om": {
+        "language": "om",
+        "value": "Ijiipti"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Egypt"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצרים"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Egyptojska"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "مصر"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Ezito"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Ăi-gĭk"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Ai-ki̍p"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Ehipto"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Мисыр"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Egipat"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Egipat"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Egyiptom"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "埃及"
+       },
+       "te": {
+        "language": "te",
+        "value": "ఈజిప్టు"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Мысыр"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Эгиипэт"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Ægypt"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "ईजिप्ट"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Misr"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Ejitu"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Egypt"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Иҗибдин Араб Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Єгѷптъ"
+       },
+       "new": {
+        "language": "new",
+        "value": "मिस्र"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Egjit"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Эгіпет"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Египет"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Egypt"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Mısır"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Egiptia"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Ejip"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Egipto"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ეგვიპტე"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Мисар"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Египет Араб Республика"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "مصر"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Egypte"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཨའི་ཅི།"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Iijip"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Egipt"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Egypt"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Misrim"
+       },
+       "am": {
+        "language": "am",
+        "value": "ግብፅ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Mesir"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Egipte"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Мысыр"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Misra"
+       },
+       "el": {
+        "language": "el",
+        "value": "Αίγυπτος"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Egypte"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Egjipti"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Misiri"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Ejipta"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Egito"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "مىسىر"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Еґіпет"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Egittu"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Misir"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Jegiptu"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܡܨܪܝܢ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IGibhithe"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Egypt"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "މިޞްރު"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "مصر"
+       },
+       "se": {
+        "language": "se",
+        "value": "Egypta"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Egiptoh"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Ihiptu"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Egypt"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Ejyp"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Egitto"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Ayifto"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Ehypte"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Египет"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Египат"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Egipat"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "エジプト"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "이집트"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Misre"
+       },
+       "br": {
+        "language": "br",
+        "value": "Egipt"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Egypt"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "ईजिप्तदेशः"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Egit"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Âi-khi̍p"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "इजिप्ट"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Египат"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "埃及"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Եգիպտոս"
+       },
+       "co": {
+        "language": "co",
+        "value": "Egittu"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Iqiptu"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Īhipa"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Mesir"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Léjip"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Egypt"
+       },
+       "av": {
+        "language": "av",
+        "value": "Египет"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌰𐌹𐌲𐍅𐍀𐍄𐌰𐌿"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "مصر"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Mesir"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းဢီးၵျိပ်ႈ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Egypt"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Egyptt"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Египет"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Misra"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Egit"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨆᨔᨗᨑᨗ"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Mesir"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Miserai"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Misra"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Egypt"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "مصر"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯏꯖꯤꯞ"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Mesir"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Miṣra"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߌߖ߭ߌߔߑߕ"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Ijip"
+       },
+       "pwn": {
+        "language": "pwn",
+        "value": "Idjiputu"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Egypt"
+       },
+       "to": {
+        "language": "to",
+        "value": "ʻIsipite"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Egypt"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Egypt"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Ahidiitłʼintsoh Daʼííłʼíní Bikéyah"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Ma̱sa̱t"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ግብጺ"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Egippta"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "에짚트"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "ماصر"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Masu"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດເອຢິບ"
+       },
+       "gur": {
+        "language": "gur",
+        "value": "Egypt"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "मिस्र"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "مصر"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Egypt"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Eigito"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Misir"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵎⵉⵚⵕⴰ"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Misir"
+       },
+       "sdc": {
+        "language": "sdc",
+        "value": "Egittu"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Египет"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "Ejipt"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Masuġaq"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Mesir"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Mesir"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Egypt"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠝꠤꠡꠞ"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Egypt"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Mosir"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Ijipiti"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Ejip"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Egipita"
+       },
+       "nr": {
+        "language": "nr",
+        "value": "Egypt"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Jiphethe"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Αἴγυπτος"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Egypt"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Egipts"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "مصر"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Мисир"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Ejitu"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "مصر"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "मिस्र"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Egypt"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Egypt"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "Египпт"
+       },
+       "tig": {
+        "language": "tig",
+        "value": "መስር"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Masàr"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཨི་ཇིབཊ།"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಈಜಿಪ್ಟ್"
+       },
+       "isv": {
+        "language": "isv",
+        "value": "Egipt"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "मिस्र"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Misiri"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

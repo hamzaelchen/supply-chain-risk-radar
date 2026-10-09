@@ -1,0 +1,2935 @@
+{
+ "wikidata_id": "Q1861",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1861&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:27.648028+00:00",
+   "response": {
+    "entities": {
+     "Q1861": {
+      "pageid": 2701,
+      "ns": 0,
+      "title": "Q1861",
+      "lastrevid": 2551385971,
+      "modified": "2026-09-30T16:36:56Z",
+      "type": "item",
+      "id": "Q1861",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Bangkok"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Bangkok"
+       },
+       "it": {
+        "language": "it",
+        "value": "Bangkok"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Bangkok"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Bangkok"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Bangkok"
+       },
+       "af": {
+        "language": "af",
+        "value": "Bangkok"
+       },
+       "am": {
+        "language": "am",
+        "value": "ባንኮክ"
+       },
+       "an": {
+        "language": "an",
+        "value": "Bangkok"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "بانكوك"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "بانكوك"
+       },
+       "az": {
+        "language": "az",
+        "value": "Banqkok"
+       },
+       "be": {
+        "language": "be",
+        "value": "Бангкок"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Банкок"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Bangkok"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ব্যাংকক"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "པན་ཀོག"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "চাংৱাত ব্যাংকক"
+       },
+       "br": {
+        "language": "br",
+        "value": "Bangkok"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Bangkok"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Bangkok"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Bangkok"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "بانکۆک"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Bangkok"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Бангкок"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Bangkok"
+       },
+       "da": {
+        "language": "da",
+        "value": "Bangkok"
+       },
+       "de": {
+        "language": "de",
+        "value": "Bangkok"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Bangkok"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Bangkok"
+       },
+       "el": {
+        "language": "el",
+        "value": "Μπανγκόκ"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Bankoko"
+       },
+       "es": {
+        "language": "es",
+        "value": "Bangkok"
+       },
+       "et": {
+        "language": "et",
+        "value": "Bangkok"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Bangkok"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Bangkok"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "بانکوک"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Bangkok"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Bangkok"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Bangkok"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Bancác"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Bangkok"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Bangkok"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Màn-kuk"
+       },
+       "he": {
+        "language": "he",
+        "value": "בנגקוק"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "बैंकॉक"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Bangkok"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Bangkok"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Bangkok"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Bangkok"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Bangkok"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Բանգկոկ"
+       },
+       "id": {
+        "language": "id",
+        "value": "Bangkok"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Banghok"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Bangkok"
+       },
+       "io": {
+        "language": "io",
+        "value": "Bangkok"
+       },
+       "is": {
+        "language": "is",
+        "value": "Bangkok"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "バンコク"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Bangkok"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ბანგკოკი"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Бангкок"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Bangkok"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಬ್ಯಾಂಕಾಕ್"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "방콕"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Бангкок"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Bangkok"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Bangkok"
+       },
+       "la": {
+        "language": "la",
+        "value": "Bāncōcum"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Bangkok"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Bangkok"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ບາງກອກ"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Bankokas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Bangkoka"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Bangkok"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Бангкок"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Бангкок"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ബാങ്കോക്ക്"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Бангкок"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "बँकॉक"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Bangkok"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Banguecoque"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဘန်ကောက်မြို့"
+       },
+       "new": {
+        "language": "new",
+        "value": "बैंकक"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Bangkok"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Bangkok"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Bangkok"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Bangkòk"
+       },
+       "os": {
+        "language": "os",
+        "value": "Бангкок"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Bangkok"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Bangkok"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Bangkok"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "بنکاک"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "بانګکوک"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Banguecoque"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Bangkok"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Bangkok"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Бангкок"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Банкок"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Баҥкок"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Bangkok"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Bangkok"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Bangkok"
+       },
+       "si": {
+        "language": "si",
+        "value": "බැංකොක්"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Bangkok"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Bangkok"
+       },
+       "so": {
+        "language": "so",
+        "value": "Bangkok"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Bangkok"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Бангкок"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Bangkok"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Bangkok"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Bangkok"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Bangkok"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "பாங்கொக்"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Бангкок"
+       },
+       "th": {
+        "language": "th",
+        "value": "กรุงเทพมหานคร"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Bangkok"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Bangkok"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Bangkok"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "باڭكوك"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Бангкок"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "بینکاک"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Băng Cốc"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Bangkok"
+       },
+       "war": {
+        "language": "war",
+        "value": "Bangkok"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "曼谷"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "באַנקאָק"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Bangkok"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Bangkok"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "曼谷"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "曼谷"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "曼谷"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "曼谷"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Bangkok"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Bancoque"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "曼谷"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Bangkok"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Bangkok"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਬੈਂਕਾਕ"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Bangkok"
+       },
+       "za": {
+        "language": "za",
+        "value": "Manguz"
+       },
+       "se": {
+        "language": "se",
+        "value": "Bangkok"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Бангкок"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Bangkok"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Vãkoke"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Бангкок"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Бангкок"
+       },
+       "or": {
+        "language": "or",
+        "value": "ବ୍ୟାଙ୍କକ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Bangkok"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Bangkok"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "曼谷"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Bangkok"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Bangkok"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Bankoks"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Bangkok"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Bangkok"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Bangkok"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Màng-gók"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Бангкок"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Бангкок"
+       },
+       "te": {
+        "language": "te",
+        "value": "బ్యాంకాక్"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Bangkok"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Bangkok"
+       },
+       "li": {
+        "language": "li",
+        "value": "Bangkok"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Bankok"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "بانکوک"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "بانکوک"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Бангкок"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Бангкок балһсн"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Bangkok"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Bangkok"
+       },
+       "as": {
+        "language": "as",
+        "value": "বেংকক"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "बैङ्कक"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "बैङ्कक"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Бангкок"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "بانکوک"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ბანგკოკი"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Bangkok"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Bangkok"
+       },
+       "km": {
+        "language": "km",
+        "value": "បាងកក"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Bangkok"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Бангкок"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "બેંગકોક"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "曼谷"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "曼谷"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Бангкок"
+       },
+       "ug-arab": {
+        "language": "ug-arab",
+        "value": "باڭكوك"
+       },
+       "ug-latn": {
+        "language": "ug-latn",
+        "value": "Bangkok"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Bangkok"
+       },
+       "fit": {
+        "language": "fit",
+        "value": "Bangkok"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Bancòc"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "बैङ्कक"
+       },
+       "su": {
+        "language": "su",
+        "value": "Bangkok"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Bangkok"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Bangkok"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Pankɔkɩ"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Bangkok"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Бангкок"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Бангкок"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Bangkok"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Bangkok"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Bangkok"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "बैंकाक"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Бангкок"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Պանկքոք"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Bangkòk"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Bangkok"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Bangkok"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "بينڪاڪ"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱵᱮᱝᱠᱳᱠ"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "بانكوك"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Бангкок"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Bangkok"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Bangkok"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Bangkok"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Bangkok"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Bangkok"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Bangkok"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "Бангкок"
+       },
+       "sje": {
+        "language": "sje",
+        "value": "Bangkok"
+       },
+       "sju": {
+        "language": "sju",
+        "value": "Bangkok"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Bangkok"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Bangkok"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Bangkok"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Bangkok"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Chʼiltah Tábąąhkin"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Bangcoc"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "ၵုင်းထဵပ်ႈ"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ဝေင်ꩻဗန်ကောက်"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Kunte"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Бангкок"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Bangkok"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Bangkok"
+       },
+       "co": {
+        "language": "co",
+        "value": "Bangkok"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Bangkok"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Bangkok"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Bangkok"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Bangkok"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Bangkok"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "بینٛگ کوک"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Bangkok"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Bangkok"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Bangkok"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Bangkok"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Bangkok"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Man-ku"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Bangkok"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-Bangkok"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Bangkok"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Bangkok"
+       },
+       "igl": {
+        "language": "igl",
+        "value": "Bangkok"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Bangkok"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Bangkok"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Bangkok"
+       },
+       "rki": {
+        "language": "rki",
+        "value": "ဘန်ကောက်မြို့"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1861&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:27.919601+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "a9cd2ef117aa7fb8a4cfc7c3d2732d36cc3e9273",
+        "datavalue": {
+         "value": {
+          "latitude": 13.75,
+          "longitude": 100.51666666667,
+          "altitude": null,
+          "precision": 0.016666666666667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q1861$C7119659-8359-4BDA-842D-2F79F5B09523",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 206855,
+              "id": "Q206855"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1861&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:28.161786+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "87c028980b49a57a32c8d71feefbeaa8852d8239",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 869,
+          "id": "Q869"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "d3ed29e01af73983e0033ba118524fa828f4c628",
+          "datavalue": {
+           "value": {
+            "time": "+1932-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q1861$62869A10-4C3A-428F-AF5C-79530EF55C68",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "c515a42ec706822e15b178caf50c425a8e40d19c",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "67de97d8cd01a608b298c6d75c75ba487bd6c98f",
+            "datavalue": {
+             "value": "1747",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "a42f9d311795ad7176f920dfdd89372cc6384723",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1155700,
+          "id": "Q1155700"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "c491cf35b35666ac0f446b6b155916c8bedea9cd",
+          "datavalue": {
+           "value": {
+            "time": "+1782-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "d22639281d506d7c4dbfca313be5527a5ba3df50",
+          "datavalue": {
+           "value": {
+            "time": "+1932-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1861$eac7bd52-48e0-e2c6-294e-f9f5b0bc5c69",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "46f875eae8d1e0beb42359802a096cf4f243e08a",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1115291,
+          "id": "Q1115291"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "f836eacb94b065812b9cd24cde4b14d7a657a208",
+          "datavalue": {
+           "value": {
+            "time": "+1767-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "f43709c975a47780e2cd1a93d2d8c488914fe5c2",
+          "datavalue": {
+           "value": {
+            "time": "+1782-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1861$3fcaf07e-4477-f6ec-dcf5-b65fbeff8033",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "06222968d0220349f726ae20bd6191cc31e44482",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1062422,
+          "id": "Q1062422"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P585": [
+         {
+          "snaktype": "value",
+          "property": "P585",
+          "hash": "cc1c528297df5e1543296a453cfccc3680367dc1",
+          "datavalue": {
+           "value": {
+            "time": "+1767-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P585"
+       ],
+       "id": "Q1861$bb7d1903-4195-ca39-c228-eb2b41a67535",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "568f2033e4db2163e2fc5e7729e773001c86e327",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 841364,
+          "id": "Q841364"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "e12cd27ef5247de7d828a2648adfeb72ddf6617b",
+          "datavalue": {
+           "value": {
+            "time": "+1600-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 7,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "9e01faa8e872cab189f01407ea2e02d6f3740c8d",
+          "datavalue": {
+           "value": {
+            "time": "+1767-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1861$852b60b4-4556-d9a6-2700-6954f916216c",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q869%7CQ1062422&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:28.607999+00:00",
+   "response": {
+    "entities": {
+     "Q869": {
+      "type": "item",
+      "id": "Q869",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Таиланд"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Thajsko"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "تھائی لینڈ"
+       },
+       "na": {
+        "language": "na",
+        "value": "Thailand"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Тајланд"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "টাইলান্ডিয়া"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Tailandas"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Tailan"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "تھائی لینڈ"
+       },
+       "so": {
+        "language": "so",
+        "value": "Tayland"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Tailand"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Таїланд"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Таиланд"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Tailannde"
+       },
+       "za": {
+        "language": "za",
+        "value": "Daigoz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Tháílàndì"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Tailándia"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Thailand"
+       },
+       "es": {
+        "language": "es",
+        "value": "Tailandia"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଥାଇଲାଣ୍ଡ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Тайланд Мастор"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "טיילאנד"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Téalainn"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Tajlandiô"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Tailand"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Tailàndia"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Thailand"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Tayilande"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Thailand"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Tailands"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Tailándia"
+       },
+       "az": {
+        "language": "az",
+        "value": "Tailand"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "تایلند"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "泰國"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Thailand"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಥೈಲ್ಯಾಂಡ್"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Thailand"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Таиланд"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Tailandia"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Thailand"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Tanah Thai"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Таиланд"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "थाईलैंड"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Таиланд"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Tajlandja"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Thailandia"
+       },
+       "om": {
+        "language": "om",
+        "value": "Taayilaand"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Tajska"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Tayland"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "தாய்லாந்து"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Thailand"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Thailanda"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "थाइलैंड"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Thailand"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Tailand"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Tai"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "تايلاندا"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດໄທ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Uthai"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Thailand"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Tailandya"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Tajland"
+       },
+       "da": {
+        "language": "da",
+        "value": "Thailand"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Tailàndia"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Taizeme"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Thailand"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Тайланд"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Thailand"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Çheer Thai"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Tayilandɩ"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Tailândia"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "تايلاند"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Taikondre"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "থাইল্যান্ড"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Tailan"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Tajlandyjo"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Muang Thai"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Таиланд"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Tailândia"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Тайланд"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Таиланд"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Tailan"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Thailand"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Thailand"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "تایلند"
+       },
+       "an": {
+        "language": "an",
+        "value": "Tailandia"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Թաիլանդ"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Tayland"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "थाइल्याण्ड"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Tailande"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "थाइल्याण्ड"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Tajlando"
+       },
+       "de": {
+        "language": "de",
+        "value": "Thailand"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Tailân"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Taialani"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Balentái"
+       },
+       "war": {
+        "language": "war",
+        "value": "Taylandya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "tais"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Тайлэнд"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Táílaenđ"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "تایلأند"
+       },
+       "en": {
+        "language": "en",
+        "value": "Thailand"
+       },
+       "as": {
+        "language": "as",
+        "value": "থাইলেণ্ড"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Tailándia"
+       },
+       "os": {
+        "language": "os",
+        "value": "Таиланд"
+       },
+       "my": {
+        "language": "my",
+        "value": "ထိုင်းနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "泰国"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཐཱའི་ལེནཌ"
+       },
+       "et": {
+        "language": "et",
+        "value": "Tai"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Tailandia"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Taaylaand"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Tai"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "泰國"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Thailand"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏔᏱᎦᏙᎯ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "泰国"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Tailandia"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Thailandie"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Thailand"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Thailand"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Thailand"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "തായ് ലാന്റ്"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "تایلەند"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Thaïlande"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Tayilande"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Gwlad Tai"
+       },
+       "la": {
+        "language": "la",
+        "value": "Thailandia"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Thailun"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Thailand"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "थायलंड"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Teiland"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Thaïlande"
+       },
+       "is": {
+        "language": "is",
+        "value": "Taíland"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Thailandska"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Тайланд"
+       },
+       "li": {
+        "language": "li",
+        "value": "Thailand"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "تايلنډ"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Thaimaa"
+       },
+       "id": {
+        "language": "id",
+        "value": "Thailand"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "थायलंड"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "થાઇલેન્ડ"
+       },
+       "su": {
+        "language": "su",
+        "value": "Thailand"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Thailanda"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਥਾਈਲੈਂਡ"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Thailand"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Thái Lan"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Tailandia"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "泰國"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Thailand"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Thailand"
+       },
+       "af": {
+        "language": "af",
+        "value": "Thailand"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Taylandiya"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "泰國"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Tailânde"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Thailand"
+       },
+       "si": {
+        "language": "si",
+        "value": "තායිලන්තය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "泰国"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Thailand"
+       },
+       "km": {
+        "language": "km",
+        "value": "ថៃ"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Thailand"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Thailandia"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Tayland"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Тайланд"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Thailandia"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ტაილანდი"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Tayän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱛᱷᱟᱭᱞᱮᱱᱰ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Tailandia"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Thailand"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "थायलंड"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Tailani"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Thailand"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Thaïlinde"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Thailandi"
+       },
+       "he": {
+        "language": "he",
+        "value": "תאילנד"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Thailandska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Тайлянд"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Thailandia"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Tái-guók"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Thài-kok"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Tailandia"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Tajland"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ٿائيلينڊ"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Таиланд"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Tajland"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Thaiföld"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "泰國"
+       },
+       "te": {
+        "language": "te",
+        "value": "థాయిలాండ్"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Таиланд"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Тайлаан"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Thailand"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "थाइलैंड"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Tailand"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Taýland"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Thailand"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Тагилмудин Нутг"
+       },
+       "new": {
+        "language": "new",
+        "value": "थाइल्याण्ड"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Tailandie"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Dùthaich nan Tàidh"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Thailand"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "태국"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Thailand"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Tayilann"
+       },
+       "be": {
+        "language": "be",
+        "value": "Тайланд"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ტაილანდი"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Таиланд"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Таиланд"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Thailound"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Thailaand"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཐའི་ལེན།"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Tailândia"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Tajlandia"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Thailand"
+       },
+       "am": {
+        "language": "am",
+        "value": "ታይላንድ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Thailand"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Thailandia"
+       },
+       "io": {
+        "language": "io",
+        "value": "Tailando"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Taylande"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ταϊλάνδη"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Thailand"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Tajlanda"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Tailandy"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Thailand"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Таиланд"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "تايلاند"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Таїланд"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تایلند"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Taylenda"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Thaimua"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Tayland"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IThayilandi"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Thailand"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ސިޔާމު"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "تايلاندا"
+       },
+       "se": {
+        "language": "se",
+        "value": "Thaieana"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Tailandiah"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Thaysuyu"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Thajsko"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Pow Tay"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Thailandia"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Tai"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Тајланд"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Tajland"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "タイ王国"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Tayland"
+       },
+       "br": {
+        "language": "br",
+        "value": "Thailand"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "泰國"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "थाइलैंड"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Таиланд"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศไทย"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Thai-koet"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "थाइल्याण्ड"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Тајланд"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "泰國"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "泰国"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းထႆး"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Tailàndia"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Թայլանտ"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Tairana"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Thailand"
+       },
+       "co": {
+        "language": "co",
+        "value": "Thailandia"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Thailand"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Thailand"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Taylann"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "طايلاند"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "थाइल्याण्ड"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Thaieennâm"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Thaijânnam"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Thailandia"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Thailand"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Thailand"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Thailand"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Taylandya"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯊꯥꯢꯂꯦꯟ"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Thailand"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "تهايلند"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Thailand"
+       },
+       "hil": {
+        "language": "hil",
+        "value": "Taylandiya"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Thailand"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IThailande"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Binááʼádaałtsʼózí Chʼídadeeldlóóhí Bikéyah"
+       },
+       "to": {
+        "language": "to",
+        "value": "Tailani"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Таймастор"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ထုဲင်ꩻခမ်းထီ"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Tawi"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "थाईलैंड"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Thailand"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Thailand"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Taylenda"
+       },
+       "rki": {
+        "language": "rki",
+        "value": "ထိုင်းဘုရင့်နိုင်ငံ"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠕꠣꠁꠟꠦꠘ꠆ꠒ"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Thaïlaunde"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Tailándia"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Thailand"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵜⴰⵢⵍⴰⵏⴷ"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Tailənd"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Thailand"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Thailand"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Tailandia"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "تھایلینٛڈ"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Muang-Tay"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "थाइलेण्ड्"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Thailand"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Tailan"
+       },
+       "bdr": {
+        "language": "bdr",
+        "value": "Thailand"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Thailand"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Thailand"
+       },
+       "tdd": {
+        "language": "tdd",
+        "value": "ᥛᥫᥒᥰ ᥗᥭᥰ"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಥೈಲ್ಯಾಂಡ್"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Thailand"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Тайланд"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Thailand"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "تایلند"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Thailand"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Banwatay"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "ကၟိန်ဍုင်သေံ"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Таиланд"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "태국"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Thailand"
+       }
+      }
+     },
+     "Q1062422": {
+      "type": "item",
+      "id": "Q1062422",
+      "labels": {
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "贡榜王朝"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "貢榜王朝"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "貢榜王朝"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Dinastia Konbaung"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "dynastie Konbaung"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Конбаун"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "꼰바웅 왕조"
+       },
+       "en": {
+        "language": "en",
+        "value": "Konbaung dynasty"
+       },
+       "es": {
+        "language": "es",
+        "value": "dinastía Konbaung"
+       },
+       "th": {
+        "language": "th",
+        "value": "ราชวงศ์โก้นบอง"
+       },
+       "it": {
+        "language": "it",
+        "value": "dinastia Konbaung"
+       },
+       "de": {
+        "language": "de",
+        "value": "Konbaung-Dynastie"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "কোনবং রাজবংশ"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "コンバウン王朝"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Triều Konbaung"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Konbaunai"
+       },
+       "my": {
+        "language": "my",
+        "value": "ကုန်းဘောင်မင်းဆက်"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "أسرة كونباونغ"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Dinastia Konbaung"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Konbaung-dynastiet"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "贡榜王朝"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Конбаун"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Konbaung Dynasty"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "貢榜"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Dinastía Konbaung"
+       },
+       "si": {
+        "language": "si",
+        "value": "කොංබොං රාජවංශය"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Dynastie Konbaung"
+       },
+       "he": {
+        "language": "he",
+        "value": "שושלת קונבאונג"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "कुन्भोङ् वंश"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Dinastía Konbaung"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Konbaung-dynastia"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "贡榜王朝"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Konbaung Ông-tiâu"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "கோன்பவுங் வம்சம்"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Konbaung dinastija"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Konbaung dinastia"
+       },
+       "id": {
+        "language": "id",
+        "value": "dinasti Konbaung"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Dinastia Konbaung"
+       },
+       "km": {
+        "language": "km",
+        "value": "រាជវង្សកូនបោន"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Конбаўн"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "കോൺബോംഗ് രാജവംശം"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Конбаун"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Dynastia Konbaung"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Konbaung Hanedanı"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "贡榜王朝"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Tria Birma Imperio"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ລາຊະວົງ ຄອນບູນ"
+       },
+       "be": {
+        "language": "be",
+        "value": "Канбаўн"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Dinasti Konbaung"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

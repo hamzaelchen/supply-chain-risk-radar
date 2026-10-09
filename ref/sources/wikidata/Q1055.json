@@ -1,0 +1,3175 @@
+{
+ "wikidata_id": "Q1055",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1055&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:51:48.701619+00:00",
+   "response": {
+    "entities": {
+     "Q1055": {
+      "pageid": 1390,
+      "ns": 0,
+      "title": "Q1055",
+      "lastrevid": 2554347491,
+      "modified": "2026-10-07T04:49:01Z",
+      "type": "item",
+      "id": "Q1055",
+      "labels": {
+       "wo": {
+        "language": "wo",
+        "value": "Hamburg"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Hamburg"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Hamburgas"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Гамбург"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Hambourq"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ჰამბურგი"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Hamburgo"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "ہامبرگ"
+       },
+       "la": {
+        "language": "la",
+        "value": "Gambrivium"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Hamburg"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ھئمبرگ(شھر)"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Hamburg"
+       },
+       "et": {
+        "language": "et",
+        "value": "Hamburg"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Hamburga"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "हांबुर्ग"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Hamburgo"
+       },
+       "te": {
+        "language": "te",
+        "value": "హ్యాంబర్గ్"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Гамбург"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Hamburg"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Гамбург"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "هامبورگ"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Hanburgo"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Hamburg"
+       },
+       "new": {
+        "language": "new",
+        "value": "ह्याम्बर्ग"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Хамбург"
+       },
+       "de": {
+        "language": "de",
+        "value": "Hamburg"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಹ್ಯಾಂಬರ್ಗ್"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Hamburg"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Hamburg"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Hamburgo"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Hamburg"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Hambörg"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Гамбург"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Amburgu"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "汉堡"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Hamburg"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Hamburg"
+       },
+       "az": {
+        "language": "az",
+        "value": "Hamburq"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Hamburg"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Хамбург"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "हैम्बर्ग"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "함부르크"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Hamburg"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Hamburg"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Hamburg"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Hamburg"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Hamburg"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Hamburg"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Amborgh"
+       },
+       "br": {
+        "language": "br",
+        "value": "Hamburg"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Hamburk"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Hamburg"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Amburgu"
+       },
+       "li": {
+        "language": "li",
+        "value": "Hamburg"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Hamburg"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Хамбург"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "汉堡"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌷𐌰𐌼𐌱𐌰𐌿𐍂𐌲𐍃"
+       },
+       "min": {
+        "language": "min",
+        "value": "Hamburg"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Хамбург"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Anburgo"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Гамбург"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Համբուրգ"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Hamburg"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Hamburg"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "漢堡"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Hamburg"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Hamburg"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "汉堡"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܐܪܡܝܐ"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Hamburg"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Hamburg"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Hamburg"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "汉堡"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Hamburg"
+       },
+       "es": {
+        "language": "es",
+        "value": "Hamburgo"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Hamburg"
+       },
+       "af": {
+        "language": "af",
+        "value": "Hamburg"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Hamburg"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Free and Hanseatic City of Hamburg"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Hamborg"
+       },
+       "si": {
+        "language": "si",
+        "value": "හැම්බර්ග්"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Hamburg"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Гамбург"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Hamburg"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Гамбург ош"
+       },
+       "an": {
+        "language": "an",
+        "value": "Hamburgo"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Hambùrg"
+       },
+       "co": {
+        "language": "co",
+        "value": "Hamburg"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Gamburg"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Hamburg suyu"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Hamburg"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "ह्याम्बर्ग"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Hamburg"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Hamburg"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Hamburg"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Gamburg"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Hamburg"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Hamburg"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "হামবুর্গ"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Hamburg"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Ҳамбург"
+       },
+       "se": {
+        "language": "se",
+        "value": "Hamborg"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Amburgo"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Hamburg"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "هامبورج"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Hamepuka"
+       },
+       "en": {
+        "language": "en",
+        "value": "Hamburg"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Hamburg"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Hamburg"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဟမ်းဗတ်မြို့"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Гамбург"
+       },
+       "it": {
+        "language": "it",
+        "value": "Amburgo"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "हैम्बर्ग"
+       },
+       "is": {
+        "language": "is",
+        "value": "Hamborg"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Hamburg"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Amborg"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Hamburgo"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Hamburch"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Hamburg"
+       },
+       "da": {
+        "language": "da",
+        "value": "Hamborg"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Hamburg"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "漢堡"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Hamburg"
+       },
+       "el": {
+        "language": "el",
+        "value": "Αμβούργο"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Hamburg"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Hamburg"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഹാംബർഗ്"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "漢堡"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Hamburg"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Hamburg"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Hamburg"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Hamburg"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "هامبورگ"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Hamburg"
+       },
+       "he": {
+        "language": "he",
+        "value": "המבורג"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Hamburg"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Hamburgu"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "האמבורג"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Hamburg"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ჰამბურგი"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Hamburg"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Һамбург"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਹਾਮਬੁਰਗ"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Һамбург"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Ҳамбург"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Ambûrgo"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Hamburg"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Hambourg"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Hamburg"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Hamburg"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "漢堡"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "હેમ્બર્ગ"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Hamburg"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Hamburg"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Gamburg"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Hamburg"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ハンブルク"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Gamburg"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Hamburg"
+       },
+       "io": {
+        "language": "io",
+        "value": "Hamburg"
+       },
+       "os": {
+        "language": "os",
+        "value": "Гамбург"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሃምቡርግ"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Amburgu"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "汉堡"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Hamburg"
+       },
+       "id": {
+        "language": "id",
+        "value": "Hamburg"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Hamburg"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Hamburg"
+       },
+       "na": {
+        "language": "na",
+        "value": "Hamburg"
+       },
+       "be": {
+        "language": "be",
+        "value": "Гамбург"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Гамбург"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Hamborig"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Hamboarch"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Hamburg"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Hamburg"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Hamburgh"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "ہامبرگ"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "ஹாம்பெர்க்"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Amburgo"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Amburgh"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Ӏамбий"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Hamburgo"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Hamburg"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Amburc"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Гамбург"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Hambuurich"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Hamburgu"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Hamburg"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "漢堡"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Hamburg"
+       },
+       "th": {
+        "language": "th",
+        "value": "ฮัมบวร์ค"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Hamburg"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Гамбург"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "هامبورغ"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Hamburg"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Hampuri"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ھامبورگ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "汉堡"
+       },
+       "war": {
+        "language": "war",
+        "value": "Hamburg"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Ambûrg"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Hamburg"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "漢堡"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Hamburg"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Гамбург"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Гьамбург"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Гамбург"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Hamburgs"
+       },
+       "su": {
+        "language": "su",
+        "value": "Hamburg"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Hamupēke"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Gamburg"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Համպուրկ"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Hamburg"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Hamburg"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "هامبورگ"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Hamburg"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Anpu"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Гамбург"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Hamburg"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "هامبورگ"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Hamburq"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Hambur"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Hamburg"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Hamburg"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Hamburg"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Хамбург"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "ہیمبرگ"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1055&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:51:48.994589+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "0fc6f0f36819cc9768c03e82ad63236ad89700fb",
+        "datavalue": {
+         "value": {
+          "latitude": 53.55,
+          "longitude": 10,
+          "altitude": null,
+          "precision": 0.016666666666667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q1055$49550E59-959D-4F57-A3EE-F4357C613B0E",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 206855,
+              "id": "Q206855"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1055&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:51:49.279053+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "1a3215f93c2ae7d06f17c76aa960547bbd849ffb",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 12548,
+          "id": "Q12548"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "d1eafd23c006a0b19a575d1efaddd2c1b2f4a3a9",
+          "datavalue": {
+           "value": {
+            "time": "+1806-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582"
+       ],
+       "id": "Q1055$114739fd-4864-8530-99f9-953e3bc9269f",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "d48283c2839fcd14d4292914026b53486a89e5fd",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1055,
+          "id": "Q1055"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "6f20dddf76d12d9a121ef71efaa4cf117df93733",
+          "datavalue": {
+           "value": {
+            "time": "+1806-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "1f3cdd092f6a17cc44f4996e587a397779b628e4",
+          "datavalue": {
+           "value": {
+            "time": "+1811-02-13T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$613828fd-4c3e-723c-4ae8-ace2a2d3b249",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "3c20056563428b0c0e123d15e8f1da11b9019c09",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 71084,
+          "id": "Q71084"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "ffda0cefba1be47ff453c2b24ebd34bd6a9bf619",
+          "datavalue": {
+           "value": {
+            "time": "+1811-02-13T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "a395e775d78a50891d7a0f0e910107d522346b34",
+          "datavalue": {
+           "value": {
+            "time": "+1814-05-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$8bc71c46-4dae-af7d-f1bf-ab6b82012aea",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "ea2069d23bdd5d223661cda42cd51ac3ca40478f",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 151624,
+          "id": "Q151624"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "a60f67e9ad727cea516c312df6fc2267ec10a96b",
+          "datavalue": {
+           "value": {
+            "time": "+1815-06-08T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "7970ff6ec2389e36a2f6de4311d9b51213e4635a",
+          "datavalue": {
+           "value": {
+            "time": "+1866-08-17T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$7247a956-4af3-5944-c36b-c0ed60cbfcb2",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "a9e553a54f3929abc4751a96d438e772ec3873e4",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 150981,
+          "id": "Q150981"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "e129d10ae24124ea57975cda1c4f29368823b7f7",
+          "datavalue": {
+           "value": {
+            "time": "+1866-08-18T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "d4a49b8f54b086bc5ef76f1143ea87de1cfe44a3",
+          "datavalue": {
+           "value": {
+            "time": "+1871-01-17T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$41bffbdb-40c3-7eb3-4f12-76fbe39f3aa9",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "f07e6efb1952c0a8e1aeab32299b781d428cf237",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 43287,
+          "id": "Q43287"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "dd4bac3f0b2163892a60bf02a5c7675704e7f8e0",
+          "datavalue": {
+           "value": {
+            "time": "+1871-01-18T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "93ac21226f54574fc2f9f074273226acf3b0705e",
+          "datavalue": {
+           "value": {
+            "time": "+1918-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$38c32952-4a01-9e43-7b9c-bef6ee1f93d6",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "8bcc5ae2d75fae003719baaa6ead1f85aad55a3e",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 41304,
+          "id": "Q41304"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "26de8627027486e2646d856226a875376bd91720",
+          "datavalue": {
+           "value": {
+            "time": "+1919-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "cd311bb659336f08d6fe8c884e493ba6f3a69f29",
+          "datavalue": {
+           "value": {
+            "time": "+1933-01-29T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$8506ea3e-490d-8a0a-45c0-38e30856289a",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "06f100f42eca9d3df6297b1648c73462578ce58a",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 7318,
+          "id": "Q7318"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "9af8f84c7b3f41c93290514bce1944b4f4df9747",
+          "datavalue": {
+           "value": {
+            "time": "+1933-01-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "0a84cac659511d26717e3f605f881e7155ca3e38",
+          "datavalue": {
+           "value": {
+            "time": "+1945-05-02T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$ce82fd8e-4bc9-7c00-64b1-a69481b54463",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "f2f6fba21c8001a26c1da375df42750960ee1d22",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 2415901,
+          "id": "Q2415901"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "adf34680b3bcc9823a4e304864b7433b00d89351",
+          "datavalue": {
+           "value": {
+            "time": "+1945-05-03T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "65145de876476bd9d63eb804d8aecf59a733fde4",
+          "datavalue": {
+           "value": {
+            "time": "+1949-05-22T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$46b610f3-465b-73bd-e760-4787897c1436",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "3912570fabcfa6f9f41e1c53907ee233225c7211",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 713750,
+          "id": "Q713750"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "2ed93c5224a3e784bd15d1eb7c47b4e8ad916a12",
+          "datavalue": {
+           "value": {
+            "time": "+1949-05-23T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "57c79b0a475f1529c43a42ad1c80dea59b72bc1a",
+          "datavalue": {
+           "value": {
+            "time": "+1990-10-02T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1055$9e7dc087-42cc-e0e6-9175-99b12cb53be0",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "ef7247b704f4ec0a7df39e83306bb388fea17d5f",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 183,
+          "id": "Q183"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "13eff71ba054ad192e12acddfd4ee6725bc28ba9",
+          "datavalue": {
+           "value": {
+            "time": "+1990-10-03T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q1055$1A3D7275-1A94-468B-8A9B-81E13D115587",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "28758547f3d8e89f9d5214cc81ef6dd121c4617d",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "957423e233ba7583417bc7126222fde728d95f12",
+            "datavalue": {
+             "value": "308",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q183&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:51:51.430047+00:00",
+   "response": {
+    "entities": {
+     "Q183": {
+      "type": "item",
+      "id": "Q183",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Γερμανία"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Alimaña"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "جرمنی"
+       },
+       "na": {
+        "language": "na",
+        "value": "Djermani"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Германија"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IJalimani"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "জার্মানি"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Vokietija"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Joermani"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Nemecko"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "آلمان"
+       },
+       "so": {
+        "language": "so",
+        "value": "Jarmalka"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Alemanya"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Німеччина"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Германия"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Đức"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Germània"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Германи"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Almaanya"
+       },
+       "za": {
+        "language": "za",
+        "value": "Dwzgoz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Jẹ́mánì"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Alemania"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Германия"
+       },
+       "es": {
+        "language": "es",
+        "value": "Alemania"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଜର୍ମାନୀ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Германия Мастор"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "דייטשלאנד"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Ghearmáin"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Miemieckô"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Alemaina"
+       },
+       "st": {
+        "language": "st",
+        "value": "Jeremane"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Alemanha"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Daitschlond"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "آلمان"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Ubudage"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Germany"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Vuokītėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Vuoceja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Béésh Bichʼahii Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "德国"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Nemčija"
+       },
+       "az": {
+        "language": "az",
+        "value": "Almaniya"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "آلمان"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "德國"
+       },
+       "min": {
+        "language": "min",
+        "value": "Jerman"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಜರ್ಮನಿ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Duitsland"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Germany"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Германия"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Germany"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Alimaɲi"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "செருமனி"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Jerman"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "IJamani"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "जर्मनी"
+       },
+       "co": {
+        "language": "co",
+        "value": "Germania"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Герман"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Germaniya"
+       },
+       "om": {
+        "language": "om",
+        "value": "Jarmanii"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Jamus"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Almaniya"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Jerman"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Germania"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "जर्मनी"
+       },
+       "av": {
+        "language": "av",
+        "value": "Германия"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Däitschland"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Germany"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Germaniya"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "S'aksamaa"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Düütsklound"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "ألمانيا"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດເຢຍລະມັນ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Ujerumani"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Düütschland"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Dütschland"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Alemanya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Tyskland"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Alemanya"
+       },
+       "pdt": {
+        "language": "pdt",
+        "value": "Dietschlaunt"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Almaniya"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Vācija"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌸𐌹𐌿𐌳𐌹𐍃𐌺𐌰𐌻𐌰𐌽𐌳"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ጀርመን"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಜರ್ಮನಿ"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Германие"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Heremani"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Ghermaan"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Caama"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "ألمانيا"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Doysrikondre"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Alemaña"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "জার্মানি"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Doichland"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Алмания"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Mjymcy"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Jeureuman"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Германи"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Siamani"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Alemanha"
+       },
+       "io": {
+        "language": "io",
+        "value": "Germania"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "德国"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Германия"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Deutschland"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศเยอรมนี"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "آلمان"
+       },
+       "an": {
+        "language": "an",
+        "value": "Alemanya"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Germâgna"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Գերմանիա"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Almanya"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "जर्मनी"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Germania"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "जर्मनी"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Германиа"
+       },
+       "de": {
+        "language": "de",
+        "value": "Deutschland"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Siamani"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Alemanya"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Ubudagi"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Jermaniya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "dotygu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Джэрмэн"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Germania"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Дойчмастор"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Almanha"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "آلمان"
+       },
+       "en": {
+        "language": "en",
+        "value": "Germany"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨍᨙᨑᨛᨆ"
+       },
+       "os": {
+        "language": "os",
+        "value": "Герман"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဂျာမနီနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "德国"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Tysklaante"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "德國"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཇཱར་མ་ནི་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Saksamaa"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Alemaña"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Almaañ"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᔮᒪᓂ"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "گېرمانىيە"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "德國"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Tyskland"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎠᏛᏥ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "德国"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Girimane"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Allemangne"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Alemaña"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Germanie"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Germanio"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Germany"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Jemani"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Alemanyi"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ജർമ്മനി"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ئەڵمانیا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Alémani"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Alemagne"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Yr Almaen"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Jeremane"
+       },
+       "la": {
+        "language": "la",
+        "value": "Germania"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Ghermãnia"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Germany"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "जर्मनी"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Týskland"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Allemagne"
+       },
+       "is": {
+        "language": "is",
+        "value": "Þýskaland"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "德國"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Němska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Ġermanja"
+       },
+       "li": {
+        "language": "li",
+        "value": "Duutsland"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "جرمني"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Saksa"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "德國"
+       },
+       "id": {
+        "language": "id",
+        "value": "Jerman"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "जर्मनी"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "જર્મની"
+       },
+       "su": {
+        "language": "su",
+        "value": "Jérman"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Германи"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Germania"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਜਰਮਨੀ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Almagne"
+       },
+       "se": {
+        "language": "se",
+        "value": "Duiska"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Alemania"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "德國"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "德國"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Germany"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Germaniýa"
+       },
+       "af": {
+        "language": "af",
+        "value": "Duitsland"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Alemanya"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Германия"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Alimania"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Tyskland"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Dütschland"
+       },
+       "si": {
+        "language": "si",
+        "value": "ජර්මනිය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "德国"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Tyskland"
+       },
+       "km": {
+        "language": "km",
+        "value": "អាល្លឺម៉ង់"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Germany"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Girmania"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Gërmania"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Saksanma"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Lalman"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Германия"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Alemania"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "გერმანია"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Германия"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Deutän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱡᱟᱨᱢᱟᱱᱤ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Deitschland"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Alemania"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "जर्मनी"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Kelemānia"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Saksāmō"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Jerman"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Alemanne"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Олмон"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Tyskland"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "जर्मनी"
+       },
+       "he": {
+        "language": "he",
+        "value": "גרמניה"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Nimska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Нямеччына"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Zermània"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Dáik-guók"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Tek-kok"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Alemaña"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Олмон"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Njemačka"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "جرمني"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Njemačka"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Németország"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "德國"
+       },
+       "te": {
+        "language": "te",
+        "value": "జర్మనీ"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Немечму"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Германия"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Германия"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Þēodscland"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "जर्मनी"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Germaniya"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Alemaña"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Germany"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Ниицәтә Немшин Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Нѣмьци"
+       },
+       "new": {
+        "language": "new",
+        "value": "जर्मनी"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Gjermanie"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "A' Ghearmailt"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Germany"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Almanya"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Germania"
+       },
+       "vmf": {
+        "language": "vmf",
+        "value": "Döüdschlônd"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Almay"
+       },
+       "be": {
+        "language": "be",
+        "value": "Германія"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "გერმანია"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Германи"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Германия"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "آلمان"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Jamani"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Duutslaand"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "འཇར་མན།"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Ӂермания"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Tiamana"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Niemcy"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Germany"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Gyaaman"
+       },
+       "am": {
+        "language": "am",
+        "value": "ጀርመን"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Nemačka"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Германия"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Германия"
+       },
+       "it": {
+        "language": "it",
+        "value": "Germania"
+       },
+       "war": {
+        "language": "war",
+        "value": "Alemanya"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "جرمنی"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Tjiisklun"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Duutsland"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Gjermania"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Germania"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Γερμανία"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Alemanha"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Немыч Эл"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Deitschland"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Нїмецько"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Dútslân"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Almanya"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Germuanii"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܐܰܠܡܰܢܝܰܐ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IJalimane"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Jarimani"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ޖަރުމަނުވިލާތް"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "المانيا"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Alemaña"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Alemaniah"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Jémanị"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Německo"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Germània"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Almania"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Duutsland"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Немачка"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Njemačka"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ドイツ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "독일"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Deutxland"
+       },
+       "br": {
+        "language": "br",
+        "value": "Alamagn"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Ma'evé'ho'éno"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Almayn"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Germania"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Tet-koet"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "जर्मनी"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Немачка"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Deutschland"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Գերմանիա"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߊߟߏߡߊ߲ߘߎ߯"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Jerman"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Saksa"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Lanlmangn"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Germany"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "ألمانيا"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Saksslajânnam"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "जर्मनी"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းၵျႃႇမၼီႇ"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Germana"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Germania"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Germany"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯖꯔꯃꯦꯅꯤ"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "جرمن"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Germany"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "도이췰란드"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Lalman"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Germany"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Almanya"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Γερμανία"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Germany"
+       },
+       "atj": {
+        "language": "atj",
+        "value": "Tcariman aski"
+       },
+       "as": {
+        "language": "as",
+        "value": "জাৰ্মানী"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Jerman"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Germany"
+       },
+       "to": {
+        "language": "to",
+        "value": "Siamane"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Jami̱ni"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "ألمانيا"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Germany"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Alemanya"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Tosi"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "जर्मनी"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Germany"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Germany"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Tusklánnda"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Almanijə"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ဂျာမနီခမ်းထီ"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵍⴰⵍⵎⴰⵏ"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "جرمنی"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Jerman"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Dètslan"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Jerman"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Jerman"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "جَرمَنی"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Jameni"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Jereman"
+       },
+       "tdd": {
+        "language": "tdd",
+        "value": "ᥛᥫᥒᥰ ᥐᥦᥱ ᥛᥣᥱ ᥘᥤᥱ"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Германия"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Almaniye"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠎꠣꠞ꠆ꠝꠣꠘꠤ"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Germany"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Germany"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Alimanha"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "Germany"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "Германия"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Нємција"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Jàamanī"
+       },
+       "ppl": {
+        "language": "ppl",
+        "value": "Alemania"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

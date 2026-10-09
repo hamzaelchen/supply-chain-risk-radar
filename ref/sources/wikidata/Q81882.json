@@ -1,0 +1,1934 @@
+{
+ "wikidata_id": "Q81882",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q81882&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:42.566005+00:00",
+   "response": {
+    "entities": {
+     "Q81882": {
+      "pageid": 84326,
+      "ns": 0,
+      "title": "Q81882",
+      "lastrevid": 2530505047,
+      "modified": "2026-08-12T17:28:20Z",
+      "type": "item",
+      "id": "Q81882",
+      "labels": {
+       "zh": {
+        "language": "zh",
+        "value": "桑托斯"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Santos"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Santos"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Santos"
+       },
+       "es": {
+        "language": "es",
+        "value": "Santos"
+       },
+       "af": {
+        "language": "af",
+        "value": "Santos"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Santos"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Santos"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Santos"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Santos"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "سانتوس"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Santos"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Santos"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Santos"
+       },
+       "is": {
+        "language": "is",
+        "value": "Santos"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Сантус"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Santos"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Сантос"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Santos"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Santos"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Сантус"
+       },
+       "io": {
+        "language": "io",
+        "value": "Santos"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Santos"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Santos"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Santos"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "সান্টোস"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Сантус"
+       },
+       "an": {
+        "language": "an",
+        "value": "Santos"
+       },
+       "da": {
+        "language": "da",
+        "value": "Santos"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Santos"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Santos"
+       },
+       "he": {
+        "language": "he",
+        "value": "סנטוס"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "산투스"
+       },
+       "be": {
+        "language": "be",
+        "value": "Сантус"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Santos"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Santos"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Santusa"
+       },
+       "it": {
+        "language": "it",
+        "value": "Santos"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Santos"
+       },
+       "id": {
+        "language": "id",
+        "value": "Santos"
+       },
+       "de": {
+        "language": "de",
+        "value": "Santos"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "サントス"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Santos"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Santos"
+       },
+       "en": {
+        "language": "en",
+        "value": "Santos"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Santos"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Santos"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Santos"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Santos"
+       },
+       "th": {
+        "language": "th",
+        "value": "ซังตูส"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Santos"
+       },
+       "co": {
+        "language": "co",
+        "value": "Santos"
+       },
+       "la": {
+        "language": "la",
+        "value": "Urbs Sanctorum"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Santos"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Santos"
+       },
+       "war": {
+        "language": "war",
+        "value": "Santos"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Santos"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Сантос"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Santosas"
+       },
+       "et": {
+        "language": "et",
+        "value": "Santos"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "سانتوس"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Santos"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Сантус хот"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Santos"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Santos"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "سانتوس، ساؤ پالو"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Santos"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Սանտոս"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Santos"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Santos"
+       },
+       "el": {
+        "language": "el",
+        "value": "Σάντος"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Santos"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "सांतोज़"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Santos"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சாண்டோஸ்"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "सॅनटोस"
+       },
+       "te": {
+        "language": "te",
+        "value": "సంతోష్"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "সান্তুস"
+       },
+       "si": {
+        "language": "si",
+        "value": "සැන්ටොස්"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "સાંટોસ"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಸ್ಯಾನ್ಟೋಸ್"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Santos"
+       },
+       "az": {
+        "language": "az",
+        "value": "Santos"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Santos"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "桑托斯"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Сантус"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "سانتوس"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Сантус"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "桑托斯 (巴西)"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Сантус"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "სანტუსი"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Santos"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Santos"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Santos"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Santos"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Santos"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Santos"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Santos"
+       },
+       "os": {
+        "language": "os",
+        "value": "Сантус"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Сантус"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "桑托斯"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "桑托斯"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Santos"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "سانتوس"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Santos"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Сантус"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q81882&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:42.819289+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "7d388c2ec4d6d79b2b17935e5f8957660f4c9c8a",
+        "datavalue": {
+         "value": {
+          "latitude": -23.9335988,
+          "longitude": -46.3286399,
+          "altitude": null,
+          "precision": 1e-07,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q81882$2d69b6fd-4e4a-3a8c-c292-3eaea9832a66",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q81882&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:43.057005+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "90114304161d20f1934075ea47b8a33a76e95138",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 155,
+          "id": "Q155"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q81882$2825D012-23D6-4DEC-83A4-20D9415AC47C",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q155&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:43.374663+00:00",
+   "response": {
+    "entities": {
+     "Q155": {
+      "type": "item",
+      "id": "Q155",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Бразилия"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Wrasil"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "برازیل"
+       },
+       "na": {
+        "language": "na",
+        "value": "Bradir"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Бразил"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ব্রাজিল"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IBrazili"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "ব্রাজিল"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Brazilija"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Brazil"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Brazília"
+       },
+       "so": {
+        "language": "so",
+        "value": "Barasiil"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Brazil"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Бразилія"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Бразилия"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Brasile"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Бразил"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Barazil"
+       },
+       "za": {
+        "language": "za",
+        "value": "Bahsih"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Brasil"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Brasil"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Бразилия"
+       },
+       "es": {
+        "language": "es",
+        "value": "Brasil"
+       },
+       "or": {
+        "language": "or",
+        "value": "ବ୍ରାଜିଲ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Бразилия Мастор"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Brazil"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "בראזיל"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Bhrasaíl"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Brazylskô"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Braziliya"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Brasil"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Brasilje"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Brazil"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Burezile"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Brazil"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Brazilėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Brazileja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Kintaaʼanéhé Dineʼé Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "巴西"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Brazíl"
+       },
+       "az": {
+        "language": "az",
+        "value": "Braziliya"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "برزیل"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "巴西"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Brasilien"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಬ್ರೆಜಿಲ್"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Brazilië"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Бразилия"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Brasil"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Brasile"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "பிரேசில்"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Brasil"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Brasil"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "ब्राज़ील"
+       },
+       "he": {
+        "language": "he",
+        "value": "ברזיל"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Бразил"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Brasil"
+       },
+       "om": {
+        "language": "om",
+        "value": "Biraazil"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Brazilija"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Brazil"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Brazil"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Brazilia"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "ब्राज़ील"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Brasilien"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Brazil"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Braziliya"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Brasiilia"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Brasilien"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "البرازيل"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດບຣາຊິນ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Brazil"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Brasilien"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Brazil"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Brasil"
+       },
+       "da": {
+        "language": "da",
+        "value": "Brasilien"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Brasil"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Brazil"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Brazīlija"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Pa-se"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ብራዚል"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Бразилие"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Brazil"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Vrasseel"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Brasil"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "البرازيل"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Brasilkondre"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Brazil"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Brezilya"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Bresel"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Brazylijo"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Brasil"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Бразили"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Brasil"
+       },
+       "io": {
+        "language": "io",
+        "value": "Brazilia"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "巴西"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Бразилия"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Brasilien"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศบราซิล"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Brazil"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "برزیل"
+       },
+       "an": {
+        "language": "an",
+        "value": "Brasil"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Brasil"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Բրազիլիա"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Brazilii"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "ब्राजिल"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Brasilia"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "ब्राजिल"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Brazilo"
+       },
+       "de": {
+        "language": "de",
+        "value": "Brasilien"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Brazil"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Pasila"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Brasil"
+       },
+       "war": {
+        "language": "war",
+        "value": "Brasil"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Brazil"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "razgu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Бразил"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "برازىلىيە"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Бразилия"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Brasil"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "برزیل"
+       },
+       "en": {
+        "language": "en",
+        "value": "Brazil"
+       },
+       "as": {
+        "language": "as",
+        "value": "ব্ৰাজিল"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "برازیل"
+       },
+       "os": {
+        "language": "os",
+        "value": "Бразили"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဘရာဇီးနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "巴西"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "བཱརཱ་ཛིལ་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Brasiilia"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Brasil"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Breesil"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "巴西"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Brasil"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏆᏏᎵ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "巴西"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Brési"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Brasil"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Brasile"
+       },
+       "min": {
+        "language": "min",
+        "value": "Brasil"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "巴西"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Brazil"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Brazil"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Brasilia"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Brasilien"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "بەڕازیل"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Brazil"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Brazil"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Brèsil"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Brasil"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Brazil"
+       },
+       "la": {
+        "language": "la",
+        "value": "Brasilia"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Brazilia"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Brasiilien"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Brazil"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "ब्राझील"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Brasil"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Brésil"
+       },
+       "is": {
+        "language": "is",
+        "value": "Brasilía"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Brazilska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Brażil"
+       },
+       "li": {
+        "language": "li",
+        "value": "Braziel"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "برازیل"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Brasilia"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "巴西"
+       },
+       "id": {
+        "language": "id",
+        "value": "Brasil"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "ब्राझील"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "બ્રાઝિલ"
+       },
+       "su": {
+        "language": "su",
+        "value": "Brasil"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Бразили"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Brasil"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਬ੍ਰਾਜ਼ੀਲ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Braezi"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Brasil"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Brasil"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "巴西"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Brazil"
+       },
+       "af": {
+        "language": "af",
+        "value": "Brasilië"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Brasil"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Бразилия"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Brasil"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Brasilie"
+       },
+       "si": {
+        "language": "si",
+        "value": "බ්‍රසීලය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "巴西"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Brasilien"
+       },
+       "km": {
+        "language": "km",
+        "value": "ប្រេស៊ីល"
+       },
+       "st": {
+        "language": "st",
+        "value": "Brazil"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Brasili"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Brazil"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Бразилия"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Biresiili"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Brasil"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ბრაზილია"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Бразилия"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Brasilän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱵᱽᱨᱟᱡᱤᱞ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Brasile"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Brasil"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "ब्राझील"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Palakila"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Brazil"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Brasil"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Brésil"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Brazil"
+       },
+       "co": {
+        "language": "co",
+        "value": "Brasile"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Brazilska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Бразылія"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Braziłe"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Brazil"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌱𐍂𐌰𐌶𐌹𐌻"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Pindoráma"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Brazil"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "برازيل"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Brazil"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Brazília"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "巴西"
+       },
+       "te": {
+        "language": "te",
+        "value": "బ్రెజిల్"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Бразилия"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Бразилия"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Brasil"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "ब्रासील"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Braziliya"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Braziliýa"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Brazil"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Ниицәтә Бразилмудин Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Браꙁїлїꙗ"
+       },
+       "new": {
+        "language": "new",
+        "value": "ब्राजिल"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Brasîl"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Braisil"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Brazil"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Brezilya"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Brasil"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Brezil"
+       },
+       "be": {
+        "language": "be",
+        "value": "Бразілія"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ბრაზილია"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Бразили"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Бразилия"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "برزیل"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Brazil"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Brazilië"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "པུ་རུ་ཟིལ།"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Parīhi"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Brazylia"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Brazil"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Brazil"
+       },
+       "am": {
+        "language": "am",
+        "value": "ብራዚል"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Brazil"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Бразилия"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Brazil"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "برازیل"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "برزيل"
+       },
+       "el": {
+        "language": "el",
+        "value": "Βραζιλία"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Brazilië"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Brazili"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Brazil"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Brazila"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Brasil"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Бразилий"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ബ്രസീൽ"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Бразілія"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Brazylje"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Brezîl"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Braziilii"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܒܪܰܐܙܺܝܠ"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ބުރެޒިލް"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "البرازيل"
+       },
+       "se": {
+        "language": "se",
+        "value": "Brasilia"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Brasil"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Brasil"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Brazílie"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Brasil"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Braxî"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Brasil"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Brezilië"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Бразили"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Бразил"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Brazil"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ブラジル"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "브라질"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Brasil"
+       },
+       "br": {
+        "language": "br",
+        "value": "Brazil"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "巴西"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "ब्रासील"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Brasil"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Pâ-sî"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "ब्राजिल"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Бразил"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "巴西"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Պրազիլ"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Brasil"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Бразилия"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Brazil"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Brazil"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Brézil"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Brazil"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Brasilia"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "بريزيل"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းပရႃႇၸီး"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Brasilia"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Brasil"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Brasila"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߓߙߋߖ߭ߌߟ"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Brazil"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯕ꯭ꯔꯥꯓꯤꯜ"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Brazil"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "برازيل"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IBhurazili"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Lbrazil"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Бразилиа"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Brazil"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Βρασιλία"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Brazil"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "ब्राजिल"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Brazil"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Bi̱razi̱t"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Brezîl"
+       },
+       "to": {
+        "language": "to",
+        "value": "Palāsili"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Pasiju"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ဗရာသီးခမ်းထီ"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᑉᕋᓰᓪ"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "ब्राजील"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Brazil"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Brazil"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠛꠦꠞꠣꠎꠤꠟ"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Brazilijə"
+       },
+       "nod": {
+        "language": "nod",
+        "value": "ᨷᩁᩣᨪᩥᩃ"
+       },
+       "guc": {
+        "language": "guc",
+        "value": "Wurasiirü"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴱⵕⴰⵣⵉⵍ"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Brasil"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Brésil"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Brazil"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Brasijlla"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "برٛازیٖل"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Brasil"
+       },
+       "fon": {
+        "language": "fon",
+        "value": "Brésiltò"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Brasil"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Brazil"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Brasil"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Brazil"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Burazilu"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Brazil"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Brazil"
+       },
+       "gaa": {
+        "language": "gaa",
+        "value": "Brazil"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Brazil"
+       },
+       "cho": {
+        "language": "cho",
+        "value": "Blasiliya"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Бразилија"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Brazilija"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Burazìl"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "ဗရာဇြဳ"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

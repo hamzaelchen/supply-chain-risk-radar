@@ -1,0 +1,2153 @@
+{
+ "wikidata_id": "Q612",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q612&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:11.936659+00:00",
+   "response": {
+    "entities": {
+     "Q612": {
+      "pageid": 896,
+      "ns": 0,
+      "title": "Q612",
+      "lastrevid": 2552870267,
+      "modified": "2026-10-04T03:14:02Z",
+      "type": "item",
+      "id": "Q612",
+      "labels": {
+       "eo": {
+        "language": "eo",
+        "value": "Dubajo"
+       },
+       "de": {
+        "language": "de",
+        "value": "Dubai"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Dubaï"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Дубай"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Dubaj"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Dubaj"
+       },
+       "en": {
+        "language": "en",
+        "value": "Dubai"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Dubai"
+       },
+       "es": {
+        "language": "es",
+        "value": "Dubái"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Дубай"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Dubai"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Dubaj"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Dubai"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Dubai"
+       },
+       "az": {
+        "language": "az",
+        "value": "Dubay"
+       },
+       "af": {
+        "language": "af",
+        "value": "Doebai"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Doubayi"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Դուբայ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Дубай хот"
+       },
+       "be": {
+        "language": "be",
+        "value": "Дубай"
+       },
+       "et": {
+        "language": "et",
+        "value": "Dubai"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "دوبئی"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Dubaj"
+       },
+       "it": {
+        "language": "it",
+        "value": "Dubai"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ドバイ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "두바이"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "დუბაი"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Дубай"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "துபை"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Dubai"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "迪拜"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "迪拜"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "杜拜"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Дубай"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "দুবাই"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Дөбәй"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Dubai"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Dubai"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Dubai"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Dubai"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Dubai"
+       },
+       "he": {
+        "language": "he",
+        "value": "דובאי"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Dubajus"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Dubaý"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Dobajos"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Dubai"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Dubai"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Dubai"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Dubay"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Дубай"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Дубай"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "شهر دبی"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Дубаи"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Dubay"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "دبي"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "دبئی"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Dubai"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "杜拜"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Dubai"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ντουμπάι"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Dubai"
+       },
+       "am": {
+        "language": "am",
+        "value": "ዱባይ"
+       },
+       "an": {
+        "language": "an",
+        "value": "Dubai"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Dubai"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "دبى"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Dubái"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Дубай"
+       },
+       "br": {
+        "language": "br",
+        "value": "Dubai"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "دوبەی"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Dubai"
+       },
+       "da": {
+        "language": "da",
+        "value": "Dubai"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Dubai"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Dubai"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Dubai"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Dubai"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Dubai"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Dubai"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Nduvái"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "दुबई"
+       },
+       "id": {
+        "language": "id",
+        "value": "Dubai"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Dubai"
+       },
+       "io": {
+        "language": "io",
+        "value": "Dubai"
+       },
+       "is": {
+        "language": "is",
+        "value": "Dúbaí"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Dubai"
+       },
+       "la": {
+        "language": "la",
+        "value": "Dubai"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Dubai"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Dubaija"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ദുബായ്"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "दुबई"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Dubai"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဒူဘိုင်းမြို့"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "दुबई"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Dubai"
+       },
+       "os": {
+        "language": "os",
+        "value": "Дубай"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਦੁਬਈ"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Dubai"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "دوبۍ"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Dubai"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Дубай"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Дубай"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Dubai"
+       },
+       "se": {
+        "language": "se",
+        "value": "Dubai"
+       },
+       "si": {
+        "language": "si",
+        "value": "ඩුබායි"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Dubaj"
+       },
+       "so": {
+        "language": "so",
+        "value": "Dubay"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Dubai"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Дубаи"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Dubai"
+       },
+       "te": {
+        "language": "te",
+        "value": "దుబాయ్"
+       },
+       "th": {
+        "language": "th",
+        "value": "ดูไบ"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Dubai"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Dubai"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "دۇبەي"
+       },
+       "war": {
+        "language": "war",
+        "value": "Dubai"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "迪拜"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "דוביי"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Dubai"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Dubai"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Dubai"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Дубай"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Dubai"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Thu-pai"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Dubai"
+       },
+       "as": {
+        "language": "as",
+        "value": "ডুবাই"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Dubai"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Dubai"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Dubai"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Дубай"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Dubai"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Dubai"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Dubai"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "دوبی"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ດູໄບ"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Дубай"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Дубай (шаҳр)"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Dubai"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "દુબઈ"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ದುಬೈ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "杜拜"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "杜拜"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "दुबई"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "दुबई"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "დუბაი"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Дубай"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "दुबई"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "دوبی"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Dubai"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Dubaj"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "迪拜"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱫᱩᱵᱟᱭ"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Dubai"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "دبئي"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Dubai"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Dubai"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Dubai (birni)"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Дубай"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Дубай"
+       },
+       "li": {
+        "language": "li",
+        "value": "Dubai (stad)"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Dubai"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯗꯨꯕꯥꯢ"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "دبي"
+       },
+       "shy-latn": {
+        "language": "shy-latn",
+        "value": "Dubay"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Dubai"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Dubay"
+       },
+       "km": {
+        "language": "km",
+        "value": "ឌូបៃ"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Dubai"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Доубаи"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Doebai"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Dubayy"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Dubai"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Dubai"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Dubai"
+       },
+       "av": {
+        "language": "av",
+        "value": "Дубай"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "دُبَے"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Dubaj"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Dubai"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "迪拜"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Tūpai"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Thupayi"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Dubai-Stääd"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Dubai"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Dubaj šəhər"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Dubai"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Dubai"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠖꠥꠛꠣꠁ ꠘꠉꠞ"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Dubai"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "دبئي"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Dubai"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Dubai"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Dubai"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Dubai"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "دبي"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Dubai"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Dubai"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Dubai"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "دبي"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Дубай"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Tapaja"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Dubai"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q612&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:12.225430+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "aff7425f5f18ee421bbf7140d980457b0ac7bef2",
+        "datavalue": {
+         "value": {
+          "latitude": 25.269722222222,
+          "longitude": 55.309444444444,
+          "altitude": null,
+          "precision": 0.00027777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q612$D2A42150-7AFC-4ED3-AB4C-BEE04DFE81DD",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 206855,
+              "id": "Q206855"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q612&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:12.491932+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "7de83bc3075bd3c57ead8c4d42073df5e85412a6",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 878,
+          "id": "Q878"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q612$35074847-98EB-42FE-BB9E-3EE7BEF5DBE0",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "7070360dc5ed2fa6b8f64612b23f899364ff209a",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "581785e9e14343ffea29e44074ebd8584c234a9b",
+            "datavalue": {
+             "value": "8404",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q878&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:12.894154+00:00",
+   "response": {
+    "entities": {
+     "Q878": {
+      "type": "item",
+      "id": "Q878",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "United Arab Emirates"
+       },
+       "de": {
+        "language": "de",
+        "value": "Vereinigte Arabische Emirate"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "De forente arabiske emirater"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Émirats arabes unis"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Аб’яднаныя Арабскія Эміраты"
+       },
+       "es": {
+        "language": "es",
+        "value": "Emiratos Árabes Unidos"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "United Arab Emirates"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "United Arab Emirates"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Verenigde Arabische Emiraten"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Dei sameinte arabiske emirata"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Uni Emirat Arab"
+       },
+       "af": {
+        "language": "af",
+        "value": "Verenigde Arabiese Emirate"
+       },
+       "am": {
+        "language": "am",
+        "value": "የተባበሩት የዓረብ ኤምሬትስ"
+       },
+       "an": {
+        "language": "an",
+        "value": "Emiratos Arabes Unitos"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Geānedu Arabisc Bregorīcu"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "الإمارات العربية المتحدة"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܐܡܝܪܘܬܐ ܥܪܒܝܬܐ ܡܚܝܕܬܐ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "الامارات"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Emiratos Árabes Xuníos"
+       },
+       "az": {
+        "language": "az",
+        "value": "Birləşmiş Ərəb Əmirlikləri"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Vaeinigte Arabische Emirate"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Emiratong Arabe Unidos"
+       },
+       "be": {
+        "language": "be",
+        "value": "Аб’яднаныя Арабскія Эміраты"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Обединени арабски емирства"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Syarikat Amiriah Arab"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "সংযুক্ত আরব আমিরাত"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཡི་ནེ་ཁྲེ་ཀྲི་ཨ་རབ་ཨེ་མེ་རེ་ཁྲི།"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "তিলপা আরব আমিরাত"
+       },
+       "br": {
+        "language": "br",
+        "value": "Emirelezhioù Arab Unanet"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Ujedinjeni Arapski Emirati"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Emiriyah Arab Bersatu"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Арабын Нэгдсэн Эмирт Улс"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Emirats Àrabs Units"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Ӏаьрбийн Цхьаьнатоьхна Эмираташ"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Hiniusang Emiratong Arabo"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "میرنشینە یەکگرتووە عەرەبییەکان"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Spojené arabské emiráty"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Yr Emiradau Arabaidd Unedig"
+       },
+       "da": {
+        "language": "da",
+        "value": "Forenede Arabiske Emirater"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Yewina Emiranê Erebi"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Zjadnośone Arabske Emiraty"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "އެކުވެރި ޢަރަބި އިމާރާތު"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཡུ་ནའི་ཊེཊ་ཨ་རབ་ཨེ་མི་རེཊསི་"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ηνωμένα Αραβικά Εμιράτα"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Unuiĝintaj Arabaj Emirlandoj"
+       },
+       "et": {
+        "language": "et",
+        "value": "Araabia Ühendemiraadid"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Arabiar Emirerri Batuak"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Emiratus Árabis Unius"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "امارات متحده عربی"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Yhdistyneet arabiemiraatit"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Sameindu Emirríkini"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Èmirats arabos unis"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Feriene Arabyske Emiraten"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Aontas na nÉimíríochtaí Arabacha"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Birleşik Arab Emirlikleri"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Na h-Iomaratan Arabach Aonaichte"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Emiratos Árabes Unidos"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "ny h-Emmiraidyn Arabagh Unnaneysit"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Â-lâ-pak Lièn-ha̍p Thai-kûng-koet"
+       },
+       "he": {
+        "language": "he",
+        "value": "איחוד האמירויות הערביות"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "संयुक्त अरब अमीरात"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "United Arab Emirates"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Ujedinjeni Arapski Emirati"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Zjednoćene arabske emiraty"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Emira Arab Ini"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Egyesült Arab Emírségek"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Արաբական Միացյալ Էմիրություններ"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Emiratos Arabe Unite"
+       },
+       "id": {
+        "language": "id",
+        "value": "Uni Emirat Arab"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Unit Arabic Emiratus"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Dagiti Nagkaykaysa nga Emirato nga Arabo"
+       },
+       "io": {
+        "language": "io",
+        "value": "Unionita Araba Emirati"
+       },
+       "is": {
+        "language": "is",
+        "value": "Sameinuðu arabísku furstadæmin"
+       },
+       "it": {
+        "language": "it",
+        "value": "Emirati Arabi Uniti"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "アラブ首長国連邦"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Uni Émirat Arab"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "არაბთა გაერთიანებული საამიროები"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Хьарып Ӏэмирэт Зэгуэт"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "United Arab Emirates"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Біріккен Араб Әмірліктері"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "United Arab Emirates"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಯುನೈಟೆಡ್ ಅರಬ್ ಎಮಿರೇಟ್ಸ್"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "아랍에미리트"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Mîrgehên Yekbûyî yên Ereban"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Ӧтувтчӧм Араб Эмиратъяс"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Pennternasedh Unys Arabek"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Бириккен Араб Эмирликтери"
+       },
+       "la": {
+        "language": "la",
+        "value": "Emiratus Arabici Coniuncti"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Vereenegt Arabesch Emirater"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Цачӏунхьу Аьрабнал Эмиратру"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "ГалкӀанавай Арабрин Эмиратар"
+       },
+       "li": {
+        "language": "li",
+        "value": "Vereinegde Arabische Emiraote"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Emirati Àrabi Unïi"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Emiraa Arab Ünii"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Jungtiniai Arabų Emyratai"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Apvienotie Arābu Emirāti"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Обединети Арапски Емирати"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഐക്യ അറബ് എമിറേറ്റുകൾ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Арабын Нэгдсэн Эмирт Улс"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "संयुक्त अरब अमिराती"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Emiriah Arab Bersatu"
+       },
+       "my": {
+        "language": "my",
+        "value": "အာရပ်စော်ဘွားများပြည်ထောင်စု"
+       },
+       "na": {
+        "language": "na",
+        "value": "Emireitit Arabiya"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Sentik Arabeh Emiryotl"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Vereenigte Araabsche Emiraten"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "संयुक्त अरब इमिरेट्स"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Unionati Arabi Emirates"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Ásáí Dineʼé Bikéyah Yázhí Ałhidadiidzooígíí"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Emirats Arabis Units"
+       },
+       "or": {
+        "language": "or",
+        "value": "ୟୁନାଇଟେଡ଼ ଆରବ ଏମିରଟ"
+       },
+       "os": {
+        "language": "os",
+        "value": "Араббы Иугонд Эмираттæ"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਸੰਯੁਕਤ ਅਰਬ ਅਮੀਰਾਤ"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Emiratos diad Unido ya Arabo"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Emiratos Arabes Unidos"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Zjednoczone Emiraty Arabskie"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Emirà Àrabo Unì"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "متحدہ عرب امارات"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "متحده عرب امارات"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Emirados Árabes Unidos"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Hukllachasqa Arab Imiratukuna"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Emiratele Arabe Unite"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Emirate Arabe Aunìte"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Объединённые Арабские Эмираты"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Споєны Арабскы Еміраты"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Nyarabu Zunze Ubumwe"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Холбоhуктаах Араб Эмираттара"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Emirati Àrabbi Uniti"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Unitit Arab Emirates"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "گڏيل عرب امارتون"
+       },
+       "se": {
+        "language": "se",
+        "value": "Ovttastuvvan arábaemiráhtat"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Ujedinjeni Arapski Emirati"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Spojené arabské emiráty"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Združeni arabski emirati"
+       },
+       "so": {
+        "language": "so",
+        "value": "Imaaraatka Carabta"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Emiratet e Bashkuara Arabe"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Уједињени Арапски Емирати"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "Bunye bema-Arabhu"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Fereende Arabiske Emiroate"
+       },
+       "su": {
+        "language": "su",
+        "value": "Uni Émirat Arab"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Förenade arabemiraten"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Falme za Kiarabu"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Zjednoczůne Arabske Ymiraty"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "ஐக்கிய அரபு அமீரகம்"
+       },
+       "te": {
+        "language": "te",
+        "value": "యునైటెడ్ అరబ్ ఎమిరేట్స్"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Имороти Муттаҳидаи Арабӣ"
+       },
+       "th": {
+        "language": "th",
+        "value": "สหรัฐอาหรับเอมิเรตส์"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Birleşen Arap Emirlikleri"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Mga Pinag-isang Arabong Emirado"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Birleşik Arap Emirlikleri"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Берләшкән Гарәп Әмирлекләре"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Огазеяськем Араб Эмиратъёс"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "بىرلەشمە ئەرەب ئەمىرلىكلىرى"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Об'єднані Арабські Емірати"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "متحدہ عرب امارات"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Birlashgan Arab Amirliklari"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Araban Ühtenzoittud Emiratad"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "các Tiểu vương quốc Ả Rập Thống nhất"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Lemiräns Larabik Pebalöls"
+       },
+       "war": {
+        "language": "war",
+        "value": "Emiratos Arabes Unidos"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Imaaraat yu Araab yu Bennoo yi"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "阿拉伯联合酋长国"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Ниицәтә Араб Нутгуд"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "פאראייניגטע אראבישע עמיראטן"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Àwọn Ẹ́mírétì Árábù Aṣọ̀kan"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "阿拉伯联合酋长国"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "阿拉伯联合酋长国"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "阿拉伯联合酋长国"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "阿拉伯聯合大公國"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "A-la-pek Liân-ha̍p Thâu-lâng-kok"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Aravia Emiryvy Joaju"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Emiratos Unidos del Arabo"
+       },
+       "av": {
+        "language": "av",
+        "value": "ГIарабазул Цолъарал Имаратал"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Emirati Għarab Magħquda"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Уједињени Арапски Емирати"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Ujedinjeni Arapski Emirati"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Yunitid Erab Emiraets"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Émirats arabes unis"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Vereineschte Arrahbesche Emmerahte"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Birleşken Arap Emirlikleri"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Vereinigte Arabische Emirate"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Araabia Ütisemiraadiq"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Jongtėnē Arabu Emīratā"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "阿拉伯聯合酋長國"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Emiratu Arabi Naklibur Sira"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Берләшкән Ғәрәп Әмирлектәре"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Taraiyar larabawa"
+       },
+       "si": {
+        "language": "si",
+        "value": "එක්සත් අරාබි එමීර් රාජ්‍යය"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Vereênigde Araobische Emiraoten"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "United Arab Emirates"
+       },
+       "om": {
+        "language": "om",
+        "value": "Yunaayitid Arab Imireetis"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Ā-lá-báik Lièng-hăk Dâi-gŭng-guók"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Limarat Taɛrabin Yeddukklen"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Emirados Árabes Unidos"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "متحده عربی امارات"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "امارتیا یک گرته عروی"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Aupuni ʻEmira ʻAlapia Hui Pū ʻia"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Birlesken Arab Ámirlikleri"
+       },
+       "za": {
+        "language": "za",
+        "value": "Bouxdaeuzgoz Ahlazbwz Lienzhab"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "संयुक्त अरब अमीरात"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "ایمارات"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "United Arab Emirates"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Араб Эмират Зэхэтхэр"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "阿拉伯聯合酋長國"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Yunaitid Arab Emiret"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "امارتی موتهیده ئه ربی"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "United Arab Emirates"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "United Arab Emirates"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "यूनाइटेड अरब अमीरात"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Yhtis Arabiemiruatat"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Emiratean Arabe Unit"
+       },
+       "as": {
+        "language": "as",
+        "value": "সংযুক্ত আৰৱ আমিৰাত"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Emiratos Arabos Unidos"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "સંયુક્ત આરબ અમીરાત"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "阿拉伯聯合大公國"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Vereinigte Arabische Emirate"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Vereinigte Arabische Emirate"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "संयुक्त अरब इमिरेट्स"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "არაბეფიშ გოართოიანაფილი საამიროეფი"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Emiraatɩ-Araabʊ Unii"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "युनाइटेड अरब इमिरेट्स"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Ferianagt Araabisk Emiraaten"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Emirai Arabi Unìi"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Malo Alapi Lotogatasi"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "الإمارات العربية المتحدة"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Amirias Arabi Unida"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Birleşken Arap Emirlikleri"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Արաբական Միացեալ Էմիրութիւններ"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "阿拉伯联合酋长国"
+       },
+       "co": {
+        "language": "co",
+        "value": "Emirati Àrabi Uniti"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Te Kotahitanga o ngā Whenua Ārapi"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Emirata Arabo Mitambatra"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Emirados Àrabos Unidos"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "United arab emirates"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Émirat arab ini"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "لإمارات"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "संयुक्त अरब इमिरेट्स"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းႁူမ်ႈတုမ် ၸဝ်ႈၾႃႉ ဢႃႇရၢပ်ႈ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Ovtâstum arabiemiirikodeh"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Õhttõõvvâm araabemiirkååʹdd"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Ушнышо Араб Эмират"
+       },
+       "min": {
+        "language": "min",
+        "value": "Uni Emirat Arab"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱥᱮᱞᱮᱫ ᱟᱨᱚᱵᱽ ᱟᱢᱤᱨᱟᱛ"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Imaaraatuuji Aarabe Dentuɗi"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯑꯄꯨꯟꯕ ꯑꯥꯔꯕ ꯑꯦꯃꯤꯔꯦꯠꯁꯤꯡ"
+       },
+       "shy-latn": {
+        "language": "shy-latn",
+        "value": "Limarat Taɛrabin Yeddukklen"
+       },
+       "km": {
+        "language": "km",
+        "value": "សហព័ន្ធ​អារ៉ាប់រួម"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "United arab emirates"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Uni Emirat Arab"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Uni Émirat Arab"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Yunaeted Arab Emirets"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "United Arab Emirates"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "United arab emirates"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Ѥдьнѥнꙑ Аравьскꙑ Ємиратꙑ"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "United Arab Emirates"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Еиду Арабтә Емиратқәа"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Вейсэндязь Арабонь Эмираттнэ"
+       },
+       "to": {
+        "language": "to",
+        "value": "ʻAlepea Fakatahataha"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Emirac Arabs Unii"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "아랍추장국련방"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "အာရပ်စဝ်းဖားခမ်းပေါင်ꩻဗူႏခမ်းထီ"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Соткс Арабонь Эмиратне"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "संयुक्त अरब अमीरियराज्यानि (सं॰अ॰अ॰)"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "United Arab Emirates"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "manga Emirato Arabe Tingëb"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "United Arab Emirates"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Eimirados Árabes Ounidos"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "United Arab Emirates"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "संयुक्त अरब अमीरात"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Vereynigde Arabiske Emiraten"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "United Arab Emirates"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "United Arab Emirates"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "İbə Ərəb Əmirvonəti"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "متحدہ عرب امارات"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Пӗрлешӗннӗ Арап Эмирачӗсем"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Tannapta Arapiit Nunaat"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Imarat Arab Rempug"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Emiriah Arab Miiso"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "सञ्जुक्त अरब अमीरात"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Emirâts Arabs Unîts"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠁꠃꠘꠣꠁꠐꠦꠒ ꠀꠞꠛ ꠀꠝꠤꠞꠣꠔ"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Imarat Arab Nunggal"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Ido Emiret Arabu"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "مُتحدہ عرب امارات"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ສະຫະລັດອາຣັບເອມີເຣດ"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-United Arab Emirates"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Zjednóné Arabsczie Emiratë"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Бирлешген Араб Эмиратла"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Emiradus Árabis Unidus"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "عربي ايجؤنأبؤ ايمارتان"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Imala"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Verênigde Arabische Emiroatn"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "United Arab Emirates"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಯುನೈಟೆಡ್ ಅರಬ್ ಎಮಿರೇಟ್ಸ್"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

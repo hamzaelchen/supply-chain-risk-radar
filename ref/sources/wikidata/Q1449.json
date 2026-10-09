@@ -1,0 +1,2688 @@
+{
+ "wikidata_id": "Q1449",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1449&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:01.628457+00:00",
+   "response": {
+    "entities": {
+     "Q1449": {
+      "pageid": 1880,
+      "ns": 0,
+      "title": "Q1449",
+      "lastrevid": 2555091881,
+      "modified": "2026-10-08T18:01:50Z",
+      "type": "item",
+      "id": "Q1449",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Genoa"
+       },
+       "it": {
+        "language": "it",
+        "value": "Genova"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Gênes"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "제노바"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Genoa"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Genoa"
+       },
+       "af": {
+        "language": "af",
+        "value": "Genua"
+       },
+       "am": {
+        "language": "am",
+        "value": "ጄኖቫ"
+       },
+       "an": {
+        "language": "an",
+        "value": "Chenova"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "جنوة"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "جينوا"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Xénova"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Genova"
+       },
+       "be": {
+        "language": "be",
+        "value": "Генуя"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Генуа"
+       },
+       "br": {
+        "language": "br",
+        "value": "Genova"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Genova"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Gènova"
+       },
+       "co": {
+        "language": "co",
+        "value": "Genuva"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Janov"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Genova"
+       },
+       "da": {
+        "language": "da",
+        "value": "Genova"
+       },
+       "de": {
+        "language": "de",
+        "value": "Genua"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Genua"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Zêna"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Ĝenovo"
+       },
+       "es": {
+        "language": "es",
+        "value": "Génova"
+       },
+       "et": {
+        "language": "et",
+        "value": "Genova"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Genova"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Génova"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "جنوا"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Genova"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Gjenue"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Genua"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Genova"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Genova"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Xénova"
+       },
+       "he": {
+        "language": "he",
+        "value": "ג'נובה"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "जेनोआ"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Genova"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Genova"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Ջենովա"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Genua"
+       },
+       "id": {
+        "language": "id",
+        "value": "Genova"
+       },
+       "io": {
+        "language": "io",
+        "value": "Genova"
+       },
+       "is": {
+        "language": "is",
+        "value": "Genúa"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ジェノヴァ"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Genova"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "გენუა"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Генуя"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Genua"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Генуя"
+       },
+       "la": {
+        "language": "la",
+        "value": "Genua"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Zêna"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Genua"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Genuja"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Dženova"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Генуя"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "जेनोवा"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Genoa"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဂျီနိုအာမြို့"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Genova"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Genova"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Genua"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Genova"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Gènoa"
+       },
+       "os": {
+        "language": "os",
+        "value": "Генуя"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Genua"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Génoa"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "جینوآ"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Génova"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Gênova"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Genova"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Genova"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Генуя"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Gènova"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Gènuva"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Genoa"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Genova"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Janov"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Genova"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Ђенова"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Genua"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Genova"
+       },
+       "th": {
+        "language": "th",
+        "value": "เจนัว"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Genova"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Cenova"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Генуя"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "جینوا"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Zènoa"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Genova"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Genova"
+       },
+       "war": {
+        "language": "war",
+        "value": "Genova"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "热那亚"
+       },
+       "az": {
+        "language": "az",
+        "value": "Genuya"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Genova"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "熱那亞"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Genova"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Genua"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Генуя"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Генуя"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "יאנאווע"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Genova"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Gjenova"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Genua"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Џенова"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "செனோவா"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Генуя"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "जेनोवा"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Genua"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Генуя"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Genui"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "جینووا"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Genoa"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "热那亚"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Genova"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Genoa"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Genoa"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Genova"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Genuya"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Генуя"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "জেনোভা"
+       },
+       "te": {
+        "language": "te",
+        "value": "జెనోవా"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "જેનોઆ"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಜಿನೋವಾ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "熱那亞"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "熱那亞"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Генуя"
+       },
+       "si": {
+        "language": "si",
+        "value": "ජිනෝවා"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Genoa"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Genua"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Genova"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "熱那亞"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Җенова"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਜੇਨੋਆ"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "熱那亞"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "გენუა"
+       },
+       "tt-latn": {
+        "language": "tt-latn",
+        "value": "Genuya"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Генуя"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Genua"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Genua"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Գենուա"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Genoa"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Cenova"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ജെനോവ"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "جەنەوا"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱡᱮᱱᱳᱣᱟ"
+       },
+       "el": {
+        "language": "el",
+        "value": "Γένοβα"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "جينوڤا"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Генуя"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Genova"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Cenova"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Cenova"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "热那亚"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "热那亚"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "热那亚"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "热那亚"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "熱那亞"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Genova"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Genova"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Gêna"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Ǧenova"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Гэнуя"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Jenova"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Henoa"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Genuya"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Genoa"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Genoa"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Genova"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Ђенова"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Génova"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Genova"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Genoa"
+       },
+       "li": {
+        "language": "li",
+        "value": "Genua (sjtad)"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Genova"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Genoa"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Genoa"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1449&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:01.892780+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "3d5f1c8d3b6a7c59a7af8f2b83a9c0c98350b6fa",
+        "datavalue": {
+         "value": {
+          "latitude": 44.407222222222224,
+          "longitude": 8.93388888888889,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q1449$EDA76DDA-F172-4F83-B686-338A30680598",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1449&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:02.144669+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "b48529e9f7e0898ab1ddaefe8547cdb863e0167c",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 38,
+          "id": "Q38"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "c894b94ecdc554004dcad95ae91a1b81ae88f0e7",
+          "datavalue": {
+           "value": {
+            "time": "+1861-02-18T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q1449$6252A135-D6C2-4D48-B5E4-742D8B428161",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "b00db207a62c317c06526e6ce1d985e766bca0ed",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "03aa0d43873460a9cfda0e942a931bed4f2b207b",
+            "datavalue": {
+             "value": "941",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "392ab84cc5c88c7aae2eeb675c5d3402a01480d6",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 165154,
+          "id": "Q165154"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "fbdf15deeb35bb331f68088eac5294bfea2bf421",
+          "datavalue": {
+           "value": {
+            "time": "+1861-02-17T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "cf1c93c44ae539f41249afdf7ea5bfaa499d665c",
+          "datavalue": {
+           "value": {
+            "time": "+1815-06-09T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1449$735f89b9-4f4d-e9dc-9648-88dd664e265d",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "c05db5d169c2560b9799d567a803d20a392f53e4",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 142,
+          "id": "Q142"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "08c211dd3e8ec95ebaffc69874b87516a2c6273f",
+          "datavalue": {
+           "value": {
+            "time": "+1815-06-08T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "d727ac88433877ba2418ece590fdbd4136f8ede3",
+          "datavalue": {
+           "value": {
+            "time": "+1805-06-04T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1449$48e46134-4f39-72fd-84e9-d7570d25ca51",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "3aabff75876dfde8722ada58025789905b7893c9",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 659312,
+          "id": "Q659312"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "894fc0092f0884209cf8e4d7f74ed7f9134fe91f",
+          "datavalue": {
+           "value": {
+            "time": "+1797-06-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "2c003996eeb57a7d4ff0526834310b3de1888070",
+          "datavalue": {
+           "value": {
+            "time": "+1805-06-03T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1449$e203e0a0-4288-fe84-7179-c9315ddc4b14",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "b922a10028b502fc8a528165b97c30c717b77ae7",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 174306,
+          "id": "Q174306"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "267ff9f658dd1de3a0e04104d6987db2bc3eb4e1",
+          "datavalue": {
+           "value": {
+            "time": "+1797-06-13T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "d6c65003f2d986c1b008cbe812e71a84e99fc928",
+          "datavalue": {
+           "value": {
+            "time": "+1005-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1449$cbb32906-4ab0-9893-fe9a-9dc1c8f4d6a7",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "0f7989c19d8fc3cc1d48601dbdc020f617f9768f",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 5343710,
+          "id": "Q5343710"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "4a43940cd35f6cc9b5021f5c8f9ee68ff6b93c71",
+          "datavalue": {
+           "value": {
+            "time": "+1004-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582"
+       ],
+       "id": "Q1449$7a3c06df-432a-abbd-fbf8-2c9d7b91b361",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q38&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:02.587140+00:00",
+   "response": {
+    "entities": {
+     "Q38": {
+      "type": "item",
+      "id": "Q38",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Ιταλία"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Italiya"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "اٹلی"
+       },
+       "na": {
+        "language": "na",
+        "value": "Itari"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Италија"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "iTaliya"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "ইতালি"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Italija"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Itali"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Taliansko"
+       },
+       "so": {
+        "language": "so",
+        "value": "Talyaaniga"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Italya"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Італія"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Италия"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Итаали"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Italiya"
+       },
+       "za": {
+        "language": "za",
+        "value": "Eiqdaihleih"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Италия"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଇଟାଲୀ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Италия Мастор"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Italy"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "איטאליע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Iodáil"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Italskô"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "İtaliya"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "意大利"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Idalje"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Ubutaliyani"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Italy"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Italėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Italeja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Doohatsʼíí Yátiʼ Dineʼé Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "意大利"
+       },
+       "az": {
+        "language": "az",
+        "value": "İtaliya"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "ایتالیا"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "意大利"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಇಟಲಿ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Italië"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Италия"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "இத்தாலி"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Itali"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "IItaly"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "इटली"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Итали"
+       },
+       "om": {
+        "language": "om",
+        "value": "Xaaliyaanii"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Italija"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "اٽلي"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Itali"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "इटली"
+       },
+       "av": {
+        "language": "av",
+        "value": "Италия"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Italien"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Italy"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Italiya"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Itaalia"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Italien"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "إيطاليا"
+       },
+       "it": {
+        "language": "it",
+        "value": "Italia"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Italien"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Italya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Italien"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "İtaliya"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Itālija"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ኢጣልያ"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Италие"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "’Itāria"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "yn Iddaal"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Itaalii"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "إيطاليا"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Italiyanikondre"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ইতালি"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Italii"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Италия"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Italijo"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Itali"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Итали"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "意大利"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Италия"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Itali"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศอิตาลี"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Italiya"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "ایتالیا"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Itâglia"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Իտալիա"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ອິຕາລີ"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "İtalya"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "इटली"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "इटाली"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Италиа"
+       },
+       "de": {
+        "language": "de",
+        "value": "Italien"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Italy"
+       },
+       "war": {
+        "language": "war",
+        "value": "Italya"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Italiya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "italias"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Урым"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "ئىتالىيە"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Италия"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Eitália"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "ایتالیا"
+       },
+       "en": {
+        "language": "en",
+        "value": "Italy"
+       },
+       "as": {
+        "language": "as",
+        "value": "ইটালী"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "ایتالیا"
+       },
+       "os": {
+        "language": "os",
+        "value": "Итали"
+       },
+       "my": {
+        "language": "my",
+        "value": "အီတလီနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "意大利"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Itaalia"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཨྀཊ་ལི་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Itaalia"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Itaali"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨕᨗᨈᨒᨗᨐ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "義大利"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎢᏔᎵᏱ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "意大利"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Yitale"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Italie"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Itaglie"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Italio"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Italy"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Italy"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Idali"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ئیتاڵیا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Italya"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Italya"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Étalia"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Yr Eidal"
+       },
+       "la": {
+        "language": "la",
+        "value": "Italia"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "इटली"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Italie"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌹𐍄𐌰𐌻𐌹𐌰"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "義大利"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Italska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Italja"
+       },
+       "li": {
+        "language": "li",
+        "value": "Italië"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "اېټاليا"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "義大利"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "इटली"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ઈટલી"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Итали"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਇਟਲੀ"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Italùii"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Ý"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Italie"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "意大利"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Italy"
+       },
+       "af": {
+        "language": "af",
+        "value": "Italië"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Italya"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Италия"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Italie"
+       },
+       "si": {
+        "language": "si",
+        "value": "ඉතාලිය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "意大利"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Italien"
+       },
+       "km": {
+        "language": "km",
+        "value": "ប្រទេសអ៊ីតាលី"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Itāļmō"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Italia"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "İtaliya"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Italii"
+       },
+       "cr": {
+        "language": "cr",
+        "value": "ᐃᑕᓖ"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Италия"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "იტალია"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Италия"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Litaliyän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱤᱴᱟᱞᱤ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Italien"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "इटली"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "ʻĪkālia"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Italy"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Italie"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Италия"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "इटली"
+       },
+       "he": {
+        "language": "he",
+        "value": "איטליה"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Italska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Італія"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Itàłia"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "É-dâi-lé"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Í-tāi-lī"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Итолиё"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Italija"
+       },
+       "st": {
+        "language": "st",
+        "value": "Ithali"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Italija"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Olaszország"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "意大利"
+       },
+       "te": {
+        "language": "te",
+        "value": "ఇటలీ"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Италья"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Италия"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Италия"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Ṭṭelyan"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "इटली"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Italiya"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Italiýa"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Italy"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Италмудин Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Италїꙗ"
+       },
+       "new": {
+        "language": "new",
+        "value": "इटाली"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Italie"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Itali"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Italy"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "İtalya"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "An Eadailt"
+       },
+       "be": {
+        "language": "be",
+        "value": "Італія"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "იტალია"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᐄᑕᓖ"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Итали"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Италия"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "ایتالیا"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Italiën"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཨི་ཏ་ལི།"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Itāria"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Włochy"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Italy"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Italy"
+       },
+       "am": {
+        "language": "am",
+        "value": "ጣልያን"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Italija"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Италия"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Италия"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Italien"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "اطالیہ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Itåleye"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Itaalien"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Itoalië"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Ιταλία"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Italien"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Италий"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഇറ്റലി"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Італія"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Itaalje"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Îtalya"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Itualii"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܐܺܝܛܰܠܝܰܐ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "INtaliyane"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Ithali"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "އިޓަލީވިލާތް"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "ايطاليا"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Italiah"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Italya"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Itálie"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Itâlië"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Италија"
+       },
+       "to": {
+        "language": "to",
+        "value": "ʻĪtali"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Italija"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "イタリア"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "이탈리아"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Italy"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Itali"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Yi-thai-li"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "इटाली"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Италија"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "意大利"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Իտալիա"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಇಟಲಿ"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Italy"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߌߕߊߟߌ߫"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Itali"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "الطاليان"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "इटली"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းဢီႇတႃႇလီႇ"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Talia"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "اٹلی"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Italy"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯏꯇꯥꯂꯤ"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Italy"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Italy"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "ايتالي"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Ṭṭalyan"
+       },
+       "atj": {
+        "language": "atj",
+        "value": "Tariaw Aski"
+       },
+       "alt": {
+        "language": "alt",
+        "value": "Италия"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Italiya"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Италия"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Италия"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Ἰταλία"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Italy"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "اِٹَلی"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Italiya"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "이딸리아"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "إيطاليا"
+       },
+       "rgn": {
+        "language": "rgn",
+        "value": "Itaglia"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Italija"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "इटली"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Italy"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Italy"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Itálla"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Italijə"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "အီတလီခမ်းထီ"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵟⴰⵍⵢⴰⵏ"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠁꠔꠣꠟꠤ"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Itali"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Itali"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Itali"
+       },
+       "nr": {
+        "language": "nr",
+        "value": "I-Italy"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Italiye"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Italy"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "ايتاليا"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Italy"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Italy"
+       },
+       "fon": {
+        "language": "fon",
+        "value": "Italitò"
+       },
+       "an": {
+        "language": "an",
+        "value": "Italia"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Italia"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Italia"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Italia"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Italia"
+       },
+       "br": {
+        "language": "br",
+        "value": "Italia"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Italia"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Itàlia"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Italia"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Italia"
+       },
+       "co": {
+        "language": "co",
+        "value": "Italia"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Italia"
+       },
+       "din": {
+        "language": "din",
+        "value": "Italia"
+       },
+       "es": {
+        "language": "es",
+        "value": "Italia"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Itália"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Italia"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Italia"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Italia"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Itália"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Italia"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Italia"
+       },
+       "id": {
+        "language": "id",
+        "value": "Italia"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Italia"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Italia"
+       },
+       "io": {
+        "language": "io",
+        "value": "Italia"
+       },
+       "is": {
+        "language": "is",
+        "value": "Ítalía"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Italia"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Italia"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Italia"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Italia"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Italia"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Itàlia"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Italia"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Italia"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Italia"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Italia"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Italia"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Italia"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Italia"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Italia"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Itàlia"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Italia"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Italia"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Italia"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Itália"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Italia"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Italia"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Itàlia"
+       },
+       "se": {
+        "language": "se",
+        "value": "Itália"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Italia"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Italia"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Italia"
+       },
+       "su": {
+        "language": "su",
+        "value": "Italia"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Italia"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Itália"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Italia"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Itálíà"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Italia"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Itari"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Italia"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Italya"
+       },
+       "min": {
+        "language": "min",
+        "value": "Itali"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Italia"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Italia"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Eotol"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Itali"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Itália"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Italia"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Itália"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Italia"
+       },
+       "rsk": {
+        "language": "rsk",
+        "value": "Катеґория:Италия"
+       },
+       "cho": {
+        "language": "cho",
+        "value": "Italiya"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "Италия"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Италија"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Italija"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Itali"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

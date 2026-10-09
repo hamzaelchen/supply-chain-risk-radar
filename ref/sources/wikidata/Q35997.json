@@ -1,0 +1,2583 @@
+{
+ "wikidata_id": "Q35997",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q35997&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:05.213034+00:00",
+   "response": {
+    "entities": {
+     "Q35997": {
+      "pageid": 38654,
+      "ns": 0,
+      "title": "Q35997",
+      "lastrevid": 2544620007,
+      "modified": "2026-09-12T16:14:52Z",
+      "type": "item",
+      "id": "Q35997",
+      "labels": {
+       "zh": {
+        "language": "zh",
+        "value": "伊兹密尔"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Измир"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Esmirna"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Izmir"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "İzmir"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Izmir"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Smyrna"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Izmir"
+       },
+       "es": {
+        "language": "es",
+        "value": "Esmirna"
+       },
+       "af": {
+        "language": "af",
+        "value": "Izmir"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Esmirna"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "İzmir"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "İzmir"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "İzmir"
+       },
+       "et": {
+        "language": "et",
+        "value": "İzmir"
+       },
+       "br": {
+        "language": "br",
+        "value": "İzmir"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "İzmir"
+       },
+       "el": {
+        "language": "el",
+        "value": "Σμύρνη"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Izmir"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "ازمیر"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Izmir"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "إزمير"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "İzmir"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Esmirna"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Izmiro"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "איזמיר"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Измир"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Измир"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "İzmir"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ئیزمیر"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "İzmir"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Izmir"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Измир"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "İzmir"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Ізмір"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Ізьмір"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "İzmir"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "İzmir"
+       },
+       "az": {
+        "language": "az",
+        "value": "İzmir"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "İzmir"
+       },
+       "da": {
+        "language": "da",
+        "value": "Izmir"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Измир"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Izmir"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Измир"
+       },
+       "he": {
+        "language": "he",
+        "value": "איזמיר"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Izmir"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "이즈미르"
+       },
+       "be": {
+        "language": "be",
+        "value": "Ізмір"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Izmir"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Izmir"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Izmir"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Izmira"
+       },
+       "it": {
+        "language": "it",
+        "value": "Smirne"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Esmirna"
+       },
+       "id": {
+        "language": "id",
+        "value": "İzmir"
+       },
+       "de": {
+        "language": "de",
+        "value": "Izmir"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "イズミル"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Измир"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "İzmir"
+       },
+       "en": {
+        "language": "en",
+        "value": "İzmir"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "İzmir"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "इज़मिर"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Izmir"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Îzmîr"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Իզմիր"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Измир"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Измир"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "İzmir"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Esmirna"
+       },
+       "la": {
+        "language": "la",
+        "value": "Smyrna"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "İzmir"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "İzmir"
+       },
+       "war": {
+        "language": "war",
+        "value": "Izmir"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Smyrna"
+       },
+       "os": {
+        "language": "os",
+        "value": "Измир"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Измир"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "ازمیر"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "इझ्मिर"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Измир"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "ازمیر"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "იზმირი"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Izmiras"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਇਜ਼ਮਿਰ"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Izmir"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Измир"
+       },
+       "min": {
+        "language": "min",
+        "value": "İzmir"
+       },
+       "th": {
+        "language": "th",
+        "value": "อิซมีร์"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Izmir"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Izmir"
+       },
+       "av": {
+        "language": "av",
+        "value": "Измир"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Izmir"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "İzmir"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "İzmir"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Smirnë"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Izmir"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "ازمیر"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "ازمیر"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "இசுமீர்"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "ازمير"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "İzmir"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "İzmir"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "伊茲密爾"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "İzmir"
+       },
+       "so": {
+        "language": "so",
+        "value": "İzmir"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Измир"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഇസ്മിർ, തുർക്കി"
+       },
+       "te": {
+        "language": "te",
+        "value": "ఇజ్మీర్"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ইজমির"
+       },
+       "si": {
+        "language": "si",
+        "value": "ඉස්මීර්"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಇಜ್ಮಿರ್"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ઈઝમિર"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "伊茲密爾"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Izmir"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "ازمير"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Izmir"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Измир"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Esmirna"
+       },
+       "li": {
+        "language": "li",
+        "value": "İzmir"
+       },
+       "am": {
+        "language": "am",
+        "value": "ኢዝሚር"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "İzmir"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Izmir"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Izmir"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Izmir"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "伊兹密尔"
+       },
+       "io": {
+        "language": "io",
+        "value": "İzmir"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "იზმირი"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Իզմիր"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "İzmir"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "İzmir"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Izmir"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Измир"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Smirne"
+       },
+       "na": {
+        "language": "na",
+        "value": "İzmir"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "İzmir"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Izmir"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "इज्मिर"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "İzmir"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "伊兹密尔"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "伊士麥"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "伊兹密尔"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "伊茲密爾"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Измир"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "İzmir"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Izmir"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "İzmir"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Îzmîr"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "伊兹密尔"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵉⵣⵎⵉⵔ"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "ازمیر"
+       },
+       "is": {
+        "language": "is",
+        "value": "İzmir"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Izmir"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "İzmir"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Izmir"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "ازمیر"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "ايزمير"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Измир"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "İzmir"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Izmir"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Σμύρνη"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Измир"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "İzmir"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Izmir"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "اِزمیر"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Esmirna"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q35997&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:05.445745+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "5aac5cdb486d52872364264244691f1ccffb2f49",
+        "datavalue": {
+         "value": {
+          "latitude": 38.41273,
+          "longitude": 27.13838,
+          "altitude": null,
+          "precision": 0.11464604142218,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q35997$6D962CCA-898E-4924-A9F2-EEB6F7E3B578",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "43a0088c51fd85e5a85d1b46412c3a635e6d4edc",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "d8fbf8671e3c630db61bfac691068cfb6857f243",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 837615,
+              "id": "Q837615"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q35997&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:05.711872+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "9f690e1a6fecc67bd5f44ad0db8dd6eae8df70ae",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 43,
+          "id": "Q43"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "b4bb11082fead3cb86dbadcd9b6bc23182b438ef",
+          "datavalue": {
+           "value": {
+            "time": "+1922-09-09T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q35997$09AB9728-7C3D-4ABD-BF8E-8177AC6F497A",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "f02f197d5c875e52cfd28eb2f916fa497dbe86d2",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 209065,
+          "id": "Q209065"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "d144eeea0738967bd754c3870889fa5c66122c71",
+          "datavalue": {
+           "value": {
+            "time": "+1919-05-15T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P1326": [
+         {
+          "snaktype": "value",
+          "property": "P1326",
+          "hash": "36cd779bd0c948caf9e05892c064991389dd43b6",
+          "datavalue": {
+           "value": {
+            "time": "+1922-09-09T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P805": [
+         {
+          "snaktype": "value",
+          "property": "P805",
+          "hash": "0c70558a533628ad75935c6eded3858752195d86",
+          "datavalue": {
+           "value": {
+            "entity-type": "item",
+            "numeric-id": 2451365,
+            "id": "Q2451365"
+           },
+           "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P1326",
+        "P805"
+       ],
+       "id": "Q35997$02f786f1-4690-d0b7-696c-8da77569b1c1",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "3b79e889bd8cc182dbdebb0b733e7907b7bee100",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 12560,
+          "id": "Q12560"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "5c1fcdcf769607553ab63518ac74ab9e62e0ec47",
+          "datavalue": {
+           "value": {
+            "time": "+1426-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P1326": [
+         {
+          "snaktype": "value",
+          "property": "P1326",
+          "hash": "d012f0ee5a1de07ef44e1672dbce4e36f52d5970",
+          "datavalue": {
+           "value": {
+            "time": "+1919-05-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P1326"
+       ],
+       "id": "Q35997$33b07c2b-4638-0a94-21d7-8e8bc90bd944",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q43&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:06.104948+00:00",
+   "response": {
+    "entities": {
+     "Q43": {
+      "type": "item",
+      "id": "Q43",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Τουρκία"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Turkiya"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "ترکی"
+       },
+       "na": {
+        "language": "na",
+        "value": "Terki"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Турција"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "ITheki"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "তুরস্ক"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "तुर्की"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Torki"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Turecko"
+       },
+       "so": {
+        "language": "so",
+        "value": "Turki"
+       },
+       "ug-latn": {
+        "language": "ug-latn",
+        "value": "Türkiye"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Turkanma"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Туреччина"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Turkia"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Турк"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Türkiye"
+       },
+       "za": {
+        "language": "za",
+        "value": "Dujwjgiz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Túrkì"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Turquía"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Turkije"
+       },
+       "es": {
+        "language": "es",
+        "value": "Turquía"
+       },
+       "or": {
+        "language": "or",
+        "value": "ତୁର୍କୀ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Турция Мастор"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Turkey"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "טערקיי"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Tuirc"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Tëreckô"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Torkia"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Turcland"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "土耳其"
+       },
+       "st": {
+        "language": "st",
+        "value": "Türkiye"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Turukiya"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Turkey"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Torkėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Turceja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Tʼóok Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "土耳其"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Turkia"
+       },
+       "az": {
+        "language": "az",
+        "value": "Türkiyə"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "تورکیه"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "土耳其"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Tiakei"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಟರ್ಕಿ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Turkije"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Туьркия"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Turkey"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Turquía"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Türkiye"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "துருக்கி"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Turki"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "ITurkiya"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Turkija"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Төркия"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Турк"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Türkiye"
+       },
+       "om": {
+        "language": "om",
+        "value": "Tarkii"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Turčija"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Türkiye"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Turki"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Turki"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Turcia"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "तुर्की"
+       },
+       "av": {
+        "language": "av",
+        "value": "Турция"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Tierkei"
+       },
+       "co": {
+        "language": "co",
+        "value": "Turchia"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Turkey"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Túrkiya"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Türgü"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Turkäi"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "تركيا"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດຕຸຣກີ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Uturuki"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Törkie"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Turkiyo"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Turkiya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Tyrkiet"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Turquia"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Türkiye"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Turcija"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Turchia"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ቱርኪ"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಟರ್ಕಿ"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Тыркуе"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Turkeye"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Turkee"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Tuurkii"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "تُرکی"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Turquia"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "تركيا"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Turkiyakondre"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Turkey"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "তুরস্ক"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Turkii"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Turkey"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Төркия"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Turcyjo"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Tureuki"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Турци"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Turqia"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Turquia"
+       },
+       "io": {
+        "language": "io",
+        "value": "Turkia"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "土耳其"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Турция"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Teki"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Turkiya"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Turkiyya"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "تورکیه"
+       },
+       "an": {
+        "language": "an",
+        "value": "Turquía"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Turchî"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Թուրքիա"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Tırkiya"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "टर्की"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Turkia"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "तुर्की"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Ҭырқәтәыла"
+       },
+       "de": {
+        "language": "de",
+        "value": "Türkei"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Turkéy"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Take"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Turkiya"
+       },
+       "war": {
+        "language": "war",
+        "value": "Turkeya"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Turkiya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "turk"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Тырку"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "تۈركىيە جۇمھۇرىيىتى"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Туркия"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Turquie"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "ترکیه"
+       },
+       "en": {
+        "language": "en",
+        "value": "Turkey"
+       },
+       "as": {
+        "language": "as",
+        "value": "তুৰস্ক"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "تورکیه"
+       },
+       "os": {
+        "language": "os",
+        "value": "Турк"
+       },
+       "my": {
+        "language": "my",
+        "value": "တူရကီနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "土耳其"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "Turkey"
+       },
+       "et": {
+        "language": "et",
+        "value": "Türgi"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Turquia"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Tirki"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Turki"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "土耳其"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Tyrkia"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎬᏂᏱ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "土耳其"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Buturuki"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Turtchie"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Turquía"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Turchie"
+       },
+       "min": {
+        "language": "min",
+        "value": "Turki"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Turkio"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܛܽܘܪܩܺܝܰܐ"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Turkey"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Turki"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Turkie"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "تورکیا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Turkí"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Турция"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Twrci"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Turkey"
+       },
+       "la": {
+        "language": "la",
+        "value": "Turcia"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Түркия"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "तुर्कस्तान"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Turkaland"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Turquie"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍄𐍅𐍂𐌺𐌾𐌰"
+       },
+       "is": {
+        "language": "is",
+        "value": "Tyrkland"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "土耳其"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Turkowska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Turkija"
+       },
+       "li": {
+        "language": "li",
+        "value": "Turkije"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "تورکيه"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Turkki"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "土耳其"
+       },
+       "id": {
+        "language": "id",
+        "value": "Turki"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "तुर्की"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "તુર્કસ્તાન"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศตุรกี"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Туркий мохк"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Turchia"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਤੁਰਕੀ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Tourkeye"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Thổ Nhĩ Kỳ"
+       },
+       "ug-arab": {
+        "language": "ug-arab",
+        "value": "تۈركىيە جۇمھۇرىيىتى"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Turkia"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Turquia"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "土耳其"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Turkey"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Turkey"
+       },
+       "af": {
+        "language": "af",
+        "value": "Turkye"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Turkiya"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Тюрк"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Turukïi"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Tyrkia"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Türkei"
+       },
+       "si": {
+        "language": "si",
+        "value": "තුර්කිය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "土耳其"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Turkiet"
+       },
+       "ng": {
+        "language": "ng",
+        "value": "Turkey"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Turkey"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Turchìa"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Turchìa"
+       },
+       "cr": {
+        "language": "cr",
+        "value": "ᑐᕒᑭ"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Турция"
+       },
+       "be": {
+        "language": "be",
+        "value": "Турцыя"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "თურქეთი"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Турция"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Türkän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱛᱩᱨᱠᱤ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Turchia"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Turkia"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "तुर्की"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Tureke"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Tirkmō"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ترڪي"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Turkie"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Туркия"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Tyrkia"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Turkí"
+       },
+       "he": {
+        "language": "he",
+        "value": "טורקיה"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Turkojska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Турэччына"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Turchia"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Tū-ī-gì"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Thó͘-ní-kî"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Tuykia"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Туркия"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Turska"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Туркия"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Turska"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Törökország"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "土耳其"
+       },
+       "te": {
+        "language": "te",
+        "value": "టర్కీ"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Тюркия"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Төркиә"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Түркийэ"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Tturk"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "तुर्किये"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Turkiya"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Türkiýe"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Turkey"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Түргүдин Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Тѷрци"
+       },
+       "new": {
+        "language": "new",
+        "value": "टर्की"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Turchie"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "An Tuirc"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Turkey"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Türkiye"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Turcia"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Tiki"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Turkia"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "თურქეთი"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᑑᕐᑭ"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Туркойчоь"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Турция"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "ترکیه"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Turkey"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Turkije"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཏུར་ཀི།"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Турчия"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Tākei"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Turcja"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Turkey"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Turkey"
+       },
+       "am": {
+        "language": "am",
+        "value": "ቱርክ"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Turska"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Turkey"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Түркия"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Turchia"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Türkei"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "ترکیہ"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Turiti"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Türkei"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Turkey"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Turkije"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Tirchia"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Τουρκία"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Türkei"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Турций"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "തുർക്കി"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Турція"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Turkije"
+       },
+       "tt-latn": {
+        "language": "tt-latn",
+        "value": "Törkiä"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tirkiye"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Turtsii"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Turukiya"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IThekhi"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Turkey"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ތުރުކީވިލާތް"
+       },
+       "su": {
+        "language": "su",
+        "value": "Turki"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "توركيا"
+       },
+       "se": {
+        "language": "se",
+        "value": "Durka"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Turquia"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Turkiya"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Turecko"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Turki"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Turchia"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Turkiya"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Турци"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Турска"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Turska"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "トルコ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "튀르키예"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Turcia"
+       },
+       "br": {
+        "language": "br",
+        "value": "Turkia"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Turkey"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "तुर्की"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Türchia"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Thú-ngí-khì"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "टर्की"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Турска"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Turquie"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "土耳其"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Turki"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Թուրքիա"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Turki"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Turkki"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Turkk"
+       },
+       "to": {
+        "language": "to",
+        "value": "Toake"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Turkia"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းၽိၼ်ႇလၢၼ"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Turki"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߕߙߎߞߌ߫"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Turkey"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Tirki"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "تۊرکيه"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "توركيا"
+       },
+       "km": {
+        "language": "km",
+        "value": "តួកគី"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Türkei"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "टर्की"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Turchia"
+       },
+       "din": {
+        "language": "din",
+        "value": "Turkia"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "ترکی"
+       },
+       "atj": {
+        "language": "atj",
+        "value": "Turkia"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Turki"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Turka"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Turki"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Turkey"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "تورکي"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯇꯔꯀꯤ"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Turkey"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Turkey"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Turkiya"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Tirkiye"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "တူရကီခမ်းထီ"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "뛰르끼예"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "تركيا"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Tuki"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Turkiya"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Turkey"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "तुर्की"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Turkey"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Turkey"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Tyrkijə"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Turkya"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵜⵓⵔⴽⵢⴰ"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Turki"
+       },
+       "alt": {
+        "language": "alt",
+        "value": "Türkiye"
+       },
+       "dga": {
+        "language": "dga",
+        "value": "Türkiye"
+       },
+       "igl": {
+        "language": "igl",
+        "value": "Türkiye"
+       },
+       "apc": {
+        "language": "apc",
+        "value": "تركيا"
+       },
+       "guc": {
+        "language": "guc",
+        "value": "Türkiye"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Turki"
+       },
+       "guw": {
+        "language": "guw",
+        "value": "Türkiye"
+       },
+       "fon": {
+        "language": "fon",
+        "value": "Türkiye"
+       },
+       "gur": {
+        "language": "gur",
+        "value": "Türkiye"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Turki"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Turki"
+       },
+       "bdr": {
+        "language": "bdr",
+        "value": "Türkiye"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Turki"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Türkiye"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Turki"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Túrkiye"
+       },
+       "nr": {
+        "language": "nr",
+        "value": "Türkiye"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Turkey"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "Turkey"
+       },
+       "tig": {
+        "language": "tig",
+        "value": "ቱርኪየ"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠔꠥꠞ꠆ꠇꠤ"
+       },
+       "rsk": {
+        "language": "rsk",
+        "value": "Турска"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Turkey"
+       },
+       "ota": {
+        "language": "ota",
+        "value": "تركیه"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "तुर्की"
+       },
+       "cho": {
+        "language": "cho",
+        "value": "Tʋlkiya"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Турција"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Turcija"
+       },
+       "ppl": {
+        "language": "ppl",
+        "value": "Turkey"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "တူရကဳ"
+       },
+       "rki": {
+        "language": "rki",
+        "value": "တူရကီ"
+       },
+       "fat": {
+        "language": "fat",
+        "value": "Turkey"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "Turkey"
+       },
+       "lzz": {
+        "language": "lzz",
+        "value": "Turkia"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

@@ -1,0 +1,2559 @@
+{
+ "wikidata_id": "Q33986",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q33986&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:46.226098+00:00",
+   "response": {
+    "entities": {
+     "Q33986": {
+      "pageid": 36790,
+      "ns": 0,
+      "title": "Q33986",
+      "lastrevid": 2545049545,
+      "modified": "2026-09-13T13:49:06Z",
+      "type": "item",
+      "id": "Q33986",
+      "labels": {
+       "ab": {
+        "language": "ab",
+        "value": "Валпараисо"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Valparaíso"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Valparaíso"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Valparaíso"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Valparaíso"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Valparaíso"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Neorxnawangburh"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Valparaíso"
+       },
+       "es": {
+        "language": "es",
+        "value": "Valparaíso"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Valparaíso"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Valparaíso"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Valparaíso"
+       },
+       "af": {
+        "language": "af",
+        "value": "Valparaíso"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Valparaíso"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Valparaíso"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Valparaiso"
+       },
+       "et": {
+        "language": "et",
+        "value": "Valparaíso"
+       },
+       "br": {
+        "language": "br",
+        "value": "Valparaíso"
+       },
+       "el": {
+        "language": "el",
+        "value": "Βαλπαραΐσο"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Valparaíso"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Valparaíso"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Valparaíso"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "والپرائیسو"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Valparaíso"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Valparaíso"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "فالبارايسو"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Valparaíso"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Valparaiso"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "וואלפּאראיסא"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Вальпараисо"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Valparaiso"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Валпараисо"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Valparaíso"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Valparaíso"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Valparaíso"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Валпараисо"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Valparaíso"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Вальпараїсо"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Valparaíso"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Valparaíso"
+       },
+       "io": {
+        "language": "io",
+        "value": "Valparaíso"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Valparaíso"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Valparaíso"
+       },
+       "az": {
+        "language": "az",
+        "value": "Valparaiso"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Valparaíso"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Valparaíso"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Valparaiso"
+       },
+       "da": {
+        "language": "da",
+        "value": "Valparaíso"
+       },
+       "an": {
+        "language": "an",
+        "value": "Valparaíso"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Valparayso"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Valparaíso"
+       },
+       "he": {
+        "language": "he",
+        "value": "ולפראיסו"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "발파라이소"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Valparaíso"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Valparaiso"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Valparaíso"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Valparaiso"
+       },
+       "li": {
+        "language": "li",
+        "value": "Valparaíso"
+       },
+       "it": {
+        "language": "it",
+        "value": "Valparaíso"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Valparaíso"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Valparaíso"
+       },
+       "de": {
+        "language": "de",
+        "value": "Valparaíso"
+       },
+       "id": {
+        "language": "id",
+        "value": "Valparaíso"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "バルパライソ"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Valparaíso"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Valparaiso"
+       },
+       "en": {
+        "language": "en",
+        "value": "Valparaíso"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Valparaíso"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Valparaíso"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Valparaíso"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Valparaíso"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Valparaíso"
+       },
+       "th": {
+        "language": "th",
+        "value": "บัลปาราอิโซ"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Valparaíso"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Valparaíso"
+       },
+       "co": {
+        "language": "co",
+        "value": "Valparaíso"
+       },
+       "la": {
+        "language": "la",
+        "value": "Vallis Paradisi"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Val'paraiso"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Valparaíso"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Valparaíso"
+       },
+       "war": {
+        "language": "war",
+        "value": "Valparaíso"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Valparaíso"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Valparaėsos"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Valparaíso"
+       },
+       "os": {
+        "language": "os",
+        "value": "Вальпараисо"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "बाल्परेझो"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "والپارایزو"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Валпараисо"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Valparaíso"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ვალპარაისო"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Valparais"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Valparaisas"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Valparaíso"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਬਾਲਪਰਾਈਸੋ"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "瓦爾帕萊索"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "瓦尔帕莱索"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Valparaiso"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Valparaíso"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Valparaíso"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Valparaíso"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "वालपाराईसो"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Valparaíso"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "வல்பெய்ரசோவ்"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "瓦尔帕莱索"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Вальпараіса"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Valparaíso"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "瓦爾帕萊索"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Valparaíso"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Valparaíso"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Valparaíso"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "瓦尔帕莱索"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "فالبارايسو"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Wǎ'ěr pà lái suǒ"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᕙᓪᐸᕃᓱ"
+       },
+       "as": {
+        "language": "as",
+        "value": "वालपाराईसो"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܒܐܠܦܐܪܐܝܣܘ"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Valparaíso"
+       },
+       "min": {
+        "language": "min",
+        "value": "Valparaiso"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Valparaiso"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Вальпараисо"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "वालपारैसो"
+       },
+       "te": {
+        "language": "te",
+        "value": "వల్పరైజో"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Valparaíso"
+       },
+       "be": {
+        "language": "be",
+        "value": "Вальпараіса"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Վալպարաիսո"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Dakbayan sa Valparaíso"
+       },
+       "am": {
+        "language": "am",
+        "value": "ቫልፓራይሶ"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ভালপারাইসো"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "བལྤ་རཨིསོ"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Valparaíso"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "瓦尔帕莱索"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "བལྤ་རཨིསོ"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Valparaiso"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ވަލޕަރައިސޮ"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "والپرایزو"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "वालपाराईसो"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Valparaiso"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Valparaiso"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Вальпараисо"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Balparaiso"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "بآلپارایسو"
+       },
+       "si": {
+        "language": "si",
+        "value": "වල්පරයිසෝ"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Balparaiso"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "ভালপারাইসো"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Valparaíso"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "വല്പരഇസോ"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဗလၲပရမိစော"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "વાલ્પારાઇસો"
+       },
+       "or": {
+        "language": "or",
+        "value": "ବଲ୍ପରଇ େସା"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Valparaíso"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Valparaiso"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Valparaiso"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "瓦爾帕萊索"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Valparaíso"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Valparaíso"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ڤالپارایسۆ"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Valparaíso"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Valparaiso"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Valparaíso"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Valparaíso"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Valparaíso"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Valparaíso"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Valparaíso"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Valparaíso"
+       },
+       "za": {
+        "language": "za",
+        "value": "Valparaíso"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Bal'paraisu"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Вальпараисо"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Valparaíso"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Valparaíso"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Вальпараисо"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Valparaíso"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Valparaiso"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Valparaiso"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Вальпараисо"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Valparaiso"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Вальпараисо"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Valparaíso"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Вальпараисо"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Valparayiso"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Valparaíso"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "ولپریسو"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Valparaiso"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Valparaíso"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "वालपाराईसो"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "bal'pays"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Valparaíso"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Valparaiz"
+       },
+       "av": {
+        "language": "av",
+        "value": "Вальпараисо"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Вальпараисо"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Valparaiso"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Valparaiso"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Вальпараисо"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Вальпараисо"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Valparaíso"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Valparaíso"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Вальпараисо"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Valparaiso"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Valparaiso"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Valparaiso"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Valparaíso"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Valparaíso"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Valparaiso"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "والپارايسؤ"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌱𐌰𐌻𐍀𐌰𐍂𐌰𐌹𐍃𐍉"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Valparaiso"
+       },
+       "is": {
+        "language": "is",
+        "value": "Valparaiso"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Valparaiyso"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Valparaiso"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Balparayiso"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Valparaiso"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Valparaíso"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Valparaiso"
+       },
+       "km": {
+        "language": "km",
+        "value": "បលពារៃសោ"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Вальпараисо"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Вальпараисо"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Valparaiso"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Вальпараисо"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Valparaiso"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Valparaíso"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Valparaiso"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Balparai"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປາ​ລາ​ອີ​ໂຊ"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "ولپریسو"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "वल्परैसो"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Вальпараисо"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Valparaíso"
+       },
+       "na": {
+        "language": "na",
+        "value": "Balparay"
+       },
+       "new": {
+        "language": "new",
+        "value": "वाल्पाराइसो"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Valparaíso"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Valparaiso"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Valparaiso"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Valparaiso"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Valparaíso"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Valparaíso"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Valparaíso"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Вальпараисо"
+       },
+       "se": {
+        "language": "se",
+        "value": "Valparaiso"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Valparaiso"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Valparaíso"
+       },
+       "so": {
+        "language": "so",
+        "value": "Baalparaizo"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Valparaiso"
+       },
+       "st": {
+        "language": "st",
+        "value": "Valparaíso"
+       },
+       "su": {
+        "language": "su",
+        "value": "Valparaiso"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Valparaiso"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ვალპარაისო"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Valparaíso"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IValparaiso"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ವ್ಯಾಲ್ಪರೀಸೊ"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Valparaíso"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Valparaiso"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Valparaíso"
+       },
+       "din": {
+        "language": "din",
+        "value": "Valparaiso"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Валпараисо"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Valparaíso"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Valparaíso"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Valparaíso"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Валпараисо"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Valparaíso"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q33986&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:46.475458+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "61a1490922a35b103d8fa2f9bb6d87a4ade4c807",
+        "datavalue": {
+         "value": {
+          "latitude": -33.04611111111111,
+          "longitude": -71.61972222222222,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q33986$3FFA959F-41F5-4A81-A5AD-C74D326EED3D",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q33986&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:46.720553+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "e8ccd0e986dbab687e97e16135182ba3caa49071",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 298,
+          "id": "Q298"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q33986$ABC4E21A-23AB-4318-99C8-C5A78159FD6E",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "37bf99364138f40d06bf5c95396dd938f8c3a02b",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "e90ebf3bd6251d1532a19c47f8d156935c4458f8",
+            "datavalue": {
+             "value": "6203",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q298&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:47.068744+00:00",
+   "response": {
+    "entities": {
+     "Q298": {
+      "type": "item",
+      "id": "Q298",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Χιλή"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Chili"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "چِلے"
+       },
+       "na": {
+        "language": "na",
+        "value": "Tsire"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Чиле"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Chili"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "চিলি"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "चिली"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "An t-Sile"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Čile"
+       },
+       "so": {
+        "language": "so",
+        "value": "Jili"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Chile"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Чилі"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Чили"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Чили"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Ciile"
+       },
+       "za": {
+        "language": "za",
+        "value": "Cili"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Tsílè"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Chile"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Chili"
+       },
+       "es": {
+        "language": "es",
+        "value": "Chile"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଚିଲି"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Чили Мастор"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Shile"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "טשילע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an tSile"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Chile"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Çili"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Chile"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Chile"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "شیلی"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Shili"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Chile"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಚಿಲಿ"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Čilė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Čile"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "智利"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Xile"
+       },
+       "az": {
+        "language": "az",
+        "value": "Çili"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "شیلی"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "智利"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Čile"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಚಿಲಿ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Chili"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Чили"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Chile"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Chile"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Chile"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சிலி"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Cilé"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "IChile"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Čilė"
+       },
+       "he": {
+        "language": "he",
+        "value": "צ'ילה"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Чили"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Cile"
+       },
+       "om": {
+        "language": "om",
+        "value": "Chiilii"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Čile"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Çile"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Chile"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Chili"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Chile"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "चिली"
+       },
+       "av": {
+        "language": "av",
+        "value": "Чили"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Chile"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Chili"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Chile"
+       },
+       "st": {
+        "language": "st",
+        "value": "Chile"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "تشيلي"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດຊີເລ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Chile"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Chile"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Chile"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Tsile"
+       },
+       "da": {
+        "language": "da",
+        "value": "Chile"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Xile"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Çile"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Čīle"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Cile"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ቺሌ"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Cili"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Чили"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Tīri"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Çhillee"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Sili"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Чили"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Sili"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "চিলি"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Chili"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Chile"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Czile"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Chili"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Чили"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Chile"
+       },
+       "io": {
+        "language": "io",
+        "value": "Chili"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "智利"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Чили"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Chile"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "شیلی"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศชิลี"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Chile"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Χιλε"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "چِلی"
+       },
+       "an": {
+        "language": "an",
+        "value": "Chile"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Cîl"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Չիլի"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Kili"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Şili"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "चिली"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Chile"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "चिली"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Чили"
+       },
+       "de": {
+        "language": "de",
+        "value": "Chile"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Chile"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Chile"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Tsíli"
+       },
+       "war": {
+        "language": "war",
+        "value": "Chile"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Chile"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "lo gugdeculu"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "تشيلي"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "چىلى"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Чили"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Chile"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "شیلی"
+       },
+       "en": {
+        "language": "en",
+        "value": "Chile"
+       },
+       "as": {
+        "language": "as",
+        "value": "চিলি"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Chili"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Sily"
+       },
+       "my": {
+        "language": "my",
+        "value": "ချီလီပြည်သူ့သမ္မတနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "智利"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "چیلی"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཅི་ལེ"
+       },
+       "et": {
+        "language": "et",
+        "value": "Tšiili"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Chili"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Sili"
+       },
+       "os": {
+        "language": "os",
+        "value": "Чили"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "智利"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Chile"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏥᎵ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "智利"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Shili"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Chile"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Chili"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Chile"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Чилй"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Ĉilio"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܬܫܝܠܝ"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Jili"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Chile"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Chile"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "چیلی"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Shili"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Ch·ili"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Tsili"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Chile"
+       },
+       "la": {
+        "language": "la",
+        "value": "Chilia"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Чили"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "चिली"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Kili"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Chili"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍃𐌷𐌹𐌻𐌴"
+       },
+       "is": {
+        "language": "is",
+        "value": "Síle"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "智利"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Chilska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Ċilì"
+       },
+       "li": {
+        "language": "li",
+        "value": "Chili"
+       },
+       "new": {
+        "language": "new",
+        "value": "चिली"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "چيلي"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Chile"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Чили"
+       },
+       "id": {
+        "language": "id",
+        "value": "Chili"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "चिली"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ચીલી"
+       },
+       "su": {
+        "language": "su",
+        "value": "Cilé"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Chile"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਚਿਲੇ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Tchili"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Chile"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Chile"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Cile"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Chile"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "智利"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Chile"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Chile"
+       },
+       "af": {
+        "language": "af",
+        "value": "Chili"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Tsile"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "智利"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Shilïi"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Chile"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "चिले"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Tsiili"
+       },
+       "si": {
+        "language": "si",
+        "value": "චිලී"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "智利"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Chile"
+       },
+       "km": {
+        "language": "km",
+        "value": "ឈីលី"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Chile"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Cili"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Čili"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Cili"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Чили"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Silii"
+       },
+       "be": {
+        "language": "be",
+        "value": "Чылі"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ჩილე"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Chile"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Чили"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Cilän"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Chile"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Chile"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "चिली"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Kile"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "智利"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Chile"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "چلی"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Chile"
+       },
+       "co": {
+        "language": "co",
+        "value": "Cile"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Chilska"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "چلي"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Ciłe"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Chile"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Chile"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Chile"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Чили"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Čile"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Čile"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Chile"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "智利"
+       },
+       "te": {
+        "language": "te",
+        "value": "చిలీ"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Чили"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "ba"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Чили"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Cile"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Chili"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Çili"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Chile"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Чилмудин Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Чилє"
+       },
+       "it": {
+        "language": "it",
+        "value": "Cile"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Cile"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Чылі"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Чили"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Chile"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Şili"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Chile"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Chili"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Txile"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ჩილე"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᓯᓕ"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Чили"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Чили"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "شیلی"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Chile"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Chili"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཅི་ལི།"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Chili"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Hiri"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Chile"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Chile"
+       },
+       "am": {
+        "language": "am",
+        "value": "ቺሌ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Chili"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Chile"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Чили"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Cile"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Chile"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Chiile"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Chili"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Kili"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Chile"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Silia"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Chile"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Чили"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ചിലി"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Чіле"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Cile"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Şîlî"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Čili"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Chile"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IShile"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Chile"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ޗިލީ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "تشيلى"
+       },
+       "se": {
+        "language": "se",
+        "value": "Chile"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Chile"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Chili"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Chile"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Chile"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Cile"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Chile"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Чили"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Чиле"
+       },
+       "to": {
+        "language": "to",
+        "value": "Sile"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Čile"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "チリ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "칠레"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Txile"
+       },
+       "br": {
+        "language": "br",
+        "value": "Chile"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Chile"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "चिले"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Cile"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Chile"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "चिली"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Чиле"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "智利"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Chili"
+       },
+       "din": {
+        "language": "din",
+        "value": "Cile"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Chile"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "شيلي"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱪᱤᱞᱤ"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "चिली"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းၶျီႇလီႇ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Chile"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Chile"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Cile"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Tcilea"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Chili"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Chili"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯆꯤꯂꯤ"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Չիլի"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Chile"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Chile"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Chile"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Chile"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Tsile"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Shádiʼááhjí Jeeshóóʼ Bikéyah"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Sile"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "चिली"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Chile"
+       },
+       "es-419": {
+        "language": "es-419",
+        "value": "Chile"
+       },
+       "guc": {
+        "language": "guc",
+        "value": "Chiire"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Xili"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ဆီလီခမ်းထီ"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Chili"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Chile"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵛⵉⵍⵉ"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Tcili"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Cili"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Cili"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "Chile"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Chile"
+       },
+       "gaa": {
+        "language": "gaa",
+        "value": "Chile"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠌꠤꠟꠤ"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Chile"
+       },
+       "cho": {
+        "language": "cho",
+        "value": "Chile"
+       },
+       "no": {
+        "language": "no",
+        "value": "Chile"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

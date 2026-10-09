@@ -1,0 +1,3113 @@
+{
+ "wikidata_id": "Q1792",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1792&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:51:53.967630+00:00",
+   "response": {
+    "entities": {
+     "Q1792": {
+      "pageid": 2402,
+      "ns": 0,
+      "title": "Q1792",
+      "lastrevid": 2554484154,
+      "modified": "2026-10-07T10:30:42Z",
+      "type": "item",
+      "id": "Q1792",
+      "labels": {
+       "de": {
+        "language": "de",
+        "value": "Danzig"
+       },
+       "en": {
+        "language": "en",
+        "value": "Gdańsk"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Gdańsk"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Gdańsk"
+       },
+       "af": {
+        "language": "af",
+        "value": "Gdansk"
+       },
+       "an": {
+        "language": "an",
+        "value": "Gdańsk"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Dantsic"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "غدانسك"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Gdańsk"
+       },
+       "az": {
+        "language": "az",
+        "value": "Qdansk"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Danzig"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Gdańsk"
+       },
+       "be": {
+        "language": "be",
+        "value": "Гданьск"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Гданск"
+       },
+       "br": {
+        "language": "br",
+        "value": "Gdańsk"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Gdańsk"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Gdańsk"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "گدانسک"
+       },
+       "co": {
+        "language": "co",
+        "value": "Gdansk"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Gdaňsk"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Gduńsk"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Гъданьскъ"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Гданьск"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Gdańsk"
+       },
+       "da": {
+        "language": "da",
+        "value": "Gdańsk"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Gdańsk"
+       },
+       "el": {
+        "language": "el",
+        "value": "Γκντανσκ"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Gdansko / Dancigo"
+       },
+       "es": {
+        "language": "es",
+        "value": "Gdansk"
+       },
+       "et": {
+        "language": "et",
+        "value": "Gdańsk"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Gdańsk"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Gdansk"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "گدانسک"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Gdańsk"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Gdańsk"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Gdańsk"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Gdańsk"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Gdansk"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Gdańsk"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Gdańsk"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Gdańsk"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Gdańsk"
+       },
+       "he": {
+        "language": "he",
+        "value": "גדנסק"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Gdanjsk"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Gdańsk"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Gdańsk"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Gdańsk"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Gdańsk"
+       },
+       "id": {
+        "language": "id",
+        "value": "Gdańsk"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Gdańsk"
+       },
+       "io": {
+        "language": "io",
+        "value": "Gdańsk"
+       },
+       "is": {
+        "language": "is",
+        "value": "Gdańsk"
+       },
+       "it": {
+        "language": "it",
+        "value": "Danzica"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "グダニスク"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Gdańsk"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "გდანსკი"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Gdańsk"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "그단스크"
+       },
+       "la": {
+        "language": "la",
+        "value": "Gedanum"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Gdańsk"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Danzica"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Gdanskas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Gdaņska"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Гдањск"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "गदान्स्क"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Gdańsk"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Gdańsk"
+       },
+       "na": {
+        "language": "na",
+        "value": "Gdańsk"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Danzica"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Danzig"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Gdańsk"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Gdańsk"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Gdańsk"
+       },
+       "os": {
+        "language": "os",
+        "value": "Гданьск"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Gdańsk"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "گدانسک"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Gdansk"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Gdańsk"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Gdańsk"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Гданьск"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Gdańsk"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Dànzica"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Gdańsk"
+       },
+       "se": {
+        "language": "se",
+        "value": "Gdańsk"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Gdańsk"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Gdansk"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Gdansk"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Gdańsk"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Гдањск"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Gdańsk"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Gdańsk"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "கதான்ஸ்க்"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Gdańsk"
+       },
+       "th": {
+        "language": "th",
+        "value": "กดัญสก์"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Gdańsk"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Danzig"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Гданськ"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Gdańsk"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Gdan'sk"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Gdańsk"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Gdańsk"
+       },
+       "war": {
+        "language": "war",
+        "value": "Gdańsk"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "გდანსკი"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "דאנציג"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "格但斯克"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Gdansk"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Danzig"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Gdańsk"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Gdańsk"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Gdansk"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Гданьск"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Gdańsk"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Գդանսկ"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Гданьск"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Gdansk"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Гданьск"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Gdansk"
+       },
+       "am": {
+        "language": "am",
+        "value": "ግዳስንክ"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Kak-than-sṳ̂-khiet"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Гданьск"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "格但斯克"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "格但斯克"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Гданьской"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "格但斯克"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Gdansk"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "گدانسک"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Гданьск"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Danzig"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Gdański"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Gdańsk"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Гданьск"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "डांस्क"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "গদান্সক"
+       },
+       "te": {
+        "language": "te",
+        "value": "గడాన్స్క్"
+       },
+       "si": {
+        "language": "si",
+        "value": "ගඩන්ස්ක්"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഗ്ദാൻസ്ക്"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ગદાન્સ્ક"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಡ್ಯಾನ್ಸ್ಕ್/ಡ್ಯಾಂಜಿಗ್"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Gdansk"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Gdansk"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Gdańsk"
+       },
+       "li": {
+        "language": "li",
+        "value": "Danzig"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "گدانسک"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Гданьск"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Gdańsk (kapital sa gingsakopan)"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Gdańsk"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "格但斯克"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Гданьск"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Գդանսկ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "جدانسك"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Gdańsk"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Danzig"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Гданск"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Гданьск"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Danzica"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "格但斯克"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Гданьск"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Gdańsk"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Gdańsk"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Gdansk"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Gdańsk"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Гдањск"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Ґданьск"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Tansi"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "格但斯克"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Gdańsk"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "ݣدانسك"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1792&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:51:54.251954+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "740490e8350fa1da84dd21db921d20e391eaa560",
+        "datavalue": {
+         "value": {
+          "latitude": 54.3482907,
+          "longitude": 18.6540233,
+          "altitude": null,
+          "precision": 1e-07,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q1792$046c9c41-4f1f-257d-8e85-7c7fe28dfe85",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "dca9823d5906f3d7d359f297e2ddfb3fcf62cbeb",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "f3b620b0b879b7740b56aad5a63774d01e103c3f",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 12013,
+              "id": "Q12013"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "b0f71db23b4ab605e4d7273c1c0fe39fed8cd215",
+        "datavalue": {
+         "value": {
+          "latitude": 54.35,
+          "longitude": 18.666666666666668,
+          "altitude": null,
+          "precision": 0.016666666666666666,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q1792$E507E1FD-A92D-4AD0-92DA-28D3824C5FDC",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "9f922cb54aafe8be94975b3f06325d4f833a1c8f",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "42e658999f6f00e789463dc206b1844bb7fc815f",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 4041526,
+              "id": "Q4041526"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P7305": [
+           {
+            "snaktype": "value",
+            "property": "P7305",
+            "hash": "e0fcd6128b205ce66be0e497736748acc079284f",
+            "datavalue": {
+             "value": "3904550",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P407": [
+           {
+            "snaktype": "value",
+            "property": "P407",
+            "hash": "b9b821e8a9140ec208fb522e0aa113d5742f6fba",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 809,
+              "id": "Q809"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "cdfbbd1782ba629b7edb3f4210173f15eb3208c2",
+            "datavalue": {
+             "value": {
+              "time": "+2023-12-04T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P7305",
+          "P407",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q1792&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:51:54.501207+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "88bdf0debebfba0d0f20c85ee32a18fb3e6c71a6",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 36,
+          "id": "Q36"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "3c392ae9a3557887545e2dab401a704470a01685",
+          "datavalue": {
+           "value": {
+            "time": "+1945-03-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P7452": [
+         {
+          "snaktype": "value",
+          "property": "P7452",
+          "hash": "d5575fe8d61921fe129b1f1bd75ae380aba8b117",
+          "datavalue": {
+           "value": {
+            "entity-type": "item",
+            "numeric-id": 201610,
+            "id": "Q201610"
+           },
+           "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P7452"
+       ],
+       "id": "q1792$BD33C725-9E5F-46D0-90B5-83E5F0CE13FB",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "2bffd2092f25dbc9f26779c9a3cb6c8e88a510d1",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "bbc387bb7f67e4211b5cdfa9917e7f6c107e3bbb",
+            "datavalue": {
+             "value": "1397",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "5b925ba516864377a76a45a5078658f219efc784",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1206012,
+          "id": "Q1206012"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "54bbe01dd78411b49f0c9488ab5ff5cfd7f2db17",
+          "datavalue": {
+           "value": {
+            "time": "+1939-09-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "3e6a1b5f74fa10ee2506efd22bb9f4e002c893b8",
+          "datavalue": {
+           "value": {
+            "time": "+1945-03-29T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q1792$29fbf005-46bb-e2e9-f955-7ef3ee304123",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "449e8ef58b283bfdbea6f694584954edf2de1890",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 216173,
+          "id": "Q216173"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "aeaedf1bd3ad0fb0f3d4fc8aa1083a4ff57b0a4f",
+          "datavalue": {
+           "value": {
+            "time": "+1939-08-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "d048786ccf03dbb8bb033489d388f4b8788a3862",
+          "datavalue": {
+           "value": {
+            "time": "+1920-11-15T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1792$3fcd1778-428b-64c0-c1b8-4bffe20bf7a2",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "103e000b44dd78a79bd677b7cbc02a2eaa6db934",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 27306,
+          "id": "Q27306"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "8bc4d8a19d767d12d3397bcb4b335b448ce47d7e",
+          "datavalue": {
+           "value": {
+            "time": "+1919-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "73133fd7aba3344a9d1b3f65feee78099b8674bf",
+          "datavalue": {
+           "value": {
+            "time": "+1815-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P1534": [
+         {
+          "snaktype": "value",
+          "property": "P1534",
+          "hash": "d379551dc036b27ff35b19bffa106789a0b89255",
+          "datavalue": {
+           "value": {
+            "entity-type": "item",
+            "numeric-id": 8736,
+            "id": "Q8736"
+           },
+           "type": "wikibase-entityid"
+          },
+          "datatype": "wikibase-item"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580",
+        "P1534"
+       ],
+       "id": "Q1792$25a46fcf-4667-a354-93e6-ac271d0e735c",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "b809a798cfc263252b67d504ee053fd04ccd8c12",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 901974,
+          "id": "Q901974"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "2a5808b3390a9c93afd60ee9f67ce9242f8eca45",
+          "datavalue": {
+           "value": {
+            "time": "+1814-01-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "a54f9fa6539e127849bea0b329cc01b10bd0e7f8",
+          "datavalue": {
+           "value": {
+            "time": "+1807-09-09T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1792$9304a8e2-4ce5-6795-1594-1d4e230f8ceb",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "103e000b44dd78a79bd677b7cbc02a2eaa6db934",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 27306,
+          "id": "Q27306"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "f5bbd405d66833294dc06c9cfbff3f88156cc13c",
+          "datavalue": {
+           "value": {
+            "time": "+1807-09-08T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "9f680421e04d324015315cfbfadfd5b6a1c5a520",
+          "datavalue": {
+           "value": {
+            "time": "+1793-01-23T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1792$ec79a2bf-48eb-8968-9058-3866a78a0002",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "f39df4b2bbad0064058bd5c925204df0288dd747",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 172107,
+          "id": "Q172107"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "29a1c0ada25bd3d9f014ab726ce777abaf5bb2bf",
+          "datavalue": {
+           "value": {
+            "time": "+1793-01-22T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "848c450c48f0db5ef3527d8a366e501bc68f34b2",
+          "datavalue": {
+           "value": {
+            "time": "+1569-07-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1792$656a6b0d-47b1-6028-1172-cb07abce9591",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "2b2a74280d64c100b4b8ec84f3d29d51646d7d22",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1649871,
+          "id": "Q1649871"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "a42638e4e867724858aca849f7a829745ced7f8d",
+          "datavalue": {
+           "value": {
+            "time": "+1569-06-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "31eec2bdec6027e130344028588dc8a766780b7c",
+          "datavalue": {
+           "value": {
+            "time": "+1457-05-25T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1792$c1cf8136-4875-0cd2-f040-9f065aacd275",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "ac6d9b6bc6778994d4e05e191467a4496b24a0fa",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 156020,
+          "id": "Q156020"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "055af3e57e95d56b8337d8fa22c467bd13429495",
+          "datavalue": {
+           "value": {
+            "time": "+1457-05-24T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "c9e30073f3124c5057c581415232ca4421f781d9",
+          "datavalue": {
+           "value": {
+            "time": "+1411-02-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1792$67e4e24c-4e13-3fa5-0341-7243547d2989",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "2b2a74280d64c100b4b8ec84f3d29d51646d7d22",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1649871,
+          "id": "Q1649871"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "22a49cd95a27eed0a96e4647872fa84e7bbbf3f6",
+          "datavalue": {
+           "value": {
+            "time": "+1411-01-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "87580aac5c7b4a809b27ef211d45ab3eab3fba70",
+          "datavalue": {
+           "value": {
+            "time": "+1410-07-15T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1792$080922d1-4813-b2ee-6836-593701e44083",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "ac6d9b6bc6778994d4e05e191467a4496b24a0fa",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 156020,
+          "id": "Q156020"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "3525f51eabe4d438a0dd2e3c2307c90a7cee7553",
+          "datavalue": {
+           "value": {
+            "time": "+1410-07-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "58f64886281881823b32ab762cea73ed40462110",
+          "datavalue": {
+           "value": {
+            "time": "+1308-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582",
+        "P580"
+       ],
+       "id": "Q1792$11ca4040-4b20-0816-9cd1-b2d58f0f97a0",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "76fa5fa058aa321e772f5ed7a2dfd6ec9a5ad3ad",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 696640,
+          "id": "Q696640"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "fada201dbc712c7c2e90539eb90032adf35ac3f7",
+          "datavalue": {
+           "value": {
+            "time": "+1308-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582"
+       ],
+       "id": "Q1792$37f17ad4-4a5a-1dc1-b07e-b253d96a2fcd",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q36&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:51:55.010904+00:00",
+   "response": {
+    "entities": {
+     "Q36": {
+      "type": "item",
+      "id": "Q36",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Πολωνία"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Poľsko"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "پولینڈ"
+       },
+       "na": {
+        "language": "na",
+        "value": "Poran"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Полска"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "পোল্যান্ড"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IPolandi"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "পোল্যান্ড"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "पोलैंड"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Puolan"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "پولینڈ"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "پولنڈ"
+       },
+       "so": {
+        "language": "so",
+        "value": "Boland"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Polonya"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Польща"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Польша"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Polonia"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Польш"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Poloonya"
+       },
+       "za": {
+        "language": "za",
+        "value": "Bohlanz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Pólàndì"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Poloña"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Poôl'n"
+       },
+       "es": {
+        "language": "es",
+        "value": "Polonia"
+       },
+       "or": {
+        "language": "or",
+        "value": "ପୋଲାଣ୍ଡ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Польша Мастор"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Poland"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "פוילן"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Pholainn"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Pòlskô"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Polşa"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "波蘭"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Pole"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Poland"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Polonye"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Poland"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Lėnkėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Puoleja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Póolish Dineʼé Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "波兰"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Poljska"
+       },
+       "az": {
+        "language": "az",
+        "value": "Polşa"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "لهستون"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "波蘭"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Poljska"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಪೋಲೆಂಡ್"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Polen"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Poland"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Польша"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Polonia"
+       },
+       "war": {
+        "language": "war",
+        "value": "Polonya"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "போலந்து"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Polen"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "IPoland"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Lenkija"
+       },
+       "co": {
+        "language": "co",
+        "value": "Polonia"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Польш"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Polònia"
+       },
+       "om": {
+        "language": "om",
+        "value": "Poolaandi"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Poland"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Lehistan"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Poland"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Pulandia"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Polonia"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "पोलैंड"
+       },
+       "av": {
+        "language": "av",
+        "value": "Польша"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Polen"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Poland"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Polsha"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "پولنډ"
+       },
+       "st": {
+        "language": "st",
+        "value": "Poland"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "پولونيا"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດໂປໂລຍ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Poland"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Polen"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Polen"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Polonya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Polen"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Polònia"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Lehistan"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Polija"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Polandia"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Poland"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Лэхьый"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Pōrana"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Pholynn"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Pɔlɔɔñɩ"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Polônia"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "بولندا"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Polaki"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Polonya"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Poeland"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Poland"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Польша"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Polska"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Polandia"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Польша"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Polonia"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Polónia"
+       },
+       "io": {
+        "language": "io",
+        "value": "Polonia"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "波兰"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Польша"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Polan"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Puluña"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศโปแลนด์"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Πολωνία"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "لهیستان"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "波蘭"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Pulógna"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Լեհաստան"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Polonha"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "पोल्यान्ड"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Polonia"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "पोल्यान्ड"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Польша"
+       },
+       "de": {
+        "language": "de",
+        "value": "Polen"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Polagi"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Polonya"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Polonia"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Polska"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "polskas"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Лахь жылэ"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "پولشا"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Польска мастор"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Polónia"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "لهستان"
+       },
+       "en": {
+        "language": "en",
+        "value": "Poland"
+       },
+       "as": {
+        "language": "as",
+        "value": "প'লেণ্ড"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Poland"
+       },
+       "os": {
+        "language": "os",
+        "value": "Польшæ"
+       },
+       "my": {
+        "language": "my",
+        "value": "ပိုလန်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "波兰"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Påålen"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "པོ་ལེནཌི"
+       },
+       "et": {
+        "language": "et",
+        "value": "Poola"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Polonia"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Poloñ"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᐳᓚᓐᑦ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "波蘭"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Polen"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏉᎳᏂ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "波兰"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Bupoolo"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Polongne"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Polonia"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Польша"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Pollando"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Poland"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Polan"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Pologne"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Polen"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "پۆڵەندا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Poloni"
+       },
+       "hil": {
+        "language": "hil",
+        "value": "Polonya"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Pologne"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Gwlad Pwyl"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Poland"
+       },
+       "la": {
+        "language": "la",
+        "value": "Polonia"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Польша"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "पोलंड"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Pólland"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Pologne"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍀𐍉𐌻𐌰𐌻𐌰𐌽𐌳"
+       },
+       "is": {
+        "language": "is",
+        "value": "Pólland"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Pólska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Polonja"
+       },
+       "li": {
+        "language": "li",
+        "value": "Pole"
+       },
+       "new": {
+        "language": "new",
+        "value": "पोल्याण्ड"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Poola"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Puola"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "波蘭"
+       },
+       "id": {
+        "language": "id",
+        "value": "Polandia"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "पोलंड"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "પોલેંડ"
+       },
+       "su": {
+        "language": "su",
+        "value": "Polandia"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Польша"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Polonia"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਪੋਲੈਂਡ"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Pölôni"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Ba Lan"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Polonia"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Pulonie"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Pole"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "波蘭"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Poland"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Polşa"
+       },
+       "af": {
+        "language": "af",
+        "value": "Pole"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Poland"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Польша"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Pulunya"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Polen"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Pole"
+       },
+       "si": {
+        "language": "si",
+        "value": "පෝලන්තය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "波兰"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Polen"
+       },
+       "km": {
+        "language": "km",
+        "value": "ប្រទេសប៉ូឡូញ"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Pūoļmō"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Pulònia"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Pol'šanma"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Pulunya"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Полша"
+       },
+       "be": {
+        "language": "be",
+        "value": "Польшча"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "პოლონეთი"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Polen"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Польша"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Polän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱯᱳᱞᱮᱱᱰ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Polonia"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Polonia"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "पोलंड"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Pōlani"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Polikondre"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Poland"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Polandia"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Polonne"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Poleni"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "पोलैंड"
+       },
+       "he": {
+        "language": "he",
+        "value": "פולין"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Pólska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Польшча"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Połònia"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Pŏ̤-làng"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Pho-lân"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Poloña"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Лаҳистон"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Poljska"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "پولينڊ"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Poljska"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Lengyelország"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "波蘭"
+       },
+       "te": {
+        "language": "te",
+        "value": "పోలాండ్"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Польска"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Польша"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Польша"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Polaland"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "पोलैंड"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Polsha"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Polónia"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Poland"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Польшин Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Пол҄ьска"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Poin"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Polonie"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Polòy"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Poland"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Polonya"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Polonia"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "A' Phòlainn"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Polonia"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "პოლონეთი"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Польша"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Польша"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "لهستان"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Poland"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Pooln"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཕོ་ལན།"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Полония"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Pōrana"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Polska"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Poland"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Poland"
+       },
+       "am": {
+        "language": "am",
+        "value": "ፖላንድ"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Польша"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Польша"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Pulonnia"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Pologne"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Poolen"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Pooln"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Pologna"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Polonia"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Польша"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "പോളണ്ട്"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Польско"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Poalen"
+       },
+       "tt-latn": {
+        "language": "tt-latn",
+        "value": "Pülşä"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Polonya"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Pol'šu"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܦܘܠܢܕ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IPholandi"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Poland"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ޕޮލެންޑު"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "بولاندا"
+       },
+       "se": {
+        "language": "se",
+        "value": "Polska"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Poloniah"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Poland"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Polsko"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Polònia"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Polonia"
+       },
+       "mrj": {
+        "language": "mrj",
+        "value": "Польша"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Пољска"
+       },
+       "to": {
+        "language": "to",
+        "value": "Polani"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Poljska"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ポーランド"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "폴란드"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Polsca"
+       },
+       "br": {
+        "language": "br",
+        "value": "Polonia"
+       },
+       "an": {
+        "language": "an",
+        "value": "Polonia"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Poloni"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Polonia"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Pô-làn"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "पोल्याण्ड"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Пољска"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "波蘭"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Լեհաստան"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Pulónia"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Polandia"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Poland"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Pològn"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߔߏߟߐ߲ߢ"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "پولونيا"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းပူဝ်ႇလႅၼ်ႇ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Puola"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Puola"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ፖላንድ"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Polonia"
+       },
+       "min": {
+        "language": "min",
+        "value": "Polandia"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Polandia"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Poland"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Poland"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Pulandya"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯄꯣꯂꯦꯟ"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "ڤولند"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Poland"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Poland"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "뽈스까"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "پولینڈ"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Posuka"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "पोलैंड"
+       },
+       "ryu": {
+        "language": "ryu",
+        "value": "ポーランドゥ"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Poland"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Poland"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "پولینڈ"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠙꠟꠦꠘ꠆ꠒ"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Polša"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴱⵓⵍⴰⵏⴷⴰ"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Polan"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Polen"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Polandia"
+       },
+       "bdr": {
+        "language": "bdr",
+        "value": "Poland"
+       },
+       "prg": {
+        "language": "prg",
+        "value": "Pōli"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Poland"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Polandia"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Polan"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Poland"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ပိုလန်ခမ်းထီ"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Poland"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Polandia"
+       },
+       "sli": {
+        "language": "sli",
+        "value": "Pullakei"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "لهستان"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Polska"
+       },
+       "rsk": {
+        "language": "rsk",
+        "value": "Польска"
+       },
+       "no": {
+        "language": "no",
+        "value": "Polen"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Пољска"
+       },
+       "nan-hani": {
+        "language": "nan-hani",
+        "value": "波蘭"
+       },
+       "nan-hant": {
+        "language": "nan-hant",
+        "value": "波蘭"
+       },
+       "nan-latn-pehoeji": {
+        "language": "nan-latn-pehoeji",
+        "value": "Pho-lân"
+       },
+       "nan-latn-tailo": {
+        "language": "nan-latn-tailo",
+        "value": "Pho-lân"
+       },
+       "rki": {
+        "language": "rki",
+        "value": "ပိုလန်နိုင်ငံ"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

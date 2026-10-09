@@ -1,0 +1,2653 @@
+{
+ "wikidata_id": "Q334",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q334&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:23.972294+00:00",
+   "response": {
+    "entities": {
+     "Q334": {
+      "pageid": 527,
+      "ns": 0,
+      "title": "Q334",
+      "lastrevid": 2550333325,
+      "modified": "2026-09-28T05:19:30Z",
+      "type": "item",
+      "id": "Q334",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Singapore"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Singapour"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Сингапур"
+       },
+       "es": {
+        "language": "es",
+        "value": "Singapur"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Сынгапур"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Singapore"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Singapura"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Singapūrs"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Singapore"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Sin-ka-pho"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Singapur"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "新加坡"
+       },
+       "de": {
+        "language": "de",
+        "value": "Singapur"
+       },
+       "it": {
+        "language": "it",
+        "value": "Singapore"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "新加坡"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Singapore"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "新加坡"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Síhapura"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Singapore"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "新加坡"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Singapura"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Сингапур"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Singapur"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Singapore"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Singapura"
+       },
+       "af": {
+        "language": "af",
+        "value": "Singapoer"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሲንጋፖር"
+       },
+       "an": {
+        "language": "an",
+        "value": "Singapur"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "سنغافورة"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "سينجابوره"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Singapur"
+       },
+       "az": {
+        "language": "az",
+        "value": "Sinqapur"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Сингапур"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Singapur"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Singapore"
+       },
+       "be": {
+        "language": "be",
+        "value": "Сінгапур"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Сингапур"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Singapore"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Singapura"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "সিঙ্গাপুর"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "སེང་ག་ཕོར།"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "সিঙ্গাপুর"
+       },
+       "br": {
+        "language": "br",
+        "value": "Singapour"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Singapur"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Singapura"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Сингапур"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Singapur"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Sĭng-gă-pŏ̤"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Сингапур"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Singgapura"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "سینگاپوور"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Singapur"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Singapùr"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Сингапур"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Singapôr"
+       },
+       "da": {
+        "language": "da",
+        "value": "Singapore"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Singapur"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Singapur"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ސިންގަޕޫރު"
+       },
+       "el": {
+        "language": "el",
+        "value": "Σιγκαπούρη"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Singapuro"
+       },
+       "et": {
+        "language": "et",
+        "value": "Singapur"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Singapur"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Singapul"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "سنگاپور"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Sinngapuur"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Singapore"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Singapor"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Singapor"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Singapore"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Singeapór"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Singapur"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "新加坡"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Singeapòr"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Singapur"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "સિંગાપુર"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Singapore"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Singapore"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Sîn-kâ-po"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Sinapoa"
+       },
+       "he": {
+        "language": "he",
+        "value": "סינגפור"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "सिंगापुर"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Singapore"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Singapur"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Sengapou"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Szingapúr"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Սինգապուր"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Singapur"
+       },
+       "id": {
+        "language": "id",
+        "value": "Singapura"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Singapor"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Singapur"
+       },
+       "io": {
+        "language": "io",
+        "value": "Singapur"
+       },
+       "is": {
+        "language": "is",
+        "value": "Singapúr"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "シンガポール"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "singapura"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Singapura"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "სინგაპური"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Singapur"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Singapore"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Сингапур"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Singapore"
+       },
+       "km": {
+        "language": "km",
+        "value": "សិង្ហបុរី"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಸಿಂಗಾಪುರ್"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "싱가포르"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Singapûr"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Сингапур"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Singapour"
+       },
+       "la": {
+        "language": "la",
+        "value": "Singapura"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Singapur"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Сингапур"
+       },
+       "li": {
+        "language": "li",
+        "value": "Singapore"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Scingapô"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Singapur"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Singapur"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Singapūras"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Singapūra"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Singapaoro"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Сингапур"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Hingapoa"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "സിംഗപ്പൂർ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Сингапур"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "सिंगापूर"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Singapore"
+       },
+       "my": {
+        "language": "my",
+        "value": "စင်ကာပူနိုင်ငံ"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "سنگاپور"
+       },
+       "na": {
+        "language": "na",
+        "value": "Tsingapoar"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Singapur"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Singapur"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "सिंगापुर"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Singapore"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Singapore"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Singapor"
+       },
+       "or": {
+        "language": "or",
+        "value": "ସିଙ୍ଗାପୁର"
+       },
+       "os": {
+        "language": "os",
+        "value": "Сингапур"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਸਿੰਘਾਪੁਰ"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Singapur"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Singapor"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "سنگاپور"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "سنګاپور"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Singapura"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Singapur"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Singapore"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Сінґапур"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Singapore"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "सिंहपुरम्"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Сингапур"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Singapura"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Singapore"
+       },
+       "se": {
+        "language": "se",
+        "value": "Singapore"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Sïngäpûru"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Singapur"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Singapur"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Singapur"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Sigapoa"
+       },
+       "so": {
+        "language": "so",
+        "value": "Singabuur"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Singapori"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Сингапур"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "ISingapholo"
+       },
+       "su": {
+        "language": "su",
+        "value": "Singapura"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Singapore"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Singapuri"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Singapur"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சிங்கப்பூர்"
+       },
+       "te": {
+        "language": "te",
+        "value": "సింగపూరు"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Сингапур"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศสิงคโปร์"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Singapur"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Singapore"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Singapur"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Сингапур"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Сингапур"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "سىنگاپور"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Сінгапур"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "سنگاپور"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Singapur"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Singapor"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Singapur"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Singapore"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Singapurän"
+       },
+       "war": {
+        "language": "war",
+        "value": "Singgapura"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Singapoor"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "新加坡"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Сингапурмудин Орн"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "סינגאפור"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Singapore"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Singapore"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Singapur"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Singapura"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "星加坡"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Сингапур, мамлекет"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Singapùùr"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດສິງກະໂປ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Singapura"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Singapur"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Singapur"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "新加坡"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "新加坡"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Singapoor"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Singapura"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Singapore"
+       },
+       "om": {
+        "language": "om",
+        "value": "Singaappoor"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Singapur"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Singápúr"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Singapur"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "新加坡"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "新加坡"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "新加坡"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "新加坡"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "სინგაპური"
+       },
+       "si": {
+        "language": "si",
+        "value": "සිංගප්පූරුව"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "سنگاپور"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "सिंगापूर"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "𑀲𑀻𑀳𑀧𑀼𑀭"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "سنقاپور"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "सिंगापुर"
+       },
+       "new": {
+        "language": "new",
+        "value": "सिंगापोर"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Singapuur"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "سينگاپور"
+       },
+       "as": {
+        "language": "as",
+        "value": "ছিংগাপুৰ"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Singapore"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Singapore"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Singapore"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Сингапур"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Singgapuor"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Singapore"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Singapour"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Singapore"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Singapura"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Singapore"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Singapur"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Singapore"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Singapur"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Singapore"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Сингапур"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Сингапур"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Singapur"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "सिंगापुर"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Sɛŋgapuuri ɛjaɖɛ"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Singapore"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "सिंगापूर"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Singapur"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "سنغافورة"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Singapur"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Сингапур"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Singapor"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Singapore"
+       },
+       "za": {
+        "language": "za",
+        "value": "Saengyabo"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱥᱤᱝᱜᱟᱯᱩᱨ"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "सिंगापुर"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಸಿಂಗಾಪುರ"
+       },
+       "co": {
+        "language": "co",
+        "value": "Singapore"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Сингапур"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Singapura"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Singapour"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Singapore"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Սինկափուր"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Singapore"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "صنغافورة"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းသိင်ႇၵႃႇပူဝ်ႇ"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Singapura"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "सिंगापुर"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Singapore"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Singapore"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Singapur"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Singapura"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Singapore"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "سيڠاڤورا"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Singapore"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯁꯤꯡꯒꯥꯄꯣꯔ"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᓯᙵᐳᐊ"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Singapore"
+       },
+       "pwn": {
+        "language": "pwn",
+        "value": "Singapura"
+       },
+       "to": {
+        "language": "to",
+        "value": "Singapoa"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Singapura"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Singapore"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Táłkááʼ Yadaazʼáhí"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "سينگاپۊر"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "سِنٛگاپور"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Сингапур"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "သေင်ကာပူခမ်းထီ"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Sinkapula"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Singapore"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "सिंगापुर"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Singapore"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Singapore"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Singapore"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Snɣafura"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Singapura"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠍꠤꠋꠉꠣꠙꠥꠞ"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Singapura"
+       },
+       "av": {
+        "language": "av",
+        "value": "Сингапур"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Singapur"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Singapur"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Singapura"
+       },
+       "bdr": {
+        "language": "bdr",
+        "value": "Singapura"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Singapur"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Singapura"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Сингапур"
+       },
+       "gaa": {
+        "language": "gaa",
+        "value": "Singapore"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-Singapore"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "སིངྒ་པུར།"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Singapore"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Сингапур"
+       },
+       "nan-latn-pehoeji": {
+        "language": "nan-latn-pehoeji",
+        "value": "Sin-ka-pho"
+       },
+       "nan-latn-tailo": {
+        "language": "nan-latn-tailo",
+        "value": "Sin-ka-pho"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Сингапур"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Singapôr"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Сингапоуръ"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q334&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:24.267227+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "93c1b6e7e347bc89ca0cde59b402ac9dacde41f6",
+        "datavalue": {
+         "value": {
+          "latitude": 1.3,
+          "longitude": 103.8,
+          "altitude": null,
+          "precision": 0.0166667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q334$C02C45FD-AF0E-4064-913F-1443C629F96A",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q334&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:24.536485+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "cf74befd9dc89810e6b018659b205eaebcf69de4",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 8680,
+          "id": "Q8680"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "52396b651b68b1c74147e3d4819f94c0b97dfc23",
+          "datavalue": {
+           "value": {
+            "time": "+1826-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "8c1f820d4859856868cfb17733b93efc084409af",
+          "datavalue": {
+           "value": {
+            "time": "+1946-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q334$3D614526-9E5D-4C89-B02F-D69299353F40",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "59571a290b13aa49bfed67e811ebfd5966758ac1",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 334,
+          "id": "Q334"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "Q334$CDF6CA48-8EBF-4B31-8F77-9C016E3A21F5",
+       "rank": "preferred"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q334&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:24.915476+00:00",
+   "response": {
+    "entities": {
+     "Q334": {
+      "type": "item",
+      "id": "Q334",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Singapore"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Singapour"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Сингапур"
+       },
+       "es": {
+        "language": "es",
+        "value": "Singapur"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Сынгапур"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Singapore"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Singapura"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Singapūrs"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Singapore"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Sin-ka-pho"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Singapur"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "新加坡"
+       },
+       "de": {
+        "language": "de",
+        "value": "Singapur"
+       },
+       "it": {
+        "language": "it",
+        "value": "Singapore"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "新加坡"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Singapore"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "新加坡"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Síhapura"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Singapore"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "新加坡"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Singapura"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Сингапур"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Singapur"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Singapore"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Singapura"
+       },
+       "af": {
+        "language": "af",
+        "value": "Singapoer"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሲንጋፖር"
+       },
+       "an": {
+        "language": "an",
+        "value": "Singapur"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "سنغافورة"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "سينجابوره"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Singapur"
+       },
+       "az": {
+        "language": "az",
+        "value": "Sinqapur"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Сингапур"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Singapur"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Singapore"
+       },
+       "be": {
+        "language": "be",
+        "value": "Сінгапур"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Сингапур"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Singapore"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Singapura"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "সিঙ্গাপুর"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "སེང་ག་ཕོར།"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "সিঙ্গাপুর"
+       },
+       "br": {
+        "language": "br",
+        "value": "Singapour"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Singapur"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "Singapura"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Сингапур"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Singapur"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Sĭng-gă-pŏ̤"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Сингапур"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Singgapura"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "سینگاپوور"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Singapur"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Singapùr"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Сингапур"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Singapôr"
+       },
+       "da": {
+        "language": "da",
+        "value": "Singapore"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Singapur"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Singapur"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ސިންގަޕޫރު"
+       },
+       "el": {
+        "language": "el",
+        "value": "Σιγκαπούρη"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Singapuro"
+       },
+       "et": {
+        "language": "et",
+        "value": "Singapur"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Singapur"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Singapul"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "سنگاپور"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Sinngapuur"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Singapore"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Singapor"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Singapor"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Singapore"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Singeapór"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Singapur"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "新加坡"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Singeapòr"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Singapur"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "સિંગાપુર"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Singapore"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Singapore"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Sîn-kâ-po"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Sinapoa"
+       },
+       "he": {
+        "language": "he",
+        "value": "סינגפור"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "सिंगापुर"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Singapore"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Singapur"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Sengapou"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Szingapúr"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Սինգապուր"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Singapur"
+       },
+       "id": {
+        "language": "id",
+        "value": "Singapura"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Singapor"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Singapur"
+       },
+       "io": {
+        "language": "io",
+        "value": "Singapur"
+       },
+       "is": {
+        "language": "is",
+        "value": "Singapúr"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "シンガポール"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "singapura"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Singapura"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "სინგაპური"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Singapur"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Singapore"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Сингапур"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Singapore"
+       },
+       "km": {
+        "language": "km",
+        "value": "សិង្ហបុរី"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಸಿಂಗಾಪುರ್"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "싱가포르"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Singapûr"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Сингапур"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Singapour"
+       },
+       "la": {
+        "language": "la",
+        "value": "Singapura"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Singapur"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Сингапур"
+       },
+       "li": {
+        "language": "li",
+        "value": "Singapore"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Scingapô"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Singapur"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Singapur"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Singapūras"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Singapūra"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Singapaoro"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Сингапур"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Hingapoa"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "സിംഗപ്പൂർ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Сингапур"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "सिंगापूर"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Singapore"
+       },
+       "my": {
+        "language": "my",
+        "value": "စင်ကာပူနိုင်ငံ"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "سنگاپور"
+       },
+       "na": {
+        "language": "na",
+        "value": "Tsingapoar"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Singapur"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Singapur"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "सिंगापुर"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Singapore"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Singapore"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Singapor"
+       },
+       "or": {
+        "language": "or",
+        "value": "ସିଙ୍ଗାପୁର"
+       },
+       "os": {
+        "language": "os",
+        "value": "Сингапур"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਸਿੰਘਾਪੁਰ"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Singapur"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Singapor"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "سنگاپور"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "سنګاپور"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Singapura"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Singapur"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Singapore"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Сінґапур"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Singapore"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "सिंहपुरम्"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Сингапур"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Singapura"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Singapore"
+       },
+       "se": {
+        "language": "se",
+        "value": "Singapore"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Sïngäpûru"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Singapur"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Singapur"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Singapur"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Sigapoa"
+       },
+       "so": {
+        "language": "so",
+        "value": "Singabuur"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Singapori"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Сингапур"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "ISingapholo"
+       },
+       "su": {
+        "language": "su",
+        "value": "Singapura"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Singapore"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Singapuri"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Singapur"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சிங்கப்பூர்"
+       },
+       "te": {
+        "language": "te",
+        "value": "సింగపూరు"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Сингапур"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศสิงคโปร์"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Singapur"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Singapore"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Singapur"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Сингапур"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Сингапур"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "سىنگاپور"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Сінгапур"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "سنگاپور"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Singapur"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Singapor"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Singapur"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Singapore"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Singapurän"
+       },
+       "war": {
+        "language": "war",
+        "value": "Singgapura"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Singapoor"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "新加坡"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Сингапурмудин Орн"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "סינגאפור"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Singapore"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Singapore"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Singapur"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Singapura"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "星加坡"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Сингапур, мамлекет"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Singapùùr"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດສິງກະໂປ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Singapura"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Singapur"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Singapur"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "新加坡"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "新加坡"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Singapoor"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Singapura"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Singapore"
+       },
+       "om": {
+        "language": "om",
+        "value": "Singaappoor"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Singapur"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Singápúr"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Singapur"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "新加坡"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "新加坡"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "新加坡"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "新加坡"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "სინგაპური"
+       },
+       "si": {
+        "language": "si",
+        "value": "සිංගප්පූරුව"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "سنگاپور"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "सिंगापूर"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "𑀲𑀻𑀳𑀧𑀼𑀭"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "سنقاپور"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "सिंगापुर"
+       },
+       "new": {
+        "language": "new",
+        "value": "सिंगापोर"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Singapuur"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "سينگاپور"
+       },
+       "as": {
+        "language": "as",
+        "value": "ছিংগাপুৰ"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Singapore"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Singapore"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Singapore"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Сингапур"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Singgapuor"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Singapore"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Singapour"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Singapore"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Singapura"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Singapore"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Singapur"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Singapore"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Singapur"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Singapore"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Сингапур"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Сингапур"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Singapur"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "सिंगापुर"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Sɛŋgapuuri ɛjaɖɛ"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Singapore"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "सिंगापूर"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Singapur"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "سنغافورة"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Singapur"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Сингапур"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Singapor"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Singapore"
+       },
+       "za": {
+        "language": "za",
+        "value": "Saengyabo"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱥᱤᱝᱜᱟᱯᱩᱨ"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "सिंगापुर"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಸಿಂಗಾಪುರ"
+       },
+       "co": {
+        "language": "co",
+        "value": "Singapore"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Сингапур"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Singapura"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Singapour"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Singapore"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Սինկափուր"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Singapore"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "صنغافورة"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းသိင်ႇၵႃႇပူဝ်ႇ"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Singapura"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "सिंगापुर"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Singapore"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Singapore"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Singapur"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Singapura"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Singapore"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "سيڠاڤورا"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Singapore"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯁꯤꯡꯒꯥꯄꯣꯔ"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᓯᙵᐳᐊ"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Singapore"
+       },
+       "pwn": {
+        "language": "pwn",
+        "value": "Singapura"
+       },
+       "to": {
+        "language": "to",
+        "value": "Singapoa"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Singapura"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Singapore"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Táłkááʼ Yadaazʼáhí"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "سينگاپۊر"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "سِنٛگاپور"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Сингапур"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "သေင်ကာပူခမ်းထီ"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Sinkapula"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Singapore"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "सिंगापुर"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Singapore"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Singapore"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Singapore"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Snɣafura"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Singapura"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠍꠤꠋꠉꠣꠙꠥꠞ"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Singapura"
+       },
+       "av": {
+        "language": "av",
+        "value": "Сингапур"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Singapur"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Singapur"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Singapura"
+       },
+       "bdr": {
+        "language": "bdr",
+        "value": "Singapura"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Singapur"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Singapura"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Сингапур"
+       },
+       "gaa": {
+        "language": "gaa",
+        "value": "Singapore"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-Singapore"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "སིངྒ་པུར།"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Singapore"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Сингапур"
+       },
+       "nan-latn-pehoeji": {
+        "language": "nan-latn-pehoeji",
+        "value": "Sin-ka-pho"
+       },
+       "nan-latn-tailo": {
+        "language": "nan-latn-tailo",
+        "value": "Sin-ka-pho"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Сингапур"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Singapôr"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Сингапоуръ"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

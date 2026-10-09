@@ -21,18 +21,16 @@ import csv
 import json
 import sys
 import time
-import urllib.parse
-import urllib.request
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 
+from ref import wikidata
+
 HERE = Path(__file__).parent
 CSV_PATH = HERE / "chokepoints.csv"
 SOURCES_DIR = HERE / "sources" / "wikidata"
-API = "https://www.wikidata.org/w/api.php"
-USER_AGENT = "supply-chain-risk-radar/0.1 (projet pédagogique; [adresse e-mail retirée])"
-LICENSE = "CC0 1.0"
+LICENSE = wikidata.LICENSE
 SOURCE_NAME = "Wikidata (P625, coordinate location)"
 
 TABLE = "lakehouse.silver.ref_chokepoints"
@@ -83,49 +81,30 @@ COLUMNS = [
 ]  # fmt: skip
 
 
-def _get(params: dict) -> tuple[str, dict, str]:
-    """GET sur l'API Wikidata : (URL, réponse JSON, horodatage UTC du téléchargement)."""
-    url = f"{API}?{urllib.parse.urlencode({**params, 'format': 'json'})}"
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        body = json.load(response)
-    return url, body, datetime.now(UTC).isoformat()
-
-
 def parse_entity(archive: dict) -> dict:
     """Archive brute (voir fetch_one) -> champs utiles. Pure : testable sans réseau."""
     wid = archive["wikidata_id"]
     entity = archive["requests"]["entity"]["response"]["entities"][wid]
-    claims = archive["requests"]["coordinates"]["response"]["claims"].get("P625", [])
-    usable = [c for c in claims if c.get("rank") != "deprecated" and "datavalue" in c["mainsnak"]]
-    # Rang « preferred » d'abord, sinon l'ordre de la source.
-    usable.sort(key=lambda c: c.get("rank") != "preferred")
-    if not usable:
-        raise ValueError(f"{wid} : aucune coordonnée P625 exploitable")
-    value = usable[0]["mainsnak"]["datavalue"]["value"]
-    if value.get("globe") != "http://www.wikidata.org/entity/Q2":
-        raise ValueError(f"{wid} : coordonnée non terrestre ({value.get('globe')})")
+    coordinate = wikidata.best_coordinate(archive["requests"]["coordinates"]["response"], wid)
     return {
-        "lat": float(value["latitude"]),
-        "lon": float(value["longitude"]),
-        # Précision déclarée par Wikidata, en degrés (1 = 111 km environ) ; None si non donnée.
-        "precision_deg": value.get("precision"),
+        **coordinate,
         "wikidata_label": entity["labels"]["en"]["value"],
         "revision": entity["lastrevid"],
-        "coordinate_claims": len(claims),
         "retrieved_at": archive["requests"]["coordinates"]["fetched_at"],
     }
 
 
 def fetch_one(spec: Spec) -> dict:
     wid = spec.wikidata_id
-    url_e, entity, at_e = _get({"action": "wbgetentities", "ids": wid, "props": "labels|info"})
-    url_c, coords, at_c = _get({"action": "wbgetclaims", "entity": wid, "property": "P625"})
     return {
         "wikidata_id": wid,
         "requests": {
-            "entity": {"url": url_e, "fetched_at": at_e, "response": entity},
-            "coordinates": {"url": url_c, "fetched_at": at_c, "response": coords},
+            "entity": wikidata.request_record(
+                {"action": "wbgetentities", "ids": wid, "props": "labels|info"}
+            ),
+            "coordinates": wikidata.request_record(
+                {"action": "wbgetclaims", "entity": wid, "property": "P625"}
+            ),
         },
     }
 

@@ -1,0 +1,2456 @@
+{
+ "wikidata_id": "Q12892",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q12892&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:51:52.196929+00:00",
+   "response": {
+    "entities": {
+     "Q12892": {
+      "pageid": 14493,
+      "ns": 0,
+      "title": "Q12892",
+      "lastrevid": 2532275729,
+      "modified": "2026-08-17T10:06:25Z",
+      "type": "item",
+      "id": "Q12892",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Antwerp"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Anvers"
+       },
+       "de": {
+        "language": "de",
+        "value": "Antwerpen"
+       },
+       "af": {
+        "language": "af",
+        "value": "Antwerpen"
+       },
+       "an": {
+        "language": "an",
+        "value": "Anvers"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "أنتويرب"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "انتويرب"
+       },
+       "az": {
+        "language": "az",
+        "value": "Antverpen"
+       },
+       "be": {
+        "language": "be",
+        "value": "Антверпен"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Антверпен"
+       },
+       "br": {
+        "language": "br",
+        "value": "Antwerpen"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Antwerpen"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Anvers"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Antverpy"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Антверпен"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Antwerp"
+       },
+       "da": {
+        "language": "da",
+        "value": "Antwerpen"
+       },
+       "el": {
+        "language": "el",
+        "value": "Αμβέρσα"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Antwerp"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Antwerp"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Antverpeno"
+       },
+       "es": {
+        "language": "es",
+        "value": "Amberes"
+       },
+       "et": {
+        "language": "et",
+        "value": "Antwerpen"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Anberes"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Amberis"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "آنتورپ"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Antwerpen"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Antwerpen"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Antuairp"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Anveres"
+       },
+       "he": {
+        "language": "he",
+        "value": "אנטוורפן"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Antwerpen"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Antwerpen"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Անտվերպեն"
+       },
+       "id": {
+        "language": "id",
+        "value": "Antwerpen"
+       },
+       "io": {
+        "language": "io",
+        "value": "Antwerpen"
+       },
+       "is": {
+        "language": "is",
+        "value": "Antwerpen"
+       },
+       "it": {
+        "language": "it",
+        "value": "Anversa"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "アントウェルペン"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Antwerpen"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ანტვერპენი"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "안트베르펜"
+       },
+       "la": {
+        "language": "la",
+        "value": "Antverpia"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Antwerpen"
+       },
+       "li": {
+        "language": "li",
+        "value": "Antwerpe"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Anversa"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Antverpenas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Antverpene"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "अँटवर्प"
+       },
+       "my": {
+        "language": "my",
+        "value": "အန့်တွပ်မြို့"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Anversa"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Antwarp"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Antwerpen"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Antwerpen"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Anvèrs"
+       },
+       "os": {
+        "language": "os",
+        "value": "Антверпен"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Antwerpia"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "انٹیورپ"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Antuérpia"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Antuérpia"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Anvers"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Антверпен"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Anversa"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Antwerp"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Antwerpen"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Antverpy"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Antwerpen"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Antwerp"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Антверпен"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Antwerpen"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Antwerpen"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "ஆண்ட்வெர்ப்"
+       },
+       "th": {
+        "language": "th",
+        "value": "แอนต์เวิร์ป"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Amberes"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Anvers"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Antwérp"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Антверпен"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Antwerpen"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Antwerpn"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Antwerpen"
+       },
+       "war": {
+        "language": "war",
+        "value": "Antwerp"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Anverse"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "אנטווערפן"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Antwerpen"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "安特衞普"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Antwerpen"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Антверпен"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "安特衛普"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "安特卫普"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "安特卫普"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ആന്റ്‌വെർപ്"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Antwerpen"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Antwerpen"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Антверпен"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Антверпен"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Antwerpen"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Antwerpen"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Антверпен"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Antverpens"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Антвэрпэн"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Antwyrpijo"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Antverpen"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Antwerpen"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Antwerp"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Antwerpen"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Antwerpa"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Antwerpen"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "اینٹ ورپن"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Антверпен"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Ôn-thi̍t-ví-phú"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Anvérse"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Antwärpe"
+       },
+       "am": {
+        "language": "am",
+        "value": "አንትወርፕ"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Antwerpen"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "एंटवर्प"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಆಂಟ್ವರ್ಪ್"
+       },
+       "te": {
+        "language": "te",
+        "value": "ఆంట్వెర్ప్"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "আন্টভের্প"
+       },
+       "si": {
+        "language": "si",
+        "value": "අන්ට්වර්ප්"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "એન્ટવર્પ"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Антверпен"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Amberes"
+       },
+       "co": {
+        "language": "co",
+        "value": "Anversu"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Antwerpen"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Անտվերպեն"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "安特卫普"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Antwerpen (Steed)"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Antwerp"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Онтверп"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Antverpen"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Antverpen"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Antverpen"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "安特卫普"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "安特卫普"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "安特卫普"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "安特衛普"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "安特衛普"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "安特衛普"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Antwerpen"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Anversa"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Antwarpen"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Anversa"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Amberes"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Antwerpen"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Antwerp"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Antwerpen"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Anatawepa"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Антвэрпэн"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Antwerp"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Antwerpen"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Antwerpen"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Anwepen"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "انٽورپ"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Birnin Antwerp"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Anvè"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ئەنتوێرپ"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Antwerpen"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Antwerpen"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Antuerpia"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Антверпен"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Antwerp"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q12892&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:51:52.438258+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "fd48a9626214ebb9e5f4387b46f3fabb9ea56e3e",
+        "datavalue": {
+         "value": {
+          "latitude": 51.221111111111114,
+          "longitude": 4.3997222222222225,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q12892$4D4265C8-F43F-4E6E-80E6-D82ACFAD639B",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q12892&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:51:52.810568+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "c2859f311753176d6bdfa7da54ceeeac7acb52c8",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 31,
+          "id": "Q31"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "de6aef1f469004862d3cecbd6877c13d808c1857",
+          "datavalue": {
+           "value": {
+            "time": "+1830-10-04T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q12892$7C14A1CE-A087-4E06-9EE1-94F34CC90E66",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "bfd623a92594bba2c5e40e64b585c290bbc42570",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "de8abb447a7e3f72b55abc1a936acff43b47d8b3",
+            "datavalue": {
+             "value": "65",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        },
+        {
+         "hash": "8adfdf96101d5c32b6b769c4633401ec06e02307",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "88b1aea91b49e7281dc2608b867987d014c88992",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 55259097,
+              "id": "Q55259097"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "e89ed975a583a10e83aa56ce16069435a04494bf",
+            "datavalue": {
+             "value": {
+              "time": "+2024-09-17T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "b1f383d6a13c66a8044d54a77a4f5f49be32b272",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 622783,
+          "id": "Q622783"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "b276e32a6c4fd88fa28212458cc7844e056daad7",
+          "datavalue": {
+           "value": {
+            "time": "+1581-07-26T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "26d6fefc820b570533a8a26ef6f5370f56a672c3",
+          "datavalue": {
+           "value": {
+            "time": "+1714-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q12892$c94d221c-4a43-a615-7696-17c006bb38e7",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "bb7af0dd6174b5d9f19e8116edd12db211f24257",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1031430,
+          "id": "Q1031430"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "4c46ae6b717a11e202282827e56fc29ce1f39b9a",
+          "datavalue": {
+           "value": {
+            "time": "+1482-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "44bc52e31b4213cbe9871bdd7709bae730af0ea0",
+          "datavalue": {
+           "value": {
+            "time": "+1581-07-25T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q12892$b0f28241-4931-2bda-181b-15ffb78c8b08",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "e497bfcd6ae817e9b501921e5977e1f002e451f0",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 700283,
+          "id": "Q700283"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "c58ce4140153599785934fa4b6a1d29bc13caa82",
+          "datavalue": {
+           "value": {
+            "time": "+1714-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "5bb829a1bf18cb3f4b97e8cea2324a2d853df09e",
+          "datavalue": {
+           "value": {
+            "time": "+1797-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q12892$029b5edb-4262-30e8-30cf-a25ae1096fd4",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q31&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:51:53.185626+00:00",
+   "response": {
+    "entities": {
+     "Q31": {
+      "type": "item",
+      "id": "Q31",
+      "labels": {
+       "el": {
+        "language": "el",
+        "value": "Βέλγιο"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Bilkiya"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "بیلجیئم"
+       },
+       "na": {
+        "language": "na",
+        "value": "Berdjiyum"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Белгија"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "বেলজিয়াম"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "বেলজিয়াম"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Belgija"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Beljiom"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Belgicko"
+       },
+       "so": {
+        "language": "so",
+        "value": "Beljim"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Belgium"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Бельгія"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Бельгия"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Bèlgiu"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Бельги"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Beljik"
+       },
+       "za": {
+        "language": "za",
+        "value": "Bijliswz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Bẹ́ljíọ̀m"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Bélgica"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Belhië"
+       },
+       "es": {
+        "language": "es",
+        "value": "Bélgica"
+       },
+       "or": {
+        "language": "or",
+        "value": "ବେଲଜିଅମ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Бельгия Мастор"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "בעלגיע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Bheilg"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Belgijskô"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Belgiya"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Belgica"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Belgje"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Ububiligi"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Belgium"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Belgėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Beļgeja"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "比利时"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Béljika"
+       },
+       "az": {
+        "language": "az",
+        "value": "Belçika"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "بلژیک"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "比利時"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Bäigien"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "比利時"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "België"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Бельгия"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Bélxica"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Bɛliziki"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "பெல்ஜியம்"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Bélgié"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Бельги"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "बेल्जियम"
+       },
+       "co": {
+        "language": "co",
+        "value": "Belgiu"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Бельги"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Belgi"
+       },
+       "om": {
+        "language": "om",
+        "value": "Beeljiyeem"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Belgija"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Belçika"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Belgium"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Belgia"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "बेल्जियम"
+       },
+       "av": {
+        "language": "av",
+        "value": "Бельгия"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Belsch"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Belgium"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Belgiya"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "بېلجيم"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Belgien"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "بلجيكيا"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດແບນຊິກ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Ubelgiji"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Belgien"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Belgien"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Belhika"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Belhika"
+       },
+       "da": {
+        "language": "da",
+        "value": "Belgien"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Bèlgica"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Belçika"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Beļģija"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Belghia"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Белгие"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Peretita"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Velg"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Pɛliziki"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Bélgica"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "بلجيكا"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Belgikondre"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Belgika"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Belçıka"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Beljum"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Belgijŏ"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Bèlgia"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Бельги"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Bélgica"
+       },
+       "io": {
+        "language": "io",
+        "value": "Belgia"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "比利时"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Бельгия"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Beljiam"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศเบลเยียม"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Beljik"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Belzika"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "بلژیک"
+       },
+       "an": {
+        "language": "an",
+        "value": "Belchica"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Bélgi"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Բելգիա"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Bel'gii"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "बेल्जियम"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Belgia"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "बेल्जियम"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Belgio"
+       },
+       "de": {
+        "language": "de",
+        "value": "Belgien"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Belgium"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Peleseuma"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Belhika"
+       },
+       "war": {
+        "language": "war",
+        "value": "Belhika"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Beljiya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "beldjym"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Белгэ"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "بېلگىيە"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Бэльгия"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Bélgica"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "بلجیک"
+       },
+       "en": {
+        "language": "en",
+        "value": "Belgium"
+       },
+       "as": {
+        "language": "as",
+        "value": "বেলজিয়াম"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "بلجیم"
+       },
+       "os": {
+        "language": "os",
+        "value": "Бельги"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဘယ်လ်ဂျီယမ်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "比利时"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Belgia"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "བེལ་ཇིཡམ"
+       },
+       "et": {
+        "language": "et",
+        "value": "Belgia"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Bélgica"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Belsik"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨅᨙᨒᨛᨁᨗᨐ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "比利時"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Belgia"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏇᎵᏥᎥᎻ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "比利时"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Bubirigi"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Belgique"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Bélxica"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "比利時"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Belgium"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Beljiom"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Belgia"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Belgien"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "بەلجیکا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Bɛ́ljika"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Ububirigi"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Bèlg·ique"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Gwlad Belg"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Belgium"
+       },
+       "la": {
+        "language": "la",
+        "value": "Belgica"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Бельгия"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "बेल्जियम"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Belgia"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Belgique"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐌱𐌰𐌹𐌻𐌲𐌰𐌻𐌰𐌽𐌳"
+       },
+       "is": {
+        "language": "is",
+        "value": "Belgía"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Belgiska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Belġju"
+       },
+       "li": {
+        "language": "li",
+        "value": "Belsj"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Belgiä"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Belgia"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "比利時"
+       },
+       "id": {
+        "language": "id",
+        "value": "Belgia"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "बेल्जियम"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "બેલ્જિયમ"
+       },
+       "su": {
+        "language": "su",
+        "value": "Bélgia"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Belgica"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਬੈਲਜੀਅਮ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Beldjike"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Bỉ"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Belhika"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Bèlge"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Belgium"
+       },
+       "af": {
+        "language": "af",
+        "value": "België"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Belhika"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Бельгия"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Bêleze"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Belgia"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Belgie"
+       },
+       "si": {
+        "language": "si",
+        "value": "බෙල්ජියම"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "比利时"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Belgien"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Belgium"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Bergiu"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Biljik"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Белгия"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Belgika"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ბელგია"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Belgän"
+       },
+       "it": {
+        "language": "it",
+        "value": "Belgio"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Bélgika"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "बेल्जियम"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Pelekiuma"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Beļgij"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Bergike"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Belgia"
+       },
+       "he": {
+        "language": "he",
+        "value": "בלגיה"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Belgiska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Бэльгія"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Belzo"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Bī-lé-sì"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Pe̍k-ní-gī"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Véyhika"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Белгия"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Belgija"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "بيلجيم"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Belgija"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Belgium"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "比利時"
+       },
+       "te": {
+        "language": "te",
+        "value": "బెల్జియం"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Белгия"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Бельгия"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Бельгия"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Belgice"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "बेल्जियम"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Belgiya"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Belgiýa"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Belgium"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Бельҗмудин Нутг"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Бєлгїѥ"
+       },
+       "new": {
+        "language": "new",
+        "value": "बेल्जियम"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Belgjo"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Bèljik"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Belgium"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Belçika"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Belgia"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "A' Bheilg"
+       },
+       "be": {
+        "language": "be",
+        "value": "Бельгія"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ბელგია"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Бельги"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Бельгия"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "بلژیک"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "België"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "པེར་ཅིན།"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Pehiamu"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Belgia"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Belgium"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Belgium"
+       },
+       "am": {
+        "language": "am",
+        "value": "ቤልጅግ"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Belgija"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Бельгия"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Бельгия"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಬೆಲ್ಜಿಯಂ"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Belge"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "بیلجیئم"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Belgien"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "België"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Belgjika"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Belezi"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Βέλγιον"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Belgien"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Бельгий"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ബെൽജിയം"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Белґія"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Belgje"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Belçîka"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Bel'gii"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܒܶܠܓܺܝܩܶܐ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IBhelijiyamu"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Belgium"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ބެލްޖިއަމް"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "بلجيكا"
+       },
+       "se": {
+        "language": "se",
+        "value": "Belgia"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Belgikah"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Bilhika"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Belgie"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Pow Belg"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Bèlgio"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Beljika"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Белгија"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Belgija"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ベルギー"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "벨기에"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Beljia"
+       },
+       "br": {
+        "language": "br",
+        "value": "Belgia"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "比利時"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "बेल्जियम्"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Belgi"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Pí-li-sṳ̀"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "बेल्जियम"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Белгија"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Belgien"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Պելճիքա"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Бельгиа"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Béljika"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Belgia"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Belguim"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Bèljik"
+       },
+       "km": {
+        "language": "km",
+        "value": "បែលស៊ិក"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱵᱮᱞᱡᱤᱭᱚᱢ"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "بلجيكا"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Belgia"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းပႄႇၵျီႇယမ်ႇ"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Belgia"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Belgia"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "बेल्जियम"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Belga"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Belje"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Belgia"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Belguim"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Bljika"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Belgium"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Βέλγιον"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯕꯦꯜꯖꯤꯌꯝ"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Belguim"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Belguim"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Tábąąh Hóteelnii Bikéyah"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Belgium"
+       },
+       "min": {
+        "language": "min",
+        "value": "Belgia"
+       },
+       "rmc": {
+        "language": "rmc",
+        "value": "Belgija"
+       },
+       "to": {
+        "language": "to",
+        "value": "Pelesiume"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "벨지끄"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Pelije"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Belgium"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "बेल्जियम"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Belgium"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Belgium"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "بیٚلجیٖیَم"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Belçikə"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Bheljiyam"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ဗယ်စီယံခမ်းထီ"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴱⵍⵊⵉⴽⴰ"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Bælgga"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Bèlgi"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߓߍߟߑߖ߭ߌߟߊ߫"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Belgium"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Belgia"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Belgium"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "بلژيک"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Belgium"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-Belgium"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᐲᓪᒋ"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Belgia"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Belidika"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "Бельгия"
+       },
+       "din": {
+        "language": "din",
+        "value": "Belgium"
+       },
+       "gur": {
+        "language": "gur",
+        "value": "Belgium"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Belgium"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Beljiyòm"
+       },
+       "kus": {
+        "language": "kus",
+        "value": "Belgium"
+       },
+       "guw": {
+        "language": "guw",
+        "value": "Belgique"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Belgique"
+       },
+       "ppl": {
+        "language": "ppl",
+        "value": "Belgica"
+       },
+       "pwn": {
+        "language": "pwn",
+        "value": "Belgica"
+       },
+       "dga": {
+        "language": "dga",
+        "value": "Belgium"
+       },
+       "nr": {
+        "language": "nr",
+        "value": "I-Belgium"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Белгија"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Belgija"
+       },
+       "rki": {
+        "language": "rki",
+        "value": "ဘယ်ဂျီယံ"
+       },
+       "isv": {
+        "language": "isv",
+        "value": "Belgija"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

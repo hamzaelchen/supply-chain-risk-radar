@@ -1,0 +1,2601 @@
+{
+ "wikidata_id": "Q23482",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q23482&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:51:59.554573+00:00",
+   "response": {
+    "entities": {
+     "Q23482": {
+      "pageid": 26866,
+      "ns": 0,
+      "title": "Q23482",
+      "lastrevid": 2553170403,
+      "modified": "2026-10-04T20:15:30Z",
+      "type": "item",
+      "id": "Q23482",
+      "labels": {
+       "szl": {
+        "language": "szl",
+        "value": "Marsylijo"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Marsylia"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Marseilla"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Marseille"
+       },
+       "es": {
+        "language": "es",
+        "value": "Marsella"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Marsiggia"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Marselha"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Marseille"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Marseille"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Marseille"
+       },
+       "am": {
+        "language": "am",
+        "value": "ማርሴ"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Marseille"
+       },
+       "my": {
+        "language": "my",
+        "value": "မာဆေးမြို့"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Marseille"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مرسيليا"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Marselha"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Marsejlo"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "მარსელი"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "מארסיי"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Marsêle"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Марсељ"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "مارسیلیا"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Marseille"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Марсель"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Марсэль"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Marselye"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Marseille"
+       },
+       "az": {
+        "language": "az",
+        "value": "Marsel"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Marseille"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Marseja"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Marsiglia"
+       },
+       "da": {
+        "language": "da",
+        "value": "Marseille"
+       },
+       "an": {
+        "language": "an",
+        "value": "Marsiella"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Marseja"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Marsèja"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Marseille"
+       },
+       "be": {
+        "language": "be",
+        "value": "Марсель"
+       },
+       "he": {
+        "language": "he",
+        "value": "מרסיי"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "مرسيليا"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Marseya"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Marseille"
+       },
+       "it": {
+        "language": "it",
+        "value": "Marsiglia"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "マルセイユ"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Mạc-xây"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Marsiglia"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "馬賽"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Marseille"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "马赛"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Marsîlya"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Marseille"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Marsella"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Марсель"
+       },
+       "th": {
+        "language": "th",
+        "value": "มาร์แซย์"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Marsella"
+       },
+       "la": {
+        "language": "la",
+        "value": "Massilia"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Marseille"
+       },
+       "os": {
+        "language": "os",
+        "value": "Марсель"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Marseille"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "मार्सेल"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Марсилия"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "مارسیلز"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Marseille"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Marseille"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Marseille"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Marseille"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Marseille"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "மர்சேய்"
+       },
+       "af": {
+        "language": "af",
+        "value": "Marseille"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Marseille"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Marseille"
+       },
+       "et": {
+        "language": "et",
+        "value": "Marseille"
+       },
+       "br": {
+        "language": "br",
+        "value": "Marsilha"
+       },
+       "el": {
+        "language": "el",
+        "value": "Μασσαλία"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "مارسیلز"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Marseille"
+       },
+       "is": {
+        "language": "is",
+        "value": "Marseille"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Marseille"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Марсель"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Marsella"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Marseille"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Marsilya"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Marseille"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Марсеј"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Marseille"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Marseille"
+       },
+       "io": {
+        "language": "io",
+        "value": "Marseille"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "مارسی"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Marsella"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Марсель"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Murṣileyya"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Marseille"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "마르세유"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Marseille"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Marseļa"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Marsella"
+       },
+       "id": {
+        "language": "id",
+        "value": "Marseille"
+       },
+       "de": {
+        "language": "de",
+        "value": "Marseille"
+       },
+       "en": {
+        "language": "en",
+        "value": "Marseille"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Marseille"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Marsigghia"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "मार्सेय"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Марсель"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Մարսել"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Марсель"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Marseille"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Marsilia"
+       },
+       "co": {
+        "language": "co",
+        "value": "Marseglia"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Marseille"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Marseille"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Marseille"
+       },
+       "war": {
+        "language": "war",
+        "value": "Marseille"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "مارسی"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Marseille"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "მარსელი"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Marseille"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Marseille"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Marselis"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Marseille"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Marseille"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "马赛"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "馬賽"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "马赛"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਮਾਰਸੇਈ"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Marseille"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Марсель"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "МагӀсель"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Marseille"
+       },
+       "li": {
+        "language": "li",
+        "value": "Marseille"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Marseille"
+       },
+       "te": {
+        "language": "te",
+        "value": "మార్సే"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Marsel"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Masèy"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Марсель ош"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Марсель"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Marseille"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Marsel"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Marsel'"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Марсель"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Marseille"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "马赛"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Marseille"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Marseille"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Marseille"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Marseille"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Marseille"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Marseille"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Marseille"
+       },
+       "frc": {
+        "language": "frc",
+        "value": "Marseille"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Marseille"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Marseille"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Marseille"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Marseille"
+       },
+       "min": {
+        "language": "min",
+        "value": "Marseille"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Marseille"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Marseille"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Marseille"
+       },
+       "prg": {
+        "language": "prg",
+        "value": "Marseille"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Marselha"
+       },
+       "rgn": {
+        "language": "rgn",
+        "value": "Marseille"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Marseille"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Marseille"
+       },
+       "vmf": {
+        "language": "vmf",
+        "value": "Marseille"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Marseille"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Marseille"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Marseille"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "مارسی"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Μασσαλία"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "মার্সেই"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Марсел"
+       },
+       "si": {
+        "language": "si",
+        "value": "මාර්සේල්ස්"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "માર્સેલી"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಮರ್ಸಿಯ್ಲ್"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Marseille"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "മാർസേയ്"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "馬賽"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Marseille"
+       },
+       "so": {
+        "language": "so",
+        "value": "Marseille"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Marseii"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Մարսէյլ"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Marseille"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Marseille"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Marseille"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "马赛"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "马赛"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "馬賽"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "馬賽"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "馬賽"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Marsella"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Marsel"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Marseille"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Marsilja"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Марсэль"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "مارساي"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Marseille"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Marseille"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "مارسيليا"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Marsel"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Marseille"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Marseille"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Marseille"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Maseli"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Marselha"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Maseje"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Mæssilhȳð"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Marseille"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "مارسيلئ"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q23482&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:51:59.802715+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "08fe5ad97a88aa0dc8176c1d0e4ec2b2f4a78ad1",
+        "datavalue": {
+         "value": {
+          "latitude": 43.296666666667,
+          "longitude": 5.3763888888889,
+          "altitude": null,
+          "precision": 0.00027777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q23482$4FCFCFFB-AA3C-4381-835D-8CC9BCAC3C39",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "72bd649cff6312781343b6d77df48cd08779d709",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "f747cc5a0b0d9b332032ebdd0bc6d90838ea13f8",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 20894925,
+              "id": "Q20894925"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "ff3b4928f50df025966fab92e3ab5fa610286590",
+            "datavalue": {
+             "value": {
+              "time": "+2015-10-26T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q23482&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:00.050718+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "c05db5d169c2560b9799d567a803d20a392f53e4",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 142,
+          "id": "Q142"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q23482$7624EC8F-B42D-4174-9BF9-DCE1F6352849",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "261b93e0e9dd7de57f2daaf1d4c613f5ed30f687",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "6db5c6fdedf1880d9d1972a9ba9f8ad412ce92db",
+            "datavalue": {
+             "value": "591",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "0c8bd92e73708301fbdef488186bd3197b7c3d1c",
+            "datavalue": {
+             "value": {
+              "time": "+2018-08-06T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q142&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:00.856058+00:00",
+   "response": {
+    "entities": {
+     "Q142": {
+      "type": "item",
+      "id": "Q142",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Фаронса"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Francúzsko"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "فرانس"
+       },
+       "na": {
+        "language": "na",
+        "value": "Prant"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Франција"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ফ্রান্স"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "iFulansi"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "ফ্রান্স"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "फ़्रान्स"
+       },
+       "la": {
+        "language": "la",
+        "value": "Francia"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "په رانسه"
+       },
+       "so": {
+        "language": "so",
+        "value": "Faransiiska"
+       },
+       "ug-latn": {
+        "language": "ug-latn",
+        "value": "Fransiye"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Frans"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Франція"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Франци"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Farayse"
+       },
+       "za": {
+        "language": "za",
+        "value": "Fazgoz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Fránsì"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Francia"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Франция"
+       },
+       "is": {
+        "language": "is",
+        "value": "Frakkland"
+       },
+       "es": {
+        "language": "es",
+        "value": "Francia"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଫ୍ରାନ୍ସ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Франция Мастор"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "פראנקרייך"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Fhrainc"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Franciaország"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Franțiya"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "França"
+       },
+       "pfl": {
+        "language": "pfl",
+        "value": "Frongraisch"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "France"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Ubufaransa"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Fraunce"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Prancūzėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Praņceja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Dáághahii Dineʼé Bikéyah"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "法国"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Francija"
+       },
+       "az": {
+        "language": "az",
+        "value": "Fransa"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "فرانسه"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "法國"
+       },
+       "min": {
+        "language": "min",
+        "value": "Parancih"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಫ್ರಾನ್ಸ್"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Франциа"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Франция"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Fora"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Francia"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "France"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "பிரான்சு"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Francoska"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Franskit Nunaat"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Prancūzija"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Франция"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Франц"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Fransa"
+       },
+       "om": {
+        "language": "om",
+        "value": "Firaansi"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Faransa"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Frenkistan"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Perancis"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Parancis"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Franța"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "फ्रांस"
+       },
+       "av": {
+        "language": "av",
+        "value": "Франсия"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "France"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "France"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Franciya"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "فرانسه"
+       },
+       "st": {
+        "language": "st",
+        "value": "Fora"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "فرانسا"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດຝຣັ່ງ"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Ufaransa"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Frankriek"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Frankreich"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Pransya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Frankrig"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "फ्रांस"
+       },
+       "el": {
+        "language": "el",
+        "value": "Γαλλία"
+       },
+       "pdt": {
+        "language": "pdt",
+        "value": "Fraunkrikj"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Fransi"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Frenkistan"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Francija"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Gallia"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ፈረንሳ"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Францие"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Farāni"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Rank"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Fransɩɩ"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "فرنسا"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Franskondre"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Francia"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Fransa"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Frans"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Baranja"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Francyjo"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Peurancih"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Франци"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Frens"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "França"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Франция"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Fura"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Франция"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Frankreich"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Phransiya"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Fransiya"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "فرٛانٛس"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "法國"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Franza"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Ֆրանսիա"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Francii"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "फ़्रांस"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Fransia"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "फ्रान्स"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Frankrijk"
+       },
+       "de": {
+        "language": "de",
+        "value": "Frankreich"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "France"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Farani"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Pransiya"
+       },
+       "war": {
+        "language": "war",
+        "value": "Fransya"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Franchiya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "fasygu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Фрэндж"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "فرانسىيە"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Кранцмастор"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Fráncia"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "فرانسه"
+       },
+       "en": {
+        "language": "en",
+        "value": "France"
+       },
+       "as": {
+        "language": "as",
+        "value": "ফ্ৰান্স"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Frantza"
+       },
+       "my": {
+        "language": "my",
+        "value": "ပြင်သစ်နိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "法国"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Frankrïjhke"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ཕརཱནསི་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Prantsusmaa"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Fráncia"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Faraas"
+       },
+       "os": {
+        "language": "os",
+        "value": "Франц"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "法國"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Frankrike"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "França"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "法国"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "فرانسه"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Francia"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Bufalansa"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Francjô"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Francio"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "France"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Franis"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Falansa"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഫ്രാൻസ്"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "فەڕەنسا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Falansia"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "France"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Ffrainc"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Fora"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "فرانس"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Frankrik"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Frankriek"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "फ्रान्स"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Frakland"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "France"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍆𐍂𐌰𐌲𐌺𐌰𐍂𐌴𐌹𐌺𐌹"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "法國"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Prancis"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Franza"
+       },
+       "li": {
+        "language": "li",
+        "value": "Frankriek"
+       },
+       "new": {
+        "language": "new",
+        "value": "फ्रान्स"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Prantsusmaa"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Ranska"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "法國"
+       },
+       "id": {
+        "language": "id",
+        "value": "Prancis"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "फ्रांस"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ફ્રાન્સ"
+       },
+       "su": {
+        "language": "su",
+        "value": "Prancis"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Франци"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Francia"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਫ਼ਰਾਂਸ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "France"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Pháp"
+       },
+       "ug-arab": {
+        "language": "ug-arab",
+        "value": "فرانسىيە"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Pransia"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Frange"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "法國"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "France"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "France"
+       },
+       "af": {
+        "language": "af",
+        "value": "Frankryk"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Fransiya"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Франция"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Farânzi"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Frankrike"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Frankriich"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Frans"
+       },
+       "si": {
+        "language": "si",
+        "value": "ප්‍රංශය"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "法国"
+       },
+       "km": {
+        "language": "km",
+        "value": "បារាំង"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Prantsūzmō"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Francia"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Fransa"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Франция"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "საფრანგეთი"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Frankriek"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Франция"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Fransän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱯᱷᱨᱟᱱᱥ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Francia"
+       },
+       "frc": {
+        "language": "frc",
+        "value": "France"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Fransia"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎦᎸᏥᏱ"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Palani"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "法國"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "France"
+       },
+       "he": {
+        "language": "he",
+        "value": "צרפת"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Franche"
+       },
+       "tg-cyrl": {
+        "language": "tg-cyrl",
+        "value": "Фаронса"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Frantsa"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Fráns"
+       },
+       "co": {
+        "language": "co",
+        "value": "Francia"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Francojska"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "فرانس"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Fransa"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Huák-guók"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Hoat-kok"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Hyãsia"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Франция"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Frankreich"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Francuska"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Francuska"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "法國"
+       },
+       "te": {
+        "language": "te",
+        "value": "ఫ్రాన్స్"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Франс"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Франция"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Франция"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Francland"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "फ्रांस"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Fransiya"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Fransiýa"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "France"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Пранцсин Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Франкїꙗ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Fraunkreich"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "France"
+       },
+       "aa": {
+        "language": "aa",
+        "value": "Faransa"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Францыя"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "France"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Fransa"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Francia"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "An Fhraing"
+       },
+       "be": {
+        "language": "be",
+        "value": "Францыя"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "საფრანგეთი"
+       },
+       "prg": {
+        "language": "prg",
+        "value": "Prankrīki"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Франци"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Франция"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "فرانسه"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Frankriek"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཧྥ་རན་སི།"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Франца"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Wīwī"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Francja"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "France"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "France"
+       },
+       "am": {
+        "language": "am",
+        "value": "ፈረንሣይ"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Francuska"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Франция"
+       },
+       "io": {
+        "language": "io",
+        "value": "Francia"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Fransa"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Franza"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "法国"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Frankrike"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Vrankryk"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Francë"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Frantscha"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Γαλλία"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "França"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Франций"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "فرانصا"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Fransia"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Франція"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Frankryk"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Fransa"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Fransii"
+       },
+       "rn": {
+        "language": "rn",
+        "value": "Ubufaransa"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IFulansi"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Furhwa"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ފަރަންސޭސިވިލާތް"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "فرنسا"
+       },
+       "aln": {
+        "language": "aln",
+        "value": "Frankreich"
+       },
+       "se": {
+        "language": "se",
+        "value": "Frankriika"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Fransiah"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Ransiya"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܦܪܰܢܣܰܐ"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Francie"
+       },
+       "aeb-latn": {
+        "language": "aeb-latn",
+        "value": "frànsa"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Pow Frynk"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Frànsa"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Fransia"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Frankräich"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Француска"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Francuska"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "フランス"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "프랑스"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Frans"
+       },
+       "br": {
+        "language": "br",
+        "value": "Frañs"
+       },
+       "an": {
+        "language": "an",
+        "value": "Francia"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "फ्रान्स्"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Frància"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศฝรั่งเศส"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Fap-koet"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "फ्रान्स"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Француска"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Frankreich"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Ֆրանսա"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Ranska"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߝߊ߬ߙߊ߲߬ߛߌ߫"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "فرانسه"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Fransa"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Perancis"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Frans"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "France"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Varanise"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Perancis"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "फ्रांस"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းၾရၢင်ႇသဵတ်ႈ"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Franskkjânnam"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Franca"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Franzia"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨄᨛᨑᨏᨗᨔᨗ"
+       },
+       "tg-latn": {
+        "language": "tg-latn",
+        "value": "Faronsa"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᕗᕌᓐᔅ"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Perancis"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "France"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "France"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "ڤرنچيس"
+       },
+       "shy-latn": {
+        "language": "shy-latn",
+        "value": "Fransa"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Fṛansa"
+       },
+       "sje": {
+        "language": "sje",
+        "value": "Frankrijjka"
+       },
+       "to": {
+        "language": "to",
+        "value": "Falanisē"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Γαλλία"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯐ꯭ꯔꯥꯟꯁ"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "France"
+       },
+       "atj": {
+        "language": "atj",
+        "value": "Pakwe Emitikociwi Aski"
+       },
+       "wls": {
+        "language": "wls",
+        "value": "Falani"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "France"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Fi̱ransa (a̱byin)"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Fransa"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "France"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "فرانسا"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Kanse"
+       },
+       "guc": {
+        "language": "guc",
+        "value": "Püransia"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "फ्रांस"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "France"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "France"
+       },
+       "ryu": {
+        "language": "ryu",
+        "value": "フランス"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Fyrəngyston"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ပိဉ်တိစ်ခမ်းထီ"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴼⵕⴰⵏⵚⴰ"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Paransis"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "فرانس"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Perancis"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Prasman"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "फ्रान्स"
+       },
+       "fon": {
+        "language": "fon",
+        "value": "Fransi"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Perancis"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Prancis"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Furans"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Peranchis"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Frengístan"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "France"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠚꠦꠞꠣꠘ꠆ꠌ"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Frantzia"
+       },
+       "gaa": {
+        "language": "gaa",
+        "value": "France"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Prancis"
+       },
+       "bdr": {
+        "language": "bdr",
+        "value": "Perancis"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "France"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Perancis"
+       },
+       "igl": {
+        "language": "igl",
+        "value": "France"
+       },
+       "cho": {
+        "language": "cho",
+        "value": "Fla̱s"
+       },
+       "dga": {
+        "language": "dga",
+        "value": "France"
+       },
+       "ppl": {
+        "language": "ppl",
+        "value": "Francia"
+       },
+       "pwn": {
+        "language": "pwn",
+        "value": "France"
+       },
+       "kaj": {
+        "language": "kaj",
+        "value": "Fu̱ransa"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "France"
+       },
+       "gur": {
+        "language": "gur",
+        "value": "France"
+       },
+       "guw": {
+        "language": "guw",
+        "value": "France"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Paransa"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "France"
+       },
+       "din": {
+        "language": "din",
+        "value": "France"
+       },
+       "kus": {
+        "language": "kus",
+        "value": "France"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "ပြင်သေတ်"
+       },
+       "fat": {
+        "language": "fat",
+        "value": "France"
+       },
+       "nr": {
+        "language": "nr",
+        "value": "France"
+       },
+       "rki": {
+        "language": "rki",
+        "value": "ပြင်သစ်နိုင်ငံ"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Франција"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Francija"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

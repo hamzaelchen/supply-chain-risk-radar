@@ -1,0 +1,2036 @@
+{
+ "wikidata_id": "Q16520",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q16520&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:36.237047+00:00",
+   "response": {
+    "entities": {
+     "Q16520": {
+      "pageid": 19238,
+      "ns": 0,
+      "title": "Q16520",
+      "lastrevid": 2553222236,
+      "modified": "2026-10-04T23:07:02Z",
+      "type": "item",
+      "id": "Q16520",
+      "labels": {
+       "ko": {
+        "language": "ko",
+        "value": "부산광역시"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Busan"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Busan"
+       },
+       "de": {
+        "language": "de",
+        "value": "Busan"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Busan"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Busan"
+       },
+       "af": {
+        "language": "af",
+        "value": "Busan"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "بوسان"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Пусан"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Busan"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Pusan"
+       },
+       "da": {
+        "language": "da",
+        "value": "Busan"
+       },
+       "el": {
+        "language": "el",
+        "value": "Μπουσάν"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Pusano"
+       },
+       "es": {
+        "language": "es",
+        "value": "Busan"
+       },
+       "et": {
+        "language": "et",
+        "value": "Busan"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Busan"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "بوسان"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Busan"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Pusan"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Busan"
+       },
+       "he": {
+        "language": "he",
+        "value": "פוסאן"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "बुसान"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Բուսան"
+       },
+       "id": {
+        "language": "id",
+        "value": "Busan"
+       },
+       "io": {
+        "language": "io",
+        "value": "Busan"
+       },
+       "it": {
+        "language": "it",
+        "value": "Busan"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "釜山広域市"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Busan"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "პუსანი"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Busan"
+       },
+       "la": {
+        "language": "la",
+        "value": "Pusanum"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Busan"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Busanas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Pusana"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Busan"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ബുസാൻ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Пүсан"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "बुसान"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဘူဆန်မြို့"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "بوسان"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Busan"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Pusan"
+       },
+       "os": {
+        "language": "os",
+        "value": "Пусан"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Pusan"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "بسان"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Busan"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Busan"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Busan"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Пусан"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Пусан"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Busan"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Pusan"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Бусан"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Busan"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Busan"
+       },
+       "th": {
+        "language": "th",
+        "value": "ปูซาน"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Busan"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Busan"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Пусан"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Busan"
+       },
+       "war": {
+        "language": "war",
+        "value": "Busan"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "釜山广域市"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "釜山"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "釜山"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "釜山廣域市"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "釜山广域市"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "釜山廣域市"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "釜山"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "釜山"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "釜山廣域市"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "釜山广域市"
+       },
+       "be": {
+        "language": "be",
+        "value": "Пусан"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Busan"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Busan"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਬੂਸਾਨ"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Puszan"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Busan"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Busan"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Pusan"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "بوسان"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Пусан"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "釜山"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Пусан"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Пусан"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "釜山"
+       },
+       "az": {
+        "language": "az",
+        "value": "Busan"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "புசான்"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Пусан"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Busan"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Pusan"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Пусан"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Hú-san Kóng-e̍k-chhī"
+       },
+       "su": {
+        "language": "su",
+        "value": "Busan"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Busan"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Busan"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Pusan"
+       },
+       "br": {
+        "language": "br",
+        "value": "Busan"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Пусан"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Fú-sân"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Пусан"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Busan"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Busan (lalawigan)"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "বুসান"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Пусан"
+       },
+       "te": {
+        "language": "te",
+        "value": "బుసాన్"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Busan"
+       },
+       "si": {
+        "language": "si",
+        "value": "බුසාන්"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "બુસાન"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಬುಸಾನ್"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Busan"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Busan"
+       },
+       "am": {
+        "language": "am",
+        "value": "ቡሳን"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Busan"
+       },
+       "is": {
+        "language": "is",
+        "value": "Busan"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Busan"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Pusan"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Pusan"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Busan"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Busan"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Пусан"
+       },
+       "en": {
+        "language": "en",
+        "value": "Busan"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Busan"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "بوسان"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Busan"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "عين السبع"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "პუსანი"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "بوسان"
+       },
+       "km": {
+        "language": "km",
+        "value": "ប៊ូសាន"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Busan"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Busan"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Бусон"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Busan"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Пусан"
+       },
+       "igl": {
+        "language": "igl",
+        "value": "Pusan"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Busan"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "بُسان"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປູຊານ"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "بوسان"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Busan"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "بوسان"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Busan"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma tomo Pusan"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Busan"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "བུ་སཱན། སཱའུཐ་ཀོ་རི་ཡ། Busan, South Korea"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Busan"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Busan"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q16520&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:36.489330+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "3cce8d962b7430788ad9478fc3cc764c2f013e88",
+        "datavalue": {
+         "value": {
+          "latitude": 35.18,
+          "longitude": 129.075,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q16520$319EED7C-A43C-4CC1-BA2E-14BE17D993C1",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q16520&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:37.262653+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "ab4105e4f6c3449ba4a6ca949a3aaafaa67f5be8",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 884,
+          "id": "Q884"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q16520$8CA5207C-36C0-41AE-A5F6-19A0C2202CBA",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 11920,
+              "id": "Q11920"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q884&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:37.887017+00:00",
+   "response": {
+    "entities": {
+     "Q884": {
+      "type": "item",
+      "id": "Q884",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Ҷумҳурии Корея"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Kórejská republika"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "جنوبی کوریا"
+       },
+       "na": {
+        "language": "na",
+        "value": "Ripubrikin Korea"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Јужна Кореја"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "খা কোরিয়া"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Pietų Korėja"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Coirèa a Deas"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "جنوبی کوریا"
+       },
+       "so": {
+        "language": "so",
+        "value": "Koonfur Kuuriya"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "대한민국"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Korejan Tazovaldkund"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Південна Корея"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Corea de su Sud"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Өмнөд Солонгос"
+       },
+       "za": {
+        "language": "za",
+        "value": "Hanzgoz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Kòréà Gúúsù"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Corea el Sul"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "South Korea"
+       },
+       "es": {
+        "language": "es",
+        "value": "Corea del Sur"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଦକ୍ଷିଣ କୋରିଆ"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "דרום קארעע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Chóiré Theas"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Repùblika Kòreji"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Üülen Koreya"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Corèa del Sud"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Koreya y’Amajyepfo"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Sooth Korea"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Pėitū Kuoriejė"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Shádiʼááhjí Binááʼádaałtsʼózí Dineʼé Bikéyah Yázhí"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "大韩民国"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Koreia Súl"
+       },
+       "az": {
+        "language": "az",
+        "value": "Cənubi Koreya"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "جنوبی کوره"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "大韩民国"
+       },
+       "min": {
+        "language": "min",
+        "value": "Korea Salatan"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ದಕ್ಷಿಣ ಕೊರಿಯಾ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Zuid-Korea"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Республика Корея"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Corea del Sur"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "தென் கொரியா"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Koréa Kidul"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Республика Силлойче"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "दक्षिण कोरिया"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Көньяк Корея"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Өмнөд Солонгос"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Coréa dël Sud"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Južna Koreja"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Cenübiy Koreya"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Korea Selatan"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Coreea de Sud"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "दक्खिन कोरिया"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Südkorea"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "South Korea"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Qubla Koreya"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Lõunõ-Korea"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "كوريا الجنوبية"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດເກົາຫຼີໃຕ້"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Korea Kusini"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Süüdkorea"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Sur nin Korea"
+       },
+       "da": {
+        "language": "da",
+        "value": "Sydkorea"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Corea del Sud"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Dienvidkoreja"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ደቡብ ኮርያ"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Natiq Korea"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Chorea Yiass"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Kooree Hadɛ Kiŋ"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Coreia do Sul"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "كوريا الجنوبية"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "দক্ষিণ কোরিয়া"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Sowth Koriya"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Połedńowo Koryjo"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Korèa Seulatan"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศเกาหลีใต้"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Coreia do Sul"
+       },
+       "io": {
+        "language": "io",
+        "value": "Sud-Korea"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "大韩民国"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Республика Корея"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Saut Koria"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Timog Korea"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Koriya ta Kudu"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "جنوبی کوره"
+       },
+       "an": {
+        "language": "an",
+        "value": "Coreya d'o Sud"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Հարավային Կորեա"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Corée du Sud"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Korya Veroci"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "दक्षिण कोरिया"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Sud Korea"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "दक्षिण कोरिया"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Sud-Koreio"
+       },
+       "de": {
+        "language": "de",
+        "value": "Südkorea"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Kolea i Saute"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Mauling Korea"
+       },
+       "war": {
+        "language": "war",
+        "value": "Salatan nga Korea"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Sudutni Koreya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "snanu zei .xanguk"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "КӀэрей Республикэ"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "کره هارگه"
+       },
+       "en": {
+        "language": "en",
+        "value": "South Korea"
+       },
+       "as": {
+        "language": "as",
+        "value": "দক্ষিণ কোৰিয়া"
+       },
+       "os": {
+        "language": "os",
+        "value": "Хуссар Корей"
+       },
+       "my": {
+        "language": "my",
+        "value": "ကိုရီးယားသမ္မတနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "大韩民国"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "ལྷོ་ཀོ་རི་ཡ་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Lõuna-Korea"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Corea del Sur"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Kore gu Bëj-saalum"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨀᨚᨑᨙᨐ ᨑᨗᨐᨈ"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "大韓民國"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Sør-Korea"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏧᎦᎾᏮ ᎪᎵᎠ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "大韩民国"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Corée du Sud"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Corea do Sur"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Coree d'u Sud"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "大韓民國"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "South Korea"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Saot Koria"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Corea dal Sid"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ദക്ഷിണ കൊറിയ"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "کۆریای باشوور"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Kore ya Sidi"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Corê du Sud"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "De Corea"
+       },
+       "la": {
+        "language": "la",
+        "value": "Corea Meridiana"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Süüdkorea"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Корея Республикасы"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "दक्षिण कोरिया"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Suðurkorea"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Corée du Sud"
+       },
+       "is": {
+        "language": "is",
+        "value": "Suður-Kórea"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Južna Koreja"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Korea t'Isfel"
+       },
+       "li": {
+        "language": "li",
+        "value": "Zuud-Korea"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "سوېلي کوريا"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Korean tasavalta"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "大韓民國"
+       },
+       "id": {
+        "language": "id",
+        "value": "Korea Selatan"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "दक्षिण कोरिया"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "દક્ષિણ કોરિયા"
+       },
+       "su": {
+        "language": "su",
+        "value": "ᮛᮦᮕᮥᮘᮣᮤᮊ᮪ ᮊᮧᮛᮦᮃ"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Corea del Sud"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਦੱਖਣੀ ਕੋਰੀਆ"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Soelí Koríá"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Hàn Quốc"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Abagatan a Korea"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "韓國"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Dakshin Korea"
+       },
+       "af": {
+        "language": "af",
+        "value": "Suid-Korea"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Habagatang Korea"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Корея Республика"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Sør-Korea"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Südkorea"
+       },
+       "si": {
+        "language": "si",
+        "value": "දකුණු කොරියාව"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "大韩民国"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Sydkorea"
+       },
+       "km": {
+        "language": "km",
+        "value": "កូរ៉េខាងត្បូង"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "South Korea"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Corea dû Sud"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Kurya n Wenẓul"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Южна Корея"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Hego Korea"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ობჟათე კორეა"
+       },
+       "tyv": {
+        "language": "tyv",
+        "value": "Мурнуу Корея"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Sulüda-Koreyän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱮᱛᱚᱢ ᱠᱳᱨᱤᱭᱟ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Südkorea"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Surkorea"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "दक्षिण कोरिया"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Kōlea Hema"
+       },
+       "om": {
+        "language": "om",
+        "value": "Kooriyaa Kibbaa"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Korea Kujalleq"
+       },
+       "he": {
+        "language": "he",
+        "value": "קוריאה הדרומית"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Pódpołdnjowa Koreja"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Suvi Korea"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Corea del Sud"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Hàng-guók"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Tāi-hân Bîn-kok"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Yvykorea"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Južna Koreja"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ڏکڻ ڪوريا"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Južna Koreja"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Dél-Korea"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "大韓民國"
+       },
+       "te": {
+        "language": "te",
+        "value": "దక్షిణ కొరియా"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Көньяҡ Корея"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Соҕуруу Кэриэйэ"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Sūþcorēa"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "दक्षिण कोरिया"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Koreya Respublikasi"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Koreýa Respublikasy"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "South Korea"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Корєꙗ Димократїꙗ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Corea del Sud"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Hangu ya Sudi"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Рэспубліка Карэя"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "South Korea"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "대한민국"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Sud-Korea"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Kore disid"
+       },
+       "be": {
+        "language": "be",
+        "value": "Паўднёвая Карэя"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "სამხრეთი კორეა"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Къилба Корей"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Корея Республика"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "کره جنوبی"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Zuud-Korea"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ལྷོ་ཀོ་རི་ཡ།"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Sout Koria"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Корея де Суд"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Kōrea-ki-te-tonga"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Korea Południowa"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "South Korea"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Südkorea"
+       },
+       "am": {
+        "language": "am",
+        "value": "ደቡብ ኮርያ"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Južna Koreja"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Республика Корея"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Корея Республикасы"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Corea d''o Sud"
+       },
+       "el": {
+        "language": "el",
+        "value": "Νότια Κορέα"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Zuud-Korea"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Koreja e Jugut"
+       },
+       "new": {
+        "language": "new",
+        "value": "दक्षिण कोरिया"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Korea Atsimo"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Südkorea"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Кечывалвел Корей"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "جەنۇبىي چاۋشيەن"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Южна Корея"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Súd-Korea"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Komara Korêyê"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Cenübiy Koreya"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IKhoriya leseNingizimu"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Korea Dzonga"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ދެކުނު ކޮރެއާ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "كوريا الجنوبيه"
+       },
+       "se": {
+        "language": "se",
+        "value": "Lulli-Korea"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Tsintlan Koreah"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Tayhan Republika"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Jižní Korea"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Korea Dhyhow"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Corea do Sud"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Korea del Sud"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Zuud-Korea"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Јужна Кореја"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Južna Koreja"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "大韓民国"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Güney Kore"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Tehan"
+       },
+       "br": {
+        "language": "br",
+        "value": "Korea ar Su"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "大韓民國"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "दक्षिण कोरिया"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Curea del Süd"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Thai-hôn Mìn-koet"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "दक्षिण कोरिया"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Јужна Кореја"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "大韓民國"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᑯᕆᐃ ᓂᒋᐊᓂ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Корея Республикась"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Républik Korea"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Korea, south"
+       },
+       "co": {
+        "language": "co",
+        "value": "Corea di u Sudu"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Koré di Sid"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "كوريا لجنوبية"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Republic of Korea"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းၵၢဝ်းလီၸၢၼ်း"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍃𐌿𐌽𐌸𐍂𐌰𐌺𐌰𐌿𐍂𐌹𐌰"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Corea del Sur"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Maadâ-Korea"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Saujj-Korea"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Corea dl Sud"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Sauca Korea"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Korèa Lao'"
+       },
+       "nia": {
+        "language": "nia",
+        "value": "Korea Raya"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Dīnavydu Koreja"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "South Korea"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Korea, south"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Corêye nonnrece"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Bofuben-Korea"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Аладатәи Кореиа"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯈꯥ ꯀꯣꯔꯤꯌꯥ"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Νότιος Κορέα"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Korea, south"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Korea anaafoɔ"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "جۆنوٗبی کۄرِیا"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "South Korea"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Kworiya A̱tak"
+       },
+       "to": {
+        "language": "to",
+        "value": "Kōlea Tonga"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "کوريا سلاتن"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Лямбеширень Корэя"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Korea Kidul"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Republika kang Korea"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "كوريا الجنوبية"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Anku"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ကိုးရီးယားခမ်းနဝ်"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "दक्षिण कोरिया"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "South Korea"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Korea Dangsina"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Nyso Korejə"
+       },
+       "ryu": {
+        "language": "ryu",
+        "value": "南高麗"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴽⵓⵔⵢⴰ ⵏ ⵉⴼⴼⵓⵙ"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Coreia de l Sul"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Հարաւային Քորէա"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Coree dal Sud"
+       },
+       "igl": {
+        "language": "igl",
+        "value": "South Korea"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Koréa Kidul"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Korea Kabaatan"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Korea Selatan"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Kurya n iffus"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Korea Hulu"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Korea Selatan"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Корей Республики"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Kúnbetí-Kore"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠖꠇ꠆ꠘꠞ ꠇꠥꠞꠤꠀ"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "كوريا الجنوبية"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-South Korea"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "South Korea"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Korea Selatan"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "نسايي کؤره"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "South Korea"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "South Korea"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "दक्षिण कोरिया"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "South Korea"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ದಕ್ಷಿಣ ಕೊರಿಯಾ"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "South Korea"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

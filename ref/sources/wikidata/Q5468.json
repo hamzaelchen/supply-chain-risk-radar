@@ -1,0 +1,2114 @@
+{
+ "wikidata_id": "Q5468",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q5468&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:38.654795+00:00",
+   "response": {
+    "entities": {
+     "Q5468": {
+      "pageid": 6431,
+      "ns": 0,
+      "title": "Q5468",
+      "lastrevid": 2532334440,
+      "modified": "2026-08-17T13:10:23Z",
+      "type": "item",
+      "id": "Q5468",
+      "labels": {
+       "de": {
+        "language": "de",
+        "value": "Durban"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Durban"
+       },
+       "en": {
+        "language": "en",
+        "value": "Durban"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Durban"
+       },
+       "it": {
+        "language": "it",
+        "value": "Durban"
+       },
+       "af": {
+        "language": "af",
+        "value": "Durban"
+       },
+       "am": {
+        "language": "am",
+        "value": "ደርባን"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Durban"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "ديربان"
+       },
+       "be": {
+        "language": "be",
+        "value": "Дурбан"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Дърбан"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Durban"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Durban"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Durban"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Durban"
+       },
+       "da": {
+        "language": "da",
+        "value": "Durban"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ντέρμπαν"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Durbano"
+       },
+       "es": {
+        "language": "es",
+        "value": "Durban"
+       },
+       "et": {
+        "language": "et",
+        "value": "Durban"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Durban"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "دوربان"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Durban"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Durban"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Durban"
+       },
+       "he": {
+        "language": "he",
+        "value": "דרבן"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "डर्बन"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Durban"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Durban"
+       },
+       "id": {
+        "language": "id",
+        "value": "Durban"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Durban"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ダーバン"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "დურბანი"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Дурбан"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಡರ್ಬನ್"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "더반"
+       },
+       "la": {
+        "language": "la",
+        "value": "Durbanum"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Durban"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Durban"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Durbanas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Durbana"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Дурбан"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഡർബൻ"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "डर्बन"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Durban"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Durban"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Durban"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Durban"
+       },
+       "os": {
+        "language": "os",
+        "value": "Дурбан"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Durban"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Durban"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "ڈربن"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Durban"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Durban"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Дурбан"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Durban"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Durban"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Durban"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Durban"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Дурбан"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Durban"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Durban"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "டர்பன்"
+       },
+       "te": {
+        "language": "te",
+        "value": "డర్బన్"
+       },
+       "th": {
+        "language": "th",
+        "value": "เดอร์บัน"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Durban"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Дурбан"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "ڈربن"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Durban"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Durban"
+       },
+       "war": {
+        "language": "war",
+        "value": "Durban"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Durban"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "德班"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "ITheku"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Дурбан"
+       },
+       "br": {
+        "language": "br",
+        "value": "Durban"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਡਰਬਨ"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Дурбан"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Дурбан"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Durban"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Durban"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "爹濱"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "EThekwini"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Դուրբան"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Durban"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Durban"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Durban"
+       },
+       "st": {
+        "language": "st",
+        "value": "Thekong"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဒါဘန်မြို့"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Durban"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Durban"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "Durban"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Durban"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ডারবান"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "डर्बन"
+       },
+       "si": {
+        "language": "si",
+        "value": "ඩර්බන්"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "ડર્બન"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Turibani"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Durban"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Durban"
+       },
+       "io": {
+        "language": "io",
+        "value": "Durban"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Durban"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Durban"
+       },
+       "az": {
+        "language": "az",
+        "value": "Durban"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Durban (Steed)"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Durban"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "德班"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "德班"
+       },
+       "is": {
+        "language": "is",
+        "value": "Durban"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Durban"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Durbanas"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Durban"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "ديربان"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Durban"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Durban"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "डरबन"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Durban"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Дурбан"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Дурбан"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "德班"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "德班"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Durban"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "დურბანი"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ڊربن"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Durban"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Durban"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Дурбан"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "دووربان"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q5468&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:39.043567+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "42011f2171e28e91b14956f1682b68f0cea2c4a3",
+        "datavalue": {
+         "value": {
+          "latitude": -29.858333333333,
+          "longitude": 31.025,
+          "altitude": null,
+          "precision": 0.00027777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q5468$F1535330-5BCF-4C7C-A059-C9B32C293C57",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "3d77f0ae540f9746fed639ef31defb1a13094fec",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "766b0b458d9037943cd93cef0c7465fac1f87998",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 42274,
+              "id": "Q42274"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q5468&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:39.273563+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "10885211025f7eed75a9d05dfa3113acdf746bf2",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 258,
+          "id": "Q258"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "Q5468$2f7bf646-4199-bfdd-84e2-2e61ec5d186b",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "1324df319a75079f6d4c62899a07f59fdeb470de",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 193619,
+          "id": "Q193619"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "21e9c6bd101e6ba2027a3a650615c832edaa2c4d",
+          "datavalue": {
+           "value": {
+            "time": "+1910-05-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "eb79fecc452bbd6a8f94136cbbd74b7bef526e33",
+          "datavalue": {
+           "value": {
+            "time": "+1961-05-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q5468$b646b2c9-4245-85bc-b27a-83e50161eef9",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "a98ed669d61d23e81e157d27f837075cf52ff090",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1301901,
+          "id": "Q1301901"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "537eaef9200a63c79f233b700aae3f8ea96806a7",
+          "datavalue": {
+           "value": {
+            "time": "+1835-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "58adb429e44d02de08ee4e8979204c1b0555b3a7",
+          "datavalue": {
+           "value": {
+            "time": "+1910-05-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q5468$15daef9c-47c4-a7b0-ebd0-cb0f32d4469d",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q258&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:39.672466+00:00",
+   "response": {
+    "entities": {
+     "Q258": {
+      "type": "item",
+      "id": "Q258",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Африқои Ҷанубӣ"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Juhoafrická republika"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "جنوبی افریقا"
+       },
+       "na": {
+        "language": "na",
+        "value": "South Aprika"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "ЈАР"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "দক্ষিণ আফ্রিকা"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IRiphabliki yaseNingizimu Afrika"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "UMzantsi Afrika"
+       },
+       "ny": {
+        "language": "ny",
+        "value": "South Africa"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Sout Afrika"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "جنوبی افریقا"
+       },
+       "so": {
+        "language": "so",
+        "value": "Koonfur Afrika"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Suviafrikan Tazovaldkund"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Південно-Африканська Республіка"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Урда Африкын Улас"
+       },
+       "za": {
+        "language": "za",
+        "value": "Nanzfeih"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Gúúsù Áfríkà"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Sudáfrica"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Zuud-Afrika"
+       },
+       "es": {
+        "language": "es",
+        "value": "Sudáfrica"
+       },
+       "or": {
+        "language": "or",
+        "value": "ଦକ୍ଷିଣ ଆଫ୍ରିକା"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "דרום אפריקע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Afraic Theas"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Dél-afrikai Köztársaság"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Üülen Afrika Respublikası"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "খা আফ্রিকা"
+       },
+       "chy": {
+        "language": "chy",
+        "value": "Mo'hetaneho'e hánêsóvóne"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Afurika y’Epfo"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Sooth Africae"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Pėitū Afrėkas Respoblėka"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Dīnavydu Afrikys Republika"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Kéyah Naakaii Łizhinii Bikéyah Shádiʼááhjí Siʼánígíí"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "南非"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Afirka ta kudu"
+       },
+       "az": {
+        "language": "az",
+        "value": "Cənubi Afrika Respublikası"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "جنوبی آفریخا"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "南非"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Siadafrika"
+       },
+       "is": {
+        "language": "is",
+        "value": "Suður-Afríka"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Zuid-Afrika"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Кьибле-Африкадин Республика"
+       },
+       "tn": {
+        "language": "tn",
+        "value": "Aferika Borwa"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Sudáfrica"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "தென்னாப்பிரிக்கா"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Afrika Kidul"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "ЗIилбухе-Африкера Республика"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "दक्षिण अफ़्रीका"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Көньяк Африка Җөмһүрияте"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Afrika t'Isfel"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Sudàfrica"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Južna Afrika"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Cenübiy Afrika"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Afrika Selatan"
+       },
+       "bjn": {
+        "language": "bjn",
+        "value": "Aprika Salatan"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Africa de Sud"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "दक्खिन अफ़्रीका"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Südafrika"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Qubla Afrika Respublikası"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "سوېلي افريقا"
+       },
+       "st": {
+        "language": "st",
+        "value": "Afrika Borwa"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "جنوب إفريقيا"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Sur na Aprika"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Afrika Kusini"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Süüdafrika"
+       },
+       "ksh": {
+        "language": "ksh",
+        "value": "Südafrika"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Afrique du Sud"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Južnoafrička Republika"
+       },
+       "da": {
+        "language": "da",
+        "value": "Sydafrika"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Sud-àfrica"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Cenübiy Afrika"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Dienvidāfrika"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Africa di Not"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ደቡብ ኣፍሪቃ"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Къыблэ Африкэ Республикэ"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "’Afirita i ’Apato’a"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "yn Affrick Yiass"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Afrika Hadɛ kiŋ"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "جنوب إفريقيا"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Yvyafrika"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Afrikaya Veroci"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Sowth Afreka"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Republika Połedńowyj Afriki"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Afrika Seulatan"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Кăнтăр Африка Республики"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Saut Aprika"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "África do Sul"
+       },
+       "io": {
+        "language": "io",
+        "value": "Sudafrika"
+       },
+       "ve": {
+        "language": "ve",
+        "value": "Afurika Tshipembe"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "ЮАР"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Südafrika"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศแอฟริกาใต้"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "گونئی آفریکا"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "南非"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Süd Africa"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Հարավաֆրիկյան Հանրապետություն"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Sud-Africa"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Sør-Afrika"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "दक्षिण अफ्रिका"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Sud Afrika"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "दक्षिण अफ्रिका"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Sud-Afriko"
+       },
+       "de": {
+        "language": "de",
+        "value": "Südafrika"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "South Africa"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Pietų Afrikos Respublika"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Mauling Aprika"
+       },
+       "war": {
+        "language": "war",
+        "value": "Salatan nga Apriká"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "nanfi'ogu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Ипшъэ Африкэ Республикэ"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "جەنۇبىي ئافرىقا"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Лямбеширень Африконь Республикась"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "África de l Sul"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "آفریقا ھارگە"
+       },
+       "en": {
+        "language": "en",
+        "value": "South Africa"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "آپریکایی جنوبی"
+       },
+       "os": {
+        "language": "os",
+        "value": "Хуссар Африкæ"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Afrika Selatan"
+       },
+       "my": {
+        "language": "my",
+        "value": "တောင်အာဖရိကနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "南非"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Åarjel-Afrika"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "སའུཐ་ཨཕ་རི་ཀ་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Lõuna-Aafrika Vabariik"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Sudafrica"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Afrig gu Bëj-saalum"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "南非"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Sør-Afrika"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎤᎦᏃᏮᎬᎿᎨᏍᏛ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "南非"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "South Africa"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Suráfrica"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "南非"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "South Africa"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Africa dal Sid"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Saut Afrikaa"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ئەفریقای باشوور"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Sidafríka"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Africa du Sud"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "De Affrica"
+       },
+       "nso": {
+        "language": "nso",
+        "value": "Afrika Borwa"
+       },
+       "la": {
+        "language": "la",
+        "value": "Africa Australis"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Súd-Afrika"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Süüdafrikoo"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "South Abĩrika"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "दक्षिण आफ्रिका"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Suðurafrika"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Afrique du Sud"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "南非"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Južna Afrika"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Өмнөд Африкийн Бүгд Найрамдах Улс"
+       },
+       "li": {
+        "language": "li",
+        "value": "Zuid-Afrika"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Lõunõ-Afriga Vabariik"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Etelä-Afrikka"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "南非"
+       },
+       "id": {
+        "language": "id",
+        "value": "Afrika Selatan"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "Dokxin Afrika"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "દક્ષિણ આફ્રિકા"
+       },
+       "su": {
+        "language": "su",
+        "value": "Afrika Kidul"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Africa del Sud"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਦੱਖਣ ਅਫ਼ਰੀਕਾ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Nonne-Afrike"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Nam Phi"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Abagatan nga Aprika"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Sud Afriche"
+       },
+       "af": {
+        "language": "af",
+        "value": "Suid-Afrika"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Habagatang Aprika"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Къыбыла-Африкан Республика"
+       },
+       "sg": {
+        "language": "sg",
+        "value": "Afrîka-Mbongo"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Südafrika"
+       },
+       "si": {
+        "language": "si",
+        "value": "දකුණු අප්‍රිකාව"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "南非"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Sydafrika"
+       },
+       "km": {
+        "language": "km",
+        "value": "អាហ្វ្រិកខាងត្បូង"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Àfrica dû Sud"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Tafriqt n Wenẓul"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Република Южна Африка"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Hegoafrika"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ობჟათე აფრიკაშ რესპუბლიკა"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Suud-Afrikoa"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Sulüdafrikän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱠᱚᱧᱮ ᱟᱯᱷᱨᱤᱠᱟ"
+       },
+       "it": {
+        "language": "it",
+        "value": "Sudafrica"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Suráfrika"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Sudafrica"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "दक्षिण अफ्रिका"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "南非"
+       },
+       "om": {
+        "language": "om",
+        "value": "Aafrikaa Kibbaa"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Afrika Atsimo"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Soelí Afríká"
+       },
+       "he": {
+        "language": "he",
+        "value": "דרום אפריקה"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Pódpołdnjowa Afrika"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Паўднёва-Афрыканская Рэспубліка"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Sudàfrica"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Nàng-hĭ"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Lâm-hui-kok"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "جٔنوٗبی اَفریٖقہ"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Južnoafrička Republika"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ڏکڻ آفريڪا"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Түштүк-Африка Республикасы"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Južna Afrika"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "南非"
+       },
+       "te": {
+        "language": "te",
+        "value": "దక్షిణ ఆఫ్రికా"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Көньяҡ Африка Республикаһы"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Соҕуруу Африка"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Sūðaffrica"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "दक्षिण-अफ्रीका"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Janubiy Afrika Respublikasi"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Günorta Afrika Respublikasy"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "South Africa"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Өмн Априкин Орн"
+       },
+       "new": {
+        "language": "new",
+        "value": "दक्षिण अफ्रिका"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ದಕ್ಷಿಣ ಆಫ್ರಿಕಾ"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Afrik disid"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "South Africa"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Güney Afrika"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Sud Africa"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Afraga a Deas"
+       },
+       "be": {
+        "language": "be",
+        "value": "Паўднёва-Афрыканская Рэспубліка"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "სამხრეთ აფრიკის რესპუბლიკა"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Къилба-Африкин Республика"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Лунвыв Африкаса Республика"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "آفریقای جنوبی"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Zuud-Afrika"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ལྷོ་ཨ་ཧྥེ་རི་ཁ།"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Āwherika-ki-te-tonga"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Południowa Afryka"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Südafrika"
+       },
+       "am": {
+        "language": "am",
+        "value": "ደቡብ አፍሪካ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Afrika Selatan"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Оңтүстік Африка Республикасы"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ದಕ್ಷಿಣ ಆಫ್ರಿಕಾ"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Worodugu Afrika"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "南非"
+       },
+       "el": {
+        "language": "el",
+        "value": "Νότια Αφρική"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Zuud-Afrika"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Republika Jugafrikane"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Repubilika ya Afelika ya Sudi"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "África do Sul"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ദക്ഷിണാഫ്രിക്ക"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Южна Африка"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Sudàfrica"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Afrîkaya Başûr"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Suvi-Afrikku"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Timog Aprika"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IRiphabhulikhi yeNingizimu Afrika"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Afrika-Dzonga"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ދެކުނު އެފްރިކާ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "جنوب افريقيا"
+       },
+       "se": {
+        "language": "se",
+        "value": "Lulli-Afrihká"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Tsintlan Afrikah"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Urin Aphrika"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Jihoafrická republika"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Afrika Dhyhow"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Sudafrica"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Sud-Afrika"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Јужноафричка Република"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Južnoafrička Republika"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "南アフリカ共和国"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "남아프리카 공화국"
+       },
+       "br": {
+        "language": "br",
+        "value": "Suafrika"
+       },
+       "an": {
+        "language": "an",
+        "value": "Sudafrica"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "दक्षिण-आफ्रिका"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Sudafrica"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Nàm-fî"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Јужноафричка Република"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Лымшор Африкаысь Республика"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດອາຟຣິກາໃຕ້"
+       },
+       "co": {
+        "language": "co",
+        "value": "Sudafrica"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Лембеёнксонь-Африкань Республикась"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Afrika Selatan"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Lafrik di Sid"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "South africa"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Maadâ-Afrik"
+       },
+       "din": {
+        "language": "din",
+        "value": "Paankɔc Paguöt Apirïka"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍃𐌿𐌽𐌸𐍂𐌰 𐌰𐍆𐍂𐌹𐌺𐌰"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Aferika i Saute"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߥߙߏ߬ߘߎ߯ ߝߘߊ߬ߝߌ߲߬ߠߊ"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Pôłniowô Afrika"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Afrika Selatan"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "جنوب إفريقيا"
+       },
+       "as": {
+        "language": "as",
+        "value": "দক্ষিণ আফ্ৰিকা"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Saujj-Afrikk"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Afrike dech Sud"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းဢႃႇၾရိၵႃႉၸၢၼ်း"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Հարաւային Ափրիկէ"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Кечывалвел Африка"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Geeafrika"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Sudafrica"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "ʻApelika Hema"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Sawdafirika"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "South Africa"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "South Africa"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Saot Afrika"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Аладатәи Африка"
+       },
+       "ik": {
+        "language": "ik",
+        "value": "Natiq Apirikaq"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯈꯥ ꯑꯐ꯭ꯔꯤꯀꯥ"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "افريکا سلاتن"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "South africa"
+       },
+       "to": {
+        "language": "to",
+        "value": "ʻAfilika Tonga"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "South africa"
+       },
+       "krj": {
+        "language": "krj",
+        "value": "Republika kang Afrika Nabagatnan"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "South Africa"
+       },
+       "fj": {
+        "language": "fj",
+        "value": "Ceva kei Aferika"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Afrika A̱tak"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Setapika"
+       },
+       "pcm": {
+        "language": "pcm",
+        "value": "Saut Afrika"
+       },
+       "gur": {
+        "language": "gur",
+        "value": "South Africa"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "दक्षिण अफ्रीका"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "South Africa"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "South Africa"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Abibir Anaafo"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Afrika Veroji"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Oarjje-Afrijkka"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵜⴰⴼⵔⵉⵇⵜ ⵏ ⵡⵏⵥⵓⵍ"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Aprika Kidul"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Afrika Selatan"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Afirika Osiki"
+       },
+       "nr": {
+        "language": "nr",
+        "value": "Isewula Afrika"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Afrika Selatan"
+       },
+       "gaa": {
+        "language": "gaa",
+        "value": "South Afrika"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Afrika Hulu"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠖꠇ꠆ꠘꠞ ꠀꠚ꠆ꠞꠤꠇꠣ"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "South Africa"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Africa Anǝm yǝ"
+       },
+       "kus": {
+        "language": "kus",
+        "value": "South Africa"
+       },
+       "bbc": {
+        "language": "bbc",
+        "value": "Aprika Dangsina"
+       },
+       "fon": {
+        "language": "fon",
+        "value": "Tofɔligbe Afrikatò"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "نسايي آفريقا"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "South Africa"
+       },
+       "nup": {
+        "language": "nup",
+        "value": "South Africa"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "САР"
+       },
+       "kai": {
+        "language": "kai",
+        "value": "Sawud Afùrka"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "दक्षिण अफ्रिका"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

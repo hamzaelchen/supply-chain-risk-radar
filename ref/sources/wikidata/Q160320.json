@@ -1,0 +1,1820 @@
+{
+ "wikidata_id": "Q160320",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q160320&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:13.640169+00:00",
+   "response": {
+    "entities": {
+     "Q160320": {
+      "pageid": 161212,
+      "ns": 0,
+      "title": "Q160320",
+      "lastrevid": 2539458149,
+      "modified": "2026-09-02T13:19:14Z",
+      "type": "item",
+      "id": "Q160320",
+      "labels": {
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "达曼"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "達曼"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "達曼"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "达曼"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "达曼"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "達曼"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Dammam"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Dammam"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Dammam"
+       },
+       "es": {
+        "language": "es",
+        "value": "Dammam"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Dämmam"
+       },
+       "af": {
+        "language": "af",
+        "value": "Dammam"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Dammam"
+       },
+       "el": {
+        "language": "el",
+        "value": "Νταμάμ"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "دمام"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Dammam"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Dammam"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "الدمام"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Dammam"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Dammam"
+       },
+       "su": {
+        "language": "su",
+        "value": "Dammam"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Эд-Даммам"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Ad Dammam"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Dammam"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Dammam"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Даммам"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Dammam"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "دمام"
+       },
+       "az": {
+        "language": "az",
+        "value": "Dammam"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Dammam"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Dammam"
+       },
+       "da": {
+        "language": "da",
+        "value": "Dammam"
+       },
+       "kk-arab": {
+        "language": "kk-arab",
+        "value": "داممام"
+       },
+       "kk-cn": {
+        "language": "kk-cn",
+        "value": "داممام"
+       },
+       "kk-tr": {
+        "language": "kk-tr",
+        "value": "Dammam"
+       },
+       "kk-kz": {
+        "language": "kk-kz",
+        "value": "Даммам"
+       },
+       "kk-cyrl": {
+        "language": "kk-cyrl",
+        "value": "Даммам"
+       },
+       "kk-latn": {
+        "language": "kk-latn",
+        "value": "Dammam"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "담맘"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "الدمام"
+       },
+       "he": {
+        "language": "he",
+        "value": "דמאם"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Dammam"
+       },
+       "it": {
+        "language": "it",
+        "value": "Dammam"
+       },
+       "id": {
+        "language": "id",
+        "value": "Dammam"
+       },
+       "de": {
+        "language": "de",
+        "value": "Dammam"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ദമാം"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ダンマーム"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Dammam"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "दम्माम"
+       },
+       "en": {
+        "language": "en",
+        "value": "Dammam"
+       },
+       "th": {
+        "language": "th",
+        "value": "อัดดัมมาม"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Dammam"
+       },
+       "la": {
+        "language": "la",
+        "value": "Dammam"
+       },
+       "war": {
+        "language": "war",
+        "value": "Dammam"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Dammám"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "दम्मम"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Дамам"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "دمام"
+       },
+       "te": {
+        "language": "te",
+        "value": "డమ్మామ్"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "دمام"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "დამამი"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Damamas"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Даммам"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Дамам"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "达曼"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਦਮਾਮ"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Ad-Damman"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Damam"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Dammam"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Даммам"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Dammám"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Dammam"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဒန်မမ်မြို့"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Damam"
+       },
+       "av": {
+        "language": "av",
+        "value": "Ад-Даммам"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Даммам"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Dammāma"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "دمام"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Dammam"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "தம்மாம்"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "দামাম"
+       },
+       "si": {
+        "language": "si",
+        "value": "දමාම්"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "દમામ"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಡಮ್ಮಮ್"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Dammom"
+       },
+       "os": {
+        "language": "os",
+        "value": "Даммам"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Էդ-Դամմամ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "达曼 (沙特阿拉伯)"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Дамам"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Dammam"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Даммом"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Dammam"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Dammam"
+       },
+       "be": {
+        "language": "be",
+        "value": "Дамам"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Damam"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "دمام"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "დამამი"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Dammam"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q160320&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:13.893690+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "6b6bddcff8ff853f474c09ef6bc5254afc4ea1e7",
+        "datavalue": {
+         "value": {
+          "latitude": 26.433333333333334,
+          "longitude": 50.1,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q160320$13ebfdac-4709-9f2a-c397-057ed5df1c5d",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q160320&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:14.147052+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "09818ba1f8f1326b4be90a10380c99a74eca9f1b",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 851,
+          "id": "Q851"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "id": "q160320$352D1F24-5745-43CD-8D33-585A0E499B39",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q851&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:14.598798+00:00",
+   "response": {
+    "entities": {
+     "Q851": {
+      "type": "item",
+      "id": "Q851",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Арабистони Саудӣ"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Saudská Arábia"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "سعودی عرب"
+       },
+       "na": {
+        "language": "na",
+        "value": "Taudiarabiya"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Саудиска Арабија"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "সৌদি আরব"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Saudo Arabija"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Aràibia nan Sabhd"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "سعودی عرب"
+       },
+       "so": {
+        "language": "so",
+        "value": "Sacuudi Carabiya"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Saudan Arabii"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Саудівська Аравія"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Саудын Араб"
+       },
+       "za": {
+        "language": "za",
+        "value": "Saudi Ahlazbwz"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Sáúdí Arábíà"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Arabia Saudita"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Saoedi-Araobië"
+       },
+       "es": {
+        "language": "es",
+        "value": "Arabia Saudí"
+       },
+       "or": {
+        "language": "or",
+        "value": "ସାଉଦି ଆରବ"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "סאודי אראביע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Araib Shádach"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Saudëjskô Arabijô"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Saudi Arabiya"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Arabia Saudita"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Arabiya Sawudite"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Saudi Arabie"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Sauda Arabėjė"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Ásáí Dineʼé Bikéyah Ntsaaígíí"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "沙特阿拉伯"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Arábia Saudita"
+       },
+       "az": {
+        "language": "az",
+        "value": "Səudiyyə Ərəbistanı"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "عربستون"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "沙特阿拉伯"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Saudijska Arabija"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಸೌದಿ ಅರೇಬಿಯಾ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Saoedi-Arabië"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Сауди Арабистан"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Arabia Saudita"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Arab Saudi"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Arab Saudi"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "СаIуди Iарбий мохк"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "सऊदी अरब"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Согуд Гарәбстаны"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Arabja Sawdija"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Arabia Saodita"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Saudova Arabija"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Saudiy Arabistan"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சவூதி அரேபியா"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Arabia Saudită"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "सउदी अरब"
+       },
+       "av": {
+        "language": "av",
+        "value": "СагӀудиязул ГӀарабия"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Saudi-Arabien"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Saudi Arabia"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Saudiya Arabstanı"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Saudi Araabia"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Saudi-Arabien"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "المملكة العربية السعودية"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Saudia"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Saudi-Arabien"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Arabya Saudita"
+       },
+       "da": {
+        "language": "da",
+        "value": "Saudi-Arabien"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Aràbia Saudita"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Saūda Arābija"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Arabia Saudescã"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Сауд Арабие"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Arabii-Sahʊditi"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Yn Araab Saudi"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "السعودية"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "সৌদি আরব"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Saudi Arabia"
+       },
+       "ki": {
+        "language": "ki",
+        "value": "Saudi Arabia"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Saudyjsko Arabijo"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Arab Saudi"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Сауд Аравийĕ"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Saudi Arabia"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Arábia Saudita"
+       },
+       "io": {
+        "language": "io",
+        "value": "Saudi-Arabia"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "沙特阿拉伯"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Саудовская Аравия"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Saudi-Arabien"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Saudi Arabia"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Saudi Arebiya"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "عربیستان"
+       },
+       "an": {
+        "language": "an",
+        "value": "Arabia Saudí"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Սաուդյան Արաբիա"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Arabie saoudite"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Erebıstano Seudi"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "സൗദി അറേബ്യ"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "साउदी अरब"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Saudi Arabia"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "साउदी अरब"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Sauda Arabio"
+       },
+       "de": {
+        "language": "de",
+        "value": "Saudi-Arabien"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Kayarabiang Súdî"
+       },
+       "war": {
+        "language": "war",
+        "value": "Arabya Saudita"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "djogu'e"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Сауд Хьэрыпей"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "عروستانن"
+       },
+       "en": {
+        "language": "en",
+        "value": "Saudi Arabia"
+       },
+       "as": {
+        "language": "as",
+        "value": "চৌদি আৰৱ"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "ئه ربیستان"
+       },
+       "bug": {
+        "language": "bug",
+        "value": "ᨕᨑ ᨔᨕᨘᨉᨗ"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဆော်ဒီအာရေဗျနိုင်ငံ"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "沙特阿拉伯"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "སའུ་དི་ཨེ་ར་སྦི་ཡ་"
+       },
+       "et": {
+        "language": "et",
+        "value": "Saudi Araabia"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Arabia Saudita"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Araabi Sawdit"
+       },
+       "os": {
+        "language": "os",
+        "value": "Сауды Арабб"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "沙烏地阿拉伯"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Saudi-Arabia"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᏌᎤᏗ ᎡᎴᏈᎠ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "沙特阿拉伯"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Arabie Saudi"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Arabia Saudita"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Саоьдуллал Аьрабусттан"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "沙地阿拉伯"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Saudiy Arabistan"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Arabia Saudita"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Saudi Arabia"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "عەرەبستانی سعوودی"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Saudi Arabia"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Arabie saoudita"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Sawdi Arabia"
+       },
+       "la": {
+        "language": "la",
+        "value": "Arabia Saudita"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Saudi-Araabien"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Сауд Арабия Падышалыгы"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "सौदी अरेबिया"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Saudi-Arabia"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Arabie saoudite"
+       },
+       "is": {
+        "language": "is",
+        "value": "Sádí-Arabía"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Sawdi-Arabska"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Саудын Араб"
+       },
+       "li": {
+        "language": "li",
+        "value": "Saoedi-Arabië"
+       },
+       "new": {
+        "language": "new",
+        "value": "साउदी अरबिया"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "سعودي عربستان"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Saudi-Arabia"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Сауд Арабия"
+       },
+       "id": {
+        "language": "id",
+        "value": "Arab Saudi"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "सौदी अरेबिया"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "સાઉદી અરેબિયા"
+       },
+       "su": {
+        "language": "su",
+        "value": "Saudi Arabia"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Arabia Saudita"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਸਉਦੀ ਅਰਬ"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Saodí Arab"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Ả Rập Xê Út"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Saudi Arabia"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Arabie Saudite"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Saudi Arabia"
+       },
+       "af": {
+        "language": "af",
+        "value": "Saoedi-Arabië"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Kaäräbihang Soudi"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "沙烏地阿拉伯"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Saudi-Arabia"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Saudi-Arabie"
+       },
+       "si": {
+        "language": "si",
+        "value": "සවුදි අරාබියාව"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "沙特阿拉伯"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Saudiarabien"
+       },
+       "km": {
+        "language": "km",
+        "value": "អារ៉ាប៊ីសាអូឌីត"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Saudi Arabia"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Arabbia Saudita"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Tagelda Tasaɛudit"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Саудитска Арабия"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Saudi Arabia"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "საუდიშ არაბეთი"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Sauda-Larabän"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱥᱟᱣᱫᱤ ᱟᱨᱚᱵᱽ"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Saudi Arabien"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Saudi Arabia"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "सौदी अरेबिया"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Saudi ʻAlapia"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "沙特阿拉伯"
+       },
+       "om": {
+        "language": "om",
+        "value": "Sa'ud Arabiyaa"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Saudi Arabia"
+       },
+       "he": {
+        "language": "he",
+        "value": "ערב הסעודית"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Saudi-Arabska"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "سعودي عرب"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Aràbia Saudia"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Saudi Ā-lá-báik"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Saudi A-la-pek"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Aravia Saudíta"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Согуд Гарәбстаны"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Saudijska Arabija"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Saudijska Arabija"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Szaúd-Arábia"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "沙地阿拉伯"
+       },
+       "te": {
+        "language": "te",
+        "value": "సౌదీ అరేబియా"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Сәғүд Ғәрәбстаны"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Сауд Арабията"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Saudisc Arabea"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "सऊदी अरब"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Saudiya Arabistoni"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Saud Arabystany"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Saudi Arabia"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Саудин Араб Нутг"
+       },
+       "it": {
+        "language": "it",
+        "value": "Arabia Saudita"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Саудаўская Арабія"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Saudi Arabia"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "사우디아라비아"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Saudi Arabia"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Arabi Sawoudit"
+       },
+       "be": {
+        "language": "be",
+        "value": "Саудаўская Аравія"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "საუდის არაბეთი"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "СаӀудийн Ӏаьрбийчоь"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Саудса Аравия"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "عربستان سعودی"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "沙地阿拉伯"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "སའུ་དི་ཨ་ར་པི་ཡ།"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Saadi Ariebia"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Arabia Saudyjska"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Saudi Arabia"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Saudi-Arabien"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሳዑዲ አረቢያ"
+       },
+       "min": {
+        "language": "min",
+        "value": "Arab Saudi"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Arabia Saudita"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Сауд Арабиясы"
+       },
+       "bm": {
+        "language": "bm",
+        "value": "Saudia Arabu ka Faamamara"
+       },
+       "el": {
+        "language": "el",
+        "value": "Σαουδική Αραβία"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Arabia Saudite"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Saudi Arabia"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Arabia Saodita"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Arábia Saudita"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "سەئۇدى ئەرەبىستان"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Саудьска Арабія"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Saûdy-Araabje"
+       },
+       "tt-latn": {
+        "language": "tt-latn",
+        "value": "Soğud Ğäräbstanı"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Erebistana Siûdî"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Saudi Arabii"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܣܥܘܕܝܐ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "I-Arabhiya"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ސައޫދީ އަރަބިއްޔާ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "المملكه العربيه السعوديه"
+       },
+       "se": {
+        "language": "se",
+        "value": "Saudi-Arabia"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Saudarabia"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Sawud Arabya"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Saúdská Arábie"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Arabi Saoudek"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Àrabia Saudïa"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Arabia Saudita"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Саудијска Арабија"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Saudijska Arabija"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "サウジアラビア"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Suudi Arabistan"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Arabia Saudi"
+       },
+       "br": {
+        "language": "br",
+        "value": "Arabia Saoudat"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "沙特阿拉伯"
+       },
+       "sa": {
+        "language": "sa",
+        "value": "सऊदी अरब"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Сауд Аравия"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศซาอุดีอาระเบีย"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Saudi Â-lâ-pak"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "साउदी अरब"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Саудијска Арабија"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Սէուտական Արաբիա"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Саудовонь Аравия"
+       },
+       "nqo": {
+        "language": "nqo",
+        "value": "ߛߎ߰ߘߎ߬ߟߊ߫"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Aràbia Saudita"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Saudi arabia"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Arabi Saoudit"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ሰዑዲ ዓረብ"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "ساعودية"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Hauri Arāpia"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "सउदी अरब"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းသေႃႇတီႇဢႃႇရေးပီးယႃး"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Сауд Аравий"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Saudi-Arabia"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Saudi-Arabia"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Arabia di Saudi"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Arab Saudi"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "سعودی عرب"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Arab Saudi"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯁꯥꯎꯗꯤ ꯑꯔꯥꯕꯤꯌꯥ"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Aarabe Sawdiyanke"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Saudi Arabia"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Tagldit Tasaɛudit"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Arab Saudi"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Saudi arabia"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Saudi Arabia"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Saudi Arebia"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "عرب سعودي"
+       },
+       "tg-latn": {
+        "language": "tg-latn",
+        "value": "Arabistoni Saudī"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "سوٗدی عرب"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Saudi arabia"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Саудонь Арабия"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Sa̱udi A̱rabya"
+       },
+       "to": {
+        "language": "to",
+        "value": "Sauti ʻAlepea"
+       },
+       "arq": {
+        "language": "arq",
+        "value": "السعودية"
+       },
+       "co": {
+        "language": "co",
+        "value": "Arabia Saudita"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Arab Saudi"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Sajusi"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Arábia Saudita"
+       },
+       "iu": {
+        "language": "iu",
+        "value": "ᓵᐅᑎ ᐊᕌᐱᐊ"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Saudi Arabia"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "सऊदी अरब"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "သော်ဒီအာရေးဗီးယားခမ်းထီ"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Saudi Arabia"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Saudi Arabia"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Ərəbiston"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Saudi Arabia"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Saudi Arabia"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵜⴰⴳⵍⴷⵉⵜ ⵜⴰⵙⴰⵄⵓⴷⵉⵜ"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Arab Saudi"
+       },
+       "dtp": {
+        "language": "dtp",
+        "value": "Arab Saudi"
+       },
+       "btm": {
+        "language": "btm",
+        "value": "Arab Saudi"
+       },
+       "syl": {
+        "language": "syl",
+        "value": "ꠍꠃꠖꠤ ꠀꠞꠛ"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Arab Saudi"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Sawudi Arebia"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Arab Saudi"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Saudi Arabia"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Arabeye sawoudite"
+       },
+       "acm": {
+        "language": "acm",
+        "value": "السعودية"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "i-Saudi Arabia"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Saoedi-Arabië"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "عربستان"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Saudi Arabia"
+       },
+       "mag": {
+        "language": "mag",
+        "value": "साउदी अरब"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Saudi Arabia"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດຊາອຸດິອາຣາເບຍ"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Саудтәи Арабсҭан"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Saudi-Arabie"
+       },
+       "tcy": {
+        "language": "tcy",
+        "value": "ಸೌದಿ ಅರೇಬಿಯಾ"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}

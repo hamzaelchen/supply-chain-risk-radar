@@ -1,0 +1,2781 @@
+{
+ "wikidata_id": "Q79808",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q79808&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:52:06.916887+00:00",
+   "response": {
+    "entities": {
+     "Q79808": {
+      "pageid": 82357,
+      "ns": 0,
+      "title": "Q79808",
+      "lastrevid": 2554633083,
+      "modified": "2026-10-07T16:37:58Z",
+      "type": "item",
+      "id": "Q79808",
+      "labels": {
+       "zh": {
+        "language": "zh",
+        "value": "康斯坦察"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Konstanca"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Konstantza"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Constantsa"
+       },
+       "es": {
+        "language": "es",
+        "value": "Constanza"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Constanța"
+       },
+       "af": {
+        "language": "af",
+        "value": "Constanța"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Konstanca"
+       },
+       "et": {
+        "language": "et",
+        "value": "Constanța"
+       },
+       "br": {
+        "language": "br",
+        "value": "Constanța"
+       },
+       "el": {
+        "language": "el",
+        "value": "Κωνστάντζα"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "کونستانتسا"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "قسطنطة"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Constanța"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Constanța"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Constança"
+       },
+       "is": {
+        "language": "is",
+        "value": "Constanța"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Konstanco"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Констанца"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Констанца"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Köstence"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Constanța"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Констанца"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Канстанца"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Constanța"
+       },
+       "io": {
+        "language": "io",
+        "value": "Constanța"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Constanța"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Constanța"
+       },
+       "az": {
+        "language": "az",
+        "value": "Konstansa"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Costanza"
+       },
+       "an": {
+        "language": "an",
+        "value": "Constancia"
+       },
+       "da": {
+        "language": "da",
+        "value": "Constanța"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Costansa"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "콘스탄차"
+       },
+       "be": {
+        "language": "be",
+        "value": "Канстанца"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Constanța"
+       },
+       "he": {
+        "language": "he",
+        "value": "קונסטנצה"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Constanța"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Constanța"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Konstanca"
+       },
+       "it": {
+        "language": "it",
+        "value": "Costanza"
+       },
+       "de": {
+        "language": "de",
+        "value": "Constanța"
+       },
+       "id": {
+        "language": "id",
+        "value": "Constanța"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "コンスタンツァ"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Constanța"
+       },
+       "en": {
+        "language": "en",
+        "value": "Constanța"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Constanța"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Constanța"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Konstanca"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Константса"
+       },
+       "th": {
+        "language": "th",
+        "value": "กอนสตันซา"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Constanța"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Constanța"
+       },
+       "la": {
+        "language": "la",
+        "value": "Constantia"
+       },
+       "war": {
+        "language": "war",
+        "value": "Constanța"
+       },
+       "os": {
+        "language": "os",
+        "value": "Констанцæ"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Konstanca"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "کونستانس"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Кюстенджа"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "კონსტანცა"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Konstanca"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Constanța"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Constanța"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Constanța"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Constanța"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Constança"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Constanța"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Constanța"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "कोन्स्तांत्सा"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Constanța"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Constancia"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Констанца"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Констанца хот"
+       },
+       "min": {
+        "language": "min",
+        "value": "Constanta"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Կոնստանցա"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Constanța"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Күстәнҗә"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Konstansa"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Konstanc"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "कोन्सतान्ता"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Констанца шаары"
+       },
+       "se": {
+        "language": "se",
+        "value": "Constanța guovlu"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "کونستانتسا"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Constanța"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Констанца"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Konstanca"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Constanța"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "कोन्स्तांत्सा"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "கான்ஸ்டாண்டா"
+       },
+       "te": {
+        "language": "te",
+        "value": "కాంస్టాంటా"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "কনোস্ট্যান্টা"
+       },
+       "si": {
+        "language": "si",
+        "value": "කොන්ස්ටන්ටා"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "કોન્સ્ટન્ટા"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಕಾನ್ಸ್ಟಾನ್ಟಾ"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "کونستانسا"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "康斯坦薩"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Constanța"
+       },
+       "tt-cyrl": {
+        "language": "tt-cyrl",
+        "value": "Күстәнҗә"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Constanța"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Constanța"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Констанца"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "康斯坦察"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Constanța"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "康斯坦察"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Constanța"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "كونستانتسا"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Köstence"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Constanța"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Constanța"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Constanța"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Констанца"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Констанца"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Constanța"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Kwontantsa"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Constanța"
+       },
+       "mul": {
+        "language": "mul",
+        "value": "Constanța"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q79808&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:52:07.169838+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "79a7fc5ec03d7da71305729d39786f817d3c4558",
+        "datavalue": {
+         "value": {
+          "latitude": 44.1767161,
+          "longitude": 28.6507598,
+          "altitude": null,
+          "precision": 1e-07,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q79808$4fb07cbd-43b7-14b8-c888-6de9f722b0ac",
+       "rank": "preferred"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "4d1fe51568f041c0b2092831ea6dbe13a0d307f1",
+        "datavalue": {
+         "value": {
+          "latitude": 44.173333333333,
+          "longitude": 28.638333333333,
+          "altitude": null,
+          "precision": 0.00027777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q79808$4D4013F3-D63C-4F97-8E0E-A20EFA58222B",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "17c0fd713e1490158e5cc9975cbc2460e063034a",
+         "snaks": {
+          "P854": [
+           {
+            "snaktype": "value",
+            "property": "P854",
+            "hash": "80af1640afddd5e6aceec9a49d78be17dfe6dc86",
+            "datavalue": {
+             "value": "https://orasultau.ro/harta/constanta-o",
+             "type": "string"
+            },
+            "datatype": "url"
+           }
+          ],
+          "P407": [
+           {
+            "snaktype": "value",
+            "property": "P407",
+            "hash": "814f0c602927c74e36cb81a4fc721d2e0373fee3",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 7913,
+              "id": "Q7913"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "6ddbf8a4f798288a13d30307ed3178ab8b012a5f",
+            "datavalue": {
+             "value": {
+              "time": "+2025-03-29T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P854",
+          "P407",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "9b00b21c3ecb80ebfe8920608993ebc71b4c191a",
+        "datavalue": {
+         "value": {
+          "latitude": 44.21414,
+          "longitude": 28.61862,
+          "altitude": null,
+          "precision": 1e-05,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q79808$b3db6773-49e4-cfca-89c7-f7e95bb60779",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "41240a98897563586155ba829e78c2f23ce80d38",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 830106,
+              "id": "Q830106"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P1566": [
+           {
+            "snaktype": "value",
+            "property": "P1566",
+            "hash": "5c7259fe7178acba3b669911c269fb5a609a11e7",
+            "datavalue": {
+             "value": "8334667",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P407": [
+           {
+            "snaktype": "value",
+            "property": "P407",
+            "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 1860,
+              "id": "Q1860"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "6ddbf8a4f798288a13d30307ed3178ab8b012a5f",
+            "datavalue": {
+             "value": {
+              "time": "+2025-03-29T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P1566",
+          "P407",
+          "P813"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "country": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q79808&property=P17&format=json",
+   "fetched_at": "2026-10-09T10:52:07.450545+00:00",
+   "response": {
+    "claims": {
+     "P17": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "8ef322efb0810d012f9b4799c2413f3721f6387a",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 218,
+          "id": "Q218"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "64b65aca61c297554f7c37950d9e3780c07dc6f2",
+          "datavalue": {
+           "value": {
+            "time": "+1989-12-22T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580"
+       ],
+       "id": "q79808$D905BF97-AC9B-4063-8A25-3D9138F5E51B",
+       "rank": "preferred",
+       "references": [
+        {
+         "hash": "2711b64e91e91f54cfaca3ede3f5d90dcdd7b692",
+         "snaks": {
+          "P5573": [
+           {
+            "snaktype": "value",
+            "property": "P5573",
+            "hash": "6c7590f1ff2812de4329fe582f49b6877cb8aad9",
+            "datavalue": {
+             "value": "54738",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ],
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 265049,
+              "id": "Q265049"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P813": [
+           {
+            "snaktype": "value",
+            "property": "P813",
+            "hash": "988857a6891b699cef0d0b076d8ac7c3bdd26e18",
+            "datavalue": {
+             "value": {
+              "time": "+2025-11-24T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P5573",
+          "P248",
+          "P813"
+         ]
+        }
+       ]
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "3b79e889bd8cc182dbdebb0b733e7907b7bee100",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 12560,
+          "id": "Q12560"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "e89c2c650a28b88a684bc139a31912c660e45ad8",
+          "datavalue": {
+           "value": {
+            "time": "+1411-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "119b2827f1b0fa4ba490ec7ab4b22bd3648d8e42",
+          "datavalue": {
+           "value": {
+            "time": "+1878-07-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$b29193e6-4a1f-7788-b8fe-1206957954f3",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "7bb9bb285193e8899cda557f57ba865835912189",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 2277,
+          "id": "Q2277"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "75d01173177808bcfab9f073c6cc61d4918f5943",
+          "datavalue": {
+           "value": {
+            "time": "+0330-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P582"
+       ],
+       "id": "Q79808$bff7821c-4d67-6403-b4ae-a97a7cea9cc2",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "4e7e5ae19bafc069c8f235793766fce4aacb0669",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 12544,
+          "id": "Q12544"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "5c2ce0762eb25e990605afef605636cd7b8513fe",
+          "datavalue": {
+           "value": {
+            "time": "+0330-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "5b6be4cef57ba5e8ed6faa828e621f1d78b3c59c",
+          "datavalue": {
+           "value": {
+            "time": "+0681-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$d39d4cef-403f-5b75-e5e8-ece99352980a",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "1d117b7ae57cbba8646b1bbe52778fe0b6116f57",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 203817,
+          "id": "Q203817"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "2a135e1d11ea692161d2cccda9d0b68f67f215cb",
+          "datavalue": {
+           "value": {
+            "time": "+0681-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "b71360a54357f4e050f2a4e5b5daba106cf2656f",
+          "datavalue": {
+           "value": {
+            "time": "+1018-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$dae75612-43ec-dc13-04b5-c8538b3fe6ef",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "4e7e5ae19bafc069c8f235793766fce4aacb0669",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 12544,
+          "id": "Q12544"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "5c2ce0762eb25e990605afef605636cd7b8513fe",
+          "datavalue": {
+           "value": {
+            "time": "+0330-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "5b6be4cef57ba5e8ed6faa828e621f1d78b3c59c",
+          "datavalue": {
+           "value": {
+            "time": "+0681-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$52d1e150-4cf9-c420-9d38-e603b2f007f4",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "600655050c624956fe66924722ca1162cfd8037f",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 420759,
+          "id": "Q420759"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "1fe0c4f1df3e74c02dc0fa062886bf7a8088e269",
+          "datavalue": {
+           "value": {
+            "time": "+1185-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "9b5884a6055ee0488be0fbb145cdba81e7511de6",
+          "datavalue": {
+           "value": {
+            "time": "+1422-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$e62692be-4181-ffa8-7616-f8f9c6bb8af1",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "7cfc616becf47df14eb48c6a366c633806bee53f",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 842794,
+          "id": "Q842794"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "7e358cd3d927916629ed082f40ef12325e17f6c5",
+          "datavalue": {
+           "value": {
+            "time": "+1965-08-21T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "ae96e65cd378439b7636d8a4c13bbace1e997e57",
+          "datavalue": {
+           "value": {
+            "time": "+1989-12-22T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$998FE537-F77B-4A86-9684-B45349540F34",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "027fcffab4bc8f95df95ba760a9a5b6134eb8b6d",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 2685298,
+          "id": "Q2685298"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "1cc7a32ef2a338215f2d1806a7b36c15c13e6062",
+          "datavalue": {
+           "value": {
+            "time": "+1947-12-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "c6f27223601bb20d311b58efdc2e52424493a000",
+          "datavalue": {
+           "value": {
+            "time": "+1965-08-21T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$766C75FB-C3B0-4E31-AC8A-C2486D2D5010",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "54e5359f3adda928d32888ed4a8c352b59d538d3",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 203493,
+          "id": "Q203493"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "8affbd3c7fba0d7c77f188b4e77cbb648eee99e2",
+          "datavalue": {
+           "value": {
+            "time": "+1881-05-10T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "516e18d400b254c4574e05ad17d0d7aa0d67f322",
+          "datavalue": {
+           "value": {
+            "time": "+1947-12-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$578D7C41-5B39-4AAA-B4A4-015B66092430",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "734d15110665da613d2114af82d037af8420e76e",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 958291,
+          "id": "Q958291"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "468f90c70cfbe27eca3762f40cc7fb35a2030c6b",
+          "datavalue": {
+           "value": {
+            "time": "+1878-07-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "7e348f1ee65ec71df7f1e869c0efc09cda5f41b0",
+          "datavalue": {
+           "value": {
+            "time": "+1881-05-10T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$3AF8673D-AFEE-4ADB-AD9F-1EF50BDF2B17",
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P17",
+        "hash": "3bab218477cf8a60860b942162b4743583f2fea6",
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 542165,
+          "id": "Q542165"
+         },
+         "type": "wikibase-entityid"
+        },
+        "datatype": "wikibase-item"
+       },
+       "type": "statement",
+       "qualifiers": {
+        "P580": [
+         {
+          "snaktype": "value",
+          "property": "P580",
+          "hash": "ce3376da203b1f976c9ac473ebd11ed51185c305",
+          "datavalue": {
+           "value": {
+            "time": "+1356-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ],
+        "P582": [
+         {
+          "snaktype": "value",
+          "property": "P582",
+          "hash": "bec187992341c87313233cbc62378932f1115f5b",
+          "datavalue": {
+           "value": {
+            "time": "+1411-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+           },
+           "type": "time"
+          },
+          "datatype": "time"
+         }
+        ]
+       },
+       "qualifiers-order": [
+        "P580",
+        "P582"
+       ],
+       "id": "Q79808$CDBDFA44-F369-45DD-8859-B5BEFDA48039",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "country_labels": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q218&props=labels&format=json",
+   "fetched_at": "2026-10-09T10:52:07.767264+00:00",
+   "response": {
+    "entities": {
+     "Q218": {
+      "type": "item",
+      "id": "Q218",
+      "labels": {
+       "tg": {
+        "language": "tg",
+        "value": "Руминия"
+       },
+       "ay": {
+        "language": "ay",
+        "value": "Rumanya"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "رومانیا"
+       },
+       "na": {
+        "language": "na",
+        "value": "Romania"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Романија"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "রোমানিয়া"
+       },
+       "bpy": {
+        "language": "bpy",
+        "value": "রোমানিয়া"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "रोमानिया"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Rumienia"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Rumunsko"
+       },
+       "so": {
+        "language": "so",
+        "value": "Romania"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Romania"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Румунія"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Румыния"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Румын"
+       },
+       "ff": {
+        "language": "ff",
+        "value": "Romaniya"
+       },
+       "za": {
+        "language": "za",
+        "value": "Romania"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Románíà"
+       },
+       "cbk-zam": {
+        "language": "cbk-zam",
+        "value": "Rumanía"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Roemenië"
+       },
+       "es": {
+        "language": "es",
+        "value": "Rumania"
+       },
+       "or": {
+        "language": "or",
+        "value": "ରୋମାନିଆ"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Румыния Мастор"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "רומעניע"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "an Rómáin"
+       },
+       "csb": {
+        "language": "csb",
+        "value": "Rumùńskô"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Romıniya"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Romania"
+       },
+       "rw": {
+        "language": "rw",
+        "value": "Romaniya"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Romanie"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Romunėjė"
+       },
+       "ltg": {
+        "language": "ltg",
+        "value": "Rumuneja"
+       },
+       "nv": {
+        "language": "nv",
+        "value": "Tséhonoojí Dineʼé Bikéyah"
+       },
+       "tet": {
+        "language": "tet",
+        "value": "Roménia"
+       },
+       "az": {
+        "language": "az",
+        "value": "Rumıniya"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "رومانی"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "羅馬尼亞"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Rumunija"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ರೊಮಾನಿಯ"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Roemenië"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Румыния"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Rumanía"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "உருமேனியா"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Rumèni"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Rumunija"
+       },
+       "he": {
+        "language": "he",
+        "value": "רומניה"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Румын"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Romanìa"
+       },
+       "om": {
+        "language": "om",
+        "value": "Romaaniyaa"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Romunija"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Romaniya"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Romania"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "România"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "रोमानिया"
+       },
+       "av": {
+        "language": "av",
+        "value": "Румыния"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Rumänien"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Romania"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Rumıniya"
+       },
+       "vro": {
+        "language": "vro",
+        "value": "Rumeeniä"
+       },
+       "st": {
+        "language": "st",
+        "value": "Romania"
+       },
+       "aeb-arab": {
+        "language": "aeb-arab",
+        "value": "رومانيا"
+       },
+       "it": {
+        "language": "it",
+        "value": "Romania"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Romania"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Rumänien"
+       },
+       "pag": {
+        "language": "pag",
+        "value": "Romaniya"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Romanya"
+       },
+       "da": {
+        "language": "da",
+        "value": "Rumænien"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Romania"
+       },
+       "crh-latn": {
+        "language": "crh-latn",
+        "value": "Romaniya"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Rumānija"
+       },
+       "rup": {
+        "language": "rup",
+        "value": "Romãnia"
+       },
+       "ti": {
+        "language": "ti",
+        "value": "ሮማንያ"
+       },
+       "ady": {
+        "language": "ady",
+        "value": "Румание"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Rumaanii"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "y Romaan"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "رومانيا"
+       },
+       "ch": {
+        "language": "ch",
+        "value": "Rumania"
+       },
+       "diq": {
+        "language": "diq",
+        "value": "Romanya"
+       },
+       "pih": {
+        "language": "pih",
+        "value": "Romainya"
+       },
+       "szl": {
+        "language": "szl",
+        "value": "Růmůńijo"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Rumania"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Румыни"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Roménia"
+       },
+       "io": {
+        "language": "io",
+        "value": "Rumania"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Румыния"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Romenia"
+       },
+       "th": {
+        "language": "th",
+        "value": "ประเทศโรมาเนีย"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Romainiya"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Romania"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "رومانی"
+       },
+       "an": {
+        "language": "an",
+        "value": "Rumanía"
+       },
+       "eml": {
+        "language": "eml",
+        "value": "Rumanî"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Ռումինիա"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Roumanie"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ປະເທດຣູມານີ"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Romanii"
+       },
+       "nov": {
+        "language": "nov",
+        "value": "Rumania"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "रोमानिया"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Rumanio"
+       },
+       "de": {
+        "language": "de",
+        "value": "Rumänien"
+       },
+       "ig": {
+        "language": "ig",
+        "value": "Romania"
+       },
+       "sm": {
+        "language": "sm",
+        "value": "Romania"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Romania"
+       },
+       "war": {
+        "language": "war",
+        "value": "Rumania"
+       },
+       "rmy": {
+        "language": "rmy",
+        "value": "Rumuniya"
+       },
+       "jbo": {
+        "language": "jbo",
+        "value": "romanias"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Румыниэ"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "Ruminiye"
+       },
+       "mdf": {
+        "language": "mdf",
+        "value": "Румыния"
+       },
+       "mwl": {
+        "language": "mwl",
+        "value": "Roménia"
+       },
+       "en": {
+        "language": "en",
+        "value": "Romania"
+       },
+       "bgn": {
+        "language": "bgn",
+        "value": "رومانیا"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Roemeenje"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Rumänien"
+       },
+       "my": {
+        "language": "my",
+        "value": "ရိုမေးနီးယားနိုင်ငံ"
+       },
+       "sma": {
+        "language": "sma",
+        "value": "Rumäänia"
+       },
+       "et": {
+        "language": "et",
+        "value": "Rumeenia"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Rumania"
+       },
+       "wo": {
+        "language": "wo",
+        "value": "Romaani"
+       },
+       "os": {
+        "language": "os",
+        "value": "Румыни"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "羅馬尼亞"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Romania"
+       },
+       "chr": {
+        "language": "chr",
+        "value": "ᎶᎹᏂᏯ"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "罗马尼亚"
+       },
+       "nrm": {
+        "language": "nrm",
+        "value": "Roumanie"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Romanía"
+       },
+       "lbe": {
+        "language": "lbe",
+        "value": "Руминия"
+       },
+       "ee": {
+        "language": "ee",
+        "value": "Romania"
+       },
+       "bi": {
+        "language": "bi",
+        "value": "Romania"
+       },
+       "rm": {
+        "language": "rm",
+        "value": "Rumenia"
+       },
+       "pdc": {
+        "language": "pdc",
+        "value": "Rumeenie"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "ڕۆمانیا"
+       },
+       "ln": {
+        "language": "ln",
+        "value": "Rumania"
+       },
+       "frp": {
+        "language": "frp",
+        "value": "Roumanie"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Rwmania"
+       },
+       "la": {
+        "language": "la",
+        "value": "Romania"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Rumänien"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Румыния"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "रोमेनिया"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Rumenia"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Roumanie"
+       },
+       "is": {
+        "language": "is",
+        "value": "Rúmenía"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Rumunska"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Rumanija"
+       },
+       "li": {
+        "language": "li",
+        "value": "Roemenië"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "رومانیا"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Romania"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "羅馬尼亞"
+       },
+       "id": {
+        "language": "id",
+        "value": "Rumania"
+       },
+       "gom": {
+        "language": "gom",
+        "value": "रोमेनिया"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "રોમાનિયા"
+       },
+       "su": {
+        "language": "su",
+        "value": "Romania"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Romania"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਰੋਮਾਨੀਆ"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Roumaneye"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "România"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Romania"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Romanie"
+       },
+       "gom-latn": {
+        "language": "gom-latn",
+        "value": "Romania"
+       },
+       "af": {
+        "language": "af",
+        "value": "Roemenië"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Romania"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Румыния"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Romania"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Rumänie"
+       },
+       "si": {
+        "language": "si",
+        "value": "රුමේනියාව"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "罗马尼亚"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Rumänien"
+       },
+       "liv": {
+        "language": "liv",
+        "value": "Rumāņmō"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Rumanìa"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Rumanya"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Румъния"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Errumania"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "რუმინეთი"
+       },
+       "vo": {
+        "language": "vo",
+        "value": "Rumän"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Rumänien"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Romania"
+       },
+       "gom-deva": {
+        "language": "gom-deva",
+        "value": "रोमेनिया"
+       },
+       "haw": {
+        "language": "haw",
+        "value": "Romānia"
+       },
+       "srn": {
+        "language": "srn",
+        "value": "Romenikondre"
+       },
+       "tum": {
+        "language": "tum",
+        "value": "Romania"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "رومانیہ"
+       },
+       "kl": {
+        "language": "kl",
+        "value": "Rumænia"
+       },
+       "co": {
+        "language": "co",
+        "value": "Romania"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Rumuńska"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Румынія"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Romania"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Romania"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Romania"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Rrumaña"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "رومانی"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Rumunija"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "رومانيہ"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Rumunija"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Románia"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "羅馬尼亞"
+       },
+       "te": {
+        "language": "te",
+        "value": "రొమేనియా"
+       },
+       "koi": {
+        "language": "koi",
+        "value": "Ромыния"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Румыния"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Румыния"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Rumǣnia"
+       },
+       "pi": {
+        "language": "pi",
+        "value": "रोमानिया"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Ruminiya"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Rumyniýa"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Romania"
+       },
+       "xal": {
+        "language": "xal",
+        "value": "Румудин Орн"
+       },
+       "cu": {
+        "language": "cu",
+        "value": "Роумꙑнїꙗ"
+       },
+       "new": {
+        "language": "new",
+        "value": "रोमानिया"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Romanie"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Woumani"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Romania"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Romanya"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Rumania"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Romàinia"
+       },
+       "be": {
+        "language": "be",
+        "value": "Румынія"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "რუმინეთი"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Румыни"
+       },
+       "kv": {
+        "language": "kv",
+        "value": "Румыния"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Rumänien"
+       },
+       "nds-nl": {
+        "language": "nds-nl",
+        "value": "Roemenië"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "རོ་མ་ནི་ཡ།"
+       },
+       "mo": {
+        "language": "mo",
+        "value": "Ромыния"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Romeinia"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Rumunia"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Romania"
+       },
+       "tw": {
+        "language": "tw",
+        "value": "Romania"
+       },
+       "am": {
+        "language": "am",
+        "value": "ሮማንያ"
+       },
+       "udm": {
+        "language": "udm",
+        "value": "Румыния"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Румыния"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Rumania"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ρουμανία"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Roemenië"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Rumania"
+       },
+       "kg": {
+        "language": "kg",
+        "value": "Romania"
+       },
+       "pnt": {
+        "language": "pnt",
+        "value": "Ρουμανία"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Romênia"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Румыний"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "റൊമാനിയ"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Румуньско"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Romania"
+       },
+       "tt-latn": {
+        "language": "tt-latn",
+        "value": "Rumıniä"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Romanya"
+       },
+       "olo": {
+        "language": "olo",
+        "value": "Rumiinii"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܪܘܡܢܝܐ"
+       },
+       "ss": {
+        "language": "ss",
+        "value": "IRomaniya"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ރުމޭނިއާ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "رومانيا"
+       },
+       "se": {
+        "language": "se",
+        "value": "Romania"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Rumania"
+       },
+       "qu": {
+        "language": "qu",
+        "value": "Rumanya"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Rumunsko"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Romania"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Rumania"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Румунија"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Rumunjska"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ルーマニア"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "루마니아"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Romania"
+       },
+       "br": {
+        "language": "br",
+        "value": "Roumania"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "羅馬尼亞"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Roumani"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Rumania"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Romania"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "रोमानिया"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Румунија"
+       },
+       "de-at": {
+        "language": "de-at",
+        "value": "Rumänien"
+       },
+       "got": {
+        "language": "got",
+        "value": "𐍂𐌿𐌼𐌰𐌽𐌾𐌰"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Ռումանիա"
+       },
+       "kea": {
+        "language": "kea",
+        "value": "Románia"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Romania"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Romania"
+       },
+       "gcr": {
+        "language": "gcr",
+        "value": "Roumani"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "रोमानिया"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱨᱳᱢᱟᱱᱤᱭᱟ"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "رومانيا"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Rumania"
+       },
+       "shn": {
+        "language": "shn",
+        "value": "မိူင်းရူဝ်ႇမေးၼီးယႃး"
+       },
+       "km": {
+        "language": "km",
+        "value": "រូម៉ានី"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "رومانی"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Romania"
+       },
+       "sms": {
+        "language": "sms",
+        "value": "Romania"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "रोमानिया"
+       },
+       "avk": {
+        "language": "avk",
+        "value": "Romania"
+       },
+       "lld": {
+        "language": "lld",
+        "value": "Romania"
+       },
+       "min": {
+        "language": "min",
+        "value": "Rumania'"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Romania"
+       },
+       "tay": {
+        "language": "tay",
+        "value": "Romania"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "罗马尼亚"
+       },
+       "shi": {
+        "language": "shi",
+        "value": "Rumanya"
+       },
+       "mni": {
+        "language": "mni",
+        "value": "ꯔꯣꯃꯥꯅꯤꯌꯥ"
+       },
+       "smj": {
+        "language": "smj",
+        "value": "Romádna"
+       },
+       "trv": {
+        "language": "trv",
+        "value": "Romania"
+       },
+       "ami": {
+        "language": "ami",
+        "value": "Romania"
+       },
+       "dag": {
+        "language": "dag",
+        "value": "Romania"
+       },
+       "to": {
+        "language": "to",
+        "value": "Lomēnia"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "رومانيا"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "IRomaniya"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "로므니아"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Lomani"
+       },
+       "anp": {
+        "language": "anp",
+        "value": "रोमानिया"
+       },
+       "ab": {
+        "language": "ab",
+        "value": "Румыниа"
+       },
+       "gpe": {
+        "language": "gpe",
+        "value": "Romania"
+       },
+       "mos": {
+        "language": "mos",
+        "value": "Romania"
+       },
+       "xh": {
+        "language": "xh",
+        "value": "Romaniya"
+       },
+       "tly": {
+        "language": "tly",
+        "value": "Rumıniyə"
+       },
+       "kcg": {
+        "language": "kcg",
+        "value": "Romaniya"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Ruméni"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Romania"
+       },
+       "blk": {
+        "language": "blk",
+        "value": "ရိုမေးနီးယားခမ်းထီ"
+       },
+       "ann": {
+        "language": "ann",
+        "value": "Romania"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Romania"
+       },
+       "crh-ro": {
+        "language": "crh-ro",
+        "value": "Rumaniye"
+       },
+       "lg": {
+        "language": "lg",
+        "value": "Romania"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⵕⵓⵎⴰⵏⵢⴰ"
+       },
+       "dz": {
+        "language": "dz",
+        "value": "རོ་མ་ནི་ཡ།"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "رومانیہ"
+       },
+       "glk": {
+        "language": "glk",
+        "value": "رۊمانيا"
+       },
+       "sjd": {
+        "language": "sjd",
+        "value": "Румыния"
+       },
+       "isv-cyrl": {
+        "language": "isv-cyrl",
+        "value": "Румунија"
+       },
+       "isv-latn": {
+        "language": "isv-latn",
+        "value": "Rumunija"
+       },
+       "kaj": {
+        "language": "kaj",
+        "value": "Romaniya"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Romania"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  }
+ }
+}
