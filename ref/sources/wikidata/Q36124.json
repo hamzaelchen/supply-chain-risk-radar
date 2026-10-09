@@ -1,0 +1,582 @@
+{
+ "wikidata_id": "Q36124",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q36124&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:32:57.153731+00:00",
+   "response": {
+    "entities": {
+     "Q36124": {
+      "pageid": 38779,
+      "ns": 0,
+      "title": "Q36124",
+      "lastrevid": 2551093158,
+      "modified": "2026-09-30T01:05:01Z",
+      "type": "item",
+      "id": "Q36124",
+      "labels": {
+       "lb": {
+        "language": "lb",
+        "value": "Strooss vu Gibraltar"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "直布羅陀海峽"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Selat Gibraltar"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Gibraltarko itsasartea"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Cieśnina Gibraltarska"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Gibraltarski moreuz"
+       },
+       "es": {
+        "language": "es",
+        "value": "Estrecho de Gibraltar"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "ஜிப்ரால்ட்டர் நீரிணை"
+       },
+       "af": {
+        "language": "af",
+        "value": "Straat van Gibraltar"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Estrech de Gibartar"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Selat Gibraltar"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Gibraltári-szoros"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mlango wa Gibraltar"
+       },
+       "et": {
+        "language": "et",
+        "value": "Gibraltari väin"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "জিব্রাল্টার প্রণালী"
+       },
+       "br": {
+        "language": "br",
+        "value": "Strizh-mor Jibraltar"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "آبنائے جبل الطارق"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဂျီဘရော်လ်တာ ရေလက်ကြား"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق جبل طارق"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Gibraltarsund"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Straat van Gibraltar"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estreito de Gibraltar"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Ĝibraltara Markolo"
+       },
+       "is": {
+        "language": "is",
+        "value": "Gíbraltarsund"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "דורכגאס פון גיבראלטאר"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Гибралтарский пролив"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Гибралтарски мореуз"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Cebelitarık Boğazı"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Гибралтар ачыкъ богъаз"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Гибралтарски Проток"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Gibraltarinsalmi"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Гібралтарська протока"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Гібральтарская пратока"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Gibraltarsundet"
+       },
+       "io": {
+        "language": "io",
+        "value": "Gibraltar-stretajo"
+       },
+       "az": {
+        "language": "az",
+        "value": "Cəbəllütariq boğazı"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Gibraltarski tjesnac"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Kipot ng Gibraltar"
+       },
+       "da": {
+        "language": "da",
+        "value": "Gibraltarstrædet"
+       },
+       "an": {
+        "language": "an",
+        "value": "Estreito de Chibraltar"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Streto de Gibiltera"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Sitroet d' Djibraltar"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "지브롤터 해협"
+       },
+       "be": {
+        "language": "be",
+        "value": "Гібралтарскі праліў"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit de Gibraltar"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר גיברלטר"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "مضيق جبل طارق"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Gibraltāra šaurums"
+       },
+       "it": {
+        "language": "it",
+        "value": "stretto di Gibilterra"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "estreito de Xibraltar"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Gibraltar"
+       },
+       "de": {
+        "language": "de",
+        "value": "Straße von Gibraltar"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Strasse von Gibraltar"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ജിബ്രാൾട്ടർ കടലിടുക്ക്"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ジブラルタル海峡"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Eo biển Gibraltar"
+       },
+       "en": {
+        "language": "en",
+        "value": "Strait of Gibraltar"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Gibraltarski tjesnac"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Strittu di Gibbirterra"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Gibraltarski přeliw"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "जिब्राल्टर जलसन्धि"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Cîbraltarê"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Gibraltársky prieliv"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Estrechu Gibraltar"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Гибралтарын хоолой"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Ջիբրալթարի նեղուց"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Strjitte fan Gibraltar"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Strâmtoarea Gibraltar"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบยิบรอลตาร์"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "estret de Gibraltar"
+       },
+       "la": {
+        "language": "la",
+        "value": "Fretum Gaditanum"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Culfor Gibraltar"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Gibraltarski preliv"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Gibraltarský průliv"
+       },
+       "os": {
+        "language": "os",
+        "value": "Гибралтары донкъубал"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Гибралтарски проток"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه جبل‌الطارق"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "जिब्राल्टरची सामुद्रधुनी"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "გიბრალტარის სრუტე"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے جبل الطارق"
+       },
+       "dsb": {
+        "language": "dsb",
+        "value": "Gibraltarski pśelew"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Gibraltaro sąsiauris"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Gibraltarstredet"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Selat Gibraltar"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Gibraltar boʻgʻozi"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਜਿਬਰਾਲਟਰ ਪਣਜੋੜ"
+       },
+       "el": {
+        "language": "el",
+        "value": "Στενό του Γιβραλτάρ"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Strait o Gibraltar"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Ypo'i Hivyraytã"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Kipot sa Gibraltar"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "直布羅陀海峽"
+       },
+       "new": {
+        "language": "new",
+        "value": "जिब्राल्टर जलसन्धि"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Гибралтар бугазы"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estrecho han Gibraltar"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Struat faan Gibraltaar"
+       },
+       "lrc": {
+        "language": "lrc",
+        "value": "تئن جبل طارق"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Гибралтаран хидоькъе"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Гибралтар боғаҙы"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Caolas Ghiobraltair"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "直布罗陀海峡"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "გიბრალტარიშ საროტი"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Гибралтар кысыгы"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Estrechu de Xibraltar"
+       },
+       "co": {
+        "language": "co",
+        "value": "Strittone di Gibilterra"
+       },
+       "lfn": {
+        "language": "lfn",
+        "value": "Streta Jibraltar"
+       },
+       "am": {
+        "language": "am",
+        "value": "የጂብራልታር ወሽመጥ"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "जिब्राल्टर जलसन्धि"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Ճիպրալթար Նեղուց"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Andilan-dranomasin'i Jibraltara"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "جبل‌الطارق بوغازی"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Гулӯгоҳи Гибралтар"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Itiot kan Gibraltar"
+       },
+       "te": {
+        "language": "te",
+        "value": "జిబ్రాల్టర్ జలసంధి"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Caolas Ghiobráltar"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "지브랄타르해협"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "آبنائے جبل الطارق"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Ngushtica e Gjibraltarit"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "جبل طارق تنگه"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "گەرووی جەبەل تاریق"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "جبل الطارق تنگی"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Insungebezi yaseGibraltha"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "جبرالٽر سامونڊي گذرگاهه"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Yankin Gibraltar"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "直布羅陀海峽"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Stricto de Gibraltar"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q36124&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:32:57.421091+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "dfddb5a0b3191afb8479845e9ea0c0cf8d7aa927",
+        "datavalue": {
+         "value": {
+          "latitude": 35.97388888888889,
+          "longitude": -5.516111111111111,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q36124$CA67FE9D-5CBD-441B-9E14-3C4B40E679E1",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

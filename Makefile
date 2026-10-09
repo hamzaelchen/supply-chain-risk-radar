@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -50,3 +50,7 @@ bronze:
 # bronze -> silver.gdelt_events (+ quarantaine) : traite ce qui est arrivé depuis le dernier passage
 silver:
 	$(BIN)/python -m silver.gdelt_events
+
+# silver.ref_chokepoints : recharge le référentiel des détroits depuis ref/chokepoints.csv
+ref:
+	$(BIN)/python -m ref.chokepoints load

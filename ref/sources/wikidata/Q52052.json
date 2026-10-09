@@ -1,0 +1,412 @@
+{
+ "wikidata_id": "Q52052",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q52052&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:33:04.947141+00:00",
+   "response": {
+    "entities": {
+     "Q52052": {
+      "pageid": 54251,
+      "ns": 0,
+      "title": "Q52052",
+      "lastrevid": 2538420004,
+      "modified": "2026-08-31T02:11:12Z",
+      "type": "item",
+      "id": "Q52052",
+      "labels": {
+       "ko": {
+        "language": "ko",
+        "value": "대한해협"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "كوريا"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Корей пырĕ"
+       },
+       "de": {
+        "language": "de",
+        "value": "Koreastraße"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Koreastraße"
+       },
+       "en": {
+        "language": "en",
+        "value": "Korea Strait"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Korea Strait"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Korea Strait"
+       },
+       "es": {
+        "language": "es",
+        "value": "Estrecho de Corea"
+       },
+       "et": {
+        "language": "et",
+        "value": "Korea väin"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Koreako itsasartea"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه کره"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Koreansalmi"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit de Corée"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר קוריאה"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "कोरिया जलसन्धि"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Korea"
+       },
+       "it": {
+        "language": "it",
+        "value": "Stretto di Corea"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "対馬海峡"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "კორეის სრუტე"
+       },
+       "km": {
+        "language": "km",
+        "value": "ច្រកកូរ៉េ"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Kore"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Korėjos sąsiauris"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Солонгосын хоолой"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Selat Korea"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Straat Korea"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Cieśnina Koreańska"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estreito da Coreia"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Estreito da Coreia"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Корейский пролив"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Koreasundet"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบเกาหลี"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Kore Boğazı"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Корейська протока"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Eo biển Triều Tiên"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "朝鲜海峡"
+       },
+       "da": {
+        "language": "da",
+        "value": "Koreastrædet"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Корејски Проток"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Korejas šaurums"
+       },
+       "be": {
+        "language": "be",
+        "value": "Карэйскі праліў"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Korejský průliv"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Estreito de Corea"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mlango wa Korea"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Koreastredet"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Koreai-szoros"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Ypo'i Korea"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Կորեական նեղուց"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Koreasundet"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Корея бұғазы"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Estret de Corea"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے کوریا"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Koreya boʻgʻozi"
+       },
+       "az": {
+        "language": "az",
+        "value": "Koreya boğazı"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estrecho han Korea"
+       },
+       "new": {
+        "language": "new",
+        "value": "कोरिया जलसन्धि"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Корея боғаҙы"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Strâmtoarea Coreei"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Корей кысыгы"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Chêu-siên Hói-hia̍p"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "კორეაშ საროტი"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "朝鮮海峽"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "朝鮮海峽"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "对马海峡"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Корейски проток"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "朝鲜海峡"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Markolo de Koreio"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Estrech de Corèa"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "கொரியா நீரிணை"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Korejski preliv"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Estrechu de Corea"
+       },
+       "el": {
+        "language": "el",
+        "value": "Στενό της Κορέας"
+       },
+       "br": {
+        "language": "br",
+        "value": "Strizh-mor Korea"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "কোরিয়া প্রণালী"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "कोरिया जलसन्धि"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Korejski prolaz"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Корејски мореуз"
+       },
+       "af": {
+        "language": "af",
+        "value": "Straat van Korea"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Korejski prolaz"
+       },
+       "la": {
+        "language": "la",
+        "value": "Fretum Coreanum"
+       },
+       "ko-kp": {
+        "language": "ko-kp",
+        "value": "조선해협"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Карэйская пратока"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Selat Koréa"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Kulvor Korea"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "چاۋشىيەن بوغۇزى"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Caolas na Cóiré"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Kórejský prieliv"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Tiâu-sián Hái-kiap"
+       },
+       "is": {
+        "language": "is",
+        "value": "Kóreusund"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "کوره بوغازی"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q52052&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:05.173115+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "35845cc545701f4859c9b4b696e3d2780f591bdd",
+        "datavalue": {
+         "value": {
+          "latitude": 34.599444444444,
+          "longitude": 129.79666666667,
+          "altitude": null,
+          "precision": null,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q52052$EA248710-5CAD-42AB-B3ED-C3F386470598",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,730 @@
+{
+ "wikidata_id": "Q7350",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q7350&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:32:56.125410+00:00",
+   "response": {
+    "entities": {
+     "Q7350": {
+      "pageid": 8571,
+      "ns": 0,
+      "title": "Q7350",
+      "lastrevid": 2551332917,
+      "modified": "2026-09-30T13:45:33Z",
+      "type": "item",
+      "id": "Q7350",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Panama Canal"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "canal de Panama"
+       },
+       "it": {
+        "language": "it",
+        "value": "canale di Panama"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Kanal Panama"
+       },
+       "de": {
+        "language": "de",
+        "value": "Panamakanal"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Панамскі канал"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Panama Canal"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Panama Canal"
+       },
+       "af": {
+        "language": "af",
+        "value": "Panamakanaal"
+       },
+       "an": {
+        "language": "an",
+        "value": "Canal de Panamá"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "قناة بنما"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "قناة باناما"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Canal de Panamá"
+       },
+       "az": {
+        "language": "az",
+        "value": "Panama kanalı"
+       },
+       "be": {
+        "language": "be",
+        "value": "Панамскі канал"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Панамски канал"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "পানামা খাল"
+       },
+       "br": {
+        "language": "br",
+        "value": "Kanol Panamá"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Panamski kanal"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "canal de Panamà"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Panamský průplav"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Camlas Panama"
+       },
+       "da": {
+        "language": "da",
+        "value": "Panamakanalen"
+       },
+       "dv": {
+        "language": "dv",
+        "value": "ޕެނަމާ ކެނަލް"
+       },
+       "el": {
+        "language": "el",
+        "value": "Διώρυγα Παναμά"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Panama kanalo"
+       },
+       "es": {
+        "language": "es",
+        "value": "Canal de Panamá"
+       },
+       "et": {
+        "language": "et",
+        "value": "Panama kanal"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Panamako kanala"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "آبراه پاناما"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Panaman kanava"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Panamakanaal"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Canáil Phanama"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "巴拿馬運河"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Canle de Panamá"
+       },
+       "he": {
+        "language": "he",
+        "value": "תעלת פנמה"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "पनामा नहर"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Panama Canal"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Panamski kanal"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Panama-csatorna"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Պանամայի ջրանցք"
+       },
+       "id": {
+        "language": "id",
+        "value": "Terusan Panama"
+       },
+       "io": {
+        "language": "io",
+        "value": "Panama-kanalo"
+       },
+       "is": {
+        "language": "is",
+        "value": "Panamaskurðurinn"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "パナマ運河"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Terusan Panama"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "პანამის არხი"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Панама каналы"
+       },
+       "km": {
+        "language": "km",
+        "value": "ព្រែកជីកប៉ាណាម៉ា"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಪನಾಮ ಕಾಲುವೆ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "파나마 운하"
+       },
+       "krc": {
+        "language": "krc",
+        "value": "Панама илипин"
+       },
+       "la": {
+        "language": "la",
+        "value": "Canalis Panamensis"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Panamakanal"
+       },
+       "lij": {
+        "language": "lij",
+        "value": "Canâle do Panamá"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Canal de Panama"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Panamos kanalas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Panamas kanāls"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Lakandranon'i Panama"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Панамски канал"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "പനാമ കനാൽ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Панамын суваг"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "पनामा कालवा"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Terusan Panama"
+       },
+       "my": {
+        "language": "my",
+        "value": "ပနားမား တူးမြောင်း"
+       },
+       "new": {
+        "language": "new",
+        "value": "पनामा नहर"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Panamakanaal"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Panamakanalen"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Canal de Panamà"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Kanał Panamski"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Canal ëd Panamà"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "نہر پانامہ"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Canal do Panamá"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Canal do Panamá"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Canalul Panama"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Canale de Panama"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Панамский канал"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Панамскый канал"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Canali di Panamá"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Panamski kanal"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Panamský prieplav"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Panamski prekop"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Kanali i Panamasë"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Панамски канал"
+       },
+       "stq": {
+        "language": "stq",
+        "value": "Panamakanoal"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Panamakanalen"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mfereji wa Panama"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "பனாமா கால்வாய்"
+       },
+       "te": {
+        "language": "te",
+        "value": "పనామా కాలువ"
+       },
+       "th": {
+        "language": "th",
+        "value": "คลองปานามา"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Panama kanaly"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Kanal Panama"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Panama Kanalı"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Панамський канал"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "نہر پاناما"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Kênh đào Panama"
+       },
+       "war": {
+        "language": "war",
+        "value": "Kanal han Panama"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "פאנאמא קאנאל"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Ìladò Panamá"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "巴拿馬運河"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "巴拿馬運河"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Панама каналы"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "نۆکەندی پەنەما"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "पानामा नहर"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਪਨਾਮਾ ਨਹਿਰ"
+       },
+       "so": {
+        "language": "so",
+        "value": "Kanaalka Banama"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Canal de Panama"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Panama kanali"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Panamakanaol"
+       },
+       "co": {
+        "language": "co",
+        "value": "Canali di Panama"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Панама каналĕ"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Panamakanalen"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Panama-Kanaal"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Panama kanalı"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Panamakanal"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Панаме канал"
+       },
+       "as": {
+        "language": "as",
+        "value": "পানামা খাল"
+       },
+       "min": {
+        "language": "min",
+        "value": "Tarusan Panama"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Panama Ūn-hô"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Panamas kanals"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "巴拿馬運河"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Панаама ханаала"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Панамера татол"
+       },
+       "brh": {
+        "language": "brh",
+        "value": "Pánámá Kaenál"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Canal de Pànama"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Panama Ông-ò̤"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Панамын һубаг"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Панама каналы"
+       },
+       "li": {
+        "language": "li",
+        "value": "Panamaknaal"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "پاناما کانالی"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Pâ-nâ-mâ Yun-hò"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Panamaveitin"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Panamaa Kianal"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "पनामा नहर"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "巴拿马运河"
+       },
+       "si": {
+        "language": "si",
+        "value": "panama ala"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Panamakanal"
+       },
+       "am": {
+        "language": "am",
+        "value": "ፓናማ ቦይ"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Panaman kanal"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Panama Hɛŋa"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Panama Canal (kanal nga nabigasyon)"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Targa n Panama"
+       },
+       "myv": {
+        "language": "myv",
+        "value": "Панамань венчсуза"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Panamakanaal"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Goeth Panama"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Yrape Panama"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "पनामा नहर"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Kanala Panamayê"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Kanal nin Panama"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "قناة پاناما"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Kanal Panama"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Panama Kanalı"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "پَنَما کۄل"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Terusan Panama"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "巴拿马运河"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "巴拿馬運河"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "د پاناما کانال"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Panama kanalı"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "پاناما ڪئنال"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Panama Canal"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Panama Canal"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Canâl di Panamà"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q7350&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:32:56.388603+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "805e342622390a2c531a8470c38ac0b929738409",
+        "datavalue": {
+         "value": {
+          "latitude": 9.12,
+          "longitude": -79.75,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q7350$8D63FA4D-EE63-424C-85A5-33EC1B4FAC46",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

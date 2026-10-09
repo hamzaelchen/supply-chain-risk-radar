@@ -1,0 +1,638 @@
+{
+ "wikidata_id": "Q79883",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q79883&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:32:51.849349+00:00",
+   "response": {
+    "entities": {
+     "Q79883": {
+      "pageid": 82425,
+      "ns": 0,
+      "title": "Q79883",
+      "lastrevid": 2547610394,
+      "modified": "2026-09-19T00:22:13Z",
+      "type": "item",
+      "id": "Q79883",
+      "labels": {
+       "lb": {
+        "language": "lb",
+        "value": "Strooss vun Hormus"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "霍爾木茲海峽"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Ormuz"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Ormuzko itsasartea"
+       },
+       "es": {
+        "language": "es",
+        "value": "Estrecho de Ormuz"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "ஓர்முசு நீரிணை"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Estrech d'Ormuz"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mlango wa Hormuz"
+       },
+       "et": {
+        "language": "et",
+        "value": "Hormuze väin"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "হরমুজ প্রণালি"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Ngushtica e Hormuzit"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "آبنائے ہرمز"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق هرمز"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Straat van Hormuz"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Hormuzsundet"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estreito de Ormuz"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Ormuza markolo"
+       },
+       "is": {
+        "language": "is",
+        "value": "Hormússund"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Ормузский пролив"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Ормуски пролаз"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Hürmüz Boğazı"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Hormuzinsalmi"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Ормузька протока"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Һормуз силбэһиитэ"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Hormuzsundet"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Hormuški tjesnac"
+       },
+       "az": {
+        "language": "az",
+        "value": "Hörmüz boğazı"
+       },
+       "da": {
+        "language": "da",
+        "value": "Hormuzstrædet"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר הורמוז"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "호르무즈 해협"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit d'Ormuz"
+       },
+       "be": {
+        "language": "be",
+        "value": "Армузскі праліў"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Hormuzs"
+       },
+       "it": {
+        "language": "it",
+        "value": "stretto di Hormuz"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Estreito de Ormuz"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Hormuz"
+       },
+       "de": {
+        "language": "de",
+        "value": "Straße von Hormus"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Strasse von Hormus"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ホルムズ海峡"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഹോർമൂസ് കടലിടുക്ക്"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Eo biển Hormuz"
+       },
+       "en": {
+        "language": "en",
+        "value": "Strait of Hormuz"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Hormuški tjesnac"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "होरमुज़ जलसन्धि"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Hurmiz"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Hormuzský prieliv"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Ормузын хоолой"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Հորմուզի նեղուց"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Ормуз бугазы"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Strjitte fan Hormûz"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Ормус пырĕ"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Strâmtoarea Ormuz"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบฮอร์มุซ"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "estret d'Ormuz"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Culfor Hormuz"
+       },
+       "os": {
+        "language": "os",
+        "value": "Ормузы донкъубал"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Hormuzský průliv"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه هرمز"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Ормузки проток"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے ہرمز"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ჰორმუზის სრუტე"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Ormūzo sąsiauris"
+       },
+       "su": {
+        "language": "su",
+        "value": "Selat Hormuz"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Ормуски Проток"
+       },
+       "el": {
+        "language": "el",
+        "value": "Στενά του Ορμούζ"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Hormuzstredet"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Армуская пратока"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Hoʻrmuz boʻgʻozi"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estrecho han Hormuz"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Hormuzi-szoros"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Hormuški moreuz"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "होर्मुझची सामुद्रधुनी"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Hormuška ožina"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Ормузан хидоькъе"
+       },
+       "io": {
+        "language": "io",
+        "value": "Stretajo di Hormus"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "荷莫茲海峽"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Һормуз боғаҙы"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "kipot sa Hormoz"
+       },
+       "af": {
+        "language": "af",
+        "value": "Straat van Hormoes"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ჰორმუზიშ საროტი"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Estrechu d'Ormuz"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Struat faan Hormuz"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "霍尔木兹海峡"
+       },
+       "br": {
+        "language": "br",
+        "value": "Strizh-mor Hormuz"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Strait of Hormuz"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Strait of Hormuz"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Estreito de Ormuz"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "霍尔木兹海峡"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "霍尔木兹海峡"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "霍尔木兹海峡"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "霍尔木兹海峡"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "荷莫茲海峽"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "荷莫茲海峽"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "霍爾木茲海峽"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "霍爾木茲海峽"
+       },
+       "new": {
+        "language": "new",
+        "value": "होर्मुज जलसन्धि"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "हर्मुज स्ट्रेट"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱦᱚᱨᱢᱩᱡᱽ ᱱᱟᱞᱟ"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Հորմուզի Նեղուց"
+       },
+       "la": {
+        "language": "la",
+        "value": "Fretum Ormusense"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "تەنگەڵانی ھورمز"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Ормуз бұғазы"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Selat Hormuz"
+       },
+       "te": {
+        "language": "te",
+        "value": "హార్ముజ్ జలసంధి"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Caolas Hormuz"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Kipot ng Ormuz"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Selat Hormuz"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "هرمز تنگی"
+       },
+       "pap": {
+        "language": "pap",
+        "value": "Estrecho di Ormuz"
+       },
+       "pap-aw": {
+        "language": "pap-aw",
+        "value": "Estrecho di ormuz"
+       },
+       "om": {
+        "language": "om",
+        "value": "Ulaa Hormuuz"
+       },
+       "mnw": {
+        "language": "mnw",
+        "value": "ဟောရ်မုဇ် (မြံင်)"
+       },
+       "si": {
+        "language": "si",
+        "value": "හෝර්මුස් සමුද්‍ර සන්ධිය"
+       },
+       "as": {
+        "language": "as",
+        "value": "হৰমুজ প্ৰণালী"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဟော်မုဇ် ရေလက်ကြား"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "مضيق هرمز"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Insungubezi kaHomuzi"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ຊ່ອງແຄບຮໍມຸສ"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Mashigar Hormuz"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "होर्मुज जलडमरू"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Straet van Hormoez"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Hormuz Hái-kiap"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "هرمز سامونڊي گذرگاهه"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Stroate van Hormuz"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "آبناے ہرمُز"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Selat Hormuz"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Strett ta' Hormuz"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Marstrette de Hormuz"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Strecc de Hormuz"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Тангаи Ҳурмуз"
+       },
+       "or": {
+        "language": "or",
+        "value": "ହର୍ମୁଜ ପ୍ରଣାଳୀ"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Strittu di Ormuz"
+       },
+       "km": {
+        "language": "km",
+        "value": "ច្រកសមុទ្រហ័រមូហ្ស៍"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "هورموز تنگه‌سی"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "هرمز تنگه"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Ormuz buǵazı"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Strait of Hurmuz"
+       },
+       "dty": {
+        "language": "dty",
+        "value": "हर्मुज जलसन्धि"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "荷姆茲海峽"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q79883&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:32:52.108144+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "4a02b4fbe0d0b79062933debabffacb2b252e1ff",
+        "datavalue": {
+         "value": {
+          "latitude": 26.6,
+          "longitude": 56.5,
+          "altitude": null,
+          "precision": 0.016666666666666666,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q79883$FF2BDEEC-AE55-421D-AEB3-4186CD7B9F7B",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

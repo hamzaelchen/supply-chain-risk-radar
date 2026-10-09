@@ -1,0 +1,530 @@
+{
+ "wikidata_id": "Q6514",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q6514&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:32:59.355104+00:00",
+   "response": {
+    "entities": {
+     "Q6514": {
+      "pageid": 7638,
+      "ns": 0,
+      "title": "Q6514",
+      "lastrevid": 2541654550,
+      "modified": "2026-09-07T11:21:02Z",
+      "type": "item",
+      "id": "Q6514",
+      "labels": {
+       "en": {
+        "language": "en",
+        "value": "Dardanelles"
+       },
+       "de": {
+        "language": "de",
+        "value": "Dardanellen"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Dardanelles"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Dardanelles"
+       },
+       "af": {
+        "language": "af",
+        "value": "Dardanelle"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Ellaspontus"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "الدردنيل"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "الدردنيل"
+       },
+       "be": {
+        "language": "be",
+        "value": "Дарданэлы"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Дарданели"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "ཏ་ཏ་ནེར་མཚོ་འགག"
+       },
+       "br": {
+        "language": "br",
+        "value": "Dardanelloù"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Dardaneli"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Dardanels"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Dardanely"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Dardanelles"
+       },
+       "da": {
+        "language": "da",
+        "value": "Dardanellerne"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ελλήσποντος"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Dardaneloj"
+       },
+       "es": {
+        "language": "es",
+        "value": "Dardanelos"
+       },
+       "et": {
+        "language": "et",
+        "value": "Dardanellid"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Dardaneloak"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "داردانل"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Dardanellit"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit des Dardanelles"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Dardanelos"
+       },
+       "he": {
+        "language": "he",
+        "value": "דרדנלים"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "डार्डेनलीज जलसन्धि"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Dardaneli"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Dardanellák"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Դարդանելի նեղուց"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Dardanelles"
+       },
+       "is": {
+        "language": "is",
+        "value": "Dardanellasund"
+       },
+       "it": {
+        "language": "it",
+        "value": "Dardanelli"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ダーダネルス海峡"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "დარდანელის სრუტე"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "다르다넬스 해협"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Çanakkale"
+       },
+       "la": {
+        "language": "la",
+        "value": "Hellespontus"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Dardanellen"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Dardanelai"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Dardaneļi"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Дарданели"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "डार्डेनेल्झ"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Dardanelles"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Dardanellen"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Dardanellane"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Dardanèls"
+       },
+       "os": {
+        "language": "os",
+        "value": "Дарданеллтæ"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Dardanele"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Dardanelos"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Dardanelos"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Strâmtoarea Dardanele"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Дарданеллы"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Strittu dî Dardanelli"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Dardaneli"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Dardanely"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Dardanele"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Dardanelet"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Дарданели"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Dardanellerna"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Dardaneli"
+       },
+       "th": {
+        "language": "th",
+        "value": "ดาร์ดะเนลส์"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Çanakkale Boğazı"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Дарданели"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "در دانیال"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Dardanéllia"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "דארדאנעלן"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "達達尼爾海峽"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Dardanellene"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Dardanelles"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "An Dardainéil"
+       },
+       "az": {
+        "language": "az",
+        "value": "Dardanel boğazı"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Дарданэлы"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Дарданелл"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Дарданеллар"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Dardanell boʻgʻozi"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Дарданелл бұғазы"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Дарданеллан хидоькъе"
+       },
+       "war": {
+        "language": "war",
+        "value": "Dardanelles"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Дарданелдар боғаҙы"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Na Dàrdainealan"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "達達尼爾海峽"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Dardanelles"
+       },
+       "so": {
+        "language": "so",
+        "value": "Dardaniil"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "鞑靼内亚海峡"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ഡാർഡനെൽസ്"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Dardanelles"
+       },
+       "co": {
+        "language": "co",
+        "value": "Strittonu di i Dardaneddi"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Stret di Dardanei"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Dardanelos"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "தார்தனெல்சு நீரிணை"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Dardanelln"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Dardanellen"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Дарданелы"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "দার্দানেলেস প্রণালী"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Dardanellen"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Дарданеллын хоолой"
+       },
+       "mi": {
+        "language": "mi",
+        "value": "Tātinēra"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಡಾರ್ಡ್ನೆಲ್ಸ್‌"
+       },
+       "an": {
+        "language": "an",
+        "value": "Dardanelos"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "داردانێل"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "آبنائے در دانیال"
+       },
+       "grc": {
+        "language": "grc",
+        "value": "Ἑλλήσποντος"
+       },
+       "new": {
+        "language": "new",
+        "value": "दार्दानेल्स"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "達達尼爾海峽"
+       },
+       "io": {
+        "language": "io",
+        "value": "Stretajo Dardaneli"
+       },
+       "ht": {
+        "language": "ht",
+        "value": "Dadanèl"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "داردانل تنگی"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Dardanele"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Dardanelos"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "達達尼爾海峽"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q6514&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:00.025007+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "6c987d1e5e950e6476a2fcfc85149aac5d6e913f",
+        "datavalue": {
+         "value": {
+          "latitude": 40.2,
+          "longitude": 26.4,
+          "altitude": null,
+          "precision": 0.0166667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q6514$7EC31D57-59F0-47DC-A293-1E46BB218CAD",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

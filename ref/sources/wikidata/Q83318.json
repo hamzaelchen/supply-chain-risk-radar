@@ -1,0 +1,466 @@
+{
+ "wikidata_id": "Q83318",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q83318&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:32:53.871466+00:00",
+   "response": {
+    "entities": {
+     "Q83318": {
+      "pageid": 85714,
+      "ns": 0,
+      "title": "Q83318",
+      "lastrevid": 2553361148,
+      "modified": "2026-10-05T08:27:04Z",
+      "type": "item",
+      "id": "Q83318",
+      "labels": {
+       "zh": {
+        "language": "zh",
+        "value": "曼德海峡"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Babul Mandib"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Bab el-Mandeb"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Bab al-Mandab"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Bab-el-Mandeb"
+       },
+       "es": {
+        "language": "es",
+        "value": "Bab el-Mandeb"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Bab-el-Mandeb"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Báb el-Mandeb"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Bab el Mandeb"
+       },
+       "et": {
+        "language": "et",
+        "value": "Bab el Mandeb"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "বাব এল মান্দেব"
+       },
+       "el": {
+        "language": "el",
+        "value": "Μπαμπ ελ Μαντέμπ"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Bab-el-Mandeb"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "آبنائے باب المندب"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Bab el Mandeb"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق باب المندب"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Bab al-Mandab"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Bab-el-Mandeb"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Bab al-Mandab"
+       },
+       "is": {
+        "language": "is",
+        "value": "Bab-el-Mandeb"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Баб-эль-Мандебский пролив"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Баб ел Мандеб"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Babü'l Mendep"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Bab el Mandeb"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Баб-ель-Мандебська протока"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Баб-эль-Мандэбская пратока"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Bab el-Mandeb-sundet"
+       },
+       "az": {
+        "language": "az",
+        "value": "Babülməndəb boğazı"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Bab-el-Mandeb"
+       },
+       "da": {
+        "language": "da",
+        "value": "Bab el-Mandeb"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Bab-el-Mandeb Hái-kiap"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Bab-el-Mandeb"
+       },
+       "be": {
+        "language": "be",
+        "value": "Баб-эль-Мандэбскі праліў"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "바브엘만데브 해협"
+       },
+       "he": {
+        "language": "he",
+        "value": "באב אל-מנדב"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Bābelmandebs"
+       },
+       "it": {
+        "language": "it",
+        "value": "Bab el-Mandeb"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Bab el-Mandeb"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Bab-el-Mandeb"
+       },
+       "de": {
+        "language": "de",
+        "value": "Bab al-Mandab"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "バブ・エル・マンデブ海峡"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Bab-el-Mandeb"
+       },
+       "en": {
+        "language": "en",
+        "value": "Bab-el-Mandeb"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Bab-el-Mandeb"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "बाब अल-मन्देब जलसन्धि"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Bab el-Mendeb"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Báb el-Mandeb"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Баб-әл-Мәндәп бугазы"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Strâmtoarea Bab el-Mandeb"
+       },
+       "th": {
+        "language": "th",
+        "value": "บาบุลมันดับ"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Bab el-Mandeb"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Bab al Mandab"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Bab-al-Mandab"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Баб ел Мандеб"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "باب‌المندب"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے باب المندب"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ბაბ-ელ-მანდების სრუტე"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Bab el Mandebas"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Bab-el-Mandeb"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Bab-el-Mandeb"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Bab-el-Mandeb"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Bab-el-Mandeb"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Bab el-Mandeb"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Բաբ էլ-Մանդեբի նեղուց"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Bob ul-mandab boʻgʻozi"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Баб ел-Мандеб"
+       },
+       "war": {
+        "language": "war",
+        "value": "Bab-el-Mandeb"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Баб-эль-Мандеб кысыгы"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Баб-эль-Мандебан хидоькъе"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "باب المندب"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Баб-әл-Мәндәб боғаҙы"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "曼德海峽"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Bab el Mandeb"
+       },
+       "af": {
+        "language": "af",
+        "value": "Bab-el-Mandeb"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ბაბ-ელ-მანდებიშ საროტი"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ബാബ്-എൽ-മൻഡേബ്"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Bab el-Mandeb"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "曼德海峡"
+       },
+       "br": {
+        "language": "br",
+        "value": "Bab al-Mandab"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Баб әл-Мандеб"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "பாபுல் மந்தபு"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Бобулмандаб"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "باب المندب"
+       },
+       "la": {
+        "language": "la",
+        "value": "Babel-Mandelum Fretum"
+       },
+       "te": {
+        "language": "te",
+        "value": "బాబ్-ఎల్-మండేబ్"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Bab el Mandeb"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "بابوولمەندەب"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "باب‌المندب"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Bab-el-Mandeb"
+       },
+       "new": {
+        "language": "new",
+        "value": "बब-एल-मण्डब जलसन्धि"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Bab-el-Mandeb"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Bab el-Mandeb"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "باب المندب"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Bab-el-Mandeb"
+       },
+       "zea": {
+        "language": "zea",
+        "value": "Bab el-Mandeb"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "曼德海峽"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q83318&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:32:54.107481+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "583aa97d2b6b1f4da843991ff943bbf73457bfdf",
+        "datavalue": {
+         "value": {
+          "latitude": 12.583333333333,
+          "longitude": 43.333333333333,
+          "altitude": null,
+          "precision": null,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q83318$C1B9F551-B225-4F0C-AAEC-92D9D101EF5C",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

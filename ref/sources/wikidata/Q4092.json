@@ -1,0 +1,534 @@
+{
+ "wikidata_id": "Q4092",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q4092&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:33:02.922130+00:00",
+   "response": {
+    "entities": {
+     "Q4092": {
+      "pageid": 5010,
+      "ns": 0,
+      "title": "Q4092",
+      "lastrevid": 2549497343,
+      "modified": "2026-09-26T03:26:47Z",
+      "type": "item",
+      "id": "Q4092",
+      "labels": {
+       "de": {
+        "language": "de",
+        "value": "Kap der Guten Hoffnung"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "cap de Bonne-Espérance"
+       },
+       "en": {
+        "language": "en",
+        "value": "Cape of Good Hope"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Cape of Good Hope"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Cape of Good Hope"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Kaap de Goede Hoop"
+       },
+       "af": {
+        "language": "af",
+        "value": "Kaap die Goeie Hoop"
+       },
+       "it": {
+        "language": "it",
+        "value": "Capo di Buona Speranza"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "رأس الرجاء الصالح"
+       },
+       "arc": {
+        "language": "arc",
+        "value": "ܪܝܫܐ ܕܣܒܪܐ ܛܒܐ"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Cabu de la Bona Esperanza"
+       },
+       "az": {
+        "language": "az",
+        "value": "Ümid burnu"
+       },
+       "be": {
+        "language": "be",
+        "value": "Мыс Добрай Надзеі"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Добра надежда"
+       },
+       "br": {
+        "language": "br",
+        "value": "Kab ar Spi Mat"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Rt dobre nade"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Cap de Bona Esperança"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Cape of Good Hope"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "mys Dobré naděje"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Penrhyn Gobaith Da"
+       },
+       "da": {
+        "language": "da",
+        "value": "Kap Det Gode Håb"
+       },
+       "el": {
+        "language": "el",
+        "value": "Ακρωτήριο της Καλής Ελπίδος"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Kabo de Bona Espero"
+       },
+       "es": {
+        "language": "es",
+        "value": "Cabo de Buena Esperanza"
+       },
+       "et": {
+        "language": "et",
+        "value": "Hea Lootuse neem"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Esperantza Oneko lurmuturra"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "دماغه امید نیک"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Hyväntoivonniemi"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Kaap de Goeie Hope"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Cabo de Boa Esperanza"
+       },
+       "he": {
+        "language": "he",
+        "value": "כף התקווה הטובה"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "केप ऑफ़ गुड होप"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Rt dobre nade"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Jóreménység foka"
+       },
+       "id": {
+        "language": "id",
+        "value": "Tanjung Harapan"
+       },
+       "io": {
+        "language": "io",
+        "value": "Kabo di Bon Espero"
+       },
+       "is": {
+        "language": "is",
+        "value": "Góðrarvonarhöfði"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "喜望峰"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "კეთილი იმედის კონცხი"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "희망봉"
+       },
+       "la": {
+        "language": "la",
+        "value": "Promontorium Bonae Spei"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Kap vun der Gudder Hoffnung"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Gerosios Vilties kyšulys"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Labās Cerības rags"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "'Рт на Добрата Надеж"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "പ്രതീക്ഷാ മുനമ്പ്"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "केप ऑफ गुड होप"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Tanjung Harapan, Afrika Selatan"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဂွတ်ဟုပ်အငူ"
+       },
+       "nah": {
+        "language": "nah",
+        "value": "Cabo de Buena Esperanza"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Kapp det gode håp"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Cap de Bona Esperança"
+       },
+       "os": {
+        "language": "os",
+        "value": "Хорз Ныфсы сынæг"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Przylądek Dobrej Nadziei"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Cabo da Boa Esperança"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Capul Bunei Speranțe"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Мыс Доброй Надежды"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Capu di Bona Spiranza"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Cape o Guid Howp"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Rt dobre nade"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Mys dobrej nádeje"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Rt dobrega upanja"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Kepi i shpresës së mirë"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Рт добре наде"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Godahoppsudden"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Rasi ya Tumaini Jema"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "நன்னம்பிக்கை முனை"
+       },
+       "th": {
+        "language": "th",
+        "value": "แหลมกู๊ดโฮป"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Ümit Burnu"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Мис Доброї Надії"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "راس امید"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Mũi Hảo Vọng"
+       },
+       "war": {
+        "language": "war",
+        "value": "Kabo han Maupay nga Pag-asa"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "好望角"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "好望角"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "好望角"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "好望角"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Kap der Guten Hoffnung"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Cabo da Boa Esperança"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "好望角"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Kapp det gode håp"
+       },
+       "co": {
+        "language": "co",
+        "value": "Capu di Bona Spiranza"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Мыс Добрай Надзеі"
+       },
+       "kbd": {
+        "language": "kbd",
+        "value": "Къуапэ ГугъэфI"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Բարեհուսո հրվանդան"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "કેપ ઓફ ગુડ હોપ"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Rinn an Dóchais"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Һайн Найдалай хушуу"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಕೇಪ್ ಓಫ್ ಗುಡ್ ಹೋಪ್"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Yaxshi umid burni"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Илгери үмүт тумшугу"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "উত্তমাশা অন্তরীপ"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Gōdes Hyhtes Næss"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "好望角"
+       },
+       "li": {
+        "language": "li",
+        "value": "Kaap de Gooj Haop"
+       },
+       "se": {
+        "language": "se",
+        "value": "Buoridoaivvonjárga"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Ixef n Usirem Agerram"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Дикачу сатийсаман мара"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Қайырлы үміт мүйісі"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Kap Gud Hööb"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Kepi reTariro Yakanaka"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "راس امید"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "رأس الرجاء الصالح"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Cape of Good Hope"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "سەری ھیوای باش"
+       },
+       "szy": {
+        "language": "szy",
+        "value": "Haw-wan-ciw"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Kabo kan Marhay na Paglaom"
+       },
+       "tpi": {
+        "language": "tpi",
+        "value": "Kep bilong Gutpela Hop"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "I-Cape of Good Hope"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ແຫຼມກູດໂຮບ"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Ujut Pengadang Manah"
+       },
+       "tok": {
+        "language": "tok",
+        "value": "ma Kape"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "好望角"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q4092&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:03.194015+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "b8e7d7a5b3ed60d417b9a92bfadc34fea13e361b",
+        "datavalue": {
+         "value": {
+          "latitude": -34.358055555556,
+          "longitude": 18.471944444444,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q4092$A3C5018C-D2BD-41AD-8685-603596AB135D",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,638 @@
+{
+ "wikidata_id": "Q35958",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q35958&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:32:58.185701+00:00",
+   "response": {
+    "entities": {
+     "Q35958": {
+      "pageid": 38616,
+      "ns": 0,
+      "title": "Q35958",
+      "lastrevid": 2541476200,
+      "modified": "2026-09-07T03:55:04Z",
+      "type": "item",
+      "id": "Q35958",
+      "labels": {
+       "lb": {
+        "language": "lb",
+        "value": "Bosporus"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "博斯普鲁斯海峡"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Selat Bosporus"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Bosforo"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Bosfor"
+       },
+       "ang": {
+        "language": "ang",
+        "value": "Bosporos"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Bosfor"
+       },
+       "es": {
+        "language": "es",
+        "value": "Bósforo"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "பொசுபோரசு"
+       },
+       "af": {
+        "language": "af",
+        "value": "Bosporus"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Bosfòr"
+       },
+       "gag": {
+        "language": "gag",
+        "value": "Bosfor"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Bosporo"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Boszporusz"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Bosporus"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Bosporus"
+       },
+       "et": {
+        "language": "et",
+        "value": "Bosporus"
+       },
+       "br": {
+        "language": "br",
+        "value": "Bosfor"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Bosfori"
+       },
+       "el": {
+        "language": "el",
+        "value": "Βόσπορος"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Босфор"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "آبنائے باسفورس"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Bosporen"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Bosporus"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "البوسفور"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Bosfor"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Bósforo"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Bosporo"
+       },
+       "is": {
+        "language": "is",
+        "value": "Bosporussund"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Босфор"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Босфор"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Bósforu"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "İstanbul Boğazı"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Босфор"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Bosporinsalmi"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Босфор"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Басфор"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Bosporos"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Bospor"
+       },
+       "az": {
+        "language": "az",
+        "value": "Bosfor"
+       },
+       "da": {
+        "language": "da",
+        "value": "Bosporus"
+       },
+       "an": {
+        "language": "an",
+        "value": "Bosforo"
+       },
+       "he": {
+        "language": "he",
+        "value": "בוספורוס"
+       },
+       "be": {
+        "language": "be",
+        "value": "Басфор"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "보스포루스"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "البوسفور"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Bosphore"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "ئىستانبۇل بوغازى"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Bosfor"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Bosfors"
+       },
+       "it": {
+        "language": "it",
+        "value": "Bosforo"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Bósforo"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Bosporus"
+       },
+       "de": {
+        "language": "de",
+        "value": "Bosporus"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ボスポラス海峡"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Bosporus"
+       },
+       "en": {
+        "language": "en",
+        "value": "Bosporus Strait"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Bosfor"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Bosfuru"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "बोस्पोरुस जलसन्धि"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Bospor"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Stenbolê"
+       },
+       "ext": {
+        "language": "ext",
+        "value": "Bósforu"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Բոսֆոր"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Босфор бугазы"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Босфор"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Bosporus"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบบอสฟอรัส"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Strâmtoarea Bosfor"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Bòsfor"
+       },
+       "la": {
+        "language": "la",
+        "value": "Bosporus"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Bosphorus"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Bospor"
+       },
+       "war": {
+        "language": "war",
+        "value": "Bosforo"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Bospor"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Босфор"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "बोस्फोरस"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه بسفر"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے باسفورس"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ბოსფორი"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Bosporus"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Bosforo sąsiauris"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "An Bhosparais"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ബോസ്ഫറസ്"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Bosfor"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Bosporos"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Боспор бұғазы"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Bosporus"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Bosphorus"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Bosphorus"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Bósforo"
+       },
+       "su": {
+        "language": "su",
+        "value": "Selat Bosporus"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Bosphorus"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "বসফরাস প্রণালী"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "伊斯坦堡海峽"
+       },
+       "new": {
+        "language": "new",
+        "value": "बोस्पोरुस जलसन्धि"
+       },
+       "mzn": {
+        "language": "mzn",
+        "value": "بسفر تنگه"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Босфор"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Босфор"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "באספארוס"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Bòsfaras"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ბოსფორი"
+       },
+       "so": {
+        "language": "so",
+        "value": "Boosfoor"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "博斯普鲁斯海峡"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Bosporus"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Bòsforu"
+       },
+       "am": {
+        "language": "am",
+        "value": "የቦስፖሮስ ወሽመጥ"
+       },
+       "li": {
+        "language": "li",
+        "value": "Bosporus"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "博斯普鲁斯海峡"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "伊斯坦布尔海峡"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "伊斯坦布尔海峡"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "伊斯坦布尔海峡"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "博斯普魯斯海峽"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "伊斯坦堡海峽"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "伊斯坦堡海峽"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "伊斯坦堡海峽"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Bosfor"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Bosporus"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Bosphoro"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Վոսփոր"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Боспор"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Bosporus"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Босфорой хоолой"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Босфорын хоолой"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "Bósforo"
+       },
+       "io": {
+        "language": "io",
+        "value": "Stretajo Bosforo"
+       },
+       "os": {
+        "language": "os",
+        "value": "Босфор"
+       },
+       "tg": {
+        "language": "tg",
+        "value": "Босфор"
+       },
+       "wa": {
+        "language": "wa",
+        "value": "Bosfore"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "ایستانبول بوغازی"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "آبنائے باسفورس"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Босфор"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Bosporus Strait"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Bosporus"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "باسپورس تنگی"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "بۆسفۆر"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Bosforo"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "博斯普魯斯海峽"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "باسفورس سامونڊي گذرگاهه"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q35958&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:32:58.454628+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "e09a2aa5580de00bc71ca99c60668237f993410c",
+        "datavalue": {
+         "value": {
+          "latitude": 41.12,
+          "longitude": 29.08,
+          "altitude": null,
+          "precision": 0.000277778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q35958$FCABCDDC-D4C0-4B64-B2F9-85FB190AC0E4",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,471 @@
+{
+ "wikidata_id": "Q192790",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q192790&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:33:08.057817+00:00",
+   "response": {
+    "entities": {
+     "Q192790": {
+      "pageid": 190924,
+      "ns": 0,
+      "title": "Q192790",
+      "lastrevid": 2549964795,
+      "modified": "2026-09-27T10:04:38Z",
+      "type": "item",
+      "id": "Q192790",
+      "labels": {
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "巽他海峡"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "巽他海峽"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "巽他海峽"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "巽他海峡"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "巽他海峡"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "巽他海峽"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Selat Sundha"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Cieśnina Sundajska"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit de la Sonde"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "순다 해협"
+       },
+       "es": {
+        "language": "es",
+        "value": "estrecho de la Sonda"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Szunda-szoros"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Selat Sunda"
+       },
+       "it": {
+        "language": "it",
+        "value": "Stretto della Sonda"
+       },
+       "et": {
+        "language": "et",
+        "value": "Sunda väin"
+       },
+       "de": {
+        "language": "de",
+        "value": "Sundastraße"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Sundastrasse"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Sunda"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "スンダ海峡"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Eo biển Sunda"
+       },
+       "en": {
+        "language": "en",
+        "value": "Sunda Strait"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق الصند"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Straat Sunda"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Sundasundet"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "सुण्डा जलसन्धि"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estreito de Sunda"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Sunda Markolo"
+       },
+       "ku-arab": {
+        "language": "ku-arab",
+        "value": "تەنگاڤا سوندا"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Tengava Sunda"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Sundský prieliv"
+       },
+       "su": {
+        "language": "su",
+        "value": "Selat Sunda"
+       },
+       "new": {
+        "language": "new",
+        "value": "सुण्डा जलसन्धि"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Зондский пролив"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Sunda Boğazı"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Strjitte fan Sûnda"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบซุนดา"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "estret de la Sonda"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Sundasalmi"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Зондська протока"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Culfor Sunda"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Sundský průliv"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Зондски пролив"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه سوندا"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Sundos sąsiauris"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Зонд бұғазы"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "巽他海峡"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Sunda"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Zunda šaurums"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Sundastredet"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר סונדה"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Sundasundet"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Сундски пролаз"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Զոնդյան նեղուց"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estrecho han Sunda"
+       },
+       "az": {
+        "language": "az",
+        "value": "Zond (Sunda) boğazı"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சுண்டா நீரிணை"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "巽他海峽"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Зонд боғаҙы"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Sondako itsasartea"
+       },
+       "be": {
+        "language": "be",
+        "value": "Зондскі праліў"
+       },
+       "map-bms": {
+        "language": "map-bms",
+        "value": "Selat Sunda"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Estrechu de la Sonda"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "সুন্দা প্রণালী"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Estrech de la Sonda"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Itiot nin Sunda"
+       },
+       "br": {
+        "language": "br",
+        "value": "Strizh-mor Sunda"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Caolas Shunda"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "सुंदाची सामुद्रधुनी"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "巽他海峡"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ზონდის სრუტე"
+       },
+       "min": {
+        "language": "min",
+        "value": "Selat Sunda"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Sundski prolaz"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "സുന്ദ കടലിടുക്ക്"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mlangobahari wa Sunda"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Sunda Hái-kiap"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Estreito de Sunda"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Sundski prolaz"
+       },
+       "el": {
+        "language": "el",
+        "value": "Στενό της Σούντα"
+       },
+       "la": {
+        "language": "la",
+        "value": "Fretum Sundanum"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Selat Sunda"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Зондзкая пратока"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Selat Sunda"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Sundski preliv"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Sundastrooss"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "سلت سوندا"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Сундски пролаз"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Selat Sunda"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Selat Sunda"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Сунда силбэһиитэ"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q192790&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:08.291643+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "9b10d4455be88597280443c580601b8274f48050",
+        "datavalue": {
+         "value": {
+          "latitude": -5.9702777777778,
+          "longitude": 105.76972222222,
+          "altitude": null,
+          "precision": 0.00027777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q192790$680F220B-6F87-4648-AA7A-E1E864EE39BD",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "b298c1698ec74e6e2ef9ce9b012d45877fb2d0b0",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "7648f66055f57f6227dd1f872bc4ed26c70da7c6",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 1194038,
+              "id": "Q1194038"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P577": [
+           {
+            "snaktype": "value",
+            "property": "P577",
+            "hash": "a372c95b03a3464736c5fd1d7ed86176f0c04973",
+            "datavalue": {
+             "value": {
+              "time": "+2018-06-11T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ],
+          "P2326": [
+           {
+            "snaktype": "value",
+            "property": "P2326",
+            "hash": "f1f0d3b1efc503b5cc61a575bf568298cfe656d8",
+            "datavalue": {
+             "value": "-2698266",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P577",
+          "P2326"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

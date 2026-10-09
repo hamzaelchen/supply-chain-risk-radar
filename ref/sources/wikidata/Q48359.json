@@ -1,0 +1,520 @@
+{
+ "wikidata_id": "Q48359",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q48359&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:32:55.145046+00:00",
+   "response": {
+    "entities": {
+     "Q48359": {
+      "pageid": 50348,
+      "ns": 0,
+      "title": "Q48359",
+      "lastrevid": 2552926638,
+      "modified": "2026-10-04T05:58:24Z",
+      "type": "item",
+      "id": "Q48359",
+      "labels": {
+       "lb": {
+        "language": "lb",
+        "value": "Strooss vu Malakka"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "马六甲海峡"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Selat Melaka"
+       },
+       "bo": {
+        "language": "bo",
+        "value": "མ་ལིའུ་ཅ་མཚོ་འགག"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Malakako itsasartea"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Cieśnina Malakka"
+       },
+       "es": {
+        "language": "es",
+        "value": "Estrecho de Malaca"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "மலாக்கா நீரிணை"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Estrech de Malaca"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Selat Melaka"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Malaka-szoros"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mlango wa Malakka"
+       },
+       "et": {
+        "language": "et",
+        "value": "Malaka väin"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "মালাক্কা প্রণালী"
+       },
+       "br": {
+        "language": "br",
+        "value": "Strizh-mor Malaka"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "آبنائے ملاکا"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق ملقا"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Malackasundet"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Straat Malakka"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estreito de Malaca"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Malaka Markolo"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "მალაკიშ საროტი"
+       },
+       "new": {
+        "language": "new",
+        "value": "मलक्का जलसन्धि"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Малаккский пролив"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Malakka Boğazı"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Малачки Проток"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Malakansalmi"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Малаккська протока"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Malakkasundet"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Malajski prolaz"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Kipot ng Malaka"
+       },
+       "da": {
+        "language": "da",
+        "value": "Malaccastrædet"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Malacca Hái-kiap"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר מלאקה"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "믈라카 해협"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit de Malacca"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Malakas šaurums"
+       },
+       "it": {
+        "language": "it",
+        "value": "Stretto di Malacca"
+       },
+       "de": {
+        "language": "de",
+        "value": "Straße von Malakka"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Strasse von Malakka"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Malaka"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "മലാക്കാ കടലിടുക്ക്"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "マラッカ海峡"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "eo biển Malacca"
+       },
+       "en": {
+        "language": "en",
+        "value": "Strait of Malacca"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Malajski prolaz"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "मलक्का जलडमरूमध्य"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Melacký prieliv"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Malakayê"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Strjitte fan Malakka"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบมะละกา"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Strâmtoarea Malacca"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "estret de Malaca"
+       },
+       "la": {
+        "language": "la",
+        "value": "Fretum Malaccense"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estrecho han Malacca"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Malacký průliv"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "मलाक्क्याची सामुद्रधुनी"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه مالاکا"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Малака"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "მალაკის სრუტე"
+       },
+       "km": {
+        "language": "km",
+        "value": "ច្រកមលក្កា"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے ملاکا"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Malakos sąsiauris"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਮਲੱਕਾ ਪਣਜੋੜ"
+       },
+       "is": {
+        "language": "is",
+        "value": "Malakkasund"
+       },
+       "ace": {
+        "language": "ace",
+        "value": "Seulat Malaka"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Malakkastredet"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Малајски мореуз"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Mâ-liuk-kap Hói-hia̍p"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Malakkafjørður"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Strait o Malacca"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "马六甲海峡"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Estreito de Malaca"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Մալակկայի նեղուց"
+       },
+       "el": {
+        "language": "el",
+        "value": "Στενό της Μαλάκα"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Malakka boʻgʻozi"
+       },
+       "az": {
+        "language": "az",
+        "value": "Malakka boğazı"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Mā-lăk-gă Hāi-hiĕk"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "馬六甲海峽"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Malajski prolaz"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Малакка боғаҙы"
+       },
+       "be": {
+        "language": "be",
+        "value": "Малакскі праліў"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Strait of Malacca"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Strait of Malacca"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Малакка кысыгы"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Estreito de Malaca"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "馬六甲海峽"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "馬六甲海峽"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Estrechu de Malaca"
+       },
+       "io": {
+        "language": "io",
+        "value": "Stretajo di Malaka"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "دەربەندی مالاکا"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Малакка бугазы"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Melaški preliv"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Selat Malaka (estretso)"
+       },
+       "min": {
+        "language": "min",
+        "value": "Selat Malaka"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Struat faan Malakka"
+       },
+       "af": {
+        "language": "af",
+        "value": "Straat van Malakka"
+       },
+       "gor": {
+        "language": "gor",
+        "value": "Selat Malaka"
+       },
+       "my": {
+        "language": "my",
+        "value": "မလက္ကာရေလက်ကြား"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Малацкая пратока"
+       },
+       "ms-arab": {
+        "language": "ms-arab",
+        "value": "سلت ملاک"
+       },
+       "te": {
+        "language": "te",
+        "value": "మలక్కా జలసంధి"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "马六甲海峡"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱢᱟᱞᱟᱠᱠᱟ ᱮᱥᱴᱮᱨᱮᱴ"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Selat Malaka"
+       },
+       "skr": {
+        "language": "skr",
+        "value": "آبنائے ملاکا"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Малајски мореуз"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Strait of Malacca"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Culfor Malacca"
+       },
+       "kge": {
+        "language": "kge",
+        "value": "Selat Malaka"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Selat Melaka"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಮಲಕ್ಕಾ ಜಲಸಂಧಿ"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Малакка силбэһиитэ"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "ملاڪا سامونڊي گذرگاهه"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Insungubezi yaseMalakha"
+       },
+       "mad": {
+        "language": "mad",
+        "value": "Selat Malaka"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q48359&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:32:55.378599+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "ab80395e5ea35acce6243df04f7e7ba45fa1d527",
+        "datavalue": {
+         "value": {
+          "latitude": 2.833,
+          "longitude": 101.037,
+          "altitude": null,
+          "precision": 0.001,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q48359$acbe5676-4273-a0eb-08c0-edd343985206",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  }
+ }
+}

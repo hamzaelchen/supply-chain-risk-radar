@@ -1,0 +1,434 @@
+{
+ "wikidata_id": "Q104662",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q104662&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:33:01.797276+00:00",
+   "response": {
+    "entities": {
+     "Q104662": {
+      "pageid": 107320,
+      "ns": 0,
+      "title": "Q104662",
+      "lastrevid": 2517937566,
+      "modified": "2026-07-15T22:45:53Z",
+      "type": "item",
+      "id": "Q104662",
+      "labels": {
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "厄勒海峡"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "厄勒海峽"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "松德海峽"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "厄勒海峡"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "厄勒海峡"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "松德海峽"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Øresund"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Sund"
+       },
+       "be": {
+        "language": "be",
+        "value": "Праліў Эрэсун"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "외레순 해협"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "Øresund"
+       },
+       "he": {
+        "language": "he",
+        "value": "ארסונד"
+       },
+       "es": {
+        "language": "es",
+        "value": "Oresund"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Øresund"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Ēresunds"
+       },
+       "it": {
+        "language": "it",
+        "value": "Øresund"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Oresund"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Öresund"
+       },
+       "et": {
+        "language": "et",
+        "value": "Sund"
+       },
+       "de": {
+        "language": "de",
+        "value": "Öresund"
+       },
+       "id": {
+        "language": "id",
+        "value": "Øresund"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "エーレスンド海峡"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Eo biển Oresund"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Sont"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "أوريسند"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Öresund"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Öresund"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Sundo"
+       },
+       "is": {
+        "language": "is",
+        "value": "Eyrarsund"
+       },
+       "ku-arab": {
+        "language": "ku-arab",
+        "value": "تەنگاڤائۆ رەسوند"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Tengava Oresund"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Öresund"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Эресунн"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Էրեսուն"
+       },
+       "sr-el": {
+        "language": "sr-el",
+        "value": "Eresund"
+       },
+       "sr-ec": {
+        "language": "sr-ec",
+        "value": "Ересунд"
+       },
+       "en": {
+        "language": "en",
+        "value": "Øresund"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Øresund"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Sont"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Ересунд"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "Øresund"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Juutinrauma"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Ересунн"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Эрэсунд"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Øresund"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Øresund"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Øresund"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Öresund"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Йоресун"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه اورسوند"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ერესუნის სრუტე"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Öresund"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Eresundas"
+       },
+       "da": {
+        "language": "da",
+        "value": "Øresund"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "厄勒海峡"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Oresund"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Ересунд"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Øresund"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Øresund"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Øresund"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے اوریسوند"
+       },
+       "la": {
+        "language": "la",
+        "value": "Oresundae fretum"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Øresund"
+       },
+       "az": {
+        "language": "az",
+        "value": "Öresund"
+       },
+       "vls": {
+        "language": "vls",
+        "value": "Sont"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Øresund"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Øresund"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Өресунд"
+       },
+       "th": {
+        "language": "th",
+        "value": "เออเรซุนด์"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Эресунн"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "The Sound (estretso sa Dinamarka)"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Эресунн"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Eresunn boʻgʻozi"
+       },
+       "gd": {
+        "language": "gd",
+        "value": "Øresund"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "松德海峽"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Oyrasund"
+       },
+       "af": {
+        "language": "af",
+        "value": "Sont"
+       },
+       "war": {
+        "language": "war",
+        "value": "Øresund"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "estrechu d'Øresund"
+       },
+       "br": {
+        "language": "br",
+        "value": "Øresund"
+       },
+       "co": {
+        "language": "co",
+        "value": "Øresund"
+       },
+       "ty": {
+        "language": "ty",
+        "value": "Øresund"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "厄勒海峡"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "ஒரிசவுண்ட்"
+       },
+       "el": {
+        "language": "el",
+        "value": "Έρεσουντ"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "اوريسوند"
+       },
+       "os": {
+        "language": "os",
+        "value": "Эресунн"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Øresund"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q104662&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:02.023772+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "365fc2aa46ab3b5ec7e9c33bc9ff2daaf897b3b7",
+        "datavalue": {
+         "value": {
+          "latitude": 55.75,
+          "longitude": 12.75,
+          "altitude": null,
+          "precision": 0.0166667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q104662$53980BA0-4044-48B6-9C7B-3957909CAFF0",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

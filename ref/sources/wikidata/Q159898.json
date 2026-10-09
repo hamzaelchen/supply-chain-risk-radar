@@ -1,0 +1,426 @@
+{
+ "wikidata_id": "Q159898",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q159898&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:33:00.794597+00:00",
+   "response": {
+    "entities": {
+     "Q159898": {
+      "pageid": 160804,
+      "ns": 0,
+      "title": "Q159898",
+      "lastrevid": 2531278663,
+      "modified": "2026-08-14T10:39:57Z",
+      "type": "item",
+      "id": "Q159898",
+      "labels": {
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "多佛尔海峡"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "多佛海峽"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "多佛海峽"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "多佛尔海峡"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "多佛尔海峡"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "多佛海峽"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Cieśnina Kaletańska"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Calaisko itsasartea"
+       },
+       "es": {
+        "language": "es",
+        "value": "Paso de Calais"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "டோவர் நீரிணை"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Pas de Calais"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Selat Dover"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Doveri-szoros"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mlango wa Dover"
+       },
+       "et": {
+        "language": "et",
+        "value": "Calais' väin"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "ডোভার প্রণালী"
+       },
+       "br": {
+        "language": "br",
+        "value": "Strizh-mor Dover"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "آبنائے ڈوور"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق دوفر"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Nauw van Calais"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Doverkanalen"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estreito de Dover"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Па-де-Кале"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Dover boğazı"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Доверски Проток"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Doverinsalmi"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Па-де-Кале"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Па-дэ-Кале"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Doversundet"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Kipot ng Calais"
+       },
+       "da": {
+        "language": "da",
+        "value": "Doverstrædet"
+       },
+       "an": {
+        "language": "an",
+        "value": "Paso de Calais"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר דובר"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "도버 해협"
+       },
+       "be": {
+        "language": "be",
+        "value": "Па-дэ-Кале"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "pas de Calais"
+       },
+       "it": {
+        "language": "it",
+        "value": "Stretto di Dover"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Paso de Calais"
+       },
+       "de": {
+        "language": "de",
+        "value": "Straße von Dover"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Strasse von Dover"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ドーバー海峡"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Eo biển Dover"
+       },
+       "en": {
+        "language": "en",
+        "value": "Strait of Dover"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "डोवर जलसन्धि"
+       },
+       "ku-arab": {
+        "language": "ku-arab",
+        "value": "تەنگاڤا دۆڤەر"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Tengava Dover"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Calaiská úžina"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Nau fan Kales"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบโดเวอร์"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "pas de Calais"
+       },
+       "la": {
+        "language": "la",
+        "value": "Fretum Gallicum"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Calaiská úžina"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه دوور"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "डोव्हरची सामुद्रधुनी"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Па дьо Кале"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے ڈوور"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Duvro sąsiauris"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "多佛尔海峡"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Dover"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Doverstredet"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Dover-kaleza Markolo"
+       },
+       "el": {
+        "language": "el",
+        "value": "Στενό του Ντόβερ"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Padekalē"
+       },
+       "az": {
+        "language": "az",
+        "value": "Pa-de-Kale boğazı"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estrecho han Dover"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Доверски теснац"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Պա դե Կալե"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Struat faan Dover"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Doverski tesnac"
+       },
+       "new": {
+        "language": "new",
+        "value": "डोवर जलसन्धि"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Па-Де-Кале"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Doverska vrata"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Па-де-Кале"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "多佛海峽"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Dover"
+       },
+       "af": {
+        "language": "af",
+        "value": "Straat van Dover"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Dovrska vrata"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Pasu de Calais"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "多佛尔海峡"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Pa-de-kale"
+       },
+       "co": {
+        "language": "co",
+        "value": "Strettu di Dover"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Culfor Dover"
+       },
+       "pcd": {
+        "language": "pcd",
+        "value": "Pas d'Calés (détrouot)"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "مضيق دوڤر"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Selat Dover"
+       },
+       "os": {
+        "language": "os",
+        "value": "Па-де-Кале"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q159898&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:01.032998+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "63f67ecdbaa264932a754823e200b46d97d9367b",
+        "datavalue": {
+         "value": {
+          "latitude": 51,
+          "longitude": 1.45,
+          "altitude": null,
+          "precision": 0.0166667,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q159898$4D4BA422-7C1C-4329-8D40-564DEB9AF46D",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,806 @@
+{
+ "wikidata_id": "Q899",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q899&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:32:52.888837+00:00",
+   "response": {
+    "entities": {
+     "Q899": {
+      "pageid": 1222,
+      "ns": 0,
+      "title": "Q899",
+      "lastrevid": 2551332494,
+      "modified": "2026-09-30T13:44:31Z",
+      "type": "item",
+      "id": "Q899",
+      "labels": {
+       "de": {
+        "language": "de",
+        "value": "Suezkanal"
+       },
+       "it": {
+        "language": "it",
+        "value": "canale di Suez"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Суэцкий канал"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "canal de Suez"
+       },
+       "es": {
+        "language": "es",
+        "value": "canal de Suez"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Kanal Suez"
+       },
+       "en-ca": {
+        "language": "en-ca",
+        "value": "Suez Canal"
+       },
+       "en-gb": {
+        "language": "en-gb",
+        "value": "Suez Canal"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Suezkanaal"
+       },
+       "af": {
+        "language": "af",
+        "value": "Suezkanaal"
+       },
+       "an": {
+        "language": "an",
+        "value": "Canal de Suez"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "قناة السويس"
+       },
+       "arz": {
+        "language": "arz",
+        "value": "قناة السويس"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Canal de Suez"
+       },
+       "az": {
+        "language": "az",
+        "value": "Süveyş kanalı"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Kanal Suez"
+       },
+       "be": {
+        "language": "be",
+        "value": "Суэцкі канал"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Суецки канал"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "সুয়েজ খাল"
+       },
+       "br": {
+        "language": "br",
+        "value": "Kanol Suez"
+       },
+       "bs": {
+        "language": "bs",
+        "value": "Suecki kanal"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "canal de Suez"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Suezský průplav"
+       },
+       "cv": {
+        "language": "cv",
+        "value": "Суец каналĕ"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Camlas Suez"
+       },
+       "da": {
+        "language": "da",
+        "value": "Suez-kanalen"
+       },
+       "el": {
+        "language": "el",
+        "value": "Διώρυγα Σουέζ"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Sueza Kanalo"
+       },
+       "et": {
+        "language": "et",
+        "value": "Suessi kanal"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Suezko kanala"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "کانال سوئز"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Suezin kanava"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Suezkanaal"
+       },
+       "gan": {
+        "language": "gan",
+        "value": "蘇伊士運河"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Canal de Suez"
+       },
+       "gu": {
+        "language": "gu",
+        "value": "સુએઝ નહેર"
+       },
+       "he": {
+        "language": "he",
+        "value": "תעלת סואץ"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "स्वेज़ नहर"
+       },
+       "hif": {
+        "language": "hif",
+        "value": "Suez Canal"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Sueski kanal"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Szuezi-csatorna"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Սուեզի ջրանցք"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Canal de Suez"
+       },
+       "id": {
+        "language": "id",
+        "value": "Terusan Suez"
+       },
+       "io": {
+        "language": "io",
+        "value": "Suez-kanalo"
+       },
+       "is": {
+        "language": "is",
+        "value": "Súesskurðurinn"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "スエズ運河"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Terusan Suèz"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "სუეცის არხი"
+       },
+       "kk": {
+        "language": "kk",
+        "value": "Суэц каналы"
+       },
+       "km": {
+        "language": "km",
+        "value": "ព្រែកជីកស៊ុយអែស"
+       },
+       "kn": {
+        "language": "kn",
+        "value": "ಸುಯೆಜ್ ಕಾಲುವೆ"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "수에즈 운하"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Kanala Swêşê"
+       },
+       "la": {
+        "language": "la",
+        "value": "Canalis Suesiensis"
+       },
+       "lad": {
+        "language": "lad",
+        "value": "Kanal de Suez"
+       },
+       "lb": {
+        "language": "lb",
+        "value": "Suezkanal"
+       },
+       "lmo": {
+        "language": "lmo",
+        "value": "Canal de Suez"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Sueco kanalas"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Suecas kanāls"
+       },
+       "mg": {
+        "language": "mg",
+        "value": "Lakandranon'i Suez"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Суецки Канал"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "സൂയസ് കനാൽ"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Суэцийн суваг"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "सुएझ कालवा"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Terusan Suez"
+       },
+       "my": {
+        "language": "my",
+        "value": "ဆူးအက် တူးမြောင်း"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Suezkanalen"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Canal de Suèz"
+       },
+       "om": {
+        "language": "om",
+        "value": "Suez Canal"
+       },
+       "os": {
+        "language": "os",
+        "value": "Суэцы къанау"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Kanał Sueski"
+       },
+       "pms": {
+        "language": "pms",
+        "value": "Canal ëd Suez"
+       },
+       "pnb": {
+        "language": "pnb",
+        "value": "نہر سوئز"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Canal de Suez"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "Canalul Suez"
+       },
+       "rue": {
+        "language": "rue",
+        "value": "Суезькый канал"
+       },
+       "scn": {
+        "language": "scn",
+        "value": "Canali di Suez"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Sueski kanal"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Suezský prieplav"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Sueški prekop"
+       },
+       "sn": {
+        "language": "sn",
+        "value": "Muronga Suez Canal"
+       },
+       "so": {
+        "language": "so",
+        "value": "Kanaalka Suweys"
+       },
+       "sq": {
+        "language": "sq",
+        "value": "Kanali i Suezit"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Суецки канал"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Suezkanalen"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mfereji wa Suez"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "சுயஸ் கால்வாய்"
+       },
+       "te": {
+        "language": "te",
+        "value": "సూయజ్ కాలువ"
+       },
+       "th": {
+        "language": "th",
+        "value": "คลองสุเอซ"
+       },
+       "tk": {
+        "language": "tk",
+        "value": "Sues kanaly"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Kanal Suez"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Süveyş Kanalı"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Суецький канал"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "نہر سوئز"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Kênh đào Suez"
+       },
+       "war": {
+        "language": "war",
+        "value": "Kanal han Suez"
+       },
+       "yi": {
+        "language": "yi",
+        "value": "סועץ קאנאל"
+       },
+       "yo": {
+        "language": "yo",
+        "value": "Ìladò Suez"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "蘇伊士運河"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "苏伊士运河"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "苏伊士运河"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "蘇伊士運河"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Суэцкі канал"
+       },
+       "nan": {
+        "language": "nan",
+        "value": "Suez Ūn-hô"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Sueskanal"
+       },
+       "pt-br": {
+        "language": "pt-br",
+        "value": "Canal de Suez"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "蘇彝士運河"
+       },
+       "ckb": {
+        "language": "ckb",
+        "value": "نۆکەندی سوێز"
+       },
+       "roa-tara": {
+        "language": "roa-tara",
+        "value": "Canale de Suez"
+       },
+       "tt": {
+        "language": "tt",
+        "value": "Сүәеш каналы"
+       },
+       "ne": {
+        "language": "ne",
+        "value": "स्वेज नहर"
+       },
+       "new": {
+        "language": "new",
+        "value": "सुएज नहर"
+       },
+       "en": {
+        "language": "en",
+        "value": "Suez Canal"
+       },
+       "li": {
+        "language": "li",
+        "value": "Suezkanaal"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Suvaysh kanali"
+       },
+       "fo": {
+        "language": "fo",
+        "value": "Suezveitin"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Suezkanalen"
+       },
+       "nap": {
+        "language": "nap",
+        "value": "Canale 'e Suez"
+       },
+       "gsw": {
+        "language": "gsw",
+        "value": "Sueskanaal"
+       },
+       "bar": {
+        "language": "bar",
+        "value": "Sueskanal"
+       },
+       "mhr": {
+        "language": "mhr",
+        "value": "Суэц канал"
+       },
+       "sgs": {
+        "language": "sgs",
+        "value": "Soeca kanals"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "蘇彝士運河"
+       },
+       "sah": {
+        "language": "sah",
+        "value": "Суэц ханаала"
+       },
+       "ce": {
+        "language": "ce",
+        "value": "Суэцан татол"
+       },
+       "vec": {
+        "language": "vec",
+        "value": "Canal de Sues"
+       },
+       "pa": {
+        "language": "pa",
+        "value": "ਸੁਏਸ ਨਹਿਰ"
+       },
+       "as": {
+        "language": "as",
+        "value": "ছুৱেজ খাল"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Әс-Сүәйс каналы"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Suez Ông-ò̤"
+       },
+       "bxr": {
+        "language": "bxr",
+        "value": "Суэцэй һубаг"
+       },
+       "sco": {
+        "language": "sco",
+        "value": "Suez Canal"
+       },
+       "si": {
+        "language": "si",
+        "value": "සූවස් ඇළ"
+       },
+       "ie": {
+        "language": "ie",
+        "value": "Canale de Suez"
+       },
+       "azb": {
+        "language": "azb",
+        "value": "سوئز کانالی"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "苏伊士运河"
+       },
+       "jam": {
+        "language": "jam",
+        "value": "Suez Kianal"
+       },
+       "bho": {
+        "language": "bho",
+        "value": "स्वेज नहर"
+       },
+       "nds": {
+        "language": "nds",
+        "value": "Sueskanal"
+       },
+       "kbp": {
+        "language": "kbp",
+        "value": "Suɛz Hɛŋa"
+       },
+       "mai": {
+        "language": "mai",
+        "value": "स्वेज नहर"
+       },
+       "am": {
+        "language": "am",
+        "value": "ስዌዝ ቦይ"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Canáil Suais"
+       },
+       "vep": {
+        "language": "vep",
+        "value": "Suecan kanal"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "სუეციშ არხი"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Суэц каналы"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Suez Canal"
+       },
+       "sat": {
+        "language": "sat",
+        "value": "ᱥᱩᱣᱮᱡᱽ ᱠᱮᱱᱟᱞ"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Sueskanaal"
+       },
+       "sc": {
+        "language": "sc",
+        "value": "Canale de Suez"
+       },
+       "hyw": {
+        "language": "hyw",
+        "value": "Սուէզի ջրանցք"
+       },
+       "min": {
+        "language": "min",
+        "value": "Tarusan Suez"
+       },
+       "ps": {
+        "language": "ps",
+        "value": "سویز کانال"
+       },
+       "awa": {
+        "language": "awa",
+        "value": "स्वेज नहर"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "蘇彝士運河"
+       },
+       "kab": {
+        "language": "kab",
+        "value": "Targa n Swis"
+       },
+       "lo": {
+        "language": "lo",
+        "value": "ຄອງສຸເອສ"
+       },
+       "crh": {
+        "language": "crh",
+        "value": "Süveyş kanalı"
+       },
+       "smn": {
+        "language": "smn",
+        "value": "Suez uáli"
+       },
+       "kw": {
+        "language": "kw",
+        "value": "Dowrgleudh Suez"
+       },
+       "inh": {
+        "language": "inh",
+        "value": "Суэца хьарсам"
+       },
+       "gv": {
+        "language": "gv",
+        "value": "Ammyr Suez"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Kanala Suezê"
+       },
+       "zgh": {
+        "language": "zgh",
+        "value": "ⴰⴱⴰⴷⵓ ⵏ ⵙⴰⵡⵉⵙ"
+       },
+       "gn": {
+        "language": "gn",
+        "value": "yrape Suez"
+       },
+       "mt": {
+        "language": "mt",
+        "value": "Kanal ta' Suez"
+       },
+       "bew": {
+        "language": "bew",
+        "value": "Susukan Sués"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Terusan Suéz"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Pemintas Suez"
+       },
+       "ks": {
+        "language": "ks",
+        "value": "سویَس کۄل"
+       },
+       "ts": {
+        "language": "ts",
+        "value": "Mugerho wa Suez"
+       },
+       "ha": {
+        "language": "ha",
+        "value": "Suez canal"
+       },
+       "kaa": {
+        "language": "kaa",
+        "value": "Suec kanalı"
+       },
+       "lez": {
+        "language": "lez",
+        "value": "Суэц къанал"
+       },
+       "sd": {
+        "language": "sd",
+        "value": "سوئز ڪينال"
+       },
+       "en-us": {
+        "language": "en-us",
+        "value": "Suez Canal"
+       },
+       "hsb": {
+        "language": "hsb",
+        "value": "Sueski kanal"
+       },
+       "knc": {
+        "language": "knc",
+        "value": "Suez Canal"
+       },
+       "fur": {
+        "language": "fur",
+        "value": "Canâl di Suez"
+       },
+       "ary": {
+        "language": "ary",
+        "value": "قناة السويس"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q899&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:32:53.131303+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "3ebfafab0e9c2988db69f96a029068accf6829fa",
+        "datavalue": {
+         "value": {
+          "latitude": 30.705,
+          "longitude": 32.344166666667,
+          "altitude": null,
+          "precision": null,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q899$CAB74285-6BF3-420A-9F04-AF69320301F6",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

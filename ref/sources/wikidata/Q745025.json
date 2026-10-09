@@ -1,0 +1,307 @@
+{
+ "wikidata_id": "Q745025",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q745025&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:33:06.896468+00:00",
+   "response": {
+    "entities": {
+     "Q745025": {
+      "pageid": 700918,
+      "ns": 0,
+      "title": "Q745025",
+      "lastrevid": 2539495845,
+      "modified": "2026-09-02T17:08:00Z",
+      "type": "item",
+      "id": "Q745025",
+      "labels": {
+       "pt": {
+        "language": "pt",
+        "value": "Estreito de Lombok"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "龙目海峡"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "龍目海峽"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "龍目海峽"
+       },
+       "jv": {
+        "language": "jv",
+        "value": "Selat Lombok"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Cieśnina Lombok"
+       },
+       "ku-arab": {
+        "language": "ku-arab",
+        "value": "تەنگاڤا لۆمبۆک"
+       },
+       "ku-latn": {
+        "language": "ku-latn",
+        "value": "Tengava Lombok"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "롬복 해협"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Ломбокский пролив"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit de Lombok"
+       },
+       "es": {
+        "language": "es",
+        "value": "Estrecho de Lombok"
+       },
+       "en": {
+        "language": "en",
+        "value": "Lombok Strait"
+       },
+       "fy": {
+        "language": "fy",
+        "value": "Lombokstrjitte"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Lombok Boğazı"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบลมบก"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Selat Lombok"
+       },
+       "it": {
+        "language": "it",
+        "value": "Stretto di Lombok"
+       },
+       "et": {
+        "language": "et",
+        "value": "Lomboki väin"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Lombok"
+       },
+       "de": {
+        "language": "de",
+        "value": "Lombokstraße"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Lombokstrasse"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Lomboksundet"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ロンボク海峡"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Lombocký průliv"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "Eo biển Lombok"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Lomboksundet"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Straat Lombok"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "龙目海峡"
+       },
+       "ku": {
+        "language": "ku",
+        "value": "Tengava Lombok"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר לומבוק"
+       },
+       "da": {
+        "language": "da",
+        "value": "Lombokstrædet"
+       },
+       "az": {
+        "language": "az",
+        "value": "Lombok boğazı"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه لومبوک"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق لُمبوك"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Ломбочки Проток"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Lomboksundet"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "லோம்போக் நீரிணை"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "estret Lombok"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ലൊമ്പോക്ക് കടലിടുക്ക്"
+       },
+       "ban": {
+        "language": "ban",
+        "value": "Selat Lombok"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Lomboka Markolo"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Selat Lombok"
+       },
+       "ug": {
+        "language": "ug",
+        "value": "لومبوك بوغۇزى"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Lomboški preliv"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Lombokinsalmi"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Լոմբոկի նեղուց"
+       },
+       "af": {
+        "language": "af",
+        "value": "Lombokstraat"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q745025&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:07.308450+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "534ee00cb6b7bf93b097527cdeede5e8ab1510f6",
+        "datavalue": {
+         "value": {
+          "latitude": -8.5,
+          "longitude": 115.83333333333,
+          "altitude": null,
+          "precision": 0.00027777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "Q745025$1A1F6E9C-AE62-4A03-A317-477E4AFF6C76",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "4c2be11aab909fd92e3d0cc32c17cccaacdc2682",
+         "snaks": {
+          "P248": [
+           {
+            "snaktype": "value",
+            "property": "P248",
+            "hash": "7648f66055f57f6227dd1f872bc4ed26c70da7c6",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 1194038,
+              "id": "Q1194038"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ],
+          "P577": [
+           {
+            "snaktype": "value",
+            "property": "P577",
+            "hash": "a372c95b03a3464736c5fd1d7ed86176f0c04973",
+            "datavalue": {
+             "value": {
+              "time": "+2018-06-11T00:00:00Z",
+              "timezone": 0,
+              "before": 0,
+              "after": 0,
+              "precision": 11,
+              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+             },
+             "type": "time"
+            },
+            "datatype": "time"
+           }
+          ],
+          "P2326": [
+           {
+            "snaktype": "value",
+            "property": "P2326",
+            "hash": "c457bd9abf09eeba2bcd09305f9c667320b7129b",
+            "datavalue": {
+             "value": "-2685679",
+             "type": "string"
+            },
+            "datatype": "external-id"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P248",
+          "P577",
+          "P2326"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

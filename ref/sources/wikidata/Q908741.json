@@ -1,0 +1,252 @@
+{
+ "wikidata_id": "Q908741",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q908741&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:33:05.921565+00:00",
+   "response": {
+    "entities": {
+     "Q908741": {
+      "pageid": 859420,
+      "ns": 0,
+      "title": "Q908741",
+      "lastrevid": 2499524571,
+      "modified": "2026-05-30T10:20:31Z",
+      "type": "item",
+      "id": "Q908741",
+      "labels": {
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "吕宋海峡"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "呂宋海峽"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "呂宋海峽"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estreito de Luzon"
+       },
+       "pam": {
+        "language": "pam",
+        "value": "Luzon Strait"
+       },
+       "be": {
+        "language": "be",
+        "value": "Лусонскі праліў"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "루손 해협"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit de Luçon"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Лусонский пролив"
+       },
+       "en": {
+        "language": "en",
+        "value": "Luzon Strait"
+       },
+       "es": {
+        "language": "es",
+        "value": "Estrecho de Luzón"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "estret de Luzon"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Лусонська протока"
+       },
+       "it": {
+        "language": "it",
+        "value": "Stretto di Luzon"
+       },
+       "de": {
+        "language": "de",
+        "value": "Luzonstraße"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Luzonstrasse"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "ルソン海峡"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Luzonský průliv"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "eo biển Luzon"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق لوزون"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Luzonsundet"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Straat Luzon"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Lusonas šaurums"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "吕宋海峡"
+       },
+       "da": {
+        "language": "da",
+        "value": "Luzonstrædet"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר לוזון"
+       },
+       "ilo": {
+        "language": "ilo",
+        "value": "Lingsat Luzon"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Luzongo itsasartea"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Lusono sąsiauris"
+       },
+       "tl": {
+        "language": "tl",
+        "value": "Kipot ng Luzon"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Luzonstredet"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Luzon Boğazı"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Cieśnina Luzon"
+       },
+       "az": {
+        "language": "az",
+        "value": "Luzon boğazı"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estrecho han Luzon"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Лусонски Проток"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Luzona Markolo"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Luzon Strait"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Estrechu de Luzón"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Luzon"
+       },
+       "bcl": {
+        "language": "bcl",
+        "value": "Itiot nin Luzon"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه لوزون"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบลูซอน"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "लूज़ोन जलसन्धि"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Luzonský prieliv"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Luzoninsalmi"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Luzonski preliv"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Лузонски мореуз"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Estreit de Luzon"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q908741&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:06.154008+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "970c1555975fcf74a5d9b3bcfec6d547d6b7bad2",
+        "datavalue": {
+         "value": {
+          "latitude": 20,
+          "longitude": 121,
+          "altitude": null,
+          "precision": 1,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q908741$D9381DAE-DD6A-44E7-B9E0-CBB7C8A4A655",
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  }
+ }
+}

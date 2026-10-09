@@ -1,0 +1,454 @@
+{
+ "wikidata_id": "Q127031",
+ "requests": {
+  "entity": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q127031&props=labels%7Cinfo&format=json",
+   "fetched_at": "2026-10-09T10:33:03.950813+00:00",
+   "response": {
+    "entities": {
+     "Q127031": {
+      "pageid": 129095,
+      "ns": 0,
+      "title": "Q127031",
+      "lastrevid": 2549933352,
+      "modified": "2026-09-27T08:16:33Z",
+      "type": "item",
+      "id": "Q127031",
+      "labels": {
+       "nan": {
+        "language": "nan",
+        "value": "O͘-chúi-kau"
+       },
+       "zh-hans": {
+        "language": "zh-hans",
+        "value": "台湾海峡"
+       },
+       "zh-hant": {
+        "language": "zh-hant",
+        "value": "臺灣海峽"
+       },
+       "zh-hk": {
+        "language": "zh-hk",
+        "value": "台灣海峽"
+       },
+       "zh-cn": {
+        "language": "zh-cn",
+        "value": "台湾海峡"
+       },
+       "zh-sg": {
+        "language": "zh-sg",
+        "value": "台湾海峡"
+       },
+       "zh-tw": {
+        "language": "zh-tw",
+        "value": "臺灣海峽"
+       },
+       "eu": {
+        "language": "eu",
+        "value": "Taiwan itsasartea"
+       },
+       "pl": {
+        "language": "pl",
+        "value": "Cieśnina Tajwańska"
+       },
+       "ko": {
+        "language": "ko",
+        "value": "대만 해협"
+       },
+       "fr": {
+        "language": "fr",
+        "value": "détroit de Taïwan"
+       },
+       "es": {
+        "language": "es",
+        "value": "Estrecho de Taiwán"
+       },
+       "ms": {
+        "language": "ms",
+        "value": "Selat Taiwan"
+       },
+       "hu": {
+        "language": "hu",
+        "value": "Tajvani-szoros"
+       },
+       "it": {
+        "language": "it",
+        "value": "Stretto di Formosa"
+       },
+       "et": {
+        "language": "et",
+        "value": "Taiwani väin"
+       },
+       "de": {
+        "language": "de",
+        "value": "Formosastraße"
+       },
+       "de-ch": {
+        "language": "de-ch",
+        "value": "Formosastrasse"
+       },
+       "id": {
+        "language": "id",
+        "value": "Selat Taiwan"
+       },
+       "ja": {
+        "language": "ja",
+        "value": "台湾海峡"
+       },
+       "vi": {
+        "language": "vi",
+        "value": "eo biển Đài Loan"
+       },
+       "yue": {
+        "language": "yue",
+        "value": "臺灣海峽"
+       },
+       "en": {
+        "language": "en",
+        "value": "Taiwan Strait"
+       },
+       "nl": {
+        "language": "nl",
+        "value": "Straat van Taiwan"
+       },
+       "sv": {
+        "language": "sv",
+        "value": "Taiwansundet"
+       },
+       "ar": {
+        "language": "ar",
+        "value": "مضيق تايوان"
+       },
+       "wuu": {
+        "language": "wuu",
+        "value": "台湾海峡"
+       },
+       "pt": {
+        "language": "pt",
+        "value": "Estreito de Taiwan"
+       },
+       "sk": {
+        "language": "sk",
+        "value": "Taiwanský prieliv"
+       },
+       "ru": {
+        "language": "ru",
+        "value": "Тайваньский пролив"
+       },
+       "tr": {
+        "language": "tr",
+        "value": "Tayvan Boğazı"
+       },
+       "th": {
+        "language": "th",
+        "value": "ช่องแคบไต้หวัน"
+       },
+       "hak": {
+        "language": "hak",
+        "value": "Thòi-vân Hói-hia̍p"
+       },
+       "ca": {
+        "language": "ca",
+        "value": "estret de Taiwan"
+       },
+       "fi": {
+        "language": "fi",
+        "value": "Taiwaninsalmi"
+       },
+       "uk": {
+        "language": "uk",
+        "value": "Тайванська протока"
+       },
+       "cs": {
+        "language": "cs",
+        "value": "Tchajwanský průliv"
+       },
+       "mr": {
+        "language": "mr",
+        "value": "ताइवान सामुद्रधुनी"
+       },
+       "fa": {
+        "language": "fa",
+        "value": "تنگه تایوان"
+       },
+       "ka": {
+        "language": "ka",
+        "value": "ტაივანის სრუტე"
+       },
+       "km": {
+        "language": "km",
+        "value": "ច្រកតៃវ៉ាន់"
+       },
+       "ur": {
+        "language": "ur",
+        "value": "آبنائے تائیوان"
+       },
+       "da": {
+        "language": "da",
+        "value": "Taiwanstrædet"
+       },
+       "zh": {
+        "language": "zh",
+        "value": "台灣海峽"
+       },
+       "lv": {
+        "language": "lv",
+        "value": "Taivānas šaurums"
+       },
+       "be": {
+        "language": "be",
+        "value": "Тайваньскі праліў"
+       },
+       "mk": {
+        "language": "mk",
+        "value": "Тајвански Проток"
+       },
+       "nb": {
+        "language": "nb",
+        "value": "Taiwanstredet"
+       },
+       "lzh": {
+        "language": "lzh",
+        "value": "臺灣海峽"
+       },
+       "lt": {
+        "language": "lt",
+        "value": "Taivano sąsiauris"
+       },
+       "nn": {
+        "language": "nn",
+        "value": "Taiwansundet"
+       },
+       "uz": {
+        "language": "uz",
+        "value": "Tayvan boʻgʻozi"
+       },
+       "hy": {
+        "language": "hy",
+        "value": "Թայվանի նեղուց"
+       },
+       "he": {
+        "language": "he",
+        "value": "מצר טאיוואן"
+       },
+       "az": {
+        "language": "az",
+        "value": "Tayvan boğazı"
+       },
+       "cdo": {
+        "language": "cdo",
+        "value": "Dài-uăng Hāi-hiĕk"
+       },
+       "war": {
+        "language": "war",
+        "value": "Estrecho han Taiwan"
+       },
+       "mn": {
+        "language": "mn",
+        "value": "Тайваний хоолой"
+       },
+       "ky": {
+        "language": "ky",
+        "value": "Тайвань кысыгы"
+       },
+       "ba": {
+        "language": "ba",
+        "value": "Тайвань боғаҙы"
+       },
+       "cy": {
+        "language": "cy",
+        "value": "Culfor Taiwan"
+       },
+       "ceb": {
+        "language": "ceb",
+        "value": "Taiwan Strait"
+       },
+       "eo": {
+        "language": "eo",
+        "value": "Markolo de Tajvano"
+       },
+       "ast": {
+        "language": "ast",
+        "value": "Estrechu de Taiwán"
+       },
+       "af": {
+        "language": "af",
+        "value": "Straat van Taiwan"
+       },
+       "bg": {
+        "language": "bg",
+        "value": "Тайвански проток"
+       },
+       "oc": {
+        "language": "oc",
+        "value": "Estrech de Taiwan"
+       },
+       "hr": {
+        "language": "hr",
+        "value": "Tajvanski tjesnac"
+       },
+       "br": {
+        "language": "br",
+        "value": "Strizh-mor Taiwan"
+       },
+       "ta": {
+        "language": "ta",
+        "value": "தைவான் நீரிணை"
+       },
+       "sr": {
+        "language": "sr",
+        "value": "Тајвански мореуз"
+       },
+       "ml": {
+        "language": "ml",
+        "value": "ത‌യ്‌വാൻ കടലിടുക്ക്"
+       },
+       "sw": {
+        "language": "sw",
+        "value": "Mlangobahari wa Taiwan"
+       },
+       "xmf": {
+        "language": "xmf",
+        "value": "ტაივანიშ საროტი"
+       },
+       "sh": {
+        "language": "sh",
+        "value": "Tajvanski tjesnac"
+       },
+       "ia": {
+        "language": "ia",
+        "value": "Stricto de Taiwan"
+       },
+       "frr": {
+        "language": "frr",
+        "value": "Taiwan-Struat"
+       },
+       "bn": {
+        "language": "bn",
+        "value": "তাইওয়ান প্রণালী"
+       },
+       "gl": {
+        "language": "gl",
+        "value": "Estreito de Taiwán"
+       },
+       "la": {
+        "language": "la",
+        "value": "Fretum Formosanum"
+       },
+       "el": {
+        "language": "el",
+        "value": "Στενό της Ταϊβάν"
+       },
+       "nan-hani": {
+        "language": "nan-hani",
+        "value": "烏水溝"
+       },
+       "my": {
+        "language": "my",
+        "value": "ထိုင်ဝမ်ရေလက်ကြား"
+       },
+       "be-tarask": {
+        "language": "be-tarask",
+        "value": "Тайванская пратока"
+       },
+       "zh-my": {
+        "language": "zh-my",
+        "value": "台湾海峡"
+       },
+       "zh-mo": {
+        "language": "zh-mo",
+        "value": "台灣海峽"
+       },
+       "ga": {
+        "language": "ga",
+        "value": "Caolas na Téaváine"
+       },
+       "sl": {
+        "language": "sl",
+        "value": "Tajvanski preliv"
+       },
+       "hi": {
+        "language": "hi",
+        "value": "ताइवान स्ट्रेट"
+       },
+       "new": {
+        "language": "new",
+        "value": "ताइवान जलसन्धि"
+       },
+       "zu": {
+        "language": "zu",
+        "value": "Insungubezi yaseThayiwani"
+       },
+       "iba": {
+        "language": "iba",
+        "value": "Selat Taiwan"
+       },
+       "ro": {
+        "language": "ro",
+        "value": "granița China-Taiwan"
+       }
+      }
+     }
+    },
+    "success": 1
+   }
+  },
+  "coordinates": {
+   "url": "https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=Q127031&property=P625&format=json",
+   "fetched_at": "2026-10-09T10:33:04.204337+00:00",
+   "response": {
+    "claims": {
+     "P625": [
+      {
+       "mainsnak": {
+        "snaktype": "value",
+        "property": "P625",
+        "hash": "126baf119cfc4f2eb8f24851ee8bfedb59fe3994",
+        "datavalue": {
+         "value": {
+          "latitude": 24.811111111111,
+          "longitude": 119.92833333333,
+          "altitude": null,
+          "precision": null,
+          "globe": "http://www.wikidata.org/entity/Q2"
+         },
+         "type": "globecoordinate"
+        },
+        "datatype": "globe-coordinate"
+       },
+       "type": "statement",
+       "id": "q127031$003CC74D-A673-47FD-947B-03C9CCA7B7A4",
+       "rank": "normal",
+       "references": [
+        {
+         "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+         "snaks": {
+          "P143": [
+           {
+            "snaktype": "value",
+            "property": "P143",
+            "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+            "datavalue": {
+             "value": {
+              "entity-type": "item",
+              "numeric-id": 328,
+              "id": "Q328"
+             },
+             "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+           }
+          ]
+         },
+         "snaks-order": [
+          "P143"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}
