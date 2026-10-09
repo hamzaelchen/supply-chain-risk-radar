@@ -107,9 +107,7 @@ Pour faire tourner le pipeline en continu :
 | Kafka | `localhost:19092` |
 | MinIO (API S3) | `localhost:19000` |
 | MinIO (console) | `localhost:19001` |
-| Catalogue Iceberg REST | `localhost:8181` |
-
-Le port 8181 du catalogue peut être indisponible : Windows réserve parfois des plages de ports après un redémarrage (`netsh interface ipv4 show excludedportrange protocol=tcp`). Dans ce cas, mettre `ICEBERG_REST_PORT=18181` dans `.env`.
+| Catalogue Iceberg REST | `localhost:18181` |
 
 Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont ouverts que sur `127.0.0.1`. Ports et identifiants se surchargent dans un fichier `.env` (voir [.env.example](.env.example)).
 

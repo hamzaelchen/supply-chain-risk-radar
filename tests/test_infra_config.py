@@ -57,7 +57,7 @@ def test_pyspark_pin_matches_spark_version():
 def test_conf_defaults_match_docker_compose():
     conf = iceberg_spark_conf(env={})
     assert conf[f"{PREFIX}.type"] == "rest"
-    assert conf[f"{PREFIX}.uri"] == "http://localhost:8181"
+    assert conf[f"{PREFIX}.uri"] == "http://localhost:18181"
     assert conf[f"{PREFIX}.s3.endpoint"] == "http://localhost:19000"
     assert conf[f"{PREFIX}.s3.path-style-access"] == "true"
     assert conf["spark.sql.session.timeZone"] == "UTC"

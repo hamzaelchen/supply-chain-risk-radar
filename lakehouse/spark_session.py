@@ -49,7 +49,7 @@ def iceberg_spark_conf(
     chaque session.
     """
     env = os.environ if env is None else env
-    rest_port = env.get("ICEBERG_REST_PORT", "8181")
+    rest_port = env.get("ICEBERG_REST_PORT", "18181")
     minio_endpoint = f"http://localhost:{env.get('MINIO_API_PORT', '19000')}"
     access_key = env.get("MINIO_ROOT_USER", "minioadmin")
     secret_key = env.get("MINIO_ROOT_PASSWORD", "minioadmin")

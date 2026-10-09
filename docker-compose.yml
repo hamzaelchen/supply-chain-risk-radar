@@ -84,7 +84,7 @@ services:
       minio-init:
         condition: service_completed_successfully
     ports:
-      - "127.0.0.1:${ICEBERG_REST_PORT:-8181}:8181"
+      - "127.0.0.1:${ICEBERG_REST_PORT:-18181}:8181"
     environment:
       # Les variables CATALOG_* deviennent des propriétés Iceberg :
       # « __ » -> « - » et « _ » -> « . » (CATALOG_IO__IMPL -> io-impl).

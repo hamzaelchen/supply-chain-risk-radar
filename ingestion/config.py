@@ -19,7 +19,7 @@ class Settings:
         env = os.environ if env is None else env
         return cls(
             kafka_bootstrap=f"localhost:{env.get('KAFKA_PORT', '19092')}",
-            rest_uri=f"http://localhost:{env.get('ICEBERG_REST_PORT', '8181')}",
+            rest_uri=f"http://localhost:{env.get('ICEBERG_REST_PORT', '18181')}",
             s3_endpoint=f"http://localhost:{env.get('MINIO_API_PORT', '19000')}",
             s3_access_key=env.get("MINIO_ROOT_USER", "minioadmin"),
             s3_secret_key=env.get("MINIO_ROOT_PASSWORD", "minioadmin"),
