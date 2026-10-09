@@ -81,3 +81,8 @@ def test_compose_images_are_pinned():
         pinned_by_digest = "@sha256:" in image
         tag = image.rsplit(":", 1)[-1] if ":" in image else ""
         assert pinned_by_digest or (tag and tag != "latest"), f"image non épinglée : {image}"
+
+
+def test_driver_memory_defaults_to_3g_and_can_be_overridden():
+    assert iceberg_spark_conf(env={})["spark.driver.memory"] == "3g"
+    assert iceberg_spark_conf(env={"SPARK_DRIVER_MEMORY": "5g"})["spark.driver.memory"] == "5g"

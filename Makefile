@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -63,3 +63,8 @@ portfolio:
 # silver.event_supplier_proximity et silver.event_chokepoint_proximity : événements proches (incrémental)
 proximity:
 	$(BIN)/python -m silver.proximity
+
+# Chargement historique GDELT (en lot, sans Kafka). Exemple :
+#   make backfill ARGS="--range 2026-01-04:2026-03-31 --range 2026-07-13:2026-10-08 --dry-run"
+backfill:
+	$(BIN)/python -m ingestion.gdelt_backfill $(ARGS)

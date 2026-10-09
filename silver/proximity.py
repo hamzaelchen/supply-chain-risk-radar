@@ -34,6 +34,7 @@ from silver import geo
 from silver.gdelt_events import (
     SILVER,
     action_geo_usable,
+    limit_to_next_batches,
     read_cursor,
     write_cursor,
 )
@@ -110,6 +111,7 @@ def run(
     supplier_pairs: str = SUPPLIER_PAIRS,
     chokepoint_pairs: str = CHOKEPOINT_PAIRS,
     method: str = METHOD,
+    max_batches: int | None = None,
 ) -> ProximityStats:
     ensure_tables(spark, supplier_pairs, chokepoint_pairs)
     cursor = read_cursor(spark, supplier_pairs, CURSOR_PROPERTY)
@@ -117,7 +119,7 @@ def run(
     window = spark.table(events_table)
     if cursor is not None:
         window = window.filter(F.unix_micros("bronze_ingested_at") > cursor)
-    window = window.cache()
+    window = limit_to_next_batches(window, "bronze_ingested_at", max_batches).cache()
     try:
         newest = window.agg(F.max(F.unix_micros("bronze_ingested_at"))).first()[0]
         if newest is None:
@@ -230,12 +232,24 @@ def run_and_record(spark: SparkSession, **tables) -> ProximityStats:
 
 
 def main(argv: list[str] | None = None) -> int:
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument(
+        "--max-batches", type=int, metavar="N", help="N lots d'ingestion par passage"
+    )
+    parser.add_argument("--until-caught-up", action="store_true")
+    args = parser.parse_args(argv)
     from lakehouse.spark_session import build_spark_session
 
     spark = build_spark_session("silver-proximity")
     spark.sparkContext.setLogLevel("WARN")
     try:
-        print(f"{PIPELINE} : {run_and_record(spark)}")
+        while True:
+            stats = run_and_record(spark, max_batches=args.max_batches)
+            print(f"{PIPELINE} : {stats}", flush=True)
+            if not (args.until_caught_up and stats.events_read):
+                break
     finally:
         spark.stop()
     return 0

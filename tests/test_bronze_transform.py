@@ -149,3 +149,51 @@ def test_legacy_slot_ts_header_still_fills_the_batch_label(spark):
     df = to_bronze(kafka_df(spark, LINES[:1], headers=legacy))
     row = df.select(F.col("src_gdelt_batch_label_ts").cast("string").alias("text")).first()
     assert row.text == "2026-10-08 17:15:00"
+
+
+# --- chargement historique : mêmes colonnes que le flux, identité sans Kafka -----------------
+
+
+def backfill_df(spark, lines, url=FILE_URL, label=datetime(2026, 10, 8, 17, 15, tzinfo=UTC)):
+    from streaming.bronze_gdelt_events import to_bronze_backfill
+
+    fetched = datetime(2026, 10, 9, 13, 0, tzinfo=UTC)
+    rows = [
+        (line.decode(), url, label, fetched, HEADERS["raw_object_uri"], n)
+        for n, line in enumerate(lines, start=1)
+    ]
+    schema = (
+        "raw_line string, src_file_url string, src_gdelt_batch_label_ts timestamp, "
+        "src_fetched_at timestamp, src_raw_object_uri string, src_line_no int"
+    )
+    return to_bronze_backfill(spark.createDataFrame(rows, schema))
+
+
+def test_backfill_output_columns_match_the_table_definition(spark):
+    spark_types = {"STRING": "string", "INT": "int", "BIGINT": "bigint", "TIMESTAMP": "timestamp"}
+    expected = [(name, spark_types[dtype]) for name, dtype in BRONZE_COLUMNS]
+    assert backfill_df(spark, LINES[:3]).dtypes == expected
+
+
+def test_backfill_rows_have_the_same_61_columns_as_the_stream_for_the_same_line(spark):
+    stream = to_bronze(kafka_df(spark, LINES[:20])).orderBy("raw_line")
+    backfill = backfill_df(spark, LINES[:20]).orderBy("raw_line")
+    shared = ["raw_line", "field_count", *GDELT_EVENT_COLUMNS, "src_file_url", "src_raw_object_uri"]
+    assert stream.select(*shared).collect() == backfill.select(*shared).collect()
+
+
+def test_backfill_rows_have_no_kafka_coordinates_and_an_explicit_mode_and_line_number(spark):
+    rows = backfill_df(spark, LINES[:5]).orderBy("src_line_no").collect()
+    assert {r.ingestion_mode for r in rows} == {"backfill"}
+    assert [r.src_line_no for r in rows] == [1, 2, 3, 4, 5]
+    assert all(
+        r.kafka_topic is None and r.kafka_partition is None and r.kafka_offset is None
+        and r.kafka_timestamp is None for r in rows
+    )  # fmt: skip
+    assert all(r.ingested_at is not None for r in rows)
+
+
+def test_stream_rows_are_marked_stream_without_a_line_number(spark):
+    rows = to_bronze(kafka_df(spark, LINES[:3])).collect()
+    assert {r.ingestion_mode for r in rows} == {"stream"}
+    assert {r.src_line_no for r in rows} == {None}

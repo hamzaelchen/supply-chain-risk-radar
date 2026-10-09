@@ -11,6 +11,7 @@ from datetime import datetime
 import pyarrow as pa
 from pyiceberg.catalog import load_catalog
 from pyiceberg.expressions import EqualTo
+from pyiceberg.types import StringType
 
 from ingestion.config import Settings
 
@@ -37,6 +38,9 @@ SCHEMA = pa.schema(
         pa.field("record_count", pa.int64()),
         pa.field("kafka_topic", pa.string()),
         pa.field("detail", pa.string()),
+        # « stream » (producteur Kafka) ou « backfill » (chargement historique). Ajoutée en fin :
+        # sur la table existante, elle est créée par IcebergManifest au premier accès.
+        pa.field("ingestion_mode", pa.string()),
     ]
 )
 
@@ -55,6 +59,7 @@ class ManifestEntry:
     record_count: int | None = None
     kafka_topic: str | None = None
     detail: str | None = None
+    ingestion_mode: str = "stream"
 
 
 class IcebergManifest:
@@ -73,24 +78,48 @@ class IcebergManifest:
         )
         self._catalog.create_namespace_if_not_exists(NAMESPACE)
         self._table = self._catalog.create_table_if_not_exists(TABLE, schema=SCHEMA)
+        self._ensure_columns()
 
-    def attempts(self, source: str) -> dict[datetime, list[tuple[str, datetime]]]:
-        """Par lot GDELT, toutes les tentatives enregistrées : (statut, fetched_at)."""
+    def attempts(
+        self, source: str, modes: tuple[str, ...] | None = None
+    ) -> dict[datetime, list[tuple[str, datetime]]]:
+        """Par lot GDELT, toutes les tentatives enregistrées : (statut, fetched_at).
+
+        `modes` : ne garder que ces modes d'ingestion (NULL = ligne antérieure à la colonne, donc
+        « stream »). Par défaut, tous.
+        """
         rows = (
             self._table.refresh()
             .scan(
                 row_filter=EqualTo("source", source),
-                selected_fields=("gdelt_batch_label_ts", "status", "fetched_at"),
+                selected_fields=("gdelt_batch_label_ts", "status", "fetched_at", "ingestion_mode"),
             )
             .to_arrow()
             .to_pylist()
         )
         result: dict[datetime, list[tuple[str, datetime]]] = {}
         for row in rows:
+            if modes is not None and (row["ingestion_mode"] or "stream") not in modes:
+                continue
             result.setdefault(row["gdelt_batch_label_ts"], []).append(
                 (row["status"], row["fetched_at"])
             )
         return result
 
+    def _ensure_columns(self) -> None:
+        """Table créée avant l'ajout d'une colonne : on l'ajoute (métadonnées seules)."""
+        existing = {f.name for f in self._table.schema().fields}
+        missing = [f for f in SCHEMA if f.name not in existing]
+        if missing:
+            with self._table.update_schema() as update:
+                for field in missing:
+                    update.add_column(field.name, StringType())  # seules des chaînes à ce jour
+            self._table = self._table.refresh()
+
     def record(self, entry: ManifestEntry) -> None:
-        self._table.append(pa.Table.from_pylist([asdict(entry)], schema=SCHEMA))
+        self.record_many([entry])
+
+    def record_many(self, entries: list[ManifestEntry]) -> None:
+        """Plusieurs tentatives en un seul commit (un jour de backfill = un snapshot)."""
+        if entries:
+            self._table.append(pa.Table.from_pylist([asdict(e) for e in entries], schema=SCHEMA))

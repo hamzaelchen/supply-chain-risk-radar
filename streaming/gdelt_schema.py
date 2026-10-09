@@ -63,6 +63,18 @@ LINEAGE_COLUMNS = [
     ("ingested_at", "TIMESTAMP"),
 ]
 
+# Mode d'ingestion et identité d'une ligne hors Kafka. Ajoutées EN FIN de table : sur une table
+# existante, ALTER TABLE ADD COLUMN les place là, et l'ordre doit être celui d'une table neuve.
+#   ingestion_mode : « stream » (Kafka) ou « backfill » (chargement historique par lot). NULL sur
+#                    les lignes écrites avant l'ajout de la colonne : à lire comme « stream ».
+#   src_line_no    : numéro de ligne (à partir de 1) dans le fichier GDELT, pour le backfill ;
+#                    NULL en flux. Identité d'une ligne backfill = (src_file_url, src_line_no),
+#                    là où une ligne du flux est identifiée par (topic, partition, offset) Kafka.
+INGESTION_COLUMNS = [
+    ("ingestion_mode", "STRING"),
+    ("src_line_no", "INT"),
+]
+
 BRONZE_COLUMNS = [
     ("raw_line", "STRING"),
     # Nombre de champs trouvés dans la ligne : 61 attendu. Une ligne mal formée
@@ -70,4 +82,5 @@ BRONZE_COLUMNS = [
     ("field_count", "INT"),
     *[(name, "STRING") for name in GDELT_EVENT_COLUMNS],
     *LINEAGE_COLUMNS,
+    *INGESTION_COLUMNS,
 ]

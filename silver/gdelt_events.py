@@ -103,6 +103,9 @@ LINEAGE = [
     ("kafka_offset", "kafka_offset", "BIGINT"),
     ("bronze_ingested_at", "ingested_at", "TIMESTAMP"),
 ]
+# Ajoutées en fin de table (voir streaming/gdelt_schema.py) : mode d'ingestion et numéro de ligne.
+# Une ligne silver écrite avant leur ajout les a à NULL ; ingestion_mode NULL se lit « stream ».
+INGESTION_COLUMNS = [("ingestion_mode", "STRING"), ("src_line_no", "INT")]
 SILVER_COLUMNS = [
     *[(c, _SPARK_TYPES[RULES.get(c, Rule("string")).dtype]) for c in GDELT_EVENT_COLUMNS],
     *[(silver, dtype) for silver, _, dtype in LINEAGE],
@@ -111,6 +114,7 @@ SILVER_COLUMNS = [
         "STRING",
     ),  # sha256 de la ligne brute : détecte un « doublon » au contenu différent
     ("silver_loaded_at", "TIMESTAMP"),
+    *INGESTION_COLUMNS,
 ]
 QUARANTINE_COLUMNS = [
     ("raw_line", "STRING"),
@@ -118,6 +122,7 @@ QUARANTINE_COLUMNS = [
     ("reason", "STRING"),
     *[(silver, dtype) for silver, _, dtype in LINEAGE],
     ("quarantined_at", "TIMESTAMP"),
+    *INGESTION_COLUMNS,
 ]
 
 
@@ -188,6 +193,11 @@ def parse_events(bronze: DataFrame) -> tuple[DataFrame, DataFrame]:
         .when(F.size(problems) > 0, F.array_join(problems, "; "))
     )  # fmt: skip
     lineage = [F.col(b).alias(s) for s, b, _ in LINEAGE]
+    # NULL = ligne écrite avant l'ajout de la colonne, donc issue du flux.
+    ingestion = [
+        F.coalesce(F.col("ingestion_mode"), F.lit("stream")).alias("ingestion_mode"),
+        F.col("src_line_no"),
+    ]
 
     flagged = bronze.withColumn("_reason", reason)
     valid = flagged.filter(F.col("_reason").isNull()).select(
@@ -195,6 +205,7 @@ def parse_events(bronze: DataFrame) -> tuple[DataFrame, DataFrame]:
         *lineage,
         F.sha2(F.col("raw_line"), 256).alias("row_hash"),
         F.current_timestamp().alias("silver_loaded_at"),
+        *ingestion,
     )
     quarantine = flagged.filter(F.col("_reason").isNotNull()).select(
         "raw_line",
@@ -202,16 +213,21 @@ def parse_events(bronze: DataFrame) -> tuple[DataFrame, DataFrame]:
         F.col("_reason").alias("reason"),
         *lineage,
         F.current_timestamp().alias("quarantined_at"),
+        *ingestion,
     )
     return valid, quarantine
 
 
 def keep_first_seen(valid: DataFrame) -> DataFrame:
-    """Un seul exemplaire par global_event_id : le premier arrivé dans Kafka/bronze."""
+    """Un seul exemplaire par global_event_id : le premier arrivé dans le bronze.
+
+    Départage : instant d'ingestion, puis coordonnées Kafka (flux), puis fichier et numéro de ligne
+    (backfill, qui n'a pas de coordonnées Kafka).
+    """
     from pyspark.sql import Window
 
     order = Window.partitionBy("global_event_id").orderBy(
-        "bronze_ingested_at", "kafka_partition", "kafka_offset"
+        "bronze_ingested_at", "kafka_partition", "kafka_offset", "src_file_url", "src_line_no"
     )
     return valid.withColumn("_rank", F.row_number().over(order)).filter("_rank = 1").drop("_rank")
 
@@ -276,19 +292,34 @@ class RunStats:
         return self.duplicates_in_batch + self.already_in_silver
 
 
+def limit_to_next_batches(df: DataFrame, ts_column: str, max_batches: int | None) -> DataFrame:
+    """Ne garde que les `max_batches` plus anciennes valeurs distinctes de `ts_column`.
+
+    Un « lot » est un instant d'ingestion : un micro-lot du flux, ou un jour de backfill. Le
+    curseur avance donc de N lots par passage, ce qui borne la mémoire d'un gros rattrapage.
+    """
+    if not max_batches:
+        return df
+    micros = F.unix_micros(ts_column)
+    upper = df.select(micros.alias("t")).distinct().orderBy("t").limit(max_batches)
+    newest = upper.agg(F.max("t")).first()[0]
+    return df if newest is None else df.filter(micros <= newest)
+
+
 def run(
     spark: SparkSession,
     *,
     bronze: str = BRONZE,
     silver: str = SILVER,
     quarantine: str = QUARANTINE,
+    max_batches: int | None = None,
 ) -> RunStats:
     ensure_tables(spark, silver, quarantine)
     cursor = read_cursor(spark, silver)
     window = spark.table(bronze)
     if cursor is not None:
         window = window.filter(F.unix_micros("ingested_at") > cursor)
-    window = window.cache()
+    window = limit_to_next_batches(window, "ingested_at", max_batches).cache()
     stats = RunStats(cursor_before_us=cursor, cursor_after_us=cursor)
     try:
         # Le curseur est le plus récent ingested_at des lignes LUES, jamais l'heure d'exécution :
@@ -332,8 +363,11 @@ def run(
         rejected.createOrReplaceTempView("_scrr_rejected")
         spark.sql(
             f"MERGE INTO {quarantine} t USING _scrr_rejected s "
-            "ON t.kafka_topic = s.kafka_topic AND t.kafka_partition = s.kafka_partition "
-            "AND t.kafka_offset = s.kafka_offset WHEN NOT MATCHED THEN INSERT *"
+            # Identité d'une ligne : coordonnées Kafka (flux) OU fichier + numéro de ligne
+            # (backfill). <=> : égalité qui traite NULL = NULL comme vrai.
+            "ON t.kafka_topic <=> s.kafka_topic AND t.kafka_partition <=> s.kafka_partition "
+            "AND t.kafka_offset <=> s.kafka_offset AND t.src_file_url <=> s.src_file_url "
+            "AND t.src_line_no <=> s.src_line_no WHEN NOT MATCHED THEN INSERT *"
         )
         first.createOrReplaceTempView("_scrr_first")
         spark.sql(
@@ -354,6 +388,7 @@ def run_and_record(
     silver: str = SILVER,
     quarantine: str = QUARANTINE,
     runs_table: str = pipeline_runs.TABLE,
+    max_batches: int | None = None,
 ) -> RunStats:
     """`run` + une ligne dans ops.pipeline_runs, que l'exécution réussisse ou échoue."""
     ensure_tables(spark, silver, quarantine)
@@ -366,7 +401,9 @@ def run_and_record(
         return started + timedelta(seconds=time.monotonic() - clock)
 
     try:
-        stats = run(spark, bronze=bronze, silver=silver, quarantine=quarantine)
+        stats = run(
+            spark, bronze=bronze, silver=silver, quarantine=quarantine, max_batches=max_batches
+        )
     except Exception as exc:
         pipeline_runs.record(
             spark,
@@ -409,15 +446,27 @@ def geo_report(spark: SparkSession, silver: str = SILVER) -> dict[str, int]:
 
 
 def main(argv: list[str] | None = None) -> int:
-    argparse.ArgumentParser(description=__doc__.splitlines()[0]).parse_args(argv)
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument(
+        "--max-batches", type=int, metavar="N",
+        help="ne traiter que les N plus anciens lots d'ingestion (un jour de backfill = un lot)",
+    )  # fmt: skip
+    parser.add_argument(
+        "--until-caught-up", action="store_true",
+        help="repasser jusqu'à ce qu'il n'y ait plus rien de nouveau (avec --max-batches)",
+    )  # fmt: skip
+    args = parser.parse_args(argv)
     from lakehouse.spark_session import build_spark_session
 
     spark = build_spark_session("silver-gdelt-events")
     spark.sparkContext.setLogLevel("WARN")
     try:
         started = datetime.now(UTC)
-        stats = run_and_record(spark)
-        print(f"{SILVER} : {stats}")
+        while True:
+            stats = run_and_record(spark, max_batches=args.max_batches)
+            print(f"{SILVER} : {stats}", flush=True)
+            if not (args.until_caught_up and stats.rows_read):
+                break
         geo = geo_report(spark)
         pct = 100 * geo["usable"] / geo["total"] if geo["total"] else 0
         print(

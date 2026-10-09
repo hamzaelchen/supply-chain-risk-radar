@@ -4,7 +4,7 @@ Les lignes viennent d'un vrai cycle GDELT (tests/fixtures/gdelt). Les cas d'erre
 vraies lignes dont UN champ est abîmé par le test : on vérifie la raison du rejet.
 """
 
-from datetime import date
+from datetime import UTC, date, datetime
 
 import pytest
 from pyspark.sql import functions as F
@@ -210,3 +210,45 @@ def test_duplicates_keep_the_first_arrived_row(spark):
     by_id = {r.global_event_id: r for r in kept}
     assert by_id[int(LINES[0].split(b"\t")[0])].num_mentions == original_mentions
     assert valid.select("row_hash").distinct().count() == 3  # la copie a bien un autre contenu
+
+
+def test_limit_to_next_batches_keeps_the_oldest_ingestion_instants(spark):
+    from silver.gdelt_events import limit_to_next_batches
+
+    rows = [
+        (i, datetime(2026, 10, 9, 8, minute, tzinfo=UTC)) for i in range(6) for minute in [i // 2]
+    ]
+    df = spark.createDataFrame(rows, "id int, ingested_at timestamp")  # 3 instants, 2 lignes chacun
+    assert df.select("ingested_at").distinct().count() == 3
+    assert sorted(r.id for r in limit_to_next_batches(df, "ingested_at", 2).collect()) == [
+        0,
+        1,
+        2,
+        3,
+    ]
+    assert limit_to_next_batches(df, "ingested_at", None).count() == 6
+    assert limit_to_next_batches(df, "ingested_at", 10).count() == 6
+    assert limit_to_next_batches(df.limit(0), "ingested_at", 2).count() == 0
+
+
+def test_a_backfill_row_keeps_its_identity_and_mode_in_silver_and_quarantine(spark):
+    from .test_bronze_transform import backfill_df
+
+    lines = [LINES[0], damaged(LINES[1], goldstein_scale="abc")]
+    bronze = backfill_df(spark, lines)
+    bronze = spark.createDataFrame(bronze.collect(), bronze.schema)
+    valid, rejected = parse_events(bronze)
+    (ok,), (bad,) = valid.collect(), rejected.collect()
+    assert (ok.ingestion_mode, ok.src_line_no, ok.kafka_offset) == ("backfill", 1, None)
+    assert (bad.ingestion_mode, bad.src_line_no, bad.src_file_url) == (
+        "backfill",
+        2,
+        ok.src_file_url,
+    )
+
+
+def test_stream_rows_without_the_mode_column_value_become_stream_in_silver(spark):
+    bronze = bronze_table(spark, LINES[:2])
+    bronze = bronze.withColumn("ingestion_mode", F.lit(None).cast("string"))  # ligne ancienne
+    valid, _ = parse_events(bronze)
+    assert {r.ingestion_mode for r in valid.collect()} == {"stream"}

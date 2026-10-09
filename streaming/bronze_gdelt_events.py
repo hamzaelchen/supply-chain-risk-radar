@@ -33,15 +33,25 @@ def _header(name: str) -> Column:
     return F.expr(f"CAST(get(filter(headers, h -> h.key = '{name}'), 0).value AS STRING)")
 
 
-def to_bronze(kafka_df: DataFrame) -> DataFrame:
-    """Enregistrements Kafka (avec en-têtes) -> lignes de bronze.gdelt_events."""
-    raw_line = F.col("value").cast("string")
+def event_columns(raw_line: Column) -> list[Column]:
+    """`raw_line`, `field_count` et les 61 colonnes STRING d'une ligne brute GDELT.
+
+    Partagé par le flux Kafka et le chargement historique : une même ligne donne les mêmes
+    colonnes quelle que soit son origine.
+    """
     # Limite -1 : on garde les champs vides en fin de ligne.
     fields = F.split(raw_line, "\t", -1)
-    return kafka_df.select(
+    return [
         raw_line.alias("raw_line"),
         F.size(fields).alias("field_count"),
         *[F.get(fields, F.lit(i)).alias(name) for i, name in enumerate(GDELT_EVENT_COLUMNS)],
+    ]
+
+
+def to_bronze(kafka_df: DataFrame) -> DataFrame:
+    """Enregistrements Kafka (avec en-têtes) -> lignes de bronze.gdelt_events."""
+    return kafka_df.select(
+        *event_columns(F.col("value").cast("string")),
         _header("source_url").alias("src_file_url"),
         # try_ : un en-tête illisible donne NULL, il n'arrête pas le flux.
         # Les messages publiés avant le renommage portent encore l'ancien en-tête
@@ -57,6 +67,31 @@ def to_bronze(kafka_df: DataFrame) -> DataFrame:
         F.col("timestamp").alias("kafka_timestamp"),
         # Constant dans un micro-lot : un lot écrit dans une seule partition.
         F.current_timestamp().alias("ingested_at"),
+        F.lit("stream").alias("ingestion_mode"),
+        F.lit(None).cast("int").alias("src_line_no"),
+    )
+
+
+def to_bronze_backfill(lines: DataFrame) -> DataFrame:
+    """Lignes d'un fichier GDELT lu hors Kafka -> lignes de bronze.gdelt_events.
+
+    Entrée : `raw_line`, `src_file_url`, `src_gdelt_batch_label_ts`, `src_fetched_at`,
+    `src_raw_object_uri`, `src_line_no`. Les colonnes Kafka restent NULL.
+    """
+    return lines.select(
+        *event_columns(F.col("raw_line")),
+        "src_file_url",
+        "src_gdelt_batch_label_ts",
+        "src_fetched_at",
+        "src_raw_object_uri",
+        F.lit(None).cast("string").alias("kafka_topic"),
+        F.lit(None).cast("int").alias("kafka_partition"),
+        F.lit(None).cast("bigint").alias("kafka_offset"),
+        F.lit(None).cast("timestamp").alias("kafka_timestamp"),
+        # Constant dans un jour chargé : un jour écrit dans une seule partition.
+        F.current_timestamp().alias("ingested_at"),
+        F.lit("backfill").alias("ingestion_mode"),
+        F.col("src_line_no").cast("int").alias("src_line_no"),
     )
 
 

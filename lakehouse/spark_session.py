@@ -61,6 +61,9 @@ def iceberg_spark_conf(
         dependencies = {"spark.jars.packages": ",".join(SPARK_PACKAGES)}
     return {
         **dependencies,
+        # Mémoire du driver (la seule JVM en mode local). Le défaut de Spark, 1 Go, ne suffit pas
+        # au chargement historique. À fixer AVANT le démarrage de la JVM, donc ici.
+        "spark.driver.memory": env.get("SPARK_DRIVER_MEMORY", "3g"),
         "spark.sql.extensions": (
             "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions"
         ),

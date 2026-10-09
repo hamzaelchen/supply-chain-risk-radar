@@ -13,6 +13,15 @@ voire des années plus tard (mesuré le 2026-10-09 : jusqu'à 10 ans). Pour un s
   rattrapés le 2026-10-09, contre 0,33 % en direct) ;
 - -1 jour : une date d'événement locale peut précéder d'un jour la date UTC (aucun cas observé).
 Voir docs/geo-join.md pour la distribution complète.
+
+EXCEPTION pour le chargement historique (décision du 2026-10-09). Pour une ligne `backfill`,
+`src_fetched_at` est l'heure du chargement (aujourd'hui), pas un moment où l'événement était
+d'actualité : tout l'historique aurait un écart de plusieurs mois et serait écarté. La récence
+et la fraîcheur d'une ligne backfill se mesurent donc depuis l'étiquette du lot GDELT
+(`src_gdelt_batch_label_ts`, égale à DATEADDED), seule heure d'observation disponible. Cette
+étiquette est en avance d'environ 10 minutes sur la publication réelle du fichier (mesuré sur
+7 fichiers) : on surestime l'heure d'observation d'une dizaine de minutes, sans effet sur un
+écart en jours. Dans le score, l'historique est calculé « à la date du lot ».
 """
 
 from pyspark.sql import Column
@@ -22,8 +31,16 @@ RECENT_MIN_LAG_DAYS = -1
 RECENT_MAX_LAG_DAYS = 2
 
 
+def observed_at() -> Column:
+    """Heure à partir de laquelle on mesure la fraîcheur d'une ligne silver."""
+    mode = F.coalesce(F.col("ingestion_mode"), F.lit("stream"))  # NULL = écrit avant la colonne
+    return F.when(mode == "backfill", F.col("src_gdelt_batch_label_ts")).otherwise(
+        F.col("src_fetched_at")
+    )
+
+
 def lag_days() -> Column:
-    return F.datediff(F.to_date(F.col("src_fetched_at")), F.col("sql_date"))
+    return F.datediff(F.to_date(observed_at()), F.col("sql_date"))
 
 
 def is_recent_event() -> Column:

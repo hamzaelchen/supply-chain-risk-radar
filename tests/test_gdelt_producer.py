@@ -27,9 +27,11 @@ class FakeManifest:
     def __init__(self, entries=()):
         self.entries = list(entries)
 
-    def attempts(self, source):
+    def attempts(self, source, modes=None):
         result = {}
         for e in self.entries:
+            if modes is not None and e.ingestion_mode not in modes:
+                continue
             if e.source == source:
                 result.setdefault(e.gdelt_batch_label_ts, []).append((e.status, e.fetched_at))
         return result
@@ -211,3 +213,31 @@ def test_backfilled_batch_has_no_md5_to_verify():
     backfilled = next(e for e in manifest.entries if e.gdelt_batch_label_ts == label(-1))
     assert backfilled.status == PUBLISHED
     assert backfilled.md5_verified is None
+
+
+def test_backfill_entries_do_not_make_the_producer_think_it_missed_batches(caplog):
+    # Un historique chargé loin dans le passé (mode « backfill ») ne définit pas « le premier lot
+    # connu » du flux : sinon le trou entre l'historique et le flux serait compté comme manqué.
+    manifest = manifest_with_gap()
+    old = replace(
+        manifest.entries[0],
+        gdelt_batch_label_ts=LATEST - timedelta(days=200),
+        source_url="http://exemple/ancien.zip",
+        ingestion_mode="backfill",
+    )
+    manifest.entries.append(old)
+
+    with caplog.at_level("WARNING"):
+        results, _, _ = cycle({**PAGES, url(-1): ZIP}, manifest)
+
+    assert [r.gdelt_batch_label_ts for r in results] == [label(-1), label(0)]
+    assert not [r for r in caplog.records if "fenêtre de rattrapage" in r.message]
+
+
+def test_a_batch_finished_by_the_backfill_is_not_fetched_again_by_the_producer():
+    manifest = manifest_with_gap()
+    manifest.entries.append(
+        replace(manifest.entries[0], gdelt_batch_label_ts=label(-1), ingestion_mode="backfill")
+    )
+    results, _, _ = cycle(PAGES, manifest)
+    assert [r.gdelt_batch_label_ts for r in results] == [label(0)]  # le lot -1 est déjà chargé

@@ -28,6 +28,8 @@ log = logging.getLogger("gdelt_producer")
 
 SOURCE = "gdelt.events"
 TOPIC = "gdelt.events"
+# Un User-Agent qui dit qui télécharge : c'est la moindre politesse envers GDELT.
+USER_AGENT = "supply-chain-risk-radar/0.1 (projet pédagogique; [adresse e-mail retirée])"
 
 # GDELT publie parfois un fichier en retard. Un lot GDELT en 404 est retenté 4 fois,
 # à 15 minutes d'intervalle au moins (soit 1 h), avant d'être déclaré définitivement
@@ -41,7 +43,9 @@ class BatchNotFound(Exception):
 
 
 class Manifest(Protocol):
-    def attempts(self, source: str) -> dict[datetime, list[tuple[str, datetime]]]: ...
+    def attempts(
+        self, source: str, modes: tuple[str, ...] | None = None
+    ) -> dict[datetime, list[tuple[str, datetime]]]: ...
     def record(self, entry: ManifestEntry) -> None: ...
 
 
@@ -65,7 +69,8 @@ class BatchResult:
 def http_fetch(url: str, timeout: float = 60, attempts: int = 3) -> bytes:
     for attempt in range(1, attempts + 1):
         try:
-            with urllib.request.urlopen(url, timeout=timeout) as response:
+            request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(request, timeout=timeout) as response:
                 return response.read()
         except urllib.error.HTTPError as exc:
             if exc.code == 404:
@@ -187,7 +192,11 @@ def run_cycle(
         for label, rows in attempts.items()
         if any(status in (PUBLISHED, MISSING_FINAL) for status, _ in rows)
     }
-    first_known = min(attempts) if attempts else None
+    # Le chargement historique (mode « backfill ») remplit le même manifeste : seul le flux
+    # définit « le premier lot connu », sinon chaque trou entre deux périodes chargées serait
+    # compté comme un lot manqué hors fenêtre.
+    stream_attempts = manifest.attempts(SOURCE, modes=("stream",))
+    first_known = min(stream_attempts) if stream_attempts else None
 
     labels, out_of_window = gdelt.batches_to_process(
         latest.gdelt_batch_label_ts, first_known, done, max_backfill
