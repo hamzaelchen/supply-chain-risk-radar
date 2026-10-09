@@ -9,7 +9,7 @@ Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événe
 | Phase | Contenu | État |
 |---|---|---|
 | 0 — Fondations locales | Infra Docker, producteur GDELT, streaming vers bronze | **Terminée** |
-| 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, référentiel des détroits | En cours : `silver.gdelt_events` et `silver.ref_chokepoints` faites ; table GDELT « mentions » du plan initial non traitée |
+| 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, référentiel des détroits **Terminée** : `silver.gdelt_events`, `silver.ref_chokepoints` |
 | 2 — Portefeuille et gold | 100 fournisseurs, dbt, score de risque | À venir |
 | 3 — Classification LLM | Taxonomie d'événements, évaluation, coûts | À venir |
 | 4 — Orchestration | Dagster, planification, maintenance des tables | À venir |
