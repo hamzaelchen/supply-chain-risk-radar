@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -51,6 +51,11 @@ bronze:
 silver:
 	$(BIN)/python -m silver.gdelt_events
 
-# silver.ref_chokepoints : recharge le référentiel des détroits depuis ref/chokepoints.csv
+# silver.ref_chokepoints et silver.ref_cities : rechargés depuis les CSV de ref/
 ref:
 	$(BIN)/python -m ref.chokepoints load
+	$(BIN)/python -m ref.cities load
+
+# silver.ref_suppliers et silver.ref_supplier_routes : portefeuille FICTIF depuis portfolio/*.csv
+portfolio:
+	$(BIN)/python -m portfolio.generate load
