@@ -39,13 +39,13 @@ RECENT_GAP_DAYS = (-1, 2)  # silver/recency.py
 
 # Illustration seulement. Voir SAMPLE_NOTICE.
 LEVELS = [
-    {"id": "low", "label_fr": "Faible", "min": 0, "max": 25},
-    {"id": "medium", "label_fr": "Modéré", "min": 25, "max": 50},
-    {"id": "high", "label_fr": "Élevé", "min": 50, "max": 75},
-    {"id": "critical", "label_fr": "Critique", "min": 75, "max": 100},
+    {"id": "low", "alert": False, "label_fr": "Faible", "min": 0, "max": 25},
+    {"id": "medium", "alert": False, "label_fr": "Modéré", "min": 25, "max": 50},
+    {"id": "high", "alert": True, "label_fr": "Élevé", "min": 50, "max": 75},
+    {"id": "critical", "alert": True, "label_fr": "Critique", "min": 75, "max": 100},
 ]
 SAMPLE_NOTICE = (
-    "EXEMPLE : portefeuille fictif et événements GDELT réels d'un seul lot de 15 minutes "
+    "Portefeuille fictif et événements GDELT réels d'un seul lot de 15 minutes "
     "(fixture du dépôt), mais le score est une formule d'illustration, pas le score v1."
 )
 

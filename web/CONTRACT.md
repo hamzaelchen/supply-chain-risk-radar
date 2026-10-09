@@ -31,7 +31,7 @@ Parquet : compression zstd ou snappy, horodatages en `TIMESTAMP` UTC, pas de typ
 | `gdelt_batches` | entier | Nombre de lots GDELT (15 min) couverts. |
 | `events_total` | entier | Événements GDELT lus pour calculer ces scores (avant jointure). |
 | `score_version` | texte | Ex. `v1`. En exemple : `exemple-0`. |
-| `risk_levels` | liste | `[{id, label_fr, min, max}]`, bornes du score par niveau (*à valider*, voir plus bas). Le site ne code **aucun** seuil en dur : il lit celui-ci. |
+| `risk_levels` | liste | `[{id, label_fr, min, max, alert}]` (`alert` : booléen, ce niveau est listé comme alerte), bornes du score par niveau (*à valider*, voir plus bas). Le site ne code **aucun** seuil en dur : il lit celui-ci. |
 | `portfolio_label` | texte | `FICTIF - Entreprise démo` (étiquette du portefeuille). |
 
 ## `supplier_scores.parquet`
