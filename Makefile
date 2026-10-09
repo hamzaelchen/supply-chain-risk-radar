@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -46,3 +46,7 @@ produce:
 # Kafka -> bronze.gdelt_events : traite ce qui est en attente, puis s'arrête
 bronze:
 	$(BIN)/python -m streaming.bronze_gdelt_events
+
+# bronze -> silver.gdelt_events (+ quarantaine) : traite ce qui est arrivé depuis le dernier passage
+silver:
+	$(BIN)/python -m silver.gdelt_events

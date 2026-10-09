@@ -9,7 +9,7 @@ Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événe
 | Phase | Contenu | État |
 |---|---|---|
 | 0 — Fondations locales | Infra Docker, producteur GDELT, streaming vers bronze | **Terminée** |
-| 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, IMF PortWatch | À venir |
+| 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, IMF PortWatch | En cours : `silver.gdelt_events` faite, PortWatch à venir |
 | 2 — Portefeuille et gold | 100 fournisseurs, dbt, score de risque | À venir |
 | 3 — Classification LLM | Taxonomie d'événements, évaluation, coûts | À venir |
 | 4 — Orchestration | Dagster, planification, maintenance des tables | À venir |
@@ -91,6 +91,7 @@ Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
 | `make smoke` | Crée, lit puis supprime une table Iceberg de test |
 | `make produce` | Un cycle du producteur GDELT |
 | `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
+| `make silver` | bronze -> `silver.gdelt_events` : typage, quarantaine, dédoublonnage, lecture incrémentale |
 | `make test` | Tests sans infra (environ 25 s, une JVM Spark locale démarre) |
 | `make test-integration` | Tests de bout en bout ; demande `make up`, sautés sinon |
 
@@ -108,6 +109,8 @@ Pour faire tourner le pipeline en continu :
 | MinIO (console) | `localhost:19001` |
 | Catalogue Iceberg REST | `localhost:8181` |
 
+Le port 8181 du catalogue peut être indisponible : Windows réserve parfois des plages de ports après un redémarrage (`netsh interface ipv4 show excludedportrange protocol=tcp`). Dans ce cas, mettre `ICEBERG_REST_PORT=18181` dans `.env`.
+
 Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont ouverts que sur `127.0.0.1`. Ports et identifiants se surchargent dans un fichier `.env` (voir [.env.example](.env.example)).
 
 ## Organisation du dépôt
@@ -116,6 +119,7 @@ Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont 
 |---|---|
 | [ingestion/](ingestion/) | Producteur GDELT, manifeste, archivage des zips |
 | [streaming/](streaming/) | Job Kafka -> bronze et schéma des 61 colonnes |
+| [silver/](silver/) | Job bronze -> silver (batch Spark) : règles de typage, quarantaine, `MERGE INTO` |
 | [lakehouse/](lakehouse/) | Configuration de la session Spark, résolution des jars, smoke test |
 | [tests/](tests/) | Tests ; les fixtures sont un vrai cycle GDELT, non modifié. Chaque exécution d'intégration travaille dans un namespace, des topics et un dossier qui lui sont propres, supprimés à la fin |
 | `transform/`, `orchestration/`, `llm/`, `api/`, `web/` | Phases suivantes, vides pour l'instant |

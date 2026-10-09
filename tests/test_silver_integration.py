@@ -1,0 +1,133 @@
+"""Silver de bout en bout sur le catalogue local (make up), dans des tables jetables :
+lecture incrémentale, MERGE idempotent, quarantaine, doublons, rejeu après interruption."""
+
+from datetime import UTC, datetime
+
+import pytest
+from pyspark.sql import functions as F
+
+from silver import gdelt_events as silver
+from streaming.bronze_gdelt_events import ensure_table, to_bronze
+
+from .test_bronze_transform import LINES, kafka_df
+from .test_silver_transform import damaged
+
+pytestmark = [pytest.mark.spark, pytest.mark.integration]
+
+
+@pytest.fixture
+def tables(spark, infra, sandbox):
+    name = sandbox.name()
+    t = {
+        "bronze": f"{sandbox.namespace}.bronze_{name}",
+        "silver": f"{sandbox.namespace}.silver_{name}",
+        "quarantine": f"{sandbox.namespace}.quarantine_{name}",
+    }
+    ensure_table(spark, t["bronze"])
+    return t
+
+
+def append_bronze(spark, table, lines, ingested_at):
+    """Un lot bronze arrivé à `ingested_at` (comme un micro-lot du streaming)."""
+    df = to_bronze(kafka_df(spark, lines)).withColumn(
+        "ingested_at", F.lit(ingested_at).cast("timestamp")
+    )
+    df.writeTo(table).append()
+
+
+def run(spark, t):
+    return silver.run(spark, bronze=t["bronze"], silver=t["silver"], quarantine=t["quarantine"])
+
+
+def count(spark, table):
+    return spark.table(table).count()
+
+
+T1 = datetime(2026, 10, 9, 8, 0, 0, tzinfo=UTC)
+T2 = datetime(2026, 10, 9, 8, 15, 0, tzinfo=UTC)
+
+
+def test_first_run_splits_valid_and_quarantined_rows(spark, tables):
+    broken = [damaged(LINES[100], goldstein_scale="abc"), b"\t".join(LINES[101].split(b"\t")[:10])]
+    append_bronze(spark, tables["bronze"], LINES[:50] + broken, T1)
+
+    stats = run(spark, tables)
+
+    assert (stats.rows_read, stats.valid, stats.quarantined, stats.inserted) == (52, 50, 2, 50)
+    assert count(spark, tables["silver"]) == 50
+    reasons = {r.reason for r in spark.table(tables["quarantine"]).collect()}
+    assert reasons == {"goldstein_scale='abc' : double invalide", "field_count=10 (attendu 61)"}
+    assert stats.quarantine_reasons == {"goldstein_scale": 1, "field_count": 1}
+
+
+def test_rerunning_finds_nothing_new_and_writes_nothing(spark, tables):
+    append_bronze(spark, tables["bronze"], LINES[:30], T1)
+    run(spark, tables)
+    snapshots = spark.table(f"{tables['silver']}.snapshots").count()
+
+    stats = run(spark, tables)
+
+    assert stats.rows_read == 0
+    assert count(spark, tables["silver"]) == 30
+    assert spark.table(f"{tables['silver']}.snapshots").count() == snapshots
+
+
+def test_incremental_run_reads_only_new_bronze_rows_and_drops_duplicates(spark, tables):
+    append_bronze(spark, tables["bronze"], LINES[:40], T1)
+    run(spark, tables)
+
+    # Lot suivant : 10 événements déjà vus (rejeu du producteur), 1 « doublon » au contenu
+    # différent, 20 nouveaux, et 1 doublon à l'intérieur du lot.
+    changed = damaged(LINES[0], num_mentions="999")
+    new = LINES[40:60]
+    append_bronze(spark, tables["bronze"], LINES[30:40] + [changed] + new + [new[0]], T2)
+    stats = run(spark, tables)
+
+    assert stats.rows_read == 32  # le premier lot n'est pas relu
+    assert stats.duplicates_in_batch == 1  # new[0] deux fois dans le même lot
+    assert stats.already_in_silver == 11  # 10 rejoués + la copie modifiée de LINES[0]
+    assert stats.conflicting_duplicates == 1
+    assert stats.inserted == 20
+    assert stats.duplicates_eliminated == 12
+    assert count(spark, tables["silver"]) == 60
+    ids = spark.table(tables["silver"]).select("global_event_id").distinct().count()
+    assert ids == 60
+
+
+def test_first_seen_wins_and_a_conflicting_copy_is_counted(spark, tables):
+    original = int(LINES[0].decode().split("\t")[silver.GDELT_EVENT_COLUMNS.index("num_mentions")])
+    append_bronze(spark, tables["bronze"], LINES[:5], T1)
+    run(spark, tables)
+
+    append_bronze(spark, tables["bronze"], [damaged(LINES[0], num_mentions="999")], T2)
+    stats = run(spark, tables)
+
+    assert stats.already_in_silver == 1 and stats.conflicting_duplicates == 1
+    assert stats.inserted == 0
+    kept = spark.table(tables["silver"]).filter("kafka_offset = 0 AND kafka_partition = 0").first()
+    assert kept.num_mentions == original
+
+
+def test_replaying_the_same_window_after_an_interruption_adds_nothing(spark, tables):
+    append_bronze(spark, tables["bronze"], LINES[:40] + [LINES[50][:30]], T1)
+    run(spark, tables)
+    before = (count(spark, tables["silver"]), count(spark, tables["quarantine"]))
+
+    # Simule un arrêt entre le MERGE et la mise à jour du curseur : il est perdu.
+    spark.sql(f"ALTER TABLE {tables['silver']} UNSET TBLPROPERTIES ('{silver.CURSOR_PROPERTY}')")
+    stats = run(spark, tables)
+
+    assert stats.rows_read == 41 and stats.inserted == 0  # tout est déjà là
+    assert (count(spark, tables["silver"]), count(spark, tables["quarantine"])) == before
+
+
+def test_every_bronze_row_is_accounted_for(spark, tables):
+    broken = [damaged(LINES[100], quad_class="7"), LINES[101][:80]]
+    append_bronze(spark, tables["bronze"], LINES[:40] + broken, T1)
+    append_bronze(spark, tables["bronze"], LINES[20:50], T2)
+    stats = run(spark, tables)
+
+    bronze = count(spark, tables["bronze"])
+    assert stats.rows_read == bronze == 72
+    assert stats.valid + stats.quarantined == bronze
+    assert count(spark, tables["silver"]) + stats.duplicates_eliminated == stats.valid
