@@ -2,7 +2,7 @@
 
 Sert à répondre, avec une requête SQL, à « le silver a-t-il tourné, combien a-t-il lu, que
 vaut le taux de coordonnées exploitables aujourd'hui par rapport à hier ? ». Les colonnes sont
-génériques : les prochains jobs (PortWatch, gold) y écriront aussi, en laissant NULL ce qui ne
+génériques : les prochains jobs (gold, classification) y écriront aussi, en laissant NULL ce qui ne
 les concerne pas.
 """
 

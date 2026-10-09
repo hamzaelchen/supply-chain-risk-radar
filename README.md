@@ -1,6 +1,6 @@
 # supply-chain-risk-radar
 
-Radar de risque supply chain. Le projet ingère les événements mondiaux de GDELT 2.0 (un fichier toutes les 15 minutes) et, à terme, le trafic portuaire d'IMF PortWatch, les stocke dans un lakehouse Apache Iceberg (bronze / silver / gold), puis calculera un score de risque de 0 à 100 pour les 100 fournisseurs d'une « Entreprise démo ».
+Radar de risque supply chain. Le projet ingère les événements mondiaux de GDELT 2.0 (un fichier toutes les 15 minutes) les stocke dans un lakehouse Apache Iceberg (bronze / silver / gold), puis calculera un score de risque de 0 à 100 pour les 100 fournisseurs d'une « Entreprise démo ».
 
 Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événements viennent de fichiers réellement téléchargés, dont l'URL source et l'horodatage sont conservés jusque dans les tables.
 
@@ -9,12 +9,19 @@ Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événe
 | Phase | Contenu | État |
 |---|---|---|
 | 0 — Fondations locales | Infra Docker, producteur GDELT, streaming vers bronze | **Terminée** |
-| 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, IMF PortWatch | En cours : `silver.gdelt_events` faite, PortWatch à venir |
+| 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, référentiel des détroits | En cours : `silver.gdelt_events` et `silver.ref_chokepoints` faites ; table GDELT « mentions » du plan initial non traitée |
 | 2 — Portefeuille et gold | 100 fournisseurs, dbt, score de risque | À venir |
 | 3 — Classification LLM | Taxonomie d'événements, évaluation, coûts | À venir |
 | 4 — Orchestration | Dagster, planification, maintenance des tables | À venir |
 | 5 — Live-lite | Export Parquet, GitHub Actions, site React + DuckDB-WASM | À venir |
 | 6 — Durcissement | Qualité, observabilité, CI, documentation | À venir |
+
+## Sources de données
+
+- **Événements : GDELT 2.0 uniquement** ([gdeltproject.org](https://www.gdeltproject.org/)), un fichier toutes les 15 minutes, téléchargé tel quel.
+- **Référentiel géographique** (donnée de référence, pas un flux) : coordonnées des grands détroits et canaux maritimes, lues dans [Wikidata](https://www.wikidata.org/) (licence CC0, révision citée pour chaque point), voir [ref/](ref/). Les rayons de surveillance sont un choix de conception du projet, signalé comme tel.
+- **Le trafic maritime n'est pas une source.** IMF PortWatch a été écarté : ses conditions d'utilisation interdisent le téléchargement en masse par des moyens automatisés sans autorisation explicite.
+- Seul le portefeuille de fournisseurs est fictif (graine fixe, étiqueté « Entreprise démo »).
 
 ## Architecture actuelle (phase 0)
 
@@ -91,6 +98,7 @@ Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
 | `make smoke` | Crée, lit puis supprime une table Iceberg de test |
 | `make produce` | Un cycle du producteur GDELT |
 | `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
+| `make ref` | Recharge `silver.ref_chokepoints` depuis `ref/chokepoints.csv` |
 | `make silver` | bronze -> `silver.gdelt_events` : typage, quarantaine, dédoublonnage, lecture incrémentale |
 | `make test` | Tests sans infra (environ 25 s, une JVM Spark locale démarre) |
 | `make test-integration` | Tests de bout en bout ; demande `make up`, sautés sinon |
@@ -117,6 +125,7 @@ Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont 
 |---|---|
 | [ingestion/](ingestion/) | Producteur GDELT, manifeste, archivage des zips |
 | [streaming/](streaming/) | Job Kafka -> bronze et schéma des 61 colonnes |
+| [ref/](ref/) | Référentiel des détroits et canaux (CSV + réponses brutes Wikidata archivées), chargé dans `silver.ref_chokepoints` |
 | [ops/](ops/) | Table `ops.pipeline_runs` : une ligne par exécution d'un job (heure, durée, lignes lues/insérées/en quarantaine, doublons, % ActionGeo exploitable, curseur avant/après) |
 | [silver/](silver/) | Job bronze -> silver (batch Spark) : règles de typage, quarantaine, `MERGE INTO` |
 | [lakehouse/](lakehouse/) | Configuration de la session Spark, résolution des jars, smoke test |
