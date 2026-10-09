@@ -20,12 +20,14 @@ fenêtre et le MERGE n'insère rien de plus.
 
 import argparse
 import sys
+import time
 from dataclasses import dataclass, field
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 
 from pyspark.sql import Column, DataFrame, SparkSession
 from pyspark.sql import functions as F
 
+from ops import pipeline_runs
 from streaming.gdelt_schema import GDELT_EVENT_COLUMNS
 
 BRONZE = "lakehouse.bronze.gdelt_events"
@@ -33,6 +35,7 @@ SILVER = "lakehouse.silver.gdelt_events"
 QUARANTINE = "lakehouse.silver.gdelt_events_quarantine"
 CURSOR_PROPERTY = "scrr.bronze_ingested_at_cursor_us"  # microsecondes depuis l'epoch (UTC)
 EXPECTED_FIELDS = 61
+PIPELINE = "silver.gdelt_events"
 
 
 @dataclass(frozen=True)
@@ -263,6 +266,10 @@ class RunStats:
     already_in_silver: int = 0
     conflicting_duplicates: int = 0
     inserted: int = 0
+    action_geo_usable: int = 0  # parmi les événements valides lus (hors doublons)
+    action_geo_total: int = 0
+    cursor_before_us: int | None = None
+    cursor_after_us: int | None = None
 
     @property
     def duplicates_eliminated(self) -> int:
@@ -282,8 +289,10 @@ def run(
     if cursor is not None:
         window = window.filter(F.unix_micros("ingested_at") > cursor)
     window = window.cache()
-    stats = RunStats()
+    stats = RunStats(cursor_before_us=cursor, cursor_after_us=cursor)
     try:
+        # Le curseur est le plus récent ingested_at des lignes LUES, jamais l'heure d'exécution :
+        # un lot bronze commité pendant le passage (donc plus récent) sera lu au suivant.
         newest = window.agg(F.max(F.unix_micros("ingested_at"))).first()[0]
         if newest is None:
             return stats  # rien de nouveau : le job est un no-op
@@ -307,6 +316,10 @@ def run(
             .filter("n > 1").count()
         )  # fmt: skip
         first = keep_first_seen(valid).cache()
+        geo = first.agg(
+            F.count("*").alias("total"), F.sum(action_geo_usable().cast("int")).alias("usable")
+        ).first()
+        stats.action_geo_total, stats.action_geo_usable = geo.total, geo.usable or 0
         known = spark.table(silver).select("global_event_id", F.col("row_hash").alias("known_hash"))
         overlap = first.join(known, "global_event_id")
         stats.already_in_silver = overlap.count()
@@ -328,9 +341,62 @@ def run(
             "ON t.global_event_id = s.global_event_id WHEN NOT MATCHED THEN INSERT *"
         )
         write_cursor(spark, silver, newest)
+        stats.cursor_after_us = newest
         return stats
     finally:
         spark.catalog.clearCache()
+
+
+def run_and_record(
+    spark: SparkSession,
+    *,
+    bronze: str = BRONZE,
+    silver: str = SILVER,
+    quarantine: str = QUARANTINE,
+    runs_table: str = pipeline_runs.TABLE,
+) -> RunStats:
+    """`run` + une ligne dans ops.pipeline_runs, que l'exécution réussisse ou échoue."""
+    ensure_tables(spark, silver, quarantine)
+    started = datetime.now(UTC)
+    clock = time.monotonic()
+    cursor_before = read_cursor(spark, silver)
+
+    def finished() -> datetime:
+        # Durée mesurée par l'horloge monotone, pas par la différence de deux heures murales.
+        return started + timedelta(seconds=time.monotonic() - clock)
+
+    try:
+        stats = run(spark, bronze=bronze, silver=silver, quarantine=quarantine)
+    except Exception as exc:
+        pipeline_runs.record(
+            spark,
+            pipeline_runs.PipelineRun(
+                pipeline=PIPELINE, started_at=started, finished_at=finished(), status="failed",
+                error=repr(exc)[:2000],
+                cursor_before=pipeline_runs.micros_to_datetime(cursor_before),
+                cursor_after=pipeline_runs.micros_to_datetime(read_cursor(spark, silver)),
+            ),
+            runs_table,
+        )  # fmt: skip
+        raise
+    usable_pct = (
+        100 * stats.action_geo_usable / stats.action_geo_total if stats.action_geo_total else None
+    )
+    pipeline_runs.record(
+        spark,
+        pipeline_runs.PipelineRun(
+            pipeline=PIPELINE, started_at=started, finished_at=finished(), status="succeeded",
+            rows_read=stats.rows_read, rows_inserted=stats.inserted,
+            rows_quarantined=stats.quarantined,
+            duplicates_eliminated=stats.duplicates_eliminated,
+            conflicting_duplicates=stats.conflicting_duplicates,
+            action_geo_usable_pct=usable_pct,
+            cursor_before=pipeline_runs.micros_to_datetime(stats.cursor_before_us),
+            cursor_after=pipeline_runs.micros_to_datetime(stats.cursor_after_us),
+        ),
+        runs_table,
+    )  # fmt: skip
+    return stats
 
 
 def geo_report(spark: SparkSession, silver: str = SILVER) -> dict[str, int]:
@@ -350,7 +416,7 @@ def main(argv: list[str] | None = None) -> int:
     spark.sparkContext.setLogLevel("WARN")
     try:
         started = datetime.now(UTC)
-        stats = run(spark)
+        stats = run_and_record(spark)
         print(f"{SILVER} : {stats}")
         geo = geo_report(spark)
         pct = 100 * geo["usable"] / geo["total"] if geo["total"] else 0

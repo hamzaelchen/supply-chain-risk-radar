@@ -22,6 +22,7 @@ def tables(spark, infra, sandbox):
         "bronze": f"{sandbox.namespace}.bronze_{name}",
         "silver": f"{sandbox.namespace}.silver_{name}",
         "quarantine": f"{sandbox.namespace}.quarantine_{name}",
+        "runs": f"{sandbox.namespace}.pipeline_runs_{name}",
     }
     ensure_table(spark, t["bronze"])
     return t
@@ -175,3 +176,69 @@ def test_a_bronze_batch_committed_while_silver_runs_is_never_skipped(spark, tabl
     ids = spark.table(tables["silver"]).select("global_event_id").distinct().count()
     assert ids == 35
     assert silver.read_cursor(spark, tables["silver"]) == micros(T3)
+
+
+def run_and_record(spark, t):
+    return silver.run_and_record(
+        spark,
+        bronze=t["bronze"],
+        silver=t["silver"],
+        quarantine=t["quarantine"],
+        runs_table=t["runs"],
+    )
+
+
+def utc(moment):
+    """Spark rend des datetimes sans fuseau ; la session est en UTC (spark.sql.session.timeZone)."""
+    return None if moment is None else moment.replace(tzinfo=UTC)
+
+
+def runs(spark, t):
+    return spark.table(t["runs"]).orderBy("started_at").collect()
+
+
+def test_each_run_leaves_one_row_in_ops_pipeline_runs(spark, tables):
+    broken = [damaged(LINES[100], goldstein_scale="abc")]
+    append_bronze(spark, tables["bronze"], LINES[:30] + broken, T1)
+    append_bronze(spark, tables["bronze"], LINES[20:40], T2)  # 10 déjà vus
+
+    run_and_record(spark, tables)
+    run_and_record(spark, tables)  # rien de nouveau
+
+    first, second = runs(spark, tables)
+    assert first.pipeline == "silver.gdelt_events" and first.status == "succeeded"
+    assert (first.rows_read, first.rows_inserted, first.rows_quarantined) == (51, 40, 1)
+    assert first.duplicates_eliminated == 10 and first.conflicting_duplicates == 0
+    assert first.cursor_before is None and utc(first.cursor_after) == T2
+    assert first.duration_seconds > 0 and first.finished_at >= first.started_at
+    assert 0 < first.action_geo_usable_pct <= 100
+    assert first.error is None and len(first.run_id) == 32
+
+    assert (second.rows_read, second.rows_inserted, second.rows_quarantined) == (0, 0, 0)
+    assert second.action_geo_usable_pct is None  # rien lu : pas de pourcentage à inventer
+    assert utc(second.cursor_before) == T2 == utc(second.cursor_after)
+    assert first.run_id != second.run_id
+
+
+def test_a_failed_run_is_recorded_with_its_error_and_the_cursor_unchanged(
+    spark, tables, monkeypatch
+):
+    append_bronze(spark, tables["bronze"], LINES[:10], T1)
+    run_and_record(spark, tables)
+    append_bronze(spark, tables["bronze"], LINES[10:20], T2)
+
+    def boom(*_args, **_kwargs):
+        raise RuntimeError("panne simulée")
+
+    monkeypatch.setattr(silver, "keep_first_seen", boom)
+    with pytest.raises(RuntimeError, match="panne simulée"):
+        run_and_record(spark, tables)
+    monkeypatch.undo()
+
+    ok, failed = runs(spark, tables)
+    assert failed.status == "failed" and "panne simulée" in failed.error
+    assert failed.rows_read is None
+    assert utc(failed.cursor_before) == T1 == utc(failed.cursor_after)
+    # Le passage suivant reprend où le dernier succès s'était arrêté.
+    assert run_and_record(spark, tables).rows_read == 10
+    assert ok.status == "succeeded"

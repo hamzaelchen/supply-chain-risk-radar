@@ -117,6 +117,7 @@ Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont 
 |---|---|
 | [ingestion/](ingestion/) | Producteur GDELT, manifeste, archivage des zips |
 | [streaming/](streaming/) | Job Kafka -> bronze et schéma des 61 colonnes |
+| [ops/](ops/) | Table `ops.pipeline_runs` : une ligne par exécution d'un job (heure, durée, lignes lues/insérées/en quarantaine, doublons, % ActionGeo exploitable, curseur avant/après) |
 | [silver/](silver/) | Job bronze -> silver (batch Spark) : règles de typage, quarantaine, `MERGE INTO` |
 | [lakehouse/](lakehouse/) | Configuration de la session Spark, résolution des jars, smoke test |
 | [tests/](tests/) | Tests ; les fixtures sont un vrai cycle GDELT, non modifié. Chaque exécution d'intégration travaille dans un namespace, des topics et un dossier qui lui sont propres, supprimés à la fin |
