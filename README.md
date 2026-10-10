@@ -1,161 +1,158 @@
-# supply-chain-risk-radar
+# Radar de risque supply chain
 
-Radar de risque supply chain. Le projet ingère les événements mondiaux de GDELT 2.0 (un fichier toutes les 15 minutes) les stocke dans un lakehouse Apache Iceberg (bronze / silver / gold), puis calculera un score de risque de 0 à 100 pour les 100 fournisseurs d'une « Entreprise démo ».
+Un pipeline de données complet, de la presse mondiale à un score de risque par fournisseur : **18,4 millions d'événements GDELT** sur 175 jours de chargement historique, un lakehouse Apache Iceberg, un score calculé avec dbt, et un site statique qui lit des fichiers Parquet directement dans le navigateur.
 
-Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événements viennent de fichiers réellement téléchargés, dont l'URL source et l'horodatage sont conservés jusque dans les tables.
+> **Démo** : <https://hamzaelchen.github.io/supply-chain-risk-radar/> (disponible dès que GitHub Pages est activé sur le dépôt).
+> **Le portefeuille de fournisseurs est fictif** (« Entreprise démo », basée à Casablanca). Les événements, les villes et les détroits sont réels.
 
-## État d'avancement
+## Le problème
 
-| Phase | Contenu | État |
-|---|---|---|
-| 0 — Fondations locales | Infra Docker, producteur GDELT, streaming vers bronze | **Terminée** |
-| 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, référentiel des détroits | **Terminée** : `silver.gdelt_events`, `silver.ref_chokepoints` |
-| 2 — Portefeuille et gold | 100 fournisseurs fictifs, jointure géographique, chargement historique, dbt, score de risque | **Terminée** : score v1 sur 175 jours d'historique (18,4 M d'événements) |
-| 3 — Classification par règles | Règles CAMEO documentées et mesurées (le LLM local est en v2) | **Faite** (règles mesurées sur 8 jours ; LLM en v2) |
-| 4 — Orchestration | Dagster, planification, maintenance des tables | À venir |
-| 5 — Live-lite | Export Parquet, GitHub Actions, site React + DuckDB-WASM | Export et site faits, **déploiement en attente d'une décision** (dépôt privé) |
-| 6 — Durcissement | Qualité, observabilité, CI, documentation | À venir |
+Une entreprise qui achète dans 24 pays se demande, chaque matin : *un de mes fournisseurs, ou un détroit par lequel passe sa marchandise, subit-il quelque chose d'inhabituel ?* Les articles de presse le disent avant les systèmes internes, mais ils sont des millions et leur volume dépend de la ville plus que du risque : Los Angeles produit mille événements là où une ville industrielle moyenne en produit un.
 
-## Sources de données
+Ce projet transforme le flux d'événements de [GDELT](https://www.gdeltproject.org/) en un score de 0 à 100 par fournisseur, en répondant à une seule question : **est-ce plus que la normale de cette ville et de ce détroit ?**
 
-- **Événements : GDELT 2.0 uniquement** ([gdeltproject.org](https://www.gdeltproject.org/)), un fichier toutes les 15 minutes, téléchargé tel quel.
-- **Référentiel géographique** (donnée de référence, pas un flux) : coordonnées des grands détroits et canaux maritimes, lues dans [Wikidata](https://www.wikidata.org/) (licence CC0, révision citée pour chaque point), voir [ref/](ref/). Les rayons de surveillance sont un choix de conception du projet, signalé comme tel.
-- **Le trafic maritime n'est pas une source.** IMF PortWatch a été écarté : ses conditions d'utilisation interdisent le téléchargement en masse par des moyens automatisés sans autorisation explicite.
-- Seul le portefeuille de fournisseurs est fictif (graine fixe, étiqueté « FICTIF - Entreprise démo »), voir [docs/portfolio.md](docs/portfolio.md). Les villes de ce portefeuille sont réelles (Wikidata, CC0).
+## Ce que fait le pipeline
 
-## Architecture actuelle (phase 0)
+1. **Ingère** GDELT 2.0 toutes les 15 minutes (producteur Python, Kafka, Spark Structured Streaming) et charge un historique en lot (outil séquentiel, avec pause, reprenable).
+2. **Nettoie** dans Iceberg : bronze (ligne brute + lignage), silver (typage strict, quarantaine motivée, dédoublonnage idempotent).
+3. **Localise** : événements à moins de 150 km de la ville de chaque fournisseur, et dans le rayon des détroits de sa route.
+4. **Note** avec dbt (DuckDB lit Iceberg) : anomalie par rapport à la normale sur 28 jours, événements négatifs classés par règles sur les codes CAMEO, criticité du fournisseur, événements explicatifs conservés.
+5. **Publie** un export validé (`meta.json` + Parquet) et un site React + DuckDB-WASM, sans serveur ni API.
+
+## Chiffres réels
+
+| | |
+|---|---|
+| Événements GDELT en bronze | **18 413 458**, dans 16 960 lots de 15 minutes |
+| Période | 177 jours entre le 2026-01-04 et le 2026-10-10 (deux périodes chargées en lot, volontairement avec un trou d'avril à juillet) |
+| Doublons | **0** (vérifié sur le manifeste, l'identité fichier + ligne, les offsets Kafka et les identifiants GDELT) |
+| Lots publiés / absents / en échec | 16 960 / 0 / 0 (sur 16 773 fichiers de l'historique) |
+| Silver | 18 413 351 événements ; **107** en quarantaine (0,0006 %), chacun avec sa raison |
+| Événements localisés à une ville précise | 10,8 millions (59 %) |
+| Paires (événement, fournisseur) | 2,2 millions ; 268 000 paires (événement, détroit) |
+| Construction du gold complet (dbt) | environ 10 secondes |
+| Tests | 291 tests Python (dont 37 d'intégration), 52 tests dbt, 21 tests du site |
+
+## Cas d'étude : Ormuz, février-mars 2026
+
+Le site s'ouvre sur cet épisode. Sans l'avoir cherché, le score le fait ressortir : dans le rayon de 200 km du détroit d'Ormuz, GDELT localise **1 568 événements la semaine du 9 février, 3 601 celle du 23 février et 8 897 celle du 2 mars**. Au 2 mars 2026, les 11 fournisseurs fictifs dont la route passe par ce détroit sont tous en alerte ou critiques (2 critiques), alors que le portefeuille entier n'en compte que 12 sur 100.
+
+Le site montre ce que les articles recensent ; **il n'établit pas la cause**.
+
+## Architecture
 
 ```mermaid
 flowchart LR
-    GDELT["GDELT 2.0<br/>lastupdate.txt + zip"]
-    PROD["Producteur<br/>(Python)"]
-    KAFKA[("Kafka<br/>gdelt.events")]
-    JOB["Job Spark<br/>Structured Streaming"]
+    GDELT["GDELT 2.0<br/>un fichier / 15 min"]
+    PROD["Producteur Python"]
+    KAFKA[("Kafka")]
+    STREAM["Spark Structured<br/>Streaming"]
+    BACK["Chargement historique<br/>séquentiel, avec pause"]
 
-    subgraph MINIO["MinIO (S3)"]
-        RAW["raw/gdelt/events/<br/>zips bruts"]
-        CKPT["checkpoints/"]
-        WH["warehouse/<br/>tables Iceberg"]
+    subgraph LAKE["Lakehouse Iceberg (catalogue REST, MinIO)"]
+        RAW[("zips bruts")]
+        BRONZE["bronze.gdelt_events<br/>+ manifeste"]
+        SILVER["silver.gdelt_events<br/>+ quarantaine"]
+        PROX["proximité<br/>fournisseurs, détroits"]
     end
 
-    subgraph ICEBERG["Catalogue Iceberg REST"]
-        MANIFEST["bronze.ingestion_manifest"]
-        BRONZE["bronze.gdelt_events"]
-    end
+    REF["Référentiels<br/>portefeuille fictif, villes et détroits (Wikidata)"]
+    DBT["dbt + DuckDB<br/>score v1"]
+    EXPORT["Export validé<br/>meta.json + Parquet"]
+    SITE["Site statique<br/>React + DuckDB-WASM"]
+    DAG["Dagster<br/>job toutes les 15 min<br/>(non activé par défaut)"]
 
-    GDELT --> PROD
-    PROD -- "zip + URL source + MD5" --> RAW
-    PROD -- "1 message par événement" --> KAFKA
-    PROD -- "1 ligne par tentative" --> MANIFEST
-    KAFKA --> JOB
-    JOB --> BRONZE
-    JOB -. "offsets" .-> CKPT
-    MANIFEST -.-> WH
-    BRONZE -.-> WH
+    GDELT --> PROD --> KAFKA --> STREAM --> BRONZE
+    PROD --> RAW
+    GDELT -.-> BACK --> BRONZE
+    BACK --> RAW
+    BRONZE --> SILVER --> PROX
+    REF --> PROX
+    SILVER --> DBT
+    PROX --> DBT
+    REF --> DBT
+    DBT --> EXPORT --> SITE
+    DAG -.-> PROD
+    DAG -.-> DBT
 ```
 
-**Producteur** ([ingestion/](ingestion/)) — lit `lastupdate.txt`, télécharge le zip du lot GDELT, vérifie son MD5, l'archive dans MinIO, puis publie chaque événement dans Kafka.
+## Décisions techniques clés
 
-- Idempotence : la table Iceberg `bronze.ingestion_manifest` est sa seule mémoire. Un lot GDELT déjà publié n'est pas renvoyé.
-- Lots GDELT absents : un 404 est retenté pendant une heure, puis marqué `missing_final`. Le cycle ne s'arrête pas.
-- Garantie « au moins une fois » : un arrêt entre l'envoi Kafka et l'écriture du manifeste rejoue le lot GDELT.
+| Décision | Pourquoi | Écarté |
+|---|---|---|
+| **Anomalie par rapport à la normale** de chaque ville et de chaque détroit (28 jours, volumes ramenés à 100 000 événements GDELT par jour) | Le nombre brut d'événements mesure la couverture médiatique ; le volume mondial varie de 65 000 à 130 000 par jour | Seuil fixe, classement entre villes |
+| **Un article, une voix** par fournisseur et par détroit ; jamais de niveau critique sans 3 articles distincts | Un pic de 8 événements issus de 5 articles avait mis Gibraltar « critique » : trouvé sur les vraies données, corrigé | Comptage des événements bruts |
+| **Pas de double comptage** : un événement compté près de la ville n'est pas recompté dans la composante « route » | Sinon une même histoire pèserait deux fois | |
+| **Classification par règles CAMEO**, sourcées sur la table officielle de GDELT, chaque règle mesurée | Pas de LLM ni de clé d'API : zéro coût, reproductible, auditable | LLM (prévu en v2 pour les seules alertes affichées) |
+| **Un seul lieu précis** : villes seulement, pas les centroïdes de pays | 18 % des paires « proches » venaient d'un centroïde (l'événement « Belgique » compté à Anvers) | Tous les types de lieu |
+| **dbt-duckdb** pour le gold, DuckDB lit Iceberg via le catalogue REST | Aucune JVM de plus ; sorties en Parquet pour le navigateur ; 18 M d'événements notés en 10 s | dbt-spark |
+| **Silver : MERGE sans UPDATE, curseur sur `ingested_at`** | Idempotent, rejouable, survit à l'expiration des snapshots ; le premier arrivé gagne | Lecture incrémentale par snapshots |
+| **Historique en lot hors Kafka**, mêmes tables, identité (fichier, ligne) | La rétention de Kafka est de 7 jours et un historique n'est pas un flux | Rejouer dans Kafka |
+| **Exportation validée, site sans API** | Le site affiche, il ne recalcule jamais un score ; un fichier invalide fait échouer l'export | Backend d'API |
+| **Respect de GDELT et de l'IMF** : téléchargements séquentiels avec pause ; IMF PortWatch écarté (ses conditions interdisent le téléchargement automatisé) | Une source qu'on n'a pas le droit d'automatiser n'est pas une source | |
 
-L'horodatage du nom de fichier GDELT (repris dans `gdelt_batch_label_ts` et `date_added`) est l'étiquette du lot, pas son heure de publication : le fichier est mis en ligne une dizaine de minutes avant. L'heure réelle de téléchargement est `fetched_at`.
+L'historique complet des décisions, avec les mesures qui les motivent, est dans [CLAUDE.md](CLAUDE.md).
 
-**Topic `gdelt.events`** — 3 partitions, rétention 7 jours. La clé est le `GLOBALEVENTID`, la valeur est la ligne TSV brute. L'URL du zip, le lot GDELT et l'heure de téléchargement voyagent dans les en-têtes Kafka.
+## Limites
 
-**Job de streaming** ([streaming/](streaming/)) — écrit `bronze.gdelt_events` : la ligne brute, les 61 colonnes GDELT en `STRING`, le lignage (en-têtes Kafka, topic, partition, offset) et `ingested_at`.
+- **Des faux positifs sont possibles.** La classification par règles ne voit pas le contexte (un combat dans une zone de guerre ancienne retenu près d'un fournisseur). L'anomalie par rapport à la normale limite l'effet des zones chroniquement violentes, sans le supprimer.
+- **Le portefeuille et les routes sont fictifs ou simplifiés.** Les villes sont à leur centre (pas leur port), le rayon des détroits est un choix de conception, la route est unique par région d'origine.
+- **Le score s'arrête au dernier jour complet** (jusqu'à 24 h de retard) et se calcule sur 3 jours : c'est une aide à la surveillance, pas une prévision.
+- **Les paramètres ont été fixés avant d'observer l'historique complet** (puis recalibrés une fois : voir CLAUDE.md) ; ils ne sont pas validés au-delà de cet épisode.
+- Des noms de lieux sont abîmés **par GDELT lui-même** (« Abu Z¸aby », « Ad Daw?ah » : vérifié dans les octets bruts) ; ils sont affichés tels quels.
+- Les fournisseurs d'une même ville ont les mêmes composantes E et T ; seules la criticité et la route les distinguent.
+- Le catalogue Iceberg REST est une image de développement (`iceberg-rest-fixture`, base SQLite) : à remplacer pour autre chose qu'une démo.
 
-- Partition par jour d'ingestion, pas par date d'événement.
-- Pas de dédoublonnage en bronze : il se fera en silver.
-- Le job lui-même n'ajoute pas de doublon quand on le relance : les offsets sont dans le checkpoint (MinIO) et le commit Iceberg est idempotent.
-- Trigger `availableNow` : il traite ce qui attend dans Kafka, puis s'arrête.
+## Lancer en local
 
-**Versions** — Spark 4.1.3, Iceberg 1.12.0, SDK AWS 2.54.17, Kafka 4.3.1, Python 3.11. Les choix et leurs raisons sont consignés dans la section Décisions de [CLAUDE.md](CLAUDE.md).
+Prérequis : Linux ou WSL2, Docker, Java 17, Python 3.11, Node 24 (pour le site). Environ 10 Go de mémoire pour les jobs Spark sur l'historique.
 
-## Du score au site
-
+```bash
+make setup && make jars          # venv, dépendances ; jars Spark (environ 800 Mo, une fois)
+make up                          # Kafka, MinIO, catalogue Iceberg REST (Docker)
+make ref && make portfolio       # référentiels et portefeuille fictif
+make produce && make bronze      # un cycle GDELT : téléchargement, Kafka, bronze
+make silver && make proximity    # typage, quarantaine, événements proches
+make gold && make export         # score (dbt, tests) puis export validé
+make backfill ARGS="--range 2026-01-04:2026-03-31 --dry-run"   # plan d'un chargement historique
+make catchup-history             # fin d'un chargement historique : silver, proximité, gold, export
+make site-data                   # instantanés du site (today + épisode d'Ormuz)
+cd web && npm ci && npm run dev  # http://localhost:5173
 ```
-silver.gdelt_events + proximité  ->  dbt (DuckDB lit Iceberg)  ->  transform/target/gold.duckdb
-                                                              ->  export.py : meta.json + 4 Parquet
-                                                              ->  web/public/data  ->  site (DuckDB-WASM)
-```
 
-- **Score v1** ([transform/](transform/)) : pour chaque fournisseur, les événements négatifs classés par règles CAMEO près de sa ville (E) et près des détroits de sa route (R, poids plus faible, sans double comptage), le ton des médias (T) et la criticité (C), chacun comparé à la **normale de la ville ou du détroit** sur les 28 jours précédents. Niveaux : < 40 surveillance, 40 à 70 alerte, > 70 critique ; pas de critique sans 3 articles distincts. Détail et paramètres : [CLAUDE.md](CLAUDE.md), [transform/dbt_project.yml](transform/dbt_project.yml).
-- **Contrat** du site : [web/CONTRACT.md](web/CONTRACT.md), validé à l'export par [transform/export.py](transform/export.py).
-- `make gold` (dbt seed, run, test) puis `make export` ; `make catchup-history` enchaîne la fin d'un chargement historique.
+- **Tests** : `make test` (sans infra), `make test-integration` (demande `make up`), `make ci-local` (même enchaînement que la CI : format, lint, tests, dbt sur un lac de test, site).
+- **CI** : [.github/workflows/ci.yml](.github/workflows/ci.yml) (format, lint, tests sans infra, dbt, site).
+- **Orchestration** : un job [Dagster](orchestration/definitions.py) enchaîne producteur, bronze, silver, proximité, gold et export, avec un planning toutes les 15 minutes **non activé par défaut**. `pip install -e ".[orchestration]"`, puis `make dagster` (interface) ; activer le planning dans l'onglet *Automation* ou `dagster schedule start pipeline_every_15_minutes`. Une seule exécution à la fois.
+- **Services locaux** : Kafka `localhost:19092`, MinIO `19000` (console `19001`), catalogue REST `18181` ; ports décalés, liés à `127.0.0.1`, surchargeables dans `.env` ([.env.example](.env.example)).
 
-## Démarrage
+## Sources et licences
 
-Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
+- **Événements** : [GDELT 2.0](https://www.gdeltproject.org/) (Global Database of Events, Language, and Tone), un fichier toutes les 15 minutes, téléchargé tel quel, avec URL source et horodatage conservés jusque dans les tables. Table des codes CAMEO : publiée par GDELT ([`CAMEO.eventcodes.txt`](ref/sources/cameo/)).
+- **Villes et détroits** : coordonnées lues dans [Wikidata](https://www.wikidata.org/) (**CC0**), réponse brute archivée et révision citée pour chaque point ([ref/](ref/)).
+- **Portefeuille de fournisseurs : fictif** (graine fixe, étiqueté « FICTIF - Entreprise démo » dans toutes les tables et sur le site). Toute ressemblance de nom avec une société réelle est fortuite.
+- IMF PortWatch n'est **pas** utilisé.
 
-    make setup     # venv + dépendances
-    make jars      # télécharge les jars Spark une fois (environ 800 Mo)
-    make up        # démarre Kafka, MinIO et le catalogue Iceberg REST
-    make smoke     # vérifie l'aller-retour Spark -> catalogue -> MinIO
-    make produce   # un cycle GDELT : zip -> MinIO, événements -> Kafka
-    make bronze    # Kafka -> bronze.gdelt_events
+## Documentation
 
-`make jars` résout les dépendances Spark (Iceberg, connecteur Kafka, `hadoop-aws`, SDK AWS) avec Ivy et les range dans `jars/<empreinte des versions>/`. Les sessions Spark locales lisent ce dossier directement. Après un changement de version, le dossier attendu change de nom et Spark refuse de démarrer en demandant de relancer `make jars`.
-
-## Commandes make
-
-| Commande | Effet |
+| | |
 |---|---|
-| `make setup` | Crée le venv et installe les dépendances |
-| `make jars` | Résout les jars Spark dans `jars/` ; à relancer après un changement de version |
-| `make up` | Démarre l'infra Docker et attend qu'elle soit prête |
-| `make down` | Arrête l'infra ; les volumes (données, catalogue, topics) sont conservés |
-| `make ps` | État des conteneurs |
-| `make smoke` | Crée, lit puis supprime une table Iceberg de test |
-| `make produce` | Un cycle du producteur GDELT |
-| `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
-| `make ref` | Recharge `silver.ref_chokepoints` et `silver.ref_cities` depuis les CSV de `ref/` |
-| `make backfill ARGS="--range DEBUT:FIN"` | Chargement historique GDELT en lot (sans Kafka), séquentiel avec pause, reprenable ; `--dry-run` pour le plan |
-| `make gold` | Score v1 : dbt (seed, run, tests) sur la silver, DuckDB lit Iceberg ; `DBT_ARGS` pour surcharger les variables |
-| `make export` | Export du contrat du site : `meta.json` + 4 Parquet dans `build/gold/data`, validé |
-| `make proximity` | Événements proches des fournisseurs et des détroits (incrémental), voir [docs/geo-join.md](docs/geo-join.md) |
-| `make portfolio` | Charge le portefeuille fictif dans `silver.ref_suppliers` et `silver.ref_supplier_routes` |
-| `make silver` | bronze -> `silver.gdelt_events` : typage, quarantaine, dédoublonnage, lecture incrémentale |
-| `make test` | Tests sans infra (environ 25 s, une JVM Spark locale démarre) |
-| `make test-integration` | Tests de bout en bout ; demande `make up`, sautés sinon |
-
-Pour faire tourner le pipeline en continu :
-
-    .venv/bin/python -m ingestion.gdelt_producer --loop          # interroge GDELT chaque minute
-    .venv/bin/python -m streaming.bronze_gdelt_events --every 60 # un lot par minute
-
-## Services locaux
-
-| Service | Adresse |
-|---|---|
-| Kafka | `localhost:19092` |
-| MinIO (API S3) | `localhost:19000` |
-| MinIO (console) | `localhost:19001` |
-| Catalogue Iceberg REST | `localhost:18181` |
-
-Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont ouverts que sur `127.0.0.1`. Ports et identifiants se surchargent dans un fichier `.env` (voir [.env.example](.env.example)).
+| [docs/score-v1.md](docs/score-v1.md) | Le score expliqué : formule, familles de règles, garde-fous, limites |
+| [docs/portfolio.md](docs/portfolio.md) | Le portefeuille fictif, la règle de routage, la répartition |
+| [docs/geo-join.md](docs/geo-join.md) | Jointure géographique : cinq méthodes mesurées, fenêtre temporelle |
+| [web/CONTRACT.md](web/CONTRACT.md) | Contrat de données du site |
+| [CLAUDE.md](CLAUDE.md) | Règles du projet et journal des décisions, avec leurs mesures |
+| [docs/backlog.md](docs/backlog.md) | Ce qui est différé, et pourquoi |
 
 ## Organisation du dépôt
 
 | Dossier | Contenu |
 |---|---|
-| [ingestion/](ingestion/) | Producteur GDELT, manifeste, archivage des zips |
+| [ingestion/](ingestion/) | Producteur GDELT, chargement historique, manifeste, archivage des zips |
 | [streaming/](streaming/) | Job Kafka -> bronze et schéma des 61 colonnes |
-| [ref/](ref/) | Référentiels réels (CSV + réponses brutes Wikidata archivées) : détroits et canaux (`silver.ref_chokepoints`), villes (`silver.ref_cities`) |
-| [portfolio/](portfolio/) | Portefeuille FICTIF de 100 fournisseurs, règle de routage, générateur à graine fixe (`silver.ref_suppliers`, `silver.ref_supplier_routes`) |
-| [ops/](ops/) | Table `ops.pipeline_runs` : une ligne par exécution d'un job (heure, durée, lignes lues/insérées/en quarantaine, doublons, % ActionGeo exploitable, curseur avant/après) |
-| [silver/](silver/) | Job bronze -> silver (batch Spark) : règles de typage, quarantaine, `MERGE INTO` |
-| [lakehouse/](lakehouse/) | Configuration de la session Spark, résolution des jars, smoke test |
-| [tests/](tests/) | Tests ; les fixtures sont un vrai cycle GDELT, non modifié. Chaque exécution d'intégration travaille dans un namespace, des topics et un dossier qui lui sont propres, supprimés à la fin |
-| `transform/`, `orchestration/`, `llm/`, `api/`, `web/` | Phases suivantes, vides pour l'instant |
-
-## Limites connues
-
-- **Classification par règles, pas par LLM.** Les événements sont retenus par leur code CAMEO (grèves et blocages, embargos et saisies, violences et attaques, menaces et postures militaires), voir [CLAUDE.md](CLAUDE.md) et [transform/seeds/cameo_rules.csv](transform/seeds/cameo_rules.csv). Un code ne voit pas le contexte : **des faux positifs sont possibles** (un combat dans une zone de guerre ancienne retenu près d'un fournisseur, un événement de grande ville voisine d'un détroit). L'anomalie par rapport à la normale de chaque ville limite l'effet des zones chroniquement violentes, sans le supprimer. Un LLM local est prévu en v2, pour les seules alertes affichées.
-- **Le score est une aide à la surveillance, pas une mesure du commerce.** Portefeuille fictif, routes simplifiées, rayons de détroits choisis par conception, villes situées à leur centre (pas leur port).
-- Les noms de lieux peuvent être abîmés par GDELT lui-même (« Abu Z¸aby », « Ad Daw?ah ») : ils sont affichés tels quels.
-
-- Le catalogue REST est une image de développement (`iceberg-rest-fixture`), à remplacer en phase 4.
-- Les petits fichiers s'accumulent (un lot par lot GDELT, un snapshot de manifeste par lot GDELT) : compaction et expiration des snapshots sont prévues en phase 4.
-- Les jars Spark occupent environ 770 Mo dans `jars/`, dont 709 Mo pour le SDK AWS. Les dossiers des anciennes versions ne sont pas supprimés automatiquement.
+| [silver/](silver/) | bronze -> silver (typage, quarantaine, MERGE), proximité, jointure géographique, récence |
+| [ref/](ref/), [portfolio/](portfolio/) | Référentiels réels (Wikidata, CAMEO) ; portefeuille fictif et routage |
+| [transform/](transform/) | Projet dbt (score v1), export du contrat, données du site, lac de test de la CI |
+| [orchestration/](orchestration/) | Job et planning Dagster |
+| [web/](web/) | Site React + DuckDB-WASM |
+| [ops/](ops/), [lakehouse/](lakehouse/) | Journal des exécutions ; session Spark, jars, migrations |
+| [tests/](tests/) | Tests ; les fixtures sont un vrai cycle GDELT |
