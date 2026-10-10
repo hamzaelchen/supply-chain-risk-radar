@@ -87,5 +87,10 @@ catchup-history:
 	$(MAKE) gold export
 
 # Copie l'export du backend dans les données publiées du site
-site-data: export
-	cp build/gold/data/* web/public/data/
+# Instantané « Ormuz au 2 mars 2026 » : même modèles, base séparée, variable as_of_day
+gold-ormuz:
+	cd transform && GOLD_DB_PATH=target/ormuz.duckdb DUCKDB_MEMORY_LIMIT=$${DUCKDB_MEMORY_LIMIT:-4GB} ../$(BIN)/dbt build --profiles-dir . --vars '{as_of_day: 2026-03-02}'
+
+# Données publiées du site : un dossier par instantané + index.json (web/public/data)
+site-data:
+	$(BIN)/python transform/site_data.py --out web/public/data

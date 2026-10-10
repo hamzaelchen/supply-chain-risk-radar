@@ -87,3 +87,11 @@ details summary { cursor: pointer; color: var(--accent); margin: .3rem 0; }
 .bar__fill { height: 100%; background: var(--accent); }
 .footer { max-width: 1280px; margin: 0 auto; padding: 16px; font-size: .8rem; }
 .bar__hint { font-size: .78rem; margin-bottom: .15rem; }
+
+.snapshot { max-width: 1280px; margin: 0 auto; padding: 12px 16px 0; }
+.snapshot__choices { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.snapshot__choices button { border: 0; background: var(--surface); color: var(--text); padding: .45rem .9rem; font: inherit; cursor: pointer; }
+.snapshot__choices button + button { border-left: 1px solid var(--border); }
+.snapshot__choices button.is-on { background: var(--accent); color: var(--surface); font-weight: 600; }
+.snapshot__text { margin: .6rem 0 0; max-width: 80ch; }
+.tag--episode { background: var(--banner-bg); color: var(--banner-text); }

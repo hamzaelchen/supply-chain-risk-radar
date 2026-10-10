@@ -1,5 +1,6 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { Banner } from "./components/Banner";
+import { SnapshotPicker } from "./components/SnapshotPicker";
 import { useDataState } from "./data/context";
 import { Home } from "./pages/Home";
 import { SupplierPage } from "./pages/SupplierPage";
@@ -8,7 +9,16 @@ export function App() {
   const state = useDataState();
   return (
     <>
-      <Banner meta={state.status === "loading" ? null : state.meta} />
+      <Banner
+        meta={state.status === "loading" ? null : state.meta}
+        historical={(state.status === "engine" || state.status === "ready") && state.snapshot.kind === "episode"}
+      />
+      {(state.status === "engine" || state.status === "ready") && (
+        <SnapshotPicker index={state.index} current={state.snapshot} onSelect={state.select} />
+      )}
+      {state.status === "error" && state.index && state.select && (
+        <SnapshotPicker index={state.index} current={state.index.snapshots.find((s) => s.id === state.index!.default)!} onSelect={state.select} />
+      )}
       {state.status === "loading" && <p className="page muted" role="status">Chargement…</p>}
       {state.status === "engine" && (
         <main className="page" role="status">

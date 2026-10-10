@@ -4,6 +4,23 @@ Ce que le site attend des exports gold. **Contrat tenu par le backend** (`transf
 
 Le site lit des fichiers statiques avec DuckDB-WASM (HTTP range sur du Parquet). Aucune API, aucun calcul métier côté navigateur : le site affiche, filtre et trie, il ne recalcule pas un score.
 
+## Instantanés (amendement du 2026-10-10)
+
+Le site publie plusieurs jeux d'export, un par dossier `data/<id>/`, décrits par `data/index.json` :
+
+```json
+{ "schema_version": 1, "default": "ormuz-2026-03-02",
+  "snapshots": [
+    {"id": "today", "label_fr": "Aujourd'hui", "kind": "live", "as_of": "2026-10-09", "description_fr": "..."},
+    {"id": "ormuz-2026-03-02", "label_fr": "Épisode d'Ormuz (2 mars 2026)", "kind": "episode", "as_of": "2026-03-02", "description_fr": "..."}
+  ] }
+```
+
+- `id` : minuscules, chiffres et tirets (c'est un nom de dossier) ; `default` doit être l'un d'eux.
+- `kind` : `live` (le dernier jour couvert) ou `episode` (instantané historique : le site l'indique et n'affiche pas la fraîcheur du jeu courant).
+- `description_fr` : texte factuel affiché sous le sélecteur, **composé par le backend à partir de chiffres lus dans les données**. Il dit ce que les données contiennent, jamais la cause.
+- Le choix se lit dans l'URL (`?snapshot=<id>`), sinon `default`. Chaque dossier contient les cinq fichiers ci-dessous, inchangés.
+
 ## Fichiers
 
 Dossier publié : `data/` à la racine du site. Cinq fichiers, tous obligatoires.

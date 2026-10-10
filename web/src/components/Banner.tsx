@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import type { Meta } from "../data/types";
 import { ageBetween, formatUtc } from "../lib/format";
 
-export function Banner({ meta }: { meta: Meta | null }) {
+export function Banner({ meta, historical = false }: { meta: Meta | null; historical?: boolean }) {
   const [now, setNow] = useState(() => new Date());
   useEffect(() => {
     const t = setInterval(() => setNow(new Date()), 60_000);
@@ -14,7 +14,12 @@ export function Banner({ meta }: { meta: Meta | null }) {
       <p className="banner__scope">
         <strong>Entreprise démo</strong>, données fictives pour le portefeuille, événements réels GDELT
       </p>
-      {meta && (
+      {meta && historical && (
+        <p className="banner__fresh">
+          Score calculé tel qu'il aurait été à la fin de la fenêtre ({formatUtc(meta.window_end)}), sur des lots GDELT chargés en historique : la fraîcheur du jeu courant ne s'applique pas ici.
+        </p>
+      )}
+      {meta && !historical && (
         <p className="banner__fresh">
           Mise à jour : <time dateTime={meta.generated_at}>{formatUtc(meta.generated_at)}</time>
           <span className="sep" aria-hidden="true">·</span>

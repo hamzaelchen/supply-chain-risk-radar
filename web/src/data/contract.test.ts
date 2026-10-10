@@ -37,3 +37,37 @@ describe("missingColumns", () => {
     expect(missingColumns("supplier_routes", ["supplier_id", "position"])).toEqual(["chokepoint_id"]);
   });
 });
+
+import { pickSnapshot, validateIndex } from "./snapshots";
+
+const snap = (id: string, kind: "live" | "episode" = "live") => ({
+  id, label_fr: id, kind, as_of: "2026-03-02", description_fr: "d",
+});
+const index = { schema_version: 1, default: "ormuz-2026-03-02", snapshots: [snap("today"), snap("ormuz-2026-03-02", "episode")] };
+
+describe("index des instantanés", () => {
+  it("accepte un index conforme", () => {
+    expect(() => validateIndex(index)).not.toThrow();
+  });
+  it("refuse un défaut qui n'est pas déclaré", () => {
+    expect(() => validateIndex({ ...index, default: "inconnu" })).toThrow(/default/);
+  });
+  it("refuse un identifiant en double", () => {
+    expect(() => validateIndex({ ...index, snapshots: [snap("a"), snap("a")], default: "a" })).toThrow(/double/);
+  });
+  it("refuse un identifiant qui sortirait du dossier", () => {
+    expect(() => validateIndex({ ...index, snapshots: [snap("../x")], default: "../x" })).toThrow(/snapshots\[0\]/);
+  });
+  it("nomme la version non gérée", () => {
+    expect(() => validateIndex({ ...index, schema_version: 2 })).toThrow(/schema_version/);
+  });
+  it("prend le défaut sans demande, ou avec une demande inconnue", () => {
+    validateIndex(index);
+    expect(pickSnapshot(index, null).id).toBe("ormuz-2026-03-02");
+    expect(pickSnapshot(index, "nimporte").id).toBe("ormuz-2026-03-02");
+  });
+  it("prend l'instantané demandé s'il existe", () => {
+    validateIndex(index);
+    expect(pickSnapshot(index, "today").id).toBe("today");
+  });
+});

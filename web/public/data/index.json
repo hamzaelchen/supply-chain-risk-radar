@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "default": "ormuz-2026-03-02",
+  "snapshots": [
+    {
+      "id": "today",
+      "label_fr": "Aujourd'hui",
+      "kind": "live",
+      "as_of": "2026-10-09",
+      "description_fr": "Score du dernier jour entièrement couvert par les fichiers GDELT, le 9 octobre 2026 (le jour en cours n'est pas noté). Aucun fournisseur n'est en alerte ni critique."
+    },
+    {
+      "id": "ormuz-2026-03-02",
+      "label_fr": "Épisode d'Ormuz (2 mars 2026)",
+      "kind": "episode",
+      "as_of": "2026-03-02",
+      "description_fr": "Score tel qu'il aurait été calculé le 2 mars 2026. Dans le rayon de 200 km du détroit d'Ormuz, GDELT localise 1 568 événements la semaine du 9 février, 3 601 celle du 23 février et 8 897 celle du 2 mars. 11 fournisseurs fictifs ont ce détroit sur leur route ; 11 d'entre eux sont en alerte ou critiques ce jour-là (12 fournisseurs sur 100 dans tout le portefeuille). Le site montre ce que les articles recensent ; il n'établit pas la cause."
+    }
+  ]
+}
