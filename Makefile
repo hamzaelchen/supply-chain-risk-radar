@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export catchup-history
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export catchup-history site-data
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -85,3 +85,7 @@ catchup-history:
 	SPARK_DRIVER_MEMORY=$${SPARK_DRIVER_MEMORY:-6g} $(BIN)/python -m silver.gdelt_events --max-batches $${SILVER_BATCHES:-10} --until-caught-up
 	SPARK_DRIVER_MEMORY=$${SPARK_DRIVER_MEMORY:-6g} $(BIN)/python -m silver.proximity --max-batches $${PROXIMITY_BATCHES:-20} --until-caught-up
 	$(MAKE) gold export
+
+# Copie l'export du backend dans les données publiées du site
+site-data: export
+	cp build/gold/data/* web/public/data/
