@@ -26,12 +26,12 @@ Ce projet transforme le flux d'événements de [GDELT](https://www.gdeltproject.
 | Événements GDELT en bronze | **18 413 458**, dans 16 960 lots de 15 minutes |
 | Période | 177 jours entre le 2026-01-04 et le 2026-10-10 (deux périodes chargées en lot, volontairement avec un trou d'avril à juillet) |
 | Doublons | **0** (vérifié sur le manifeste, l'identité fichier + ligne, les offsets Kafka et les identifiants GDELT) |
-| Lots publiés / absents / en échec | 16 960 / 0 / 0 (sur 16 773 fichiers de l'historique) |
+| Lots GDELT publiés | 16 960 ; 0 absent, 0 en échec (une seule tentative en 404, retentée puis publiée) |
 | Silver | 18 413 351 événements ; **107** en quarantaine (0,0006 %), chacun avec sa raison |
 | Événements localisés à une ville précise | 10,8 millions (59 %) |
 | Paires (événement, fournisseur) | 2,2 millions ; 268 000 paires (événement, détroit) |
 | Construction du gold complet (dbt) | environ 10 secondes |
-| Tests | 291 tests Python (dont 37 d'intégration), 52 tests dbt, 21 tests du site |
+| Tests | 291 tests Python (dont 37 d'intégration), 34 tests dbt (sur 52 éléments : 18 modèles, 1 seed), 21 tests du site |
 
 ## Cas d'étude : Ormuz, février-mars 2026
 
