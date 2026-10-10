@@ -11,6 +11,7 @@ Monter l'un sans les autres demande de refaire la vérification.
 
 import os
 import sys
+import time
 from collections.abc import Mapping
 from pathlib import Path
 
@@ -64,6 +65,12 @@ def iceberg_spark_conf(
         # Mémoire du driver (la seule JVM en mode local). Le défaut de Spark, 1 Go, ne suffit pas
         # au chargement historique. À fixer AVANT le démarrage de la JVM, donc ici.
         "spark.driver.memory": env.get("SPARK_DRIVER_MEMORY", "3g"),
+        # Fuseau de la JVM en UTC. spark.sql.session.timeZone (ci-dessous) ne couvre que les
+        # fonctions SQL : sans cette option, la JVM garde le fuseau de la machine, et les journaux
+        # de Spark s'affichent en heure locale (constaté le 2026-10-10 : +1 h par rapport à ceux
+        # de Python). Aucune valeur stockée n'était décalée, seul l'affichage des journaux l'était.
+        "spark.driver.extraJavaOptions": "-Duser.timezone=UTC",
+        "spark.executor.extraJavaOptions": "-Duser.timezone=UTC",
         "spark.sql.extensions": (
             "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions"
         ),
@@ -100,6 +107,10 @@ def build_spark_session(app_name: str, master: str = "local[*]"):
     # Les workers Python doivent utiliser le Python du venv (3.11) : sans ça Spark
     # lance le `python3` du système (3.12 sur Ubuntu 24.04) et refuse de tourner.
     os.environ.setdefault("PYSPARK_PYTHON", sys.executable)
+    # Python en UTC lui aussi : `collect()` rend des datetimes sans fuseau, convertis dans le
+    # fuseau local du processus. En UTC, ils valent ce qui est stocké (sinon +1 h à Casablanca).
+    os.environ["TZ"] = "UTC"
+    time.tzset()
     # En local, le driver est la seule JVM : son classpath suffit. Sur un cluster,
     # les exécuteurs auraient besoin des jars eux aussi, d'où spark.jars.packages.
     local_jars = None

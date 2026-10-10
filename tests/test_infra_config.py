@@ -86,3 +86,10 @@ def test_compose_images_are_pinned():
 def test_driver_memory_defaults_to_3g_and_can_be_overridden():
     assert iceberg_spark_conf(env={})["spark.driver.memory"] == "3g"
     assert iceberg_spark_conf(env={"SPARK_DRIVER_MEMORY": "5g"})["spark.driver.memory"] == "5g"
+
+
+def test_jvm_and_session_time_zones_are_utc():
+    conf = iceberg_spark_conf(env={})
+    assert conf["spark.sql.session.timeZone"] == "UTC"
+    assert conf["spark.driver.extraJavaOptions"] == "-Duser.timezone=UTC"
+    assert conf["spark.executor.extraJavaOptions"] == "-Duser.timezone=UTC"

@@ -24,3 +24,11 @@ def test_peak_memory_reports_the_jvm_and_python_sides(spark):
     }
     assert got["jvm_rss_peak_mb"] > got["jvm_heap_peak_mb"] * 0.5 > 0
     assert got["jvm_heap_max_mb"] >= 1000  # le tas maximal demandé (SPARK_DRIVER_MEMORY)
+
+
+@pytest.mark.spark
+def test_python_and_jvm_both_run_in_utc(spark):
+    import time
+
+    assert time.tzname[0] == "UTC"
+    assert spark._jvm.java.util.TimeZone.getDefault().getID() == "UTC"
