@@ -10,8 +10,8 @@ Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événe
 |---|---|---|
 | 0 — Fondations locales | Infra Docker, producteur GDELT, streaming vers bronze | **Terminée** |
 | 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, référentiel des détroits | **Terminée** : `silver.gdelt_events`, `silver.ref_chokepoints` |
-| 2 — Portefeuille et gold | 100 fournisseurs fictifs, jointure géographique, dbt, score de risque | En cours : portefeuille et jointure géographique faits, score à venir |
-| 3 — Classification LLM | Taxonomie d'événements, évaluation, coûts | À venir |
+| 2 — Portefeuille et gold | 100 fournisseurs fictifs, jointure géographique, chargement historique, dbt, score de risque | En cours : portefeuille, jointure, outil d'historique et score v1 (dbt) faits ; chargement historique en cours |
+| 3 — Classification par règles | Règles CAMEO documentées et mesurées (le LLM local est en v2) | Règles faites, à mesurer sur l'historique complet |
 | 4 — Orchestration | Dagster, planification, maintenance des tables | À venir |
 | 5 — Live-lite | Export Parquet, GitHub Actions, site React + DuckDB-WASM | À venir |
 | 6 — Durcissement | Qualité, observabilité, CI, documentation | À venir |
@@ -100,6 +100,8 @@ Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.
 | `make bronze` | Job de streaming : traite ce qui attend dans Kafka, puis s'arrête |
 | `make ref` | Recharge `silver.ref_chokepoints` et `silver.ref_cities` depuis les CSV de `ref/` |
 | `make backfill ARGS="--range DEBUT:FIN"` | Chargement historique GDELT en lot (sans Kafka), séquentiel avec pause, reprenable ; `--dry-run` pour le plan |
+| `make gold` | Score v1 : dbt (seed, run, tests) sur la silver, DuckDB lit Iceberg ; `DBT_ARGS` pour surcharger les variables |
+| `make export` | Export du contrat du site : `meta.json` + 4 Parquet dans `build/gold/data`, validé |
 | `make proximity` | Événements proches des fournisseurs et des détroits (incrémental), voir [docs/geo-join.md](docs/geo-join.md) |
 | `make portfolio` | Charge le portefeuille fictif dans `silver.ref_suppliers` et `silver.ref_supplier_routes` |
 | `make silver` | bronze -> `silver.gdelt_events` : typage, quarantaine, dédoublonnage, lecture incrémentale |
@@ -137,6 +139,10 @@ Les ports sont décalés pour cohabiter avec d'autres stacks locales et ne sont 
 | `transform/`, `orchestration/`, `llm/`, `api/`, `web/` | Phases suivantes, vides pour l'instant |
 
 ## Limites connues
+
+- **Classification par règles, pas par LLM.** Les événements sont retenus par leur code CAMEO (grèves et blocages, embargos et saisies, violences et attaques, menaces et postures militaires), voir [CLAUDE.md](CLAUDE.md) et [transform/seeds/cameo_rules.csv](transform/seeds/cameo_rules.csv). Un code ne voit pas le contexte : **des faux positifs sont possibles** (un combat dans une zone de guerre ancienne retenu près d'un fournisseur, un événement de grande ville voisine d'un détroit). L'anomalie par rapport à la normale de chaque ville limite l'effet des zones chroniquement violentes, sans le supprimer. Un LLM local est prévu en v2, pour les seules alertes affichées.
+- **Le score est une aide à la surveillance, pas une mesure du commerce.** Portefeuille fictif, routes simplifiées, rayons de détroits choisis par conception, villes situées à leur centre (pas leur port).
+- Les noms de lieux peuvent être abîmés par GDELT lui-même (« Abu Z¸aby », « Ad Daw?ah ») : ils sont affichés tels quels.
 
 - Le catalogue REST est une image de développement (`iceberg-rest-fixture`), à remplacer en phase 4.
 - Les petits fichiers s'accumulent (un lot par lot GDELT, un snapshot de manifeste par lot GDELT) : compaction et expiration des snapshots sont prévues en phase 4.
