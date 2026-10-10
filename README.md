@@ -73,6 +73,18 @@ L'horodatage du nom de fichier GDELT (repris dans `gdelt_batch_label_ts` et `dat
 
 **Versions** — Spark 4.1.3, Iceberg 1.12.0, SDK AWS 2.54.17, Kafka 4.3.1, Python 3.11. Les choix et leurs raisons sont consignés dans la section Décisions de [CLAUDE.md](CLAUDE.md).
 
+## Du score au site
+
+```
+silver.gdelt_events + proximité  ->  dbt (DuckDB lit Iceberg)  ->  transform/target/gold.duckdb
+                                                              ->  export.py : meta.json + 4 Parquet
+                                                              ->  web/public/data  ->  site (DuckDB-WASM)
+```
+
+- **Score v1** ([transform/](transform/)) : pour chaque fournisseur, les événements négatifs classés par règles CAMEO près de sa ville (E) et près des détroits de sa route (R, poids plus faible, sans double comptage), le ton des médias (T) et la criticité (C), chacun comparé à la **normale de la ville ou du détroit** sur les 28 jours précédents. Niveaux : < 40 surveillance, 40 à 70 alerte, > 70 critique ; pas de critique sans 3 articles distincts. Détail et paramètres : [CLAUDE.md](CLAUDE.md), [transform/dbt_project.yml](transform/dbt_project.yml).
+- **Contrat** du site : [web/CONTRACT.md](web/CONTRACT.md), validé à l'export par [transform/export.py](transform/export.py).
+- `make gold` (dbt seed, run, test) puis `make export` ; `make catchup-history` enchaîne la fin d'un chargement historique.
+
 ## Démarrage
 
 Prérequis : WSL2 ou Linux, Docker, Java 17, Python 3.11.

@@ -6,16 +6,27 @@ with calendar as (
     from {{ ref('stg_chokepoints') }} k
     cross join (select day from {{ ref('stg_coverage') }} where covered) c
 ),
-agg as (
+zone_events as (
     select
         cp.chokepoint_id,
         e.batch_day as day,
-        sum(e.event_weight) filter (where e.is_relevant) as i_zone,
-        count(*) filter (where e.is_relevant) as n_relevant,
-        count(*) as n_all
+        e.is_relevant,
+        e.source_url,
+        -- Un article, une voix par détroit (voir int_supplier_event_links).
+        e.event_weight / greatest(1, sum(case when e.is_relevant then 1 else 0 end)
+            over (partition by cp.chokepoint_id, e.source_url)) as event_weight
     from {{ source('lh_pairs', 'chokepoint_pairs') }} cp
     join {{ ref('stg_events') }} e using (global_event_id)
     where e.is_recent
+),
+agg as (
+    select
+        chokepoint_id,
+        day,
+        sum(event_weight) filter (where is_relevant) as i_zone,
+        count(*) filter (where is_relevant) as n_relevant,
+        count(*) as n_all
+    from zone_events
     group by 1, 2
 )
 select

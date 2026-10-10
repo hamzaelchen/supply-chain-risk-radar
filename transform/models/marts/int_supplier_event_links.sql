@@ -37,7 +37,10 @@ select
     l.chokepoint_id,
     l.distance_km,
     e.batch_day as day,
-    e.event_weight,
+    -- Un article, une voix par fournisseur : un article qui produit 10 événements (un par lieu
+    -- cité) pèse comme un seul, au poids moyen. Sans cela une histoire unique fait une « anomalie ».
+    e.event_weight / greatest(1, sum(case when e.is_relevant then 1 else 0 end)
+        over (partition by l.supplier_id, e.source_url)) as event_weight,
     e.is_relevant,
     e.source_url
 from links l

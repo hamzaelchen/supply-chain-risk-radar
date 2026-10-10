@@ -302,10 +302,10 @@ def limit_to_next_batches(df: DataFrame, ts_column: str, max_batches: int | None
     """
     if not max_batches:
         return df
-    micros = F.unix_micros(ts_column)
-    upper = df.select(micros.alias("t")).distinct().orderBy("t").limit(max_batches)
+    upper = df.select(F.col(ts_column).alias("t")).distinct().orderBy("t").limit(max_batches)
     newest = upper.agg(F.max("t")).first()[0]
-    return df if newest is None else df.filter(micros <= newest)
+    # Comparaison directe de la colonne : poussée vers les statistiques de fichiers d'Iceberg.
+    return df if newest is None else df.filter(F.col(ts_column) <= F.lit(newest))
 
 
 def run(
@@ -320,7 +320,9 @@ def run(
     cursor = read_cursor(spark, silver)
     window = spark.table(bronze)
     if cursor is not None:
-        window = window.filter(F.unix_micros("ingested_at") > cursor)
+        # Comparaison directe de la colonne (et non unix_micros(colonne) > curseur) : Iceberg peut
+        # alors écarter les fichiers d'après leurs bornes min/max, au lieu de relire tout le bronze.
+        window = window.filter(F.col("ingested_at") > F.timestamp_micros(F.lit(cursor)))
     window = limit_to_next_batches(window, "ingested_at", max_batches).cache()
     stats = RunStats(cursor_before_us=cursor, cursor_after_us=cursor)
     try:

@@ -93,3 +93,11 @@ def test_jvm_and_session_time_zones_are_utc():
     assert conf["spark.sql.session.timeZone"] == "UTC"
     assert conf["spark.driver.extraJavaOptions"] == "-Duser.timezone=UTC"
     assert conf["spark.executor.extraJavaOptions"] == "-Duser.timezone=UTC"
+
+
+def test_shuffle_partitions_are_sized_for_one_machine():
+    assert iceberg_spark_conf(env={})["spark.sql.shuffle.partitions"] == "16"
+    assert (
+        iceberg_spark_conf(env={"SPARK_SHUFFLE_PARTITIONS": "4"})["spark.sql.shuffle.partitions"]
+        == "4"
+    )

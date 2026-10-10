@@ -45,6 +45,7 @@ vars:
   threshold_alert: 40
   threshold_critical: 70
   explaining_events_per_supplier: 40
+  as_of_day: null          # instantané historique (AAAA-MM-JJ), sinon le dernier jour couvert
 
 models:
   scrr:
