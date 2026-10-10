@@ -39,3 +39,9 @@ web/dist/
 
 # Claude Code : réglages personnels
 .claude/settings.local.json
+
+# dbt / export gold (artefacts générés)
+transform/target/
+transform/logs/
+transform/dbt_packages/
+build/
