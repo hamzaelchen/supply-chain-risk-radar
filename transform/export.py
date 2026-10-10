@@ -226,7 +226,7 @@ def export(db: Path, out: Path, generated_at: datetime | None = None) -> dict:
     con.execute("SET TimeZone = 'UTC'")
     meta = build_meta(con, generated_at or datetime.now(UTC))
     for name, sql in PARQUET_FILES.items():
-        con.execute(f"copy ({sql}) to '{out / name}' (format parquet, compression zstd)")
+        con.execute(f"copy ({sql}) to '{out / name}' (format parquet, compression snappy)")
     (out / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", "utf-8")
     problems = validate(out)
     if problems:
