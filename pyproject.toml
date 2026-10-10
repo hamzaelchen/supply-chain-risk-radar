@@ -15,6 +15,10 @@ dev = [
     "pytest>=8.0",
     "ruff>=0.6",
 ]
+# Gold : dbt + DuckDB (lit les tables Iceberg de la silver, écrit les exports du site).
+gold = [
+    "dbt-duckdb==1.11.0",
+]
 # Uniquement pour comparer H3 aux autres jointures (python -m silver.proximity_bench).
 bench = [
     "h3==4.5.0",

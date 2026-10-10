@@ -1,0 +1,68 @@
+version: 2
+
+seeds:
+  - name: cameo_rules
+    description: Règles de classification par préfixe de code CAMEO (voir CLAUDE.md, « classification par règles »).
+    columns:
+      - name: code_prefix
+        tests: [not_null, unique]
+      - name: family
+        tests:
+          - not_null
+          - accepted_values:
+              values: [greve_blocage, embargo_saisie, violence_attaque, menace, posture_militaire]
+      - name: family_weight
+        tests: [not_null]
+
+models:
+  - name: supplier_scores
+    description: Un fournisseur, une ligne, au dernier jour couvert (export du contrat).
+    columns:
+      - name: supplier_id
+        tests: [not_null, unique]
+      - name: risk_score
+        tests: [not_null]
+      - name: risk_level
+        tests:
+          - not_null
+          - accepted_values: {values: [surveillance, alerte, critique]}
+      - name: label
+        tests:
+          - accepted_values: {values: ['FICTIF - Entreprise démo']}
+
+  - name: supplier_events
+    description: Événements explicatifs (anti double comptage ville/détroit).
+    columns:
+      - name: link_type
+        tests:
+          - not_null
+          - accepted_values: {values: [city, chokepoint]}
+      - name: supplier_id
+        tests:
+          - not_null
+          - relationships: {to: ref('supplier_scores'), field: supplier_id}
+      - name: action_geo_type
+        tests:
+          - accepted_values: {values: [3, 4], quote: false}
+      - name: quad_class
+        tests:
+          - accepted_values: {values: [3, 4], quote: false}
+
+  - name: chokepoint_scores
+    columns:
+      - name: chokepoint_id
+        tests: [not_null, unique]
+      - name: risk_level
+        tests:
+          - accepted_values: {values: [surveillance, alerte, critique]}
+
+  - name: supplier_routes
+    columns:
+      - name: supplier_id
+        tests:
+          - not_null
+          - relationships: {to: ref('supplier_scores'), field: supplier_id}
+      - name: chokepoint_id
+        tests:
+          - not_null
+          - relationships: {to: ref('chokepoint_scores'), field: chokepoint_id}

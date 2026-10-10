@@ -1,0 +1,31 @@
+# Profil dbt du projet. Les identifiants viennent des mêmes variables d'environnement que le reste
+# du dépôt (valeurs par défaut de docker-compose.yml, voir .env.example).
+scrr:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: "{{ env_var('GOLD_DB_PATH', 'target/gold.duckdb') }}"
+      threads: 4
+      extensions:
+        - httpfs
+        - iceberg
+      settings:
+        TimeZone: UTC
+        memory_limit: "{{ env_var('DUCKDB_MEMORY_LIMIT', '4GB') }}"
+        preserve_insertion_order: false
+      secrets:
+        - type: s3
+          key_id: "{{ env_var('MINIO_ROOT_USER', 'minioadmin') }}"
+          secret: "{{ env_var('MINIO_ROOT_PASSWORD', 'minioadmin') }}"
+          endpoint: "localhost:{{ env_var('MINIO_API_PORT', '19000') }}"
+          url_style: path
+          use_ssl: false
+          region: us-east-1
+      attach:
+        - path: lakehouse
+          alias: lh
+          type: iceberg
+          options:
+            endpoint: "http://localhost:{{ env_var('ICEBERG_REST_PORT', '18181') }}"
+            authorization_type: none

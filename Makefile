@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -68,3 +68,12 @@ proximity:
 #   make backfill ARGS="--range 2026-01-04:2026-03-31 --range 2026-07-13:2026-10-08 --dry-run"
 backfill:
 	$(BIN)/python -m ingestion.gdelt_backfill $(ARGS)
+
+# Gold (dbt + DuckDB) : score v1 sur la silver, tests dbt, puis export du contrat du site
+gold:
+	cd transform && DUCKDB_MEMORY_LIMIT=$${DUCKDB_MEMORY_LIMIT:-4GB} ../$(BIN)/dbt seed --profiles-dir . $(DBT_ARGS)
+	cd transform && DUCKDB_MEMORY_LIMIT=$${DUCKDB_MEMORY_LIMIT:-4GB} ../$(BIN)/dbt run --profiles-dir . $(DBT_ARGS)
+	cd transform && DUCKDB_MEMORY_LIMIT=$${DUCKDB_MEMORY_LIMIT:-4GB} ../$(BIN)/dbt test --profiles-dir . $(DBT_ARGS)
+
+export:
+	$(BIN)/python transform/export.py --db transform/target/gold.duckdb --out build/gold/data

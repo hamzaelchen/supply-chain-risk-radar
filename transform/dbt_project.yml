@@ -1,0 +1,59 @@
+name: scrr
+version: "1.0.0"
+config-version: 2
+profile: scrr
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  # Où lire la silver. Valeurs de production ; un échantillon de développement surcharge ces
+  # variables en ligne de commande (--vars) sans toucher au code.
+  events_schema: silver
+  events_identifier: gdelt_events
+  pairs_schema: silver
+  supplier_pairs_identifier: event_supplier_proximity
+  chokepoint_pairs_identifier: event_chokepoint_proximity
+  refs_schema: silver
+
+  # Fenêtre temporelle (silver/recency.py, règle validée le 2026-10-09)
+  recency_min_lag_days: -1
+  recency_max_lag_days: 2
+
+  # Anomalie par rapport à la normale (voir CLAUDE.md, décision « score v1 »)
+  baseline_days: 28        # jours précédents qui définissent la normale
+  min_baseline_days: 14    # en dessous, pas de normale fiable : composante à 0
+  window_days: 3           # fenêtre courante (jours), pondérée par la fraîcheur
+  decay: 0.6               # poids du jour J-1 par rapport à J (J-2 : decay au carré)
+  volume_reference: 100000 # intensités ramenées à 100 000 événements GDELT par jour (voir ci-dessous)
+  sigma_floor: 1.5         # plancher de l'écart-type, dans cette unité (≈ un événement marquant)
+  tone_sigma_floor: 1.0
+  z_saturation: 4.0        # z à partir duquel une composante vaut 100
+  min_tone_mentions: 10    # mentions minimales pour juger le ton d'une ville
+  min_batches_per_day: 80  # lots GDELT (sur 96) pour qu'un jour compte comme couvert
+
+  # Pondération du score (R plus faible que E : bruit des grandes villes voisines, v1)
+  weight_e: 0.55
+  weight_t: 0.20
+  weight_r: 0.25
+  criticality_floor: 0.6   # un fournisseur de criticité 0 garde 60 % de son aléa
+  min_articles_for_critical: 3
+  threshold_alert: 40
+  threshold_critical: 70
+  explaining_events_per_supplier: 40
+
+models:
+  scrr:
+    staging:
+      +materialized: table
+    marts:
+      +materialized: table
+
+seeds:
+  scrr:
+    +column_types:
+      code_prefix: varchar

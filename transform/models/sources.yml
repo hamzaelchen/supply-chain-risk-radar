@@ -1,0 +1,38 @@
+version: 2
+
+# Trois sources, une par schéma : un échantillon de développement déplace les événements et les
+# paires dans un autre schéma (variables events_schema / pairs_schema) sans toucher au code.
+sources:
+  - name: lh_events
+    database: lh
+    schema: "{{ var('events_schema') }}"
+    description: Silver GDELT lue par DuckDB (extension iceberg) via le catalogue REST.
+    tables:
+      - name: events
+        identifier: "{{ var('events_identifier') }}"
+        description: silver.gdelt_events (une ligne par événement, typé, dédoublonné).
+
+  - name: lh_pairs
+    database: lh
+    schema: "{{ var('pairs_schema') }}"
+    tables:
+      - name: supplier_pairs
+        identifier: "{{ var('supplier_pairs_identifier') }}"
+        description: Événements précis à moins de 150 km de la ville d'un fournisseur.
+      - name: chokepoint_pairs
+        identifier: "{{ var('chokepoint_pairs_identifier') }}"
+        description: Événements précis dans le rayon d'un détroit.
+
+  - name: lh_refs
+    database: lh
+    schema: "{{ var('refs_schema') }}"
+    tables:
+      - name: suppliers
+        identifier: ref_suppliers
+        description: Portefeuille FICTIF de 100 fournisseurs.
+      - name: supplier_routes
+        identifier: ref_supplier_routes
+        description: Détroits de la route de chaque fournisseur, dans l'ordre.
+      - name: chokepoints
+        identifier: ref_chokepoints
+        description: Référentiel des détroits et canaux (Wikidata, rayon = choix de conception).
