@@ -33,7 +33,7 @@ jobs:
           distribution: temurin
           java-version: "17"
       - name: Dépendances
-        run: pip install -e ".[dev,gold]"
+        run: pip install -e ".[dev,gold,orchestration]"
       - name: Format
         run: ruff format --check .
       - name: Lint

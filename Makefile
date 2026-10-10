@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export catchup-history site-data ci-local
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export catchup-history site-data ci-local dagster dagster-home
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -103,3 +103,10 @@ ci-local:
 	$(BIN)/python transform/ci_fixture.py
 	cd transform && ../$(BIN)/dbt build --target ci --profiles-dir . --vars '{min_batches_per_day: 1, baseline_days: 5, min_baseline_days: 3}'
 	cd web && npm test && npm run build
+
+# Orchestration : interface Dagster (le planning toutes les 15 min n'est PAS activé par défaut)
+dagster-home:
+	mkdir -p orchestration/.dagster && cp orchestration/dagster.yaml orchestration/.dagster/dagster.yaml
+
+dagster: dagster-home
+	DAGSTER_HOME=$(CURDIR)/orchestration/.dagster $(BIN)/dagster dev -f orchestration/definitions.py

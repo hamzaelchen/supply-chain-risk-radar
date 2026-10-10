@@ -1,0 +1,8 @@
+# Instance Dagster locale. Utilisation : DAGSTER_HOME=$PWD/orchestration/.dagster, avec ce fichier
+# copié dans ce dossier (make dagster-home le fait).
+# Une seule exécution à la fois : si une exécution dépasse 15 minutes, la suivante attend.
+run_coordinator:
+  module: dagster.core.run_coordinator
+  class: QueuedRunCoordinator
+  config:
+    max_concurrent_runs: 1

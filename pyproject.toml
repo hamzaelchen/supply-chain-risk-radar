@@ -19,6 +19,11 @@ dev = [
 gold = [
     "dbt-duckdb==1.11.0",
 ]
+# Orchestration : job Dagster (orchestration/definitions.py) et son interface.
+orchestration = [
+    "dagster==1.13.26",
+    "dagster-webserver==1.13.26",
+]
 # Uniquement pour comparer H3 aux autres jointures (python -m silver.proximity_bench).
 bench = [
     "h3==4.5.0",

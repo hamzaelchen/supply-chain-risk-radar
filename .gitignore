@@ -45,3 +45,6 @@ transform/target/
 transform/logs/
 transform/dbt_packages/
 build/
+
+# Dagster : instance locale
+orchestration/.dagster/
