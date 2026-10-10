@@ -10,7 +10,7 @@ import urllib.request
 from datetime import UTC, datetime
 
 API = "https://www.wikidata.org/w/api.php"
-USER_AGENT = "supply-chain-risk-radar/0.1 (projet pédagogique; [adresse e-mail retirée])"
+USER_AGENT = "supply-chain-risk-radar/0.1 (+https://github.com/hamzaelchen/supply-chain-risk-radar)"
 LICENSE = "CC0 1.0"
 EARTH = "http://www.wikidata.org/entity/Q2"
 

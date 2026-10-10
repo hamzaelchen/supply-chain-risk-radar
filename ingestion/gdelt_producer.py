@@ -29,7 +29,7 @@ log = logging.getLogger("gdelt_producer")
 SOURCE = "gdelt.events"
 TOPIC = "gdelt.events"
 # Un User-Agent qui dit qui télécharge : c'est la moindre politesse envers GDELT.
-USER_AGENT = "supply-chain-risk-radar/0.1 (projet pédagogique; [adresse e-mail retirée])"
+USER_AGENT = "supply-chain-risk-radar/0.1 (+https://github.com/hamzaelchen/supply-chain-risk-radar)"
 
 # GDELT publie parfois un fichier en retard. Un lot GDELT en 404 est retenté 4 fois,
 # à 15 minutes d'intervalle au moins (soit 1 h), avant d'être déclaré définitivement
