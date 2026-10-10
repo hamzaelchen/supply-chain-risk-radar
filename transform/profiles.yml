@@ -29,3 +29,14 @@ scrr:
           options:
             endpoint: "http://localhost:{{ env_var('ICEBERG_REST_PORT', '18181') }}"
             authorization_type: none
+
+    # CI : le lac est un fichier DuckDB de test (transform/ci_fixture.py), sans MinIO ni catalogue.
+    ci:
+      type: duckdb
+      path: target/ci_gold.duckdb
+      threads: 2
+      settings:
+        TimeZone: UTC
+      attach:
+        - path: target/ci_lake.duckdb
+          alias: lh

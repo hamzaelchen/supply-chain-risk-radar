@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export catchup-history site-data
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export catchup-history site-data ci-local
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -94,3 +94,12 @@ gold-ormuz:
 # Données publiées du site : un dossier par instantané + index.json (web/public/data)
 site-data:
 	$(BIN)/python transform/site_data.py --out web/public/data
+
+# Même enchaînement que la CI GitHub, en local (hors tests d'intégration)
+ci-local:
+	$(BIN)/ruff format --check .
+	$(BIN)/ruff check .
+	$(BIN)/pytest -m "not integration" -q
+	$(BIN)/python transform/ci_fixture.py
+	cd transform && ../$(BIN)/dbt build --target ci --profiles-dir . --vars '{min_batches_per_day: 1, baseline_days: 5, min_baseline_days: 3}'
+	cd web && npm test && npm run build
