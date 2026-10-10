@@ -1,0 +1,6 @@
+{
+  "engine_version": "v1.4.3",
+  "note": "Version du moteur DuckDB embarquée dans @duckdb/duckdb-wasm 1.32.0 (vue dans l'URL d'extension demandée). À changer avec la dépendance.",
+  "extensions": ["parquet"],
+  "platforms": ["wasm_eh", "wasm_mvp"]
+}
