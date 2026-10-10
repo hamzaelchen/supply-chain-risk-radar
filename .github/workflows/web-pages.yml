@@ -5,9 +5,9 @@
 # Tant que Pages n'est pas activé dans les réglages du dépôt, ce workflow ne peut rien publier ;
 # il n'a aucun déclencheur automatique (ni push ni planification), seulement le lancement à la main.
 #
-# À faire avant activation : Settings > Pages > Source = « GitHub Actions », puis remplacer le
-# jeu d'exemple de web/public/data/ par l'export gold (phase 5), sans quoi le bandeau « EXEMPLE »
-# resterait affiché sur le site publié.
+# À faire avant activation : Settings > Pages > Source = « GitHub Actions ». Les données publiées
+# sont celles de web/public/data/ : l'export réel du backend (`make site-data`, meta.is_sample =
+# false). Rafraîchir les données = relancer le pipeline puis `make site-data` et committer.
 name: web-pages
 
 on:
