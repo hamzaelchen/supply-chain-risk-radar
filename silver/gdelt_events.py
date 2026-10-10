@@ -76,7 +76,9 @@ RULES: dict[str, Rule] = {
 _PATTERNS = {
     "bigint": r"^\d{1,18}$",
     "int": r"^\d{1,9}$",
-    "double": r"^-?\d+(\.\d+)?$",
+    # GDELT écrit parfois les très petits nombres en notation scientifique (« 9.67e-05 », vu sur
+    # des AvgTone le 2026-01-10) : valides, ils ne doivent pas partir en quarantaine.
+    "double": r"^-?\d+(\.\d+)?([eE][-+]?\d+)?$",
     "boolean": r"^[01]$",
     "date": r"^\d{8}$",
     "timestamp": r"^\d{14}$",

@@ -107,7 +107,8 @@ def test_lineage_and_hash_are_kept(real):
 BAD_VALUES = [
     ({"goldstein_scale": "abc"}, "goldstein_scale='abc' : double invalide"),
     ({"goldstein_scale": "10.5"}, "goldstein_scale='10.5' : hors plage"),
-    ({"avg_tone": "1e3"}, "avg_tone='1e3' : double invalide"),
+    ({"avg_tone": "1e3"}, "avg_tone='1e3' : hors plage"),
+    ({"avg_tone": "1e"}, "avg_tone='1e' : double invalide"),
     ({"num_mentions": "-3"}, "num_mentions='-3' : int invalide"),
     ({"num_mentions": "12.5"}, "num_mentions='12.5' : int invalide"),
     ({"num_articles": "99999999999"}, "num_articles='99999999999' : int invalide"),
@@ -149,6 +150,14 @@ def test_an_impossible_value_sends_the_line_to_quarantine_with_its_reason(
     outcomes, fields, expected
 ):
     assert outcomes[tuple(sorted(fields.items()))].reason == expected
+
+
+def test_scientific_notation_is_a_valid_number(spark):
+    # Cas réel : AvgTone = 9.674735396005e-05 dans le fichier GDELT du 2026-01-10.
+    valid, rejected = parse(spark, [damaged(LINES[0], avg_tone="9.674735396005e-05")])
+    assert rejected == [] and valid[0].avg_tone == pytest.approx(9.674735396005e-05)
+    valid, rejected = parse(spark, [damaged(LINES[0], goldstein_scale="-1.5E+0")])
+    assert rejected == [] and valid[0].goldstein_scale == -1.5
 
 
 def test_a_leap_day_is_a_valid_date(spark):
