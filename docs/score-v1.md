@@ -23,7 +23,7 @@ Le nombre d'événements GDELT mesure d'abord la couverture médiatique : Los An
    | Menace d'embargo ou de blocus | 0,5 | 1312, 1381 |
    | Posture militaire | 0,5 | 152, 154 |
 
-3. **Poids d'un événement** = poids de famille x gravité (échelle de Goldstein, de 0,5 à 1) x sources (1 + 0,5 ln n, plafonné à 2).
+3. **Poids d'un événement** = poids de famille x gravité (échelle de Goldstein, de 0,5 à 1) x sources (1 + 0,5 ln n, plafonné à 2). **Un article, une voix** : un article qui produit plusieurs événements (un par lieu cité) pèse comme un seul, au poids moyen, par fournisseur et par détroit.
 4. **Intensité du jour** = somme des poids, ramenée à 100 000 événements GDELT par jour (le volume du monde varie de 65 000 à 130 000 selon le jour de la semaine).
 5. **Fenêtre** : les 3 derniers jours, pondérés 1, 0,6 et 0,36. **Normale** : moyenne et écart-type de cette même quantité sur les 28 jours précédents (au moins 14 jours, sinon la composante vaut 0). Les jours sans lots GDELT ne comptent ni comme jours calmes ni dans la normale.
 6. **Composante** = 100 x z / 4, bornée à [0, 100], où z = (valeur - normale) / max(écart-type, 1,5).
@@ -44,7 +44,7 @@ La criticité amplifie le score (de 60 % à 100 % de l'aléa), elle ne le décle
 ## Niveaux et garde-fous
 
 - **< 40 surveillance**, **40 à 70 (inclus) alerte**, **> 70 critique**.
-- **Jamais de critique sur un seul article** : sans au moins 3 articles distincts (`SOURCEURL`) dans la fenêtre, le score est plafonné à 70.
+- **Jamais de critique sur un seul article** : sans au moins 3 articles distincts (`SOURCEURL`) dans la fenêtre, le score est plafonné à 70 (fournisseurs et détroits).
 - **Pas de double comptage** : un événement compté près de la ville n'est pas recompté dans R pour ce fournisseur ; un événement dans le rayon de plusieurs détroits de la route n'est compté qu'une fois.
 - **Traçabilité** : chaque fournisseur garde ses 40 événements les plus contributifs, avec l'article source, le fichier GDELT d'origine et la contribution en points.
 
@@ -55,5 +55,6 @@ La criticité amplifie le score (de 60 % à 100 % de l'aléa), elle ne le décle
 - Le score s'arrête au dernier jour **complet** : jusqu'à 24 h de retard.
 - Portefeuille et routes sont fictifs ou simplifiés ; villes à leur centre ; rayons des détroits choisis par conception.
 - Les paramètres ont été fixés avant d'observer l'historique complet : à recalibrer.
+- Instantané historique : `dbt build --vars '{as_of_day: 2026-03-02}'` (base séparée via `GOLD_DB_PATH`) produit le score tel qu'il aurait été ce jour-là.
 
 Paramètres : [transform/dbt_project.yml](../transform/dbt_project.yml). Décisions et mesures : [CLAUDE.md](../CLAUDE.md).

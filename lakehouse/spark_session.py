@@ -65,6 +65,10 @@ def iceberg_spark_conf(
         # Mémoire du driver (la seule JVM en mode local). Le défaut de Spark, 1 Go, ne suffit pas
         # au chargement historique. À fixer AVANT le démarrage de la JVM, donc ici.
         "spark.driver.memory": env.get("SPARK_DRIVER_MEMORY", "3g"),
+        # 200 partitions de shuffle (défaut de Spark) pour quelques centaines de milliers de lignes
+        # donnent 200 petits fichiers par écriture et des passes 5 fois plus lentes (mesuré le
+        # 2026-10-10 sur la silver de l'historique). Valeur adaptée à une seule machine.
+        "spark.sql.shuffle.partitions": env.get("SPARK_SHUFFLE_PARTITIONS", "16"),
         # Fuseau de la JVM en UTC. spark.sql.session.timeZone (ci-dessous) ne couvre que les
         # fonctions SQL : sans cette option, la JVM garde le fuseau de la machine, et les journaux
         # de Spark s'affichent en heure locale (constaté le 2026-10-10 : +1 h par rapport à ceux

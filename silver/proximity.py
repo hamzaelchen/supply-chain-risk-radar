@@ -118,7 +118,9 @@ def run(
     stats = ProximityStats(cursor_before_us=cursor, cursor_after_us=cursor)
     window = spark.table(events_table)
     if cursor is not None:
-        window = window.filter(F.unix_micros("bronze_ingested_at") > cursor)
+        window = window.filter(
+            F.col("bronze_ingested_at") > F.timestamp_micros(F.lit(cursor))
+        )  # comparaison directe : poussée vers les statistiques de fichiers
     window = limit_to_next_batches(window, "bronze_ingested_at", max_batches).cache()
     try:
         newest = window.agg(F.max(F.unix_micros("bronze_ingested_at"))).first()[0]
