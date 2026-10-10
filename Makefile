@@ -6,7 +6,7 @@ BIN := $(VENV)/bin
 -include .env
 export
 
-.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export
+.PHONY: setup jars test test-integration up down ps smoke produce bronze silver ref portfolio proximity backfill gold export catchup-history
 
 setup:
 	$(PY) -m venv $(VENV)
@@ -77,3 +77,11 @@ gold:
 
 export:
 	$(BIN)/python transform/export.py --db transform/target/gold.duckdb --out build/gold/data
+
+# Fin du chargement historique : silver puis proximité par lots de jours (mémoire bornée), puis gold
+# et export. À lancer APRÈS la fin du backfill (jamais en même temps : curseur sur ingested_at).
+#   make catchup-history            # 10 jours de silver et 20 jours de proximité par passage
+catchup-history:
+	SPARK_DRIVER_MEMORY=$${SPARK_DRIVER_MEMORY:-6g} $(BIN)/python -m silver.gdelt_events --max-batches $${SILVER_BATCHES:-10} --until-caught-up
+	SPARK_DRIVER_MEMORY=$${SPARK_DRIVER_MEMORY:-6g} $(BIN)/python -m silver.proximity --max-batches $${PROXIMITY_BATCHES:-20} --until-caught-up
+	$(MAKE) gold export
