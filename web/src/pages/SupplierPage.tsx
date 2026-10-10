@@ -4,10 +4,13 @@ import { EventItem } from "../components/EventItem";
 import { Legend } from "../components/Legend";
 import { LevelBadge, levelStyleVar } from "../components/LevelBadge";
 import { WorldMap } from "../components/WorldMap";
-import type { Dataset, SupplierEvent } from "../data/types";
+import { useRadar, useRadarLink } from "./radarContext";
+import type { SupplierEvent } from "../data/types";
 import { formatNumber } from "../lib/format";
 
-export function SupplierPage({ data }: { data: Dataset }) {
+export default function SupplierPage() {
+  const { data, hub } = useRadar();
+  const link = useRadarLink();
   const { id = "" } = useParams();
   const { meta, suppliers, chokepoints, routes } = data;
   const s = suppliers.find((x) => x.supplier_id === id);
@@ -25,7 +28,7 @@ export function SupplierPage({ data }: { data: Dataset }) {
   if (!s) {
     return (
       <main className="page">
-        <p><Link to="/">← Retour</Link></p>
+        <p><Link to={link("/radar")}>← Retour</Link></p>
         <h1>Fournisseur introuvable</h1>
         <p>Aucun fournisseur « {id} » dans cet export.</p>
       </main>
@@ -39,7 +42,7 @@ export function SupplierPage({ data }: { data: Dataset }) {
 
   return (
     <main className="page">
-      <p><Link to="/">← Carte et alertes</Link></p>
+      <p><Link to={link("/radar")}>← Carte et alertes</Link></p>
       <header className="supplier__head">
         <div>
           <h1>{s.name}</h1>
@@ -83,7 +86,8 @@ export function SupplierPage({ data }: { data: Dataset }) {
 
         <section className="card">
           <WorldMap suppliers={[s]} chokepoints={chokepoints.filter((c) => route.some((r) => r.chokepoint_id === c.chokepoint_id))}
-            levels={meta.risk_levels} selection={null} onSelect={() => {}} routeIds={route.map((r) => r.chokepoint_id)} />
+            levels={meta.risk_levels} selection={null} onSelect={() => {}} routeIds={route.map((r) => r.chokepoint_id)}
+            routes={route} hub={hub} />
           <Legend levels={meta.risk_levels} />
         </section>
       </div>

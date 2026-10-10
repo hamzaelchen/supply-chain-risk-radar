@@ -10,6 +10,7 @@ export function Legend({ levels }: { levels: RiskLevel[] }) {
           {l.label_fr} <span className="muted">({i === 0 ? `< ${l.max}` : i === levels.length - 1 ? `> ${l.min}` : `${l.min}–${l.max}`})</span>
         </li>
       ))}
+      <li><span className="legend__route" aria-hidden="true" />route vers Casablanca (tracé schématique, pas un itinéraire)</li>
       <li className="muted">● ville (taille = nb de fournisseurs) · ◆ détroit (cercle = rayon de surveillance, choix de conception)</li>
     </ul>
   );

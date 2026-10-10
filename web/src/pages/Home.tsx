@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import { useRadar, useRadarLink } from "./radarContext";
 import { EventItem } from "../components/EventItem";
 import { Legend } from "../components/Legend";
-import { LevelBadge } from "../components/LevelBadge";
+import { LevelBadge, levelStyleVar } from "../components/LevelBadge";
 import { WorldMap, type MapSelection } from "../components/WorldMap";
 import type { Dataset, SupplierEvent } from "../data/types";
 import { formatNumber } from "../lib/format";
@@ -10,7 +11,9 @@ import { groupByCity } from "../lib/geo";
 
 const EVENTS_PER_ALERT = 3;
 
-export function Home({ data }: { data: Dataset }) {
+export default function Home() {
+  const { data, hub } = useRadar();
+  const link = useRadarLink();
   const { meta, suppliers, chokepoints, routes } = data;
   const [selection, setSelection] = useState<MapSelection>(null);
   const alertIds = useMemo(() => new Set(meta.risk_levels.filter((l) => l.alert).map((l) => l.id)), [meta]);
@@ -40,7 +43,7 @@ export function Home({ data }: { data: Dataset }) {
       <div className="home__grid">
         <section className="card" aria-label="Carte">
           <WorldMap suppliers={suppliers} chokepoints={chokepoints} levels={meta.risk_levels}
-            selection={selection} onSelect={setSelection} />
+            selection={selection} onSelect={setSelection} routes={routes} hub={hub} />
           <Legend levels={meta.risk_levels} />
           <SelectionPanel data={data} selection={selection} cityGroups={cities} routes={routes} />
         </section>
@@ -52,9 +55,9 @@ export function Home({ data }: { data: Dataset }) {
             {alerts.map((s) => {
               const evs = events.get(s.supplier_id) ?? [];
               return (
-                <li key={s.supplier_id} className="alert">
+                <li key={s.supplier_id} className="alert" style={{ ["--c" as string]: levelStyleVar(s.risk_level) }}>
                   <div className="alert__head">
-                    <Link to={`/fournisseur/${s.supplier_id}`}>{s.name}</Link>
+                    <Link to={link(`/fournisseur/${s.supplier_id}`)}>{s.name}</Link>
                     <LevelBadge id={s.risk_level} levels={meta.risk_levels} score={s.risk_score} />
                   </div>
                   <p className="muted">
@@ -70,7 +73,7 @@ export function Home({ data }: { data: Dataset }) {
                       ))}
                     </ul>
                     {evs.length > EVENTS_PER_ALERT && (
-                      <Link to={`/fournisseur/${s.supplier_id}`}>Voir les {evs.length} événements</Link>
+                      <Link to={link(`/fournisseur/${s.supplier_id}`)}>Voir les {evs.length} événements</Link>
                     )}
                   </details>
                 </li>
@@ -89,6 +92,7 @@ function SelectionPanel({ data, selection, cityGroups, routes }: {
   cityGroups: ReturnType<typeof groupByCity>;
   routes: Dataset["routes"];
 }) {
+  const link = useRadarLink();
   const { meta, chokepoints, suppliers } = data;
   if (!selection) return <p className="muted panel">Cliquez sur une ville ou un détroit.</p>;
 
@@ -102,7 +106,7 @@ function SelectionPanel({ data, selection, cityGroups, routes }: {
         <ul className="plain">
           {[...g.suppliers].sort((a, b) => b.risk_score - a.risk_score).map((s) => (
             <li key={s.supplier_id}>
-              <Link to={`/fournisseur/${s.supplier_id}`}>{s.name}</Link>{" "}
+              <Link to={link(`/fournisseur/${s.supplier_id}`)}>{s.name}</Link>{" "}
               <LevelBadge id={s.risk_level} levels={meta.risk_levels} score={s.risk_score} />
             </li>
           ))}
@@ -129,7 +133,7 @@ function SelectionPanel({ data, selection, cityGroups, routes }: {
         <summary>Fournisseurs concernés ({exposed.length})</summary>
         <ul className="plain">
           {exposed.map((s) => (
-            <li key={s.supplier_id}><Link to={`/fournisseur/${s.supplier_id}`}>{s.name}</Link>{" "}
+            <li key={s.supplier_id}><Link to={link(`/fournisseur/${s.supplier_id}`)}>{s.name}</Link>{" "}
               <LevelBadge id={s.risk_level} levels={meta.risk_levels} score={s.risk_score} /></li>
           ))}
         </ul>

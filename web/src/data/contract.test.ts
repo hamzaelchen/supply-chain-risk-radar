@@ -70,4 +70,14 @@ describe("index des instantanés", () => {
     validateIndex(index);
     expect(pickSnapshot(index, "today").id).toBe("today");
   });
+  it("accepte les chiffres et le port d'arrivée, ou leur absence", () => {
+    const stats = { events_total: 1, gdelt_batches: 2, days_covered: 3, first_day: "2026-01-04", last_day: "2026-01-06", suppliers: 100, chokepoints: 16 };
+    const hub = { name: "Casablanca", country: "Morocco", lat: 33.6, lon: -7.6, source: "Wikidata", source_url: "https://x" };
+    expect(() => validateIndex({ ...index, stats, hub })).not.toThrow();
+    expect(() => validateIndex(index)).not.toThrow();
+  });
+  it("refuse des chiffres douteux plutôt que de les afficher", () => {
+    expect(() => validateIndex({ ...index, stats: { events_total: -1 } })).toThrow(/stats/);
+    expect(() => validateIndex({ ...index, hub: { name: "x", country: "y", lat: 120, lon: 0, source: "s", source_url: "u" } })).toThrow(/hub/);
+  });
 });

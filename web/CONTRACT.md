@@ -16,10 +16,12 @@ Le site publie plusieurs jeux d'export, un par dossier `data/<id>/`, décrits pa
   ] }
 ```
 
+- `stats` (facultatif) : chiffres de la page d'accueil, **lus par le backend dans la base** (`events_total`, `gdelt_batches`, `days_covered` = jours entièrement couverts, `first_day`, `last_day`, `suppliers`, `chokepoints`). Jamais écrits à la main ; absents, la page affiche « … » plutôt qu'un chiffre.
+- `hub` (facultatif) : port d'arrivée des routes tracées sur la carte (`name`, `country`, `lat`, `lon`, `source`, `source_url`), lu dans `ref/cities.csv` (Wikidata, CC0). Absent, les routes ne sont pas tracées.
 - `id` : minuscules, chiffres et tirets (c'est un nom de dossier) ; `default` doit être l'un d'eux.
 - `kind` : `live` (le dernier jour couvert) ou `episode` (instantané historique : le site l'indique et n'affiche pas la fraîcheur du jeu courant).
 - `description_fr` : texte factuel affiché sous le sélecteur, **composé par le backend à partir de chiffres lus dans les données**. Il dit ce que les données contiennent, jamais la cause.
-- Le choix se lit dans l'URL (`?snapshot=<id>`), sinon `default`. Chaque dossier contient les cinq fichiers ci-dessous, inchangés.
+- Le choix se lit dans l'URL (`#/radar?snapshot=<id>`, routage par hash pour GitHub Pages), sinon `default`. La page d'accueil (`#/`) ne lit que `index.json` : DuckDB-WASM n'est chargé qu'en entrant dans le radar. Chaque dossier contient les cinq fichiers ci-dessous, inchangés.
 
 ## Fichiers
 

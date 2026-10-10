@@ -1,6 +1,23 @@
 {
   "schema_version": 1,
   "default": "ormuz-2026-03-02",
+  "stats": {
+    "events_total": 18413351,
+    "gdelt_batches": 16960,
+    "days_covered": 176,
+    "first_day": "2026-01-04",
+    "last_day": "2026-10-10",
+    "suppliers": 100,
+    "chokepoints": 16
+  },
+  "hub": {
+    "name": "Casablanca",
+    "country": "Morocco",
+    "lat": 33.599166666667,
+    "lon": -7.62,
+    "source": "Wikidata (P625, coordinate location)",
+    "source_url": "https://www.wikidata.org/w/index.php?title=Q7903&oldid=2522976744"
+  },
   "snapshots": [
     {
       "id": "today",

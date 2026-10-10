@@ -1,64 +1,30 @@
-import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
-import { fetchIndex, fetchMeta } from "./meta";
-import { pickSnapshot, type Snapshot, type SnapshotIndex } from "./snapshots";
-import type { Dataset, Meta } from "./types";
+import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
+import { fetchIndex } from "./meta";
+import type { SnapshotIndex } from "./snapshots";
 
 /**
- * Quatre temps : index.json -> meta.json de l'instantané (léger, la page s'affiche) -> DuckDB-WASM
- * importé à la demande (une seule fois) -> Parquet de l'instantané.
- * L'instantané choisi se lit dans l'URL (?snapshot=...) et s'y écrit : le lien se partage.
+ * index.json seul (quelques Ko) : c'est tout ce dont la page d'accueil a besoin.
+ * DuckDB-WASM et les Parquet ne se chargent qu'en entrant dans le radar (voir pages/RadarLayout.tsx).
  */
-type Loaded = { index: SnapshotIndex; snapshot: Snapshot; select: (id: string) => void };
-type State =
+type IndexState =
   | { status: "loading" }
-  | ({ status: "engine"; meta: Meta } & Loaded)
-  | ({ status: "ready"; meta: Meta; data: Dataset } & Loaded)
-  | { status: "error"; message: string; meta: Meta | null; index: SnapshotIndex | null; select: ((id: string) => void) | null };
+  | { status: "ready"; index: SnapshotIndex }
+  | { status: "error"; message: string };
 
-const Ctx = createContext<State>({ status: "loading" });
+const Ctx = createContext<IndexState>({ status: "loading" });
 
-const requestedFromUrl = () => new URLSearchParams(window.location.search).get("snapshot");
-
-export function DataProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<State>({ status: "loading" });
-  const [requested, setRequested] = useState<string | null>(requestedFromUrl);
-  const [index, setIndex] = useState<SnapshotIndex | null>(null);
-
-  const select = useCallback((id: string) => {
-    const url = new URL(window.location.href);
-    url.searchParams.set("snapshot", id);
-    window.history.replaceState(null, "", url);
-    setRequested(id);
-  }, []);
-
+export function IndexProvider({ children }: { children: ReactNode }) {
+  const [state, setState] = useState<IndexState>({ status: "loading" });
   useEffect(() => {
-    fetchIndex().then(setIndex).catch((e: unknown) =>
-      setState({ status: "error", message: e instanceof Error ? e.message : String(e), meta: null, index: null, select: null }),
-    );
-  }, []);
-
-  useEffect(() => {
-    if (!index) return;
     let alive = true;
-    const snapshot = pickSnapshot(index, requested);
-    const fail = (meta: Meta | null) => (e: unknown) =>
-      alive && setState({ status: "error", message: e instanceof Error ? e.message : String(e), meta, index, select });
-    fetchMeta(snapshot.id)
-      .then((meta) => {
-        if (!alive) return;
-        setState({ status: "engine", meta, index, snapshot, select });
-        return import("./db")
-          .then((m) => m.loadDataset(meta, snapshot.id))
-          .then((data) => alive && setState({ status: "ready", meta, data, index, snapshot, select }))
-          .catch(fail(meta));
-      })
-      .catch(fail(null));
+    fetchIndex()
+      .then((index) => alive && setState({ status: "ready", index }))
+      .catch((e: unknown) => alive && setState({ status: "error", message: e instanceof Error ? e.message : String(e) }));
     return () => {
       alive = false;
     };
-  }, [index, requested, select]);
-
+  }, []);
   return <Ctx.Provider value={state}>{children}</Ctx.Provider>;
 }
 
-export const useDataState = () => useContext(Ctx);
+export const useIndexState = () => useContext(Ctx);

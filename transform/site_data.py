@@ -12,6 +12,7 @@ et il décrit ce que les données contiennent sans en donner la cause.
 """
 
 import argparse
+import csv
 import json
 import sys
 from datetime import date
@@ -23,6 +24,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import export
 
 HERE = Path(__file__).resolve().parent
+CITIES_CSV = HERE.parent / "ref" / "cities.csv"
+HUB_CITY_ID = "casablanca"  # siège de l'Entreprise démo : point d'arrivée de toutes les routes
 LIVE_DB = HERE / "target" / "gold.duckdb"
 EPISODE_DB = HERE / "target" / "ormuz.duckdb"
 EPISODE_ID = "ormuz-2026-03-02"
@@ -95,6 +98,38 @@ def episode_description(db: Path, chokepoint: str = "hormuz") -> str:
     )
 
 
+def lake_stats(db: Path) -> dict:
+    """Chiffres de la page d'accueil, lus dans la base (jamais écrits à la main).
+
+    `days_covered` ne compte que les jours entièrement couverts (assez de lots GDELT) ;
+    `events_total` compte tous les événements lus, y compris ceux d'un jour partiel.
+    """
+    con = duckdb.connect(str(db), read_only=True)
+    events, batches, days, first_day, last_day = con.execute(
+        "select sum(events), sum(batches), count(*) filter (where covered), min(day), max(day) from stg_coverage"
+    ).fetchone()
+    (suppliers,) = con.execute("select count(*) from supplier_scores").fetchone()
+    (chokepoints,) = con.execute("select count(*) from chokepoint_scores").fetchone()
+    return {
+        "events_total": int(events), "gdelt_batches": int(batches), "days_covered": int(days),
+        "first_day": first_day.isoformat(), "last_day": last_day.isoformat(),
+        "suppliers": int(suppliers), "chokepoints": int(chokepoints),
+    }  # fmt: skip
+
+
+def hub(csv_path: Path = CITIES_CSV, city_id: str = HUB_CITY_ID) -> dict:
+    """Ville d'arrivée des routes, avec la source de ses coordonnées (référentiel Wikidata CC0)."""
+    with csv_path.open(encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f):
+            if row["city_id"] == city_id:
+                return {
+                    "name": row["name"], "country": row["country"],
+                    "lat": float(row["lat"]), "lon": float(row["lon"]),
+                    "source": row["coord_source"], "source_url": row["coord_source_url"],
+                }  # fmt: skip
+    raise KeyError(f"ville « {city_id} » absente de {csv_path}")
+
+
 def build(out: Path, live_db: Path = LIVE_DB, episode_db: Path = EPISODE_DB) -> dict:
     snapshots = [
         {
@@ -110,7 +145,10 @@ def build(out: Path, live_db: Path = LIVE_DB, episode_db: Path = EPISODE_DB) -> 
     ]  # fmt: skip
     for snap in snapshots:
         export.export(snap.pop("_db"), out / snap["id"])
-    index = {"schema_version": 1, "default": EPISODE_ID, "snapshots": snapshots}
+    index = {
+        "schema_version": 1, "default": EPISODE_ID,
+        "stats": lake_stats(live_db), "hub": hub(), "snapshots": snapshots,
+    }  # fmt: skip
     (out / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", "utf-8")
     return index
 
