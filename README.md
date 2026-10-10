@@ -10,10 +10,10 @@ Seul le portefeuille de fournisseurs sera fictif (graine fixe). Tous les événe
 |---|---|---|
 | 0 — Fondations locales | Infra Docker, producteur GDELT, streaming vers bronze | **Terminée** |
 | 1 — Bronze / silver | Typage, dédoublonnage, quarantaine, référentiel des détroits | **Terminée** : `silver.gdelt_events`, `silver.ref_chokepoints` |
-| 2 — Portefeuille et gold | 100 fournisseurs fictifs, jointure géographique, chargement historique, dbt, score de risque | En cours : portefeuille, jointure, outil d'historique et score v1 (dbt) faits ; chargement historique en cours |
-| 3 — Classification par règles | Règles CAMEO documentées et mesurées (le LLM local est en v2) | Règles faites, à mesurer sur l'historique complet |
+| 2 — Portefeuille et gold | 100 fournisseurs fictifs, jointure géographique, chargement historique, dbt, score de risque | **Terminée** : score v1 sur 175 jours d'historique (18,4 M d'événements) |
+| 3 — Classification par règles | Règles CAMEO documentées et mesurées (le LLM local est en v2) | **Faite** (règles mesurées sur 8 jours ; LLM en v2) |
 | 4 — Orchestration | Dagster, planification, maintenance des tables | À venir |
-| 5 — Live-lite | Export Parquet, GitHub Actions, site React + DuckDB-WASM | À venir |
+| 5 — Live-lite | Export Parquet, GitHub Actions, site React + DuckDB-WASM | Export et site faits, **déploiement en attente d'une décision** (dépôt privé) |
 | 6 — Durcissement | Qualité, observabilité, CI, documentation | À venir |
 
 ## Sources de données
