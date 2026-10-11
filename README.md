@@ -91,7 +91,7 @@ flowchart LR
 | **Exportation validée, site sans API** | Le site affiche, il ne recalcule jamais un score ; un fichier invalide fait échouer l'export | Backend d'API |
 | **Respect de GDELT et de l'IMF** : téléchargements séquentiels avec pause ; IMF PortWatch écarté (ses conditions interdisent le téléchargement automatisé) | Une source qu'on n'a pas le droit d'automatiser n'est pas une source | |
 
-L'historique complet des décisions, avec les mesures qui les motivent, est dans [CLAUDE.md](CLAUDE.md).
+
 
 ## Limites
 
