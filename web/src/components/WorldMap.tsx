@@ -4,7 +4,7 @@ import { feature, mesh } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
 import world from "world-atlas/countries-110m.json";
 import type { Hub } from "../data/snapshots";
-import type { ChokepointScore, RiskLevel, SupplierRoute, SupplierScore } from "../data/types";
+import type { ChokepointScore, MapSupplier, RiskLevel, SupplierRoute } from "../data/types";
 import { buildRoutes, groupByCity, radiusCircle, type CityGroup } from "../lib/geo";
 import { levelStyleVar } from "./LevelBadge";
 
@@ -14,11 +14,13 @@ const H = 500;
 export type MapSelection = { kind: "city"; key: string } | { kind: "chokepoint"; id: string } | null;
 
 interface Props {
-  suppliers: SupplierScore[];
+  suppliers: MapSupplier[];
   chokepoints: ChokepointScore[];
   levels: RiskLevel[];
   selection: MapSelection;
   onSelect: (s: MapSelection) => void;
+  /** Aperçu de l'accueil : pas de zoom ni de glisser, pas de contrôles, cadrage sur le monde entier. */
+  static?: boolean;
   /** Détroits à mettre en avant (route du fournisseur affiché). */
   routeIds?: string[];
   showRadius?: boolean;
@@ -30,7 +32,7 @@ interface Props {
 const topo = world as unknown as Topology;
 const countries = topo.objects.countries as GeometryCollection;
 
-export function WorldMap({ suppliers, chokepoints, levels, selection, onSelect, routeIds, showRadius = true, routes, hub }: Props) {
+export function WorldMap({ suppliers, chokepoints, levels, selection, onSelect, routeIds, showRadius = true, routes, hub, static: isStatic = false }: Props) {
   const projection = useMemo(() => geoNaturalEarth1().fitSize([W, H], { type: "Sphere" }), []);
   const path = useMemo(() => geoPath(projection), [projection]);
   const land = useMemo(() => path(feature(topo, countries) as never) ?? "", [path]);
@@ -53,10 +55,10 @@ export function WorldMap({ suppliers, chokepoints, levels, selection, onSelect, 
   const initialView = useMemo(() => {
     const narrow = typeof window !== "undefined" && window.matchMedia?.("(max-width: 640px)").matches;
     const hubPt = hub ? projection([hub.lon, hub.lat]) : null;
-    if (!narrow || !hubPt) return { k: 1, x: 0, y: 0 };
+    if (isStatic || !narrow || !hubPt) return { k: 1, x: 0, y: 0 };
     const k = 1.9;
     return { k, x: Math.min(0, Math.max(W - W * k, W / 2 - hubPt[0] * k)), y: Math.min(0, Math.max(H - H * k, H / 2 - hubPt[1] * k)) };
-  }, [hub, projection]);
+  }, [hub, projection, isStatic]);
   const [view, setView] = useState(initialView);
   const drag = useRef<{ px: number; py: number; x: number; y: number } | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
@@ -76,7 +78,7 @@ export function WorldMap({ suppliers, chokepoints, levels, selection, onSelect, 
   });
 
   const onPointerDown = (e: React.PointerEvent) => {
-    if ((e.target as Element).closest("[data-hit]")) return;
+    if (isStatic || (e.target as Element).closest("[data-hit]")) return;
     drag.current = { px: e.clientX, py: e.clientY, x: view.x, y: view.y };
     (e.currentTarget as Element).setPointerCapture(e.pointerId);
   };
@@ -176,11 +178,13 @@ export function WorldMap({ suppliers, chokepoints, levels, selection, onSelect, 
           )}
         </g>
       </svg>
-      <div className="map__controls">
-        <button type="button" onClick={() => zoomBy(1.6)} aria-label="Zoom avant">+</button>
-        <button type="button" onClick={() => zoomBy(1 / 1.6)} aria-label="Zoom arrière">−</button>
-        <button type="button" onClick={() => setView(initialView)} aria-label="Réinitialiser la vue">⌂</button>
-      </div>
+      {!isStatic && (
+        <div className="map__controls">
+          <button type="button" onClick={() => zoomBy(1.6)} aria-label="Zoom avant">+</button>
+          <button type="button" onClick={() => zoomBy(1 / 1.6)} aria-label="Zoom arrière">−</button>
+          <button type="button" onClick={() => setView(initialView)} aria-label="Réinitialiser la vue">⌂</button>
+        </div>
+      )}
     </div>
   );
 }

@@ -21,7 +21,14 @@ Le site publie plusieurs jeux d'export, un par dossier `data/<id>/`, décrits pa
 - `id` : minuscules, chiffres et tirets (c'est un nom de dossier) ; `default` doit être l'un d'eux.
 - `kind` : `live` (le dernier jour couvert) ou `episode` (instantané historique : le site l'indique et n'affiche pas la fraîcheur du jeu courant).
 - `description_fr` : texte factuel affiché sous le sélecteur, **composé par le backend à partir de chiffres lus dans les données**. Il dit ce que les données contiennent, jamais la cause.
-- Le choix se lit dans l'URL (`#/radar?snapshot=<id>`, routage par hash pour GitHub Pages), sinon `default`. La page d'accueil (`#/`) ne lit que `index.json` : DuckDB-WASM n'est chargé qu'en entrant dans le radar. Chaque dossier contient les cinq fichiers ci-dessous, inchangés.
+- Le choix se lit dans l'URL (`#/radar?snapshot=<id>`, routage par hash pour GitHub Pages), sinon `default`. La page d'accueil (`#/`) ne lit que `index.json`, `preview.json` et `pipeline_stats.json` : DuckDB-WASM n'est chargé qu'en entrant dans le radar. Chaque dossier contient les cinq fichiers ci-dessous, inchangés.
+
+## Fichiers de la page d'accueil (amendement du 2026-10-11)
+
+Deux petits JSON à côté de `index.json`, écrits par `transform/site_data.py`, lus sans DuckDB-WASM. Absents ou invalides, la section affiche « n/d » : aucun chiffre n'est écrit à la main côté site.
+
+- `preview.json` : `schema_version` 1, `snapshot_id`, `window_end`, `risk_levels`, `suppliers` (colonnes minimales de la carte), `chokepoints`, `routes`, `kpis`. Tiré des Parquet de l'instantané épisode.
+- `pipeline_stats.json` : `schema_version` 1, `generated_at`, `stages` = liste de `{id, metrics: [{id, label_fr, value, kind}]}` avec `kind` parmi `count`, `seconds`, `bytes`, `date`. Étapes : `bronze`, `silver`, `proximity`, `gold`, `export`. Une mesure introuvable est absente, jamais remplacée.
 
 ## Fichiers
 

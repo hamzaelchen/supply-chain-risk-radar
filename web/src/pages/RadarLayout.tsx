@@ -57,7 +57,7 @@ export default function RadarLayout() {
 
   return (
     <>
-      <SiteHeader radar />
+      <SiteHeader />
       <Banner meta={meta} historical={historical} />
       {index && snapshot && <SnapshotPicker index={index} current={snapshot} onSelect={select} />}
       {idx.status === "error" && (

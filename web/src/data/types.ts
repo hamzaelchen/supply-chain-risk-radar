@@ -55,6 +55,12 @@ export interface SupplierScore {
   top_driver: string | null;
 }
 
+/** Ce que la carte lit d'un fournisseur : l'aperçu de l'accueil n'en publie pas davantage. */
+export type MapSupplier = Pick<
+  SupplierScore,
+  "supplier_id" | "name" | "city" | "country" | "lat" | "lon" | "risk_score" | "risk_level" | "sole_source" | "purchase_share_pct"
+>;
+
 export interface ChokepointScore {
   chokepoint_id: string;
   name_fr: string;

@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T11:42:11+00:00",
+  "stages": [
+    {
+      "id": "bronze",
+      "metrics": [
+        {
+          "id": "rows",
+          "label_fr": "Lignes brutes en bronze",
+          "value": 18413458,
+          "kind": "count"
+        },
+        {
+          "id": "batches",
+          "label_fr": "Lots GDELT de 15 min publiés",
+          "value": 16960,
+          "kind": "count"
+        },
+        {
+          "id": "batches_stream",
+          "label_fr": "dont via Kafka (flux)",
+          "value": 141,
+          "kind": "count"
+        },
+        {
+          "id": "batches_backfill",
+          "label_fr": "dont en chargement historique",
+          "value": 16819,
+          "kind": "count"
+        },
+        {
+          "id": "days_loaded",
+          "label_fr": "Jours chargés",
+          "value": 177,
+          "kind": "count"
+        },
+        {
+          "id": "first_day",
+          "label_fr": "Premier jour",
+          "value": "2026-01-04",
+          "kind": "date"
+        },
+        {
+          "id": "last_day",
+          "label_fr": "Dernier jour",
+          "value": "2026-10-10",
+          "kind": "date"
+        },
+        {
+          "id": "batches_missing",
+          "label_fr": "Lots absents chez GDELT",
+          "value": 0,
+          "kind": "count"
+        },
+        {
+          "id": "batches_failed",
+          "label_fr": "Lots en échec",
+          "value": 0,
+          "kind": "count"
+        }
+      ]
+    },
+    {
+      "id": "silver",
+      "metrics": [
+        {
+          "id": "rows",
+          "label_fr": "Lignes en silver",
+          "value": 18413351,
+          "kind": "count"
+        },
+        {
+          "id": "quarantine",
+          "label_fr": "Lignes en quarantaine",
+          "value": 107,
+          "kind": "count"
+        },
+        {
+          "id": "duplicates",
+          "label_fr": "Doublons éliminés",
+          "value": 0,
+          "kind": "count"
+        },
+        {
+          "id": "conflicting_duplicates",
+          "label_fr": "Doublons au contenu différent",
+          "value": 0,
+          "kind": "count"
+        },
+        {
+          "id": "unaccounted",
+          "label_fr": "Lignes du bronze sans destination (ni silver ni quarantaine)",
+          "value": 0,
+          "kind": "count"
+        },
+        {
+          "id": "silver_runs",
+          "label_fr": "Passages réussis",
+          "value": 44,
+          "kind": "count"
+        },
+        {
+          "id": "silver_runs_failed",
+          "label_fr": "Passages en échec",
+          "value": 0,
+          "kind": "count"
+        },
+        {
+          "id": "silver_duration",
+          "label_fr": "Durée cumulée des passages",
+          "value": 3776.6,
+          "kind": "seconds"
+        }
+      ]
+    },
+    {
+      "id": "proximity",
+      "metrics": [
+        {
+          "id": "supplier_pairs",
+          "label_fr": "Paires événement-fournisseur (150 km)",
+          "value": 2199292,
+          "kind": "count"
+        },
+        {
+          "id": "chokepoint_pairs",
+          "label_fr": "Paires événement-détroit",
+          "value": 267720,
+          "kind": "count"
+        },
+        {
+          "id": "proximity_runs",
+          "label_fr": "Passages réussis",
+          "value": 19,
+          "kind": "count"
+        },
+        {
+          "id": "proximity_runs_failed",
+          "label_fr": "Passages en échec",
+          "value": 0,
+          "kind": "count"
+        },
+        {
+          "id": "proximity_duration",
+          "label_fr": "Durée cumulée des passages",
+          "value": 339.3,
+          "kind": "seconds"
+        }
+      ]
+    },
+    {
+      "id": "gold",
+      "metrics": [
+        {
+          "id": "suppliers",
+          "label_fr": "Fournisseurs notés",
+          "value": 100,
+          "kind": "count"
+        },
+        {
+          "id": "chokepoints",
+          "label_fr": "Détroits notés",
+          "value": 16,
+          "kind": "count"
+        },
+        {
+          "id": "dbt_tests_passed",
+          "label_fr": "Tests dbt réussis",
+          "value": 33,
+          "kind": "count"
+        },
+        {
+          "id": "dbt_tests_total",
+          "label_fr": "Tests dbt exécutés",
+          "value": 33,
+          "kind": "count"
+        },
+        {
+          "id": "dbt_duration",
+          "label_fr": "Durée du dernier dbt build",
+          "value": 1.8,
+          "kind": "seconds"
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "metrics": [
+        {
+          "id": "snapshots",
+          "label_fr": "Instantanés publiés",
+          "value": 2,
+          "kind": "count"
+        },
+        {
+          "id": "files",
+          "label_fr": "Fichiers Parquet",
+          "value": 8,
+          "kind": "count"
+        },
+        {
+          "id": "bytes",
+          "label_fr": "Poids des Parquet",
+          "value": 188472,
+          "kind": "bytes"
+        }
+      ]
+    }
+  ]
+}

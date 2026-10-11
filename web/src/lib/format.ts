@@ -14,7 +14,11 @@ export function formatDay(iso: string): string {
 
 export function formatNumber(n: number | null | undefined, digits = 0): string {
   if (n === null || n === undefined || Number.isNaN(n)) return "n/d";
-  return new Intl.NumberFormat("fr-FR", { minimumFractionDigits: digits, maximumFractionDigits: digits }).format(n);
+  // fr-FR sépare les milliers par une espace fine insécable (U+202F), absente de la police des titres :
+  // l'espace insécable ordinaire s'affiche partout.
+  return new Intl.NumberFormat("fr-FR", { minimumFractionDigits: digits, maximumFractionDigits: digits })
+    .format(n)
+    .replace(/ /g, " ");
 }
 
 export function sourceDomain(url: string | null): string | null {

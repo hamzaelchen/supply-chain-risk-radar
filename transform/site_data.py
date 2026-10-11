@@ -15,12 +15,14 @@ import argparse
 import csv
 import json
 import sys
-from datetime import date
+from collections import Counter
+from datetime import UTC, date, datetime
 from pathlib import Path
 
 import duckdb
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(1, str(Path(__file__).resolve().parent.parent))  # ingestion.* en mode script
 import export
 
 HERE = Path(__file__).resolve().parent
@@ -29,6 +31,8 @@ HUB_CITY_ID = "casablanca"  # siège de l'Entreprise démo : point d'arrivée de
 LIVE_DB = HERE / "target" / "gold.duckdb"
 EPISODE_DB = HERE / "target" / "ormuz.duckdb"
 EPISODE_ID = "ormuz-2026-03-02"
+DBT_RUN_RESULTS = HERE / "target" / "run_results.json"
+PIPELINE_STATS_VERSION = 1
 MONTHS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre",
           "octobre", "novembre", "décembre"]  # fmt: skip
 
@@ -145,6 +149,9 @@ def build(out: Path, live_db: Path = LIVE_DB, episode_db: Path = EPISODE_DB) -> 
     ]  # fmt: skip
     for snap in snapshots:
         export.export(snap.pop("_db"), out / snap["id"])
+    (out / "preview.json").write_text(
+        json.dumps(episode_preview(out), ensure_ascii=False, separators=(",", ":")) + "\n", "utf-8"
+    )
     index = {
         "schema_version": 1, "default": EPISODE_ID,
         "stats": lake_stats(live_db), "hub": hub(), "snapshots": snapshots,
@@ -153,11 +160,292 @@ def build(out: Path, live_db: Path = LIVE_DB, episode_db: Path = EPISODE_DB) -> 
     return index
 
 
+# --- Aperçu de la carte pour la page d'accueil (preview.json) --------------------------------------
+# La page d'accueil ne charge pas DuckDB-WASM : elle lit ce petit JSON, tiré des Parquet de
+# l'instantané « épisode » déjà exportés (donc les mêmes chiffres que le radar).
+
+
+def episode_preview(out: Path, snapshot_id: str = EPISODE_ID, chokepoint: str = "hormuz") -> dict:
+    folder = out / snapshot_id
+
+    def rows(sql: str, name: str) -> list[dict]:
+        con = duckdb.connect()
+        cur = con.execute(sql.format(f=(folder / name).as_posix()))
+        cols = [d[0] for d in cur.description]
+        return [dict(zip(cols, r, strict=True)) for r in cur.fetchall()]
+
+    suppliers = rows(
+        "select supplier_id, name, city, country, lat, lon, risk_score, risk_level, "
+        "sole_source, purchase_share_pct from read_parquet('{f}') order by supplier_id",
+        "supplier_scores.parquet",
+    )
+    chokepoints = rows(
+        "select chokepoint_id, name_fr, name_en, lat, lon, radius_km, risk_score, risk_level, "
+        "events_recent, suppliers_exposed, purchase_share_exposed_pct "
+        "from read_parquet('{f}') order by chokepoint_id",
+        "chokepoint_scores.parquet",
+    )
+    routes = rows(
+        "select supplier_id, \"position\", chokepoint_id from read_parquet('{f}') "
+        'order by supplier_id, "position"',
+        "supplier_routes.parquet",
+    )
+    meta = json.loads((folder / "meta.json").read_text("utf-8"))
+    alert_ids = {lv["id"] for lv in meta["risk_levels"] if lv["alert"]}
+    alerts = [s for s in suppliers if s["risk_level"] in alert_ids]
+    focus = next((c for c in chokepoints if c["chokepoint_id"] == chokepoint), None)
+    return {
+        "schema_version": 1,
+        "snapshot_id": snapshot_id,
+        "window_end": meta["window_end"],
+        "risk_levels": meta["risk_levels"],
+        "suppliers": suppliers,
+        "chokepoints": chokepoints,
+        "routes": routes,
+        "kpis": {
+            "suppliers": len(suppliers),
+            "alerts": len(alerts),
+            "alert_purchase_share_pct": round(sum(s["purchase_share_pct"] for s in alerts), 2),
+            "sole_source_alerts": sum(1 for s in alerts if s["sole_source"]),
+            "events_total": meta["events_total"],
+            "focus_chokepoint": focus,
+        },
+    }
+
+
+# --- Chiffres du pipeline (pipeline_stats.json) ---------------------------------------------------
+# Lus dans le manifeste d'ingestion, les totaux des snapshots Iceberg, ops.pipeline_runs, la base
+# gold, les résultats du dernier `dbt build` et les fichiers exportés. Rien n'est écrit à la main :
+# une valeur introuvable est absente du fichier, jamais remplacée par une valeur plausible.
+
+
+def metric(metric_id: str, label_fr: str, value, kind: str = "count") -> dict:
+    return {"id": metric_id, "label_fr": label_fr, "value": value, "kind": kind}
+
+
+def batch_outcomes(manifest_rows: list[dict]) -> dict:
+    """Une issue par lot GDELT : celle de la dernière tentative (le manifeste garde chaque essai)."""
+    last: dict = {}
+    for row in manifest_rows:
+        key = row["gdelt_batch_label_ts"]
+        if key not in last or row["fetched_at"] >= last[key]["fetched_at"]:
+            last[key] = row
+    published = [r for r in last.values() if r["status"] == "published"]
+    return {
+        "status": Counter(r["status"] for r in last.values()),
+        "mode": Counter((r.get("ingestion_mode") or "stream") for r in published),
+        "days": sorted({r["gdelt_batch_label_ts"].astimezone(UTC).date() for r in published}),
+    }
+
+
+def compute_pipeline_stats(
+    *,
+    manifest_rows: list[dict],
+    runs: list[dict],
+    totals: dict[str, int],
+    gold_counts: dict[str, int],
+    dbt: dict | None,
+    exported: dict,
+    generated_at: datetime,
+) -> dict:
+    """Assemble pipeline_stats.json à partir de ce qui a été lu ; fonction pure, testée."""
+    out = batch_outcomes(manifest_rows)
+    status, mode, days = out["status"], out["mode"], out["days"]
+
+    def runs_of(pipeline: str) -> list[dict]:
+        return [r for r in runs if r["pipeline"] == pipeline]
+
+    silver_runs, prox_runs = runs_of("silver.gdelt_events"), runs_of("silver.proximity")
+
+    def run_metrics(prefix: str, rs: list[dict]) -> list[dict]:
+        ok = [r for r in rs if r["status"] == "succeeded"]
+        return [
+            metric(f"{prefix}_runs", "Passages réussis", len(ok)),
+            metric(f"{prefix}_runs_failed", "Passages en échec", len(rs) - len(ok)),
+            metric(
+                f"{prefix}_duration",
+                "Durée cumulée des passages",
+                round(sum(r["duration_seconds"] for r in ok), 1),
+                "seconds",
+            ),
+        ]
+
+    bronze = [
+        metric("rows", "Lignes brutes en bronze", totals["bronze.gdelt_events"]),
+        metric("batches", "Lots GDELT de 15 min publiés", status.get("published", 0)),
+        metric("batches_stream", "dont via Kafka (flux)", mode.get("stream", 0)),
+        metric("batches_backfill", "dont en chargement historique", mode.get("backfill", 0)),
+        metric("days_loaded", "Jours chargés", len(days)),
+        metric("first_day", "Premier jour", days[0].isoformat() if days else None, "date"),
+        metric("last_day", "Dernier jour", days[-1].isoformat() if days else None, "date"),
+        metric(
+            "batches_missing",
+            "Lots absents chez GDELT",
+            status.get("missing_final", 0) + status.get("missing", 0),
+        ),
+        metric("batches_failed", "Lots en échec", status.get("failed", 0)),
+    ]
+    silver = [
+        metric("rows", "Lignes en silver", totals["silver.gdelt_events"]),
+        metric("quarantine", "Lignes en quarantaine", totals["silver.gdelt_events_quarantine"]),
+        metric(
+            "duplicates",
+            "Doublons éliminés",
+            sum(r["duplicates_eliminated"] or 0 for r in silver_runs),
+        ),
+        metric(
+            "conflicting_duplicates",
+            "Doublons au contenu différent",
+            sum(r["conflicting_duplicates"] or 0 for r in silver_runs),
+        ),
+        metric(
+            "unaccounted",
+            "Lignes du bronze sans destination (ni silver ni quarantaine)",
+            totals["bronze.gdelt_events"]
+            - totals["silver.gdelt_events"]
+            - totals["silver.gdelt_events_quarantine"],
+        ),
+        *run_metrics("silver", silver_runs),
+    ]
+    proximity = [
+        metric(
+            "supplier_pairs",
+            "Paires événement-fournisseur (150 km)",
+            totals["silver.event_supplier_proximity"],
+        ),
+        metric(
+            "chokepoint_pairs",
+            "Paires événement-détroit",
+            totals["silver.event_chokepoint_proximity"],
+        ),
+        *run_metrics("proximity", prox_runs),
+    ]
+    gold = [
+        metric("suppliers", "Fournisseurs notés", gold_counts["supplier_scores"]),
+        metric("chokepoints", "Détroits notés", gold_counts["chokepoint_scores"]),
+    ]
+    if dbt:
+        gold += [
+            metric("dbt_tests_passed", "Tests dbt réussis", dbt["tests_passed"]),
+            metric("dbt_tests_total", "Tests dbt exécutés", dbt["tests_total"]),
+            metric("dbt_duration", "Durée du dernier dbt build", dbt["elapsed"], "seconds"),
+        ]
+    export_ = [
+        metric("snapshots", "Instantanés publiés", exported["snapshots"]),
+        metric("files", "Fichiers Parquet", exported["parquet_files"]),
+        metric("bytes", "Poids des Parquet", exported["parquet_bytes"], "bytes"),
+    ]
+    stages = {
+        "bronze": bronze,
+        "silver": silver,
+        "proximity": proximity,
+        "gold": gold,
+        "export": export_,
+    }
+    return {
+        "schema_version": PIPELINE_STATS_VERSION,
+        "generated_at": generated_at.astimezone(UTC).isoformat(timespec="seconds"),
+        "stages": [
+            {"id": k, "metrics": [m for m in v if m["value"] is not None]}
+            for k, v in stages.items()
+        ],
+    }
+
+
+def read_dbt_results(path: Path = DBT_RUN_RESULTS) -> dict | None:
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text("utf-8"))
+    tests = [r for r in data["results"] if r["unique_id"].startswith("test.")]
+    return {
+        "tests_total": len(tests),
+        "tests_passed": sum(1 for r in tests if r["status"] == "pass"),
+        "elapsed": round(float(data["elapsed_time"]), 1),
+    }
+
+
+def read_exported(out: Path, snapshot_ids: list[str]) -> dict:
+    files = [p for sid in snapshot_ids for p in (out / sid).glob("*.parquet")]
+    return {
+        "snapshots": len(snapshot_ids),
+        "parquet_files": len(files),
+        "parquet_bytes": sum(p.stat().st_size for p in files),
+    }
+
+
+def read_lake() -> tuple[list[dict], list[dict], dict[str, int]]:
+    """Manifeste, ops.pipeline_runs et totaux des snapshots courants. Demande `make up`."""
+    from pyiceberg.catalog import load_catalog
+
+    from ingestion.config import Settings
+
+    s = Settings.from_env()
+    catalog = load_catalog(
+        "lakehouse",
+        **{
+            "type": "rest",
+            "uri": s.rest_uri,
+            "s3.endpoint": s.s3_endpoint,
+            "s3.access-key-id": s.s3_access_key,
+            "s3.secret-access-key": s.s3_secret_key,
+            "s3.path-style-access": "true",
+            "s3.region": "us-east-1",
+        },
+    )
+    manifest = (
+        catalog.load_table("bronze.ingestion_manifest")
+        .scan(selected_fields=("gdelt_batch_label_ts", "status", "fetched_at", "ingestion_mode"))
+        .to_arrow()
+        .to_pylist()
+    )
+    runs = catalog.load_table("ops.pipeline_runs").scan().to_arrow().to_pylist()
+    totals = {}
+    for name in (
+        "bronze.gdelt_events",
+        "silver.gdelt_events",
+        "silver.gdelt_events_quarantine",
+        "silver.event_supplier_proximity",
+        "silver.event_chokepoint_proximity",
+    ):
+        snap = catalog.load_table(name).current_snapshot()
+        totals[name] = int(snap.summary.additional_properties["total-records"])
+    return manifest, runs, totals
+
+
+def pipeline_stats(out: Path, snapshot_ids: list[str], live_db: Path = LIVE_DB) -> dict:
+    manifest, runs, totals = read_lake()
+    con = duckdb.connect(str(live_db), read_only=True)
+    gold_counts = {
+        t: int(con.execute(f"select count(*) from {t}").fetchone()[0])
+        for t in ("supplier_scores", "chokepoint_scores")
+    }
+    return compute_pipeline_stats(
+        manifest_rows=manifest,
+        runs=runs,
+        totals=totals,
+        gold_counts=gold_counts,
+        dbt=read_dbt_results(),
+        exported=read_exported(out, snapshot_ids),
+        generated_at=datetime.now(UTC),
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--out", type=Path, default=Path("web/public/data"))
+    parser.add_argument(
+        "--skip-pipeline-stats",
+        action="store_true",
+        help="ne pas relire le lac (sans `make up`) : pipeline_stats.json existant conservé",
+    )
     args = parser.parse_args(argv)
     index = build(args.out)
+    if not args.skip_pipeline_stats:
+        stats = pipeline_stats(args.out, [s["id"] for s in index["snapshots"]])
+        (args.out / "pipeline_stats.json").write_text(
+            json.dumps(stats, ensure_ascii=False, indent=2) + "\n", "utf-8"
+        )
+        print(f"pipeline_stats.json : {sum(len(s['metrics']) for s in stats['stages'])} mesures")
     for snap in index["snapshots"]:
         print(f"{snap['id']} (au {snap['as_of']}) : {snap['description_fr'][:110]}…")
     print(f"index.json : défaut = {index['default']}")

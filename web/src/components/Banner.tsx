@@ -11,27 +11,29 @@ export function Banner({ meta, historical = false }: { meta: Meta | null; histor
 
   return (
     <header className="banner" role="banner">
-      <p className="banner__scope">
-        <strong>Entreprise démo</strong>, données fictives pour le portefeuille, événements réels GDELT
-      </p>
-      {meta && historical && (
-        <p className="banner__fresh">
-          Score calculé tel qu'il aurait été à la fin de la fenêtre ({formatUtc(meta.window_end)}), sur des lots GDELT chargés en historique : la fraîcheur du jeu courant ne s'applique pas ici.
+      <div className="banner__inner">
+        <p className="banner__scope">
+          <strong>Entreprise démo</strong>, données fictives pour le portefeuille, événements réels GDELT
         </p>
-      )}
-      {meta && !historical && (
-        <p className="banner__fresh">
-          Mise à jour : <time dateTime={meta.generated_at}>{formatUtc(meta.generated_at)}</time>
-          <span className="sep" aria-hidden="true">·</span>
-          dernier fichier GDELT téléchargé : {formatUtc(meta.latest_fetched_at)} (il y a{" "}
-          {ageBetween(meta.latest_fetched_at, now)})
-        </p>
-      )}
-      {meta?.is_sample && (
-        <p className="banner__sample" role="note">
-          <span className="tag">EXEMPLE</span> {meta.sample_notice}
-        </p>
-      )}
+        {meta && historical && (
+          <p className="banner__fresh">
+            Score calculé tel qu'il aurait été à la fin de la fenêtre ({formatUtc(meta.window_end)}), sur des lots GDELT chargés en historique : la fraîcheur du jeu courant ne s'applique pas ici.
+          </p>
+        )}
+        {meta && !historical && (
+          <p className="banner__fresh">
+            Mise à jour : <time dateTime={meta.generated_at}>{formatUtc(meta.generated_at)}</time>
+            <span className="sep" aria-hidden="true">·</span>
+            dernier fichier GDELT téléchargé : {formatUtc(meta.latest_fetched_at)} (il y a{" "}
+            {ageBetween(meta.latest_fetched_at, now)})
+          </p>
+        )}
+        {meta?.is_sample && (
+          <p className="banner__sample" role="note">
+            <span className="tag">EXEMPLE</span> {meta.sample_notice}
+          </p>
+        )}
+      </div>
     </header>
   );
 }

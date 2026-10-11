@@ -1,5 +1,5 @@
 import { geoCircle } from "d3-geo";
-import type { ChokepointScore, SupplierRoute, SupplierScore } from "../data/types";
+import type { ChokepointScore, MapSupplier, SupplierRoute } from "../data/types";
 
 export const EARTH_RADIUS_KM = 6371.0088;
 
@@ -8,19 +8,19 @@ export function radiusCircle(lon: number, lat: number, km: number) {
   return geoCircle().center([lon, lat]).radius((km / EARTH_RADIUS_KM) * (180 / Math.PI)).precision(2)();
 }
 
-export interface CityGroup {
+export interface CityGroup<T extends MapSupplier = MapSupplier> {
   key: string;
   city: string;
   country: string;
   lat: number;
   lon: number;
-  suppliers: SupplierScore[];
-  worst: SupplierScore;
+  suppliers: T[];
+  worst: T;
 }
 
 /** Une pastille par ville (plusieurs fournisseurs partagent la même ville), colorée par le pire score. */
-export function groupByCity(suppliers: SupplierScore[]): CityGroup[] {
-  const groups = new Map<string, CityGroup>();
+export function groupByCity<T extends MapSupplier>(suppliers: T[]): CityGroup<T>[] {
+  const groups = new Map<string, CityGroup<T>>();
   for (const s of suppliers) {
     const key = `${s.lat.toFixed(3)},${s.lon.toFixed(3)}`;
     const g = groups.get(key);
@@ -54,7 +54,7 @@ export interface MapRoute {
  * Les routes en alerte sont rendues en dernier pour passer au-dessus des autres.
  */
 export function buildRoutes(
-  suppliers: SupplierScore[],
+  suppliers: MapSupplier[],
   routes: SupplierRoute[],
   chokepoints: ChokepointScore[],
   hub: { lon: number; lat: number },
