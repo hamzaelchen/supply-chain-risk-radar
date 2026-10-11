@@ -15,4 +15,4 @@ Réel dans l'export : événements GDELT, villes et détroits (Wikidata), score 
 
 DuckDB-WASM est chargé à la demande : la page, le bandeau et la date de mise à jour s'affichent depuis `meta.json` avant le téléchargement du moteur (~8 Mo compressés).
 
-Déploiement : [.github/workflows/web-pages.yml](../.github/workflows/web-pages.yml), manuel et non activé (dépôt privé), voir le backlog.
+Déploiement : [.github/workflows/web-pages.yml](../.github/workflows/web-pages.yml), actif (push sur `main` touchant `web/`, ou lancement à la main).

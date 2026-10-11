@@ -2,7 +2,7 @@
 
 Un pipeline de données complet, de la presse mondiale à un score de risque par fournisseur : **18,4 millions d'événements GDELT** sur 175 jours de chargement historique, un lakehouse Apache Iceberg, un score calculé avec dbt, et un site statique qui lit des fichiers Parquet directement dans le navigateur.
 
-> **Démo** : <https://hamzaelchen.github.io/supply-chain-risk-radar/> (disponible dès que GitHub Pages est activé sur le dépôt).
+> **Démo** : <https://hamzaelchen.github.io/supply-chain-risk-radar/> (GitHub Pages, redéployé à chaque push touchant `web/`). Code sous licence MIT.
 > **Le portefeuille de fournisseurs est fictif** (« Entreprise démo », basée à Casablanca). Les événements, les villes et les détroits sont réels.
 
 ## Le problème

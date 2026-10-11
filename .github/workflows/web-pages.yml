@@ -1,16 +1,18 @@
 # Déploiement du site de démo (web/) sur GitHub Pages.
 #
-# NON ACTIVÉ, volontairement : le dépôt est privé et GitHub Pages gratuit exige un dépôt public
-# (décision du 2026-10-09, déploiement prévu en phase 5 ou 6, voir docs/backlog.md).
-# Tant que Pages n'est pas activé dans les réglages du dépôt, ce workflow ne peut rien publier ;
-# il n'a aucun déclencheur automatique (ni push ni planification), seulement le lancement à la main.
-#
-# À faire avant activation : Settings > Pages > Source = « GitHub Actions ». Les données publiées
-# sont celles de web/public/data/ : l'export réel du backend (`make site-data`, meta.is_sample =
-# false). Rafraîchir les données = relancer le pipeline puis `make site-data` et committer.
+# Actif depuis le 2026-10-11 : dépôt public, Settings > Pages > Source = « GitHub Actions ».
+# Déclencheurs : un push sur main qui touche web/ (ou ce fichier), et le lancement à la main.
+# Pas de planification : les données publiées sont celles de web/public/data/, l'export réel du
+# backend (`make site-data`, meta.is_sample = false). Rafraîchir les données = relancer le pipeline,
+# `make site-data`, committer, pousser.
 name: web-pages
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - ".github/workflows/web-pages.yml"
   workflow_dispatch:
 
 permissions:
